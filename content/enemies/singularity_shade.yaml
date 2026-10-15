@@ -1,0 +1,52 @@
+id: singularity_shade
+name: Тень сингулярности
+level: 46
+hp: 165
+pAtk: 44
+pDef: 24
+mDef: 22
+accuracy: 34
+evasion: 26
+speed: 114
+xpReward: 72
+drops:
+- kind: adena
+  chance: 1000000
+  min: 110
+  max: 180
+- item: leather_scrap
+  chance: 400000
+  min: 1
+  max: 2
+- item: iron_arrow
+  chance: 260000
+  min: 5
+  max: 12
+- item: storm_bow
+  chance: 28000
+  min: 1
+  max: 1
+- item: void_gloves
+  chance: 30000
+  min: 1
+  max: 1
+- item: ascent_strides
+  chance: 35000
+  min: 1
+  max: 1
+- item: horizon_quiver
+  chance: 35000
+  min: 1
+  max: 1
+- item: siege_tower_shield
+  chance: 55000
+  min: 1
+  max: 1
+- item: fringe_treads
+  chance: 55000
+  min: 1
+  max: 1
+- item: static_buckler
+  chance: 90000
+  min: 1
+  max: 1

@@ -1,0 +1,36 @@
+id: town_gardener
+name: Садовник Илья
+race: human
+location: empery_haven
+questId: garden_quest
+defaultGreeting: >-
+  Земля требует заботы. Грядки не растут сами по себе — а воды в бочке уже мало.
+
+world:
+  role: character
+  wanderRadius: 15
+  wanderSpeed: 15
+portraits:
+  default: neutral
+
+choices:
+  - id: garden_accept
+    label: Чем помочь?
+    flag: _garden_accept
+    portrait: happy
+  - id: garden_water
+    label: Полить грядки (нужна вода)
+    flag: _garden_water
+    portrait: work
+  - id: garden_harvest_accept
+    label: Помочь с урожаем
+    flag: _garden_harvest_accept
+    portrait: happy
+  - id: garden_harvest_claim
+    label: Забрать урожай
+    flag: _garden_harvest_claim
+    portrait: work
+  - id: garden_leave
+    label: Удачного урожая.
+    flag: _garden_done
+    portrait: neutral

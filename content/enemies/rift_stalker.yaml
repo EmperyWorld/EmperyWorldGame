@@ -1,0 +1,36 @@
+id: rift_stalker
+name: Ловец разлома
+level: 16
+hp: 88
+pAtk: 22
+pDef: 15
+mDef: 14
+accuracy: 26
+evasion: 20
+speed: 96
+xpReward: 34
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 48
+    max: 96
+  - item: leather_scrap
+    chance: 420000
+    min: 1
+    max: 2
+  - item: bronze_sword
+    chance: 90000
+    min: 1
+    max: 1
+  - item: iron_arrow
+    chance: 200000
+    min: 3
+    max: 8
+  - item: short_bow
+    chance: 40000
+    min: 1
+    max: 1
+  - item: hunter_bow
+    chance: 28000
+    min: 1
+    max: 1

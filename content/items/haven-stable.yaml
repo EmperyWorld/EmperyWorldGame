@@ -1,0 +1,8 @@
+id: stable_hay
+name: Охапка сена
+slot: material
+rarity: common
+weight: 0.4
+stats: {}
+description: Корм для скакуна. Борис скормит у стойла — в дороге коня этим не напоишь.
+icon: /media/assets/item_stable_hay.webp

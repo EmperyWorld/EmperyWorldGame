@@ -1,0 +1,52 @@
+id: collapse_seer
+name: Провидица Эра
+race: elf
+location: collapse_fringe
+questId: collapse_breach
+defaultGreeting: Лира прислала тебя? Хорошо. Здесь мир уже не складывается — он осыпается. Держись троп, или станешь осколком.
+
+
+world:
+  role: character
+  wanderRadius: 36
+  wanderSpeed: 20
+portraits:
+  default: neutral
+
+choices:
+  - id: collapse_accept
+    label: Что нужно сделать?
+    flag: quest_collapse_started
+    nextNode: collapse_brief
+    portrait: serious
+    blocks: [quest_collapse_complete, quest_collapse_active, quest_collapse_started]
+  - id: collapse_bye
+    label: Осмотрюсь сам
+    flag: _seer_done
+    portrait: neutral
+
+nodes:
+  collapse_brief:
+    text: Шесть осколков коллапса — и окраина чуть успокоится. Без этого к Цитадели Сингулярности даже не смотри.
+    portrait: action
+    choices:
+      - id: collapse_go
+        label: Принимаю
+        flag: quest_collapse_active
+        portrait: action
+  siege_brief:
+    text: Окраина держится. Дальше — Подступы к Цитадели. Пять осадных призраков рвут тракт. Зачисти путь.
+    portrait: action
+    choices:
+      - id: siege_go
+        label: Иду на подступы
+        flag: quest_siege_active
+        portrait: action
+  citadel_brief:
+    text: Подступы открыты. В Цитадели Сингулярности ждёт Аватар — сердце Коллапса. Один удар по трону пустоты.
+    portrait: action
+    choices:
+      - id: citadel_go
+        label: Иду в цитадель
+        flag: quest_citadel_active
+        portrait: action

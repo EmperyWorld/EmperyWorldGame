@@ -1,0 +1,28 @@
+id: crystal_wisp
+name: Кристальный огонёк
+level: 13
+hp: 52
+pAtk: 16
+pDef: 8
+mDef: 7
+accuracy: 30
+evasion: 32
+speed: 128
+xpReward: 24
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 28
+    max: 64
+  - item: iron_arrow
+    chance: 300000
+    min: 2
+    max: 5
+  - item: wooden_arrow
+    chance: 250000
+    min: 4
+    max: 10
+  - item: leather_scrap
+    chance: 280000
+    min: 1
+    max: 1

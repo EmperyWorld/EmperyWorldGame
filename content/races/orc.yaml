@@ -1,0 +1,11 @@
+id: orc
+name: Орк
+description: Сильные воины с высокой выносливостью.
+bonuses:
+  strength: 2
+  vitality: 1
+  agility: -1
+startLocation: starter_grove
+mediaProfile: character_sheet
+portraitAsset: race_orc
+dialogueStyle: blunt

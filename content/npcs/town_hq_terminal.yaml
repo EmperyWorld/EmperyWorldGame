@@ -1,0 +1,59 @@
+id: town_hq_terminal
+name: Терминал данных
+race: human
+location: empery_hq
+questId: hq_terminal
+defaultGreeting: >-
+  [Сеть EmperyWorld v4.12 · Допуск подтверждён]
+  Главный серверный узел активен. Выберите протокол запроса:
+
+world:
+  role: prop
+portraits:
+  default: neutral
+
+choices:
+  - id: hq_term_telemetry
+    label: «Телеметрия» — мониторинг аномальных зон
+    flag: _hq_term_telemetry
+    nextNode: node_telemetry
+    portrait: neutral
+  - id: hq_term_archives
+    label: «Архивы» — протокол основания проекта Empery
+    flag: _hq_term_archives
+    nextNode: node_archives
+    portrait: neutral
+  - id: hq_term_reboot
+    label: «Служебный импульс» — калибровка биополя (восстановление сил)
+    flag: _hq_term_reboot
+    portrait: happy
+  - id: hq_term_leave
+    label: [Завершить сеанс]
+    flag: _hq_term_done
+    portrait: neutral
+
+nodes:
+  node_telemetry:
+    text: >-
+      [ОТЧЁТ ДАТЧИКОВ]:
+      Сектор Начальной Рощи — флуктуации фона 1.2%.
+      Сектор Серебряного Леса — смещение теней, активность 4.8%.
+      Шпиль Ретранслятора — критический резонанс. Барьер стабилен.
+    choices:
+      - id: hq_term_leave
+        label: Принято к сведению.
+        flag: _hq_term_done
+        portrait: neutral
+    portrait: neutral
+  node_archives:
+    text: >-
+      [АРХИВ 001-ALPHA]:
+      Авторы EmperyWorld — Lady_Boss и po&T. Их зона встречи гостей и приёмная открыты для гостей кампуса.
+      Проект Empery создан для защиты остатков цивилизации после Великого Раскола.
+      Кампус координирует энергоконтуры Гавани. Любое вторжение без допуска пресекается охраной.
+    choices:
+      - id: hq_term_leave
+        label: Закрыть архив.
+        flag: _hq_term_done
+        portrait: neutral
+    portrait: neutral

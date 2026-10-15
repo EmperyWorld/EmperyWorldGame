@@ -1,0 +1,498 @@
+---
+id: rogue_life_flow
+name: Поток жизни
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 1
+description: Восстанавливает HP каждые 5 секунд
+effects:
+  hpRegen: [2, 4, 7]
+  maxHp: [6, 12, 18]
+
+---
+id: acrobatic_move
+name: Акробатика
+type: passive
+profession: rogue
+maxLevel: 3
+description: +уклонение при движении и в стойке (L2)
+effects:
+  evasionWhileMoving: [4, 5, 6]
+  evasionWhileIdle: [3, 5, 8]
+
+---
+id: backstab
+name: Удар в спину
+type: active
+profession: rogue
+maxLevel: 3
+cooldownMs: 6000
+tactic: backstab
+description: >-
+  Удар со спины: полный бонус только за спиной цели. С фланга слабее.
+  Спереди навык не срабатывает — MP и перезарядка не тратятся.
+levels:
+  1: { damageMultiplier: 1.5, critBonus: 25, accuracyBonus: 10 }
+  2: { damageMultiplier: 1.7, critBonus: 30, accuracyBonus: 12 }
+  3: { damageMultiplier: 2.0, critBonus: 40, accuracyBonus: 15 }
+
+---
+id: boost_evasion
+name: Уклонение
+type: passive
+profession: rogue
+maxLevel: 3
+description: Постоянный бонус к evasion
+effects:
+  evasion: [2, 3, 5]
+
+---
+id: deadly_precision
+name: Смертоносная точность
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 3
+description: Повышает шанс критического удара
+effects:
+  critRate: [3, 6, 10]
+
+---
+id: dagger_mastery
+name: Мастерство кинжала
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 4
+description: Увеличивает физическую атаку лёгким оружием
+effects:
+  pAtk: [3, 5, 8]
+
+---
+id: shadow_strike
+name: Теневой удар
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 5
+cooldownMs: 4500
+tactic: seek
+description: >-
+  Теневой выпад: удар всегда находит цель, огромный шанс крита.
+levels:
+  1: { damageMultiplier: 1.35, critBonus: 45, accuracyBonus: 8 }
+  2: { damageMultiplier: 1.5, critBonus: 55, accuracyBonus: 10 }
+  3: { damageMultiplier: 1.7, critBonus: 65, accuracyBonus: 12 }
+
+---
+id: soft_leather
+name: Мягкая кожа
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 6
+description: Лёгкая броня — защита без потери подвижности
+effects:
+  pDef: [2, 4, 6]
+  evasion: [1, 2, 3]
+
+---
+id: scavenger_vitality
+name: Живучесть
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 7
+description: Закалка улиц — больше запаса HP
+effects:
+  maxHp: [10, 18, 28]
+
+---
+id: quick_feet
+name: Быстрые ноги
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 8
+description: Доп. уклонение в движении
+effects:
+  evasionWhileMoving: [3, 5, 7]
+
+---
+id: mist_step
+name: Шаг в тумане
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 9
+description: Лёгкость шага — постоянное уклонение
+effects:
+  evasion: [2, 4, 6]
+
+---
+id: poison_blade
+name: Отравленный клинок
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 10
+cooldownMs: 9000
+tactic: poison
+description: >-
+  Наносит удар и вешает яд на 4с. Тики сильнее с рангом; крит удваивает урон яда.
+levels:
+  1: { damageMultiplier: 1.6, critBonus: 30, accuracyBonus: 5 }
+  2: { damageMultiplier: 1.85, critBonus: 38, accuracyBonus: 8 }
+  3: { damageMultiplier: 2.1, critBonus: 45, accuracyBonus: 10 }
+
+---
+id: eviscerate
+name: Потрошение
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 11
+cooldownMs: 10000
+description: Жестокий удар, пробивающий часть брони
+levels:
+  1: { damageMultiplier: 1.75, armorPenetration: 0.35, accuracyBonus: 6 }
+  2: { damageMultiplier: 2.0, armorPenetration: 0.45, accuracyBonus: 8 }
+  3: { damageMultiplier: 2.3, armorPenetration: 0.55, accuracyBonus: 10 }
+
+---
+id: keen_eye
+name: Острый глаз
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 12
+description: Точность ударов и прицеливание в слабые места
+effects:
+  accuracy: [3, 5, 8]
+
+---
+id: silent_blade
+name: Тихий клинок
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 13
+description: Бесшумные удары — атака и точность
+effects:
+  pAtk: [2, 3, 5]
+  accuracy: [2, 3, 5]
+
+---
+id: bloodhound
+name: Ищейка
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 14
+description: Чутьё на кровь — выше шанс критического удара
+effects:
+  critRate: [2, 4, 6]
+
+---
+id: assassin_instinct
+name: Инстинкт убийцы
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 15
+description: Чутьё на слабости — крит и сила удара
+effects:
+  critRate: [2, 3, 5]
+  pAtk: [1, 2, 3]
+
+---
+id: phantom_stance
+name: Стойка призрака
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 16
+description: Уклонение в стойке, когда стоишь на месте
+effects:
+  evasionWhileIdle: [3, 5, 8]
+
+---
+id: vanishing_strike
+name: Исчезающий удар
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 17
+cooldownMs: 11000
+tactic: vanish
+description: >-
+  Только из рывка: иначе навык не тратится. Внезапный выпад с огромным критом.
+levels:
+  1: { damageMultiplier: 1.9, critBonus: 50, accuracyBonus: 12 }
+  2: { damageMultiplier: 2.2, critBonus: 60, accuracyBonus: 14 }
+  3: { damageMultiplier: 2.55, critBonus: 70, accuracyBonus: 16 }
+
+---
+id: cutthroat
+name: Головорез
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 18
+description: Жестокость ближнего боя — атака и крит
+effects:
+  pAtk: [2, 4, 6]
+  critRate: [1, 2, 3]
+
+---
+id: shadow_veil
+name: Завеса тени
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 19
+description: Тени скрывают — уклонение в бою и в беге
+effects:
+  evasion: [2, 3, 5]
+  evasionWhileMoving: [2, 3, 4]
+
+---
+id: swarm_frenzy
+name: Рой клинков
+type: passive
+profession: rogue
+maxLevel: 1
+unlockLevel: 20
+description: >-
+  При >3 врагах и лёгкой экипировке шанс 10% на 2с: скорость атаки и уклонение ×N (N =
+  число врагов в драке), P.Atk −10% за каждого. Открывает кровотечение.
+effects: {}
+
+---
+id: mad_dualist
+name: Безумный дуальщик
+type: passive
+profession: rogue
+maxLevel: 20
+unlockLevel: 30
+description: >-
+  Открывает второй клинок (только лёгкое оружие). Шанс 30% при обычной атаке активировать
+  буст на 3с (+1с за каждые +10 ур. персонажа): скорость атаки ×2 и второй удар вторым
+  клинком (статы второго клинка не суммируются с атакой). Повторный прок продлевает
+  действие.
+effects: {}
+
+---
+id: night_edge
+name: Лезвие ночи
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 33
+description: Клинок, рождённый в тени
+effects:
+  pAtk: [6, 10, 16]
+  critRate: [4, 7, 11]
+
+---
+id: garrote
+name: Удавка
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 36
+cooldownMs: 8000
+tactic: backstab
+description: >-
+  Тихая удавка со спины — крит превыше силы. Спереди не срабатывает
+  (перезарядка не тратится). С фланга слабее, чем из-за спины.
+levels:
+  1: { damageMultiplier: 2.0, critBonus: 50, accuracyBonus: 10 }
+  2: { damageMultiplier: 2.3, critBonus: 55, accuracyBonus: 12 }
+  3: { damageMultiplier: 2.64, critBonus: 60, accuracyBonus: 14 }
+
+---
+id: ghost_step
+name: Шаг призрака
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 39
+description: Шаги, которых не слышат
+effects:
+  evasion: [5, 8, 12]
+  evasionWhileMoving: [4, 7, 10]
+
+---
+id: blade_flurry
+name: Шквал клинков
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 41
+cooldownMs: 10000
+tactic: cleave
+description: >-
+  Град ударов по пачке: до 4 целей в радиусе. Основная — полный урон навыка,
+  остальные получают 60%.
+levels:
+  1: { damageMultiplier: 2.3, critBonus: 35, accuracyBonus: 8 }
+  2: { damageMultiplier: 2.64, critBonus: 40, accuracyBonus: 10 }
+  3: { damageMultiplier: 3.04, critBonus: 45, accuracyBonus: 12 }
+
+---
+id: venom_mastery
+name: Мастерство яда
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 43
+description: Яд в каждом касании
+effects:
+  pAtk: [7, 12, 18]
+  accuracy: [4, 7, 11]
+
+---
+id: heartseeker
+name: Искатель сердца
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 45
+cooldownMs: 12000
+tactic: execute
+description: >-
+  Удар в сердце: срабатывает при HP цели ≤35%. Гарантированный крит.
+  По здоровому врагу навык не тратится.
+levels:
+  1: { damageMultiplier: 2.5, armorPenetration: 0.3, critBonus: 55 }
+  2: { damageMultiplier: 2.88, armorPenetration: 0.35, critBonus: 60 }
+  3: { damageMultiplier: 3.3, armorPenetration: 0.4, critBonus: 65 }
+
+---
+id: umbrage
+name: Сень
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 47
+description: Тень укрывает стоящего
+effects:
+  evasion: [6, 10, 15]
+  evasionWhileIdle: [5, 8, 12]
+
+---
+id: reaper_waltz
+name: Вальс жнеца
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 49
+cooldownMs: 11000
+tactic: cleave
+description: >-
+  Смертельный танец по нескольким целям: до 4 врагов в радиусе,
+  splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.45, critBonus: 45, accuracyBonus: 12 }
+  2: { damageMultiplier: 2.82, critBonus: 50, accuracyBonus: 14 }
+  3: { damageMultiplier: 3.23, critBonus: 55, accuracyBonus: 16 }
+
+---
+id: crimson_pact
+name: Алый пакт
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 51
+description: Кровь за силу
+effects:
+  critRate: [6, 10, 15]
+  maxHp: [16, 28, 42]
+
+---
+id: obliterate
+name: Стирание
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 53
+cooldownMs: 14000
+tactic: execute
+description: >-
+  Только если цель ≤35% HP: гарантированный крит. Иначе навык не тратится.
+levels:
+  1: { damageMultiplier: 2.8, armorPenetration: 0.4, critBonus: 40 }
+  2: { damageMultiplier: 3.22, armorPenetration: 0.45, critBonus: 45 }
+  3: { damageMultiplier: 3.7, armorPenetration: 0.5, critBonus: 50 }
+
+---
+id: veil_of_knives
+name: Завеса ножей
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 55
+description: Вокруг — лезвия
+effects:
+  pAtk: [10, 16, 24]
+  evasion: [4, 7, 11]
+
+---
+id: black_sun
+name: Чёрное солнце
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 57
+cooldownMs: 15000
+tactic: cleave
+description: >-
+  Тьма вспыхивает вокруг: до 4 целей, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.9, critBonus: 50, accuracyBonus: 10 }
+  2: { damageMultiplier: 3.33, critBonus: 55, accuracyBonus: 12 }
+  3: { damageMultiplier: 3.83, critBonus: 60, accuracyBonus: 14 }
+
+---
+id: apex_assassin
+name: Вершина убийцы
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 60
+description: Предел искусства убийства
+effects:
+  critRate: [8, 12, 18]
+  accuracy: [6, 10, 15]
+  evasion: [5, 8, 12]
+
+---
+id: final_whisper
+name: Последний шёпот
+type: active
+profession: rogue
+maxLevel: 3
+unlockLevel: 63
+cooldownMs: 16000
+tactic: execute
+description: >-
+  Шёпот перед концом: только при HP цели ≤35%, гарантированный крит.
+levels:
+  1: { damageMultiplier: 3.0, armorPenetration: 0.35, critBonus: 60 }
+  2: { damageMultiplier: 3.45, armorPenetration: 0.4, critBonus: 65 }
+  3: { damageMultiplier: 3.96, armorPenetration: 0.45, critBonus: 70 }
+
+---
+id: era_shadow
+name: Тень эры
+type: passive
+profession: rogue
+maxLevel: 3
+unlockLevel: 65
+description: Тень, пережитая аномалиями
+effects:
+  pAtk: [12, 20, 30]
+  critRate: [6, 10, 14]
+  evasionWhileMoving: [6, 10, 14]

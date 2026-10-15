@@ -1,0 +1,114 @@
+id: void_scar
+name: Шрам Пустоты
+subtitle: Рана, из которой течёт хаос
+description: 'Глубокая расселина за Гребнем — шрам реальности, где воздух густеет и рвётся. В низине дремлет Левиафан Пустоты. Связь с гребнем — на западе.'
+mapKey: map-void_scar
+backgroundAsset: location_void_scar
+safeZone: false
+anomalyTier: 3
+tierLabel: Зона Искажения
+recommendedLevel:
+  min: 30
+  max: 48
+survivalClimate:
+  temperatureC: -2
+  humidity: 35
+  shelter: 4
+  water: none
+  heatSources:
+    - x: 2560
+      y: 1792
+      radius: 180
+stations:
+  - id: void_scar_shrine_2560_1792
+    kind: campfire
+    x: 2560
+    y: 1792
+    radius: 180
+spawn:
+  x: 960
+  y: 1920
+requires:
+  anyFlag: [quest_fold_complete]
+npcs: []
+zones:
+  - x: 320
+    y: 1792
+    label: '← К гребню'
+    color: '#aa4466'
+    travelTo: fracture_ridge
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'Коллапс →'
+    color: '#884466'
+    travelTo: collapse_fringe
+    radius: 220
+  - x: 2560
+    y: 560
+    label: 'Дно шрама'
+    color: '#cc6688'
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1792
+enemies:
+  - type: scar_wraith
+    x: 1440
+    y: 1120
+  - type: scar_wraith
+    x: 2080
+    y: 1440
+  - type: scar_wraith
+    x: 3200
+    y: 1200
+  - type: scar_wraith
+    x: 3840
+    y: 1520
+  - type: scar_wraith
+    x: 1600
+    y: 2400
+  - type: scar_wraith
+    x: 3360
+    y: 2480
+  - type: scar_wraith
+    x: 4000
+    y: 2200
+  - type: scar_wraith
+    x: 1280
+    y: 2560
+farmSpawn:
+  type: scar_wraith
+  maxAlive: 14
+  respawnMs: 2500
+  points:
+    - { x: 1120, y: 960 }
+    - { x: 1760, y: 880 }
+    - { x: 2400, y: 1000 }
+    - { x: 3040, y: 880 }
+    - { x: 3680, y: 1000 }
+    - { x: 4320, y: 1120 }
+    - { x: 1120, y: 1680 }
+    - { x: 1760, y: 1760 }
+    - { x: 3360, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1280, y: 2400 }
+    - { x: 2080, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+    - { x: 1440, y: 1280 }
+    - { x: 3680, y: 1280 }
+questSpawns:
+  - activeFlag: quest_scar_active
+    killCounterFlag: quest_scar_kills
+    banner: 'Левиафан: {kills}/1'
+    startBanner: 'Квест: срази Левиафана Пустоты на дне шрама'
+    enemies:
+      - type: void_leviathan
+        x: 2560
+        y: 1792
+        quest: true
+questComplete:
+  - anyFlag: [quest_scar_complete]
+    banner: 'Шрам утих — квест завершён'

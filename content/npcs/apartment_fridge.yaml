@@ -1,0 +1,24 @@
+id: apartment_fridge
+name: Ледник-холодильник
+race: human
+location: haven_apartment
+questId: apartment_fridge
+defaultGreeting: Холод сохраняет еду и питьё.
+
+
+world:
+  role: prop
+portraits:
+  default: neutral
+
+choices:
+  - id: open_storage
+    label: Открыть
+    flag: _apt_fridge
+    portrait: neutral
+  - id: apt_ration
+    label: Взять паёк жильца
+    flag: _apt_ration
+    portrait: neutral
+
+nodes: {}

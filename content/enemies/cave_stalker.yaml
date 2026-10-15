@@ -1,0 +1,52 @@
+id: cave_stalker
+name: Пещерный ловец
+level: 32
+hp: 95
+pAtk: 22
+pDef: 24
+mDef: 22
+accuracy: 32
+evasion: 28
+speed: 105
+xpReward: 42
+drops:
+- kind: adena
+  chance: 1000000
+  min: 35
+  max: 85
+- item: leather_scrap
+  chance: 400000
+  min: 1
+  max: 2
+- item: void_gloves
+  chance: 45000
+  min: 1
+  max: 1
+- item: dusk_blade
+  chance: 18000
+  min: 1
+  max: 1
+- item: bloodlace
+  chance: 12000
+  min: 1
+  max: 1
+- item: hush_cowl
+  chance: 10000
+  min: 1
+  max: 1
+- item: rift_cleaver
+  chance: 90000
+  min: 1
+  max: 1
+- item: static_buckler
+  chance: 90000
+  min: 1
+  max: 1
+- item: signal_greaves
+  chance: 90000
+  min: 1
+  max: 1
+- item: voidscar_greatsword
+  chance: 55000
+  min: 1
+  max: 1

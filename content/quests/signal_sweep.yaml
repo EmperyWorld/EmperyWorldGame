@@ -1,0 +1,9 @@
+id: signal_sweep
+radioNpcId: rift_scout
+completeFlag: quest_signal_complete
+activeFlag: quest_signal_active
+killCounterFlag: quest_signal_kills
+requiredKills: 5
+enemyType: signal_drone
+rewardItems:
+  - sergeant_cloak

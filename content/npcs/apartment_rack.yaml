@@ -1,0 +1,24 @@
+id: apartment_rack
+name: Стеллаж снаряжения
+race: human
+location: haven_apartment
+questId: apartment_rack
+defaultGreeting: Стойка для оружия и брони.
+
+
+world:
+  role: prop
+portraits:
+  default: neutral
+
+choices:
+  - id: open_storage
+    label: Открыть
+    flag: _apt_rack
+    portrait: neutral
+  - id: apt_polish
+    label: Натереть доспех (10 адены)
+    flag: _apt_polish
+    portrait: work
+
+nodes: {}

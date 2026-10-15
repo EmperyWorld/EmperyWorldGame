@@ -1,0 +1,25 @@
+id: apartment_chest
+name: Большой сундук
+race: human
+location: haven_apartment
+questId: apartment_chest
+defaultGreeting: Сундук для материалов и расходников.
+
+
+world:
+  role: prop
+portraits:
+  default: neutral
+
+choices:
+  - id: open_storage
+    label: Открыть
+    flag: _apt_chest
+    portrait: neutral
+  - id: apt_kit
+    label: Собрать дорожный набор (15 адены)
+    flag: _apt_kit
+    portrait: neutral
+
+
+nodes: {}

@@ -1,0 +1,203 @@
+id: resurrection_scroll
+name: Свиток воскрешения
+slot: consumable
+rarity: uncommon
+stats: {}
+icon: /media/assets/item_resurrection_scroll.webp
+description: Живой герой воскрешает павшего рядом на месте без потери опыта. На себя не действует.
+---
+id: dirty_water
+name: Мутная вода
+slot: consumable
+rarity: common
+stats: {}
+description: Вода из дикого источника. Спасает от жажды, но может вызвать инфекцию.
+survival:
+  hydration: 30
+  waterQuality: dirty
+  shelfLifeHours: 18
+  illnessChance: 0.55
+---
+id: filtered_water
+name: Фильтрованная вода
+slot: consumable
+rarity: common
+stats: {}
+description: Пропущена через песок и уголь. Лучше, но не совершенно безопасна.
+survival:
+  hydration: 45
+  waterQuality: filtered
+  shelfLifeHours: 36
+---
+id: boiled_water
+name: Кипячёная вода
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Чистая тёплая вода.
+survival:
+  hydration: 62
+  waterQuality: boiled
+  warming: 0.15
+  shelfLifeHours: 72
+---
+id: raw_meat
+name: Сырое мясо
+slot: consumable
+rarity: common
+stats: {}
+description: Питательно, но опасно без огня.
+survival:
+  nutrition: 22
+  rawFood: true
+  shelfLifeHours: 10
+  illnessChance: 0.4
+---
+id: cooked_meat
+name: Жареное мясо
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Горячая безопасная еда для долгого пути.
+survival:
+  nutrition: 48
+  warming: 0.35
+  shelfLifeHours: 36
+---
+id: dried_meat
+name: Вяленое мясо
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Долго хранится. Сытности меньше, зато почти не портится.
+survival:
+  nutrition: 28
+  shelfLifeHours: 240
+---
+id: raw_fish
+name: Сырая рыба
+slot: consumable
+rarity: common
+stats: {}
+description: Свежий улов с причала. Без огня легко отравиться.
+survival:
+  nutrition: 18
+  rawFood: true
+  shelfLifeHours: 8
+  illnessChance: 0.45
+---
+id: cooked_fish
+name: Жареная рыба
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Горячая рыба с причала — сытно и безопасно.
+survival:
+  nutrition: 40
+  warming: 0.25
+  shelfLifeHours: 30
+---
+id: dried_fish
+name: Вяленая рыба
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Соль и ветер. Долго лежит в торбе.
+survival:
+  nutrition: 24
+  shelfLifeHours: 200
+---
+id: bread_loaf
+name: Свежий хлеб
+slot: consumable
+rarity: common
+stats: {}
+description: Тёплый каравай с мельницы Фаддея.
+survival:
+  nutrition: 32
+  shelfLifeHours: 48
+---
+id: travel_biscuit
+name: Дорожный сухарь
+slot: consumable
+rarity: common
+stats: {}
+description: Сухой хлеб для дальних переходов. Мало вкуса — много пути.
+survival:
+  nutrition: 22
+  shelfLifeHours: 320
+---
+id: haven_ale
+name: Эль Гавани
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Янтарный эль Хольма. Чуть согревает и поднимает дух.
+survival:
+  hydration: 28
+  nutrition: 8
+  warming: 0.2
+  shelfLifeHours: 120
+---
+id: charcoal_filter
+name: Угольный фильтр
+slot: material
+rarity: common
+stats: {}
+description: Расходник для очистки воды.
+survival:
+  tool: filter
+---
+id: camp_fuel
+name: Связка сухих дров
+slot: material
+rarity: common
+stats: {}
+description: Топливо для костра и готовки.
+survival:
+  fuel: 1
+---
+id: field_pot
+name: Походный котелок
+slot: material
+rarity: uncommon
+stats: {}
+description: Нужен для кипячения и варки.
+survival:
+  tool: pot
+---
+id: firestarter
+name: Огниво
+slot: material
+rarity: uncommon
+stats: {}
+description: Помогает разжечь огонь в сырую погоду.
+survival:
+  tool: firestarter
+---
+id: field_bandage
+name: Полевой бинт
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Снимает истощение и лёгкое обморожение — и угрозу Гибели, пока рана не откроется снова.
+survival:
+  tool: bandage
+---
+id: antibiotic_tonic
+name: Противоинфекционный настой
+slot: consumable
+rarity: rare
+stats: {}
+description: Лечит инфекцию и пищевое отравление.
+survival:
+  tool: antibiotic
+---
+id: cooling_draught
+name: Охлаждающий настой
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Снимает перегрев и тепловой удар.
+survival:
+  tool: antipyretic

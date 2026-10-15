@@ -1,0 +1,118 @@
+id: rusty_sword
+name: Ржавый меч
+slot: weapon
+rarity: common
+weaponWeight: normal
+stats:
+  pAtk: 8
+  accuracy: 2
+icon: /media/assets/item_rusty_sword.webp
+---
+id: leather_scrap
+name: Кожаный лоскут
+slot: material
+rarity: common
+stats: {}
+icon: /media/assets/item_leather_scrap.webp
+---
+id: leather_cap
+name: Кожаный шлем
+slot: head
+rarity: common
+armorType: light
+stats:
+  maxHp: 10
+  pDef: 5
+  evasion: 2
+icon: /media/assets/item_leather_cap.webp
+survival:
+  insulation: 6
+---
+id: leather_tunic
+name: Кожаный доспех
+slot: body
+rarity: common
+armorType: light
+stats:
+  pDef: 8
+  evasion: 3
+icon: /media/assets/item_leather_tunic.webp
+survival:
+  insulation: 16
+---
+id: leather_boots
+name: Кожаные сапоги
+slot: legs
+rarity: common
+armorType: light
+stats:
+  pDef: 4
+  evasion: 2
+  speed: 5
+icon: /media/assets/item_leather_boots.webp
+survival:
+  insulation: 8
+---
+id: shadow_dagger
+name: Кинжал тени
+slot: weapon
+rarity: uncommon
+weaponWeight: light
+stats:
+  pAtk: 12
+  accuracy: 4
+  speed: 10
+  attackSpeed: 8
+  evasion: 2
+icon: /media/assets/item_shadow_dagger.webp
+---
+id: iron_chain
+name: Кольчуга
+slot: body
+rarity: uncommon
+armorType: heavy
+stats:
+  pDef: 18
+  maxHp: 15
+  evasion: -2
+icon: /media/assets/item_iron_chain.webp
+survival:
+  insulation: 22
+---
+id: leather_gloves
+name: Кожаные перчатки
+slot: gloves
+rarity: common
+armorType: light
+stats:
+  pDef: 3
+  accuracy: 2
+  attackSpeed: 3
+icon: /media/assets/item_leather_gloves.webp
+survival:
+  insulation: 5
+---
+id: traveler_cloak
+name: Плащ путника
+slot: cloak
+rarity: common
+armorType: light
+stats:
+  pDef: 5
+  evasion: 4
+icon: /media/assets/item_traveler_cloak.webp
+survival:
+  insulation: 24
+---
+id: shadow_cloak
+name: Плащ тени
+slot: cloak
+rarity: uncommon
+armorType: light
+stats:
+  pDef: 8
+  evasion: 6
+  critRate: 2
+icon: /media/assets/item_shadow_cloak.webp
+survival:
+  insulation: 28

@@ -1,0 +1,137 @@
+id: oak_spear
+name: Дубовое копьё
+slot: weapon
+rarity: common
+weaponWeight: normal
+stats:
+  pAtk: 12
+  accuracy: 5
+  attackSpeed: 2
+icon: /media/assets/item_oak_spear.webp
+---
+id: falchion
+name: Фальшион
+slot: weapon
+rarity: uncommon
+weaponWeight: light
+stats:
+  pAtk: 18
+  accuracy: 3
+  critRate: 3
+  attackSpeed: 3
+icon: /media/assets/item_falchion.webp
+---
+id: battle_axe
+name: Боевой топор
+slot: weapon
+rarity: uncommon
+weaponWeight: heavy
+stats:
+  pAtk: 24
+  accuracy: 2
+  critRate: 2
+  attackSpeed: -4
+icon: /media/assets/item_battle_axe.webp
+---
+id: knight_blade
+name: Клинок рыцаря
+slot: weapon
+rarity: rare
+weaponWeight: normal
+stats:
+  pAtk: 30
+  accuracy: 5
+  critRate: 2
+  maxHp: 10
+icon: /media/assets/item_knight_blade.webp
+---
+id: padded_coif
+name: Стёганый капюшон
+slot: head
+rarity: common
+armorType: light
+stats:
+  pDef: 8
+  maxHp: 14
+  evasion: 3
+icon: /media/assets/item_padded_coif.webp
+---
+id: sentry_helm
+name: Шлем часового
+slot: head
+rarity: uncommon
+armorType: heavy
+stats:
+  pDef: 15
+  maxHp: 22
+  accuracy: 2
+icon: /media/assets/item_sentry_helm.webp
+---
+id: scale_vest
+name: Чешуйчатый жилет
+slot: body
+rarity: uncommon
+armorType: light
+stats:
+  pDef: 16
+  evasion: 3
+  maxHp: 18
+  speed: 2
+icon: /media/assets/item_scale_vest.webp
+---
+id: hardened_boots
+name: Укреплённые сапоги
+slot: legs
+rarity: uncommon
+armorType: light
+stats:
+  pDef: 9
+  evasion: 4
+  speed: 6
+icon: /media/assets/item_hardened_boots.webp
+---
+id: plate_greaves
+name: Латные поножи
+slot: legs
+rarity: uncommon
+armorType: heavy
+stats:
+  pDef: 14
+  maxHp: 18
+  speed: -3
+icon: /media/assets/item_plate_greaves.webp
+---
+id: ringmail_gloves
+name: Кольчужные перчатки
+slot: gloves
+rarity: uncommon
+armorType: heavy
+stats:
+  pDef: 7
+  accuracy: 3
+  attackSpeed: 1
+icon: /media/assets/item_ringmail_gloves.webp
+---
+id: sergeant_cloak
+name: Плащ сержанта
+slot: cloak
+rarity: uncommon
+armorType: light
+stats:
+  pDef: 9
+  evasion: 4
+  maxHp: 12
+  accuracy: 2
+icon: /media/assets/item_sergeant_cloak.webp
+---
+id: brigandine
+name: Бригантина
+slot: body
+rarity: rare
+armorType: heavy
+stats:
+  pDef: 24
+  maxHp: 26
+  evasion: -2
+  accuracy: 1
+icon: /media/assets/item_brigandine.webp

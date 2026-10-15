@@ -1,0 +1,583 @@
+# Drop-only anomaly gear — НЕ добавлять в content/shops/*
+
+---
+id: rift_cleaver
+name: Клинок разлома
+slot: weapon
+rarity: rare
+weaponWeight: normal
+stats:
+  pAtk: 28
+  accuracy: 5
+  critRate: 2
+icon: /media/assets/item_rift_cleaver.webp
+
+---
+id: fold_stiletto
+name: Стилет складки
+slot: weapon
+rarity: rare
+weaponWeight: light
+stats:
+  pAtk: 24
+  accuracy: 7
+  critRate: 5
+  attackSpeed: 5
+icon: /media/assets/item_fold_stiletto.webp
+
+---
+id: pulse_recurve
+name: Импульсный рекурв
+slot: weapon
+rarity: rare
+weaponKind: bow
+weaponWeight: light
+attackRange: 250
+stats:
+  pAtk: 26
+  accuracy: 6
+  critRate: 3
+icon: /media/assets/item_pulse_recurve.webp
+
+---
+id: static_buckler
+name: Статический баклер
+slot: shield
+rarity: rare
+stats:
+  pDef: 18
+  blockChance: 10
+  maxHp: 12
+icon: /media/assets/item_static_buckler.webp
+
+---
+id: echo_coif
+name: Койф эха
+slot: head
+rarity: rare
+armorType: light
+stats:
+  pDef: 12
+  evasion: 5
+  accuracy: 3
+icon: /media/assets/item_echo_coif.webp
+
+---
+id: warp_hauberk
+name: Кольчуга искривления
+slot: body
+rarity: rare
+armorType: heavy
+stats:
+  pDef: 28
+  maxHp: 30
+  pAtk: 2
+icon: /media/assets/item_warp_hauberk.webp
+
+---
+id: signal_greaves
+name: Поножи сигнала
+slot: legs
+rarity: rare
+armorType: light
+stats:
+  pDef: 11
+  speed: 6
+  evasion: 4
+icon: /media/assets/item_signal_greaves.webp
+
+---
+id: drone_grips
+name: Захваты дрона
+slot: gloves
+rarity: rare
+armorType: light
+stats:
+  pDef: 8
+  accuracy: 4
+  attackSpeed: 3
+icon: /media/assets/item_drone_grips.webp
+
+---
+id: neon_mantle
+name: Неоновая мантия
+slot: cloak
+rarity: rare
+armorType: light
+stats:
+  pDef: 10
+  maxMp: 18
+  evasion: 4
+  speed: 3
+icon: /media/assets/item_neon_mantle.webp
+
+---
+id: shard_arrows
+name: Стрелы осколков
+slot: quiver
+rarity: rare
+stats:
+  pAtk: 4
+  accuracy: 3
+  critRate: 2
+icon: /media/assets/item_shard_arrows.webp
+
+---
+id: voidscar_greatsword
+name: Клеймор пустошного шрама
+slot: weapon
+rarity: epic
+weaponWeight: heavy
+stats:
+  pAtk: 44
+  accuracy: 6
+  critRate: 3
+  attackSpeed: -2
+icon: /media/assets/item_voidscar_greatsword.webp
+
+---
+id: entropy_fang
+name: Клык энтропии
+slot: weapon
+rarity: epic
+weaponWeight: light
+stats:
+  pAtk: 40
+  accuracy: 10
+  critRate: 8
+  attackSpeed: 7
+icon: /media/assets/item_entropy_fang.webp
+
+---
+id: collapse_longbow
+name: Длинный лук коллапса
+slot: weapon
+rarity: epic
+weaponKind: bow
+weaponWeight: normal
+attackRange: 310
+stats:
+  pAtk: 40
+  accuracy: 9
+  critRate: 5
+icon: /media/assets/item_collapse_longbow.webp
+
+---
+id: siege_tower_shield
+name: Башенный щит осады
+slot: shield
+rarity: epic
+stats:
+  pDef: 28
+  blockChance: 16
+  maxHp: 28
+  speed: -2
+icon: /media/assets/item_siege_tower_shield.webp
+
+---
+id: null_visor
+name: Визор нуля
+slot: head
+rarity: epic
+armorType: heavy
+stats:
+  pDef: 22
+  maxHp: 24
+  accuracy: 4
+  evasion: -2
+icon: /media/assets/item_null_visor.webp
+
+---
+id: citadel_cuirass
+name: Кираса цитадели
+slot: body
+rarity: epic
+armorType: heavy
+stats:
+  pDef: 40
+  maxHp: 52
+  pAtk: 4
+icon: /media/assets/item_citadel_cuirass.webp
+
+---
+id: fringe_treads
+name: Шаги окраины
+slot: legs
+rarity: epic
+armorType: light
+stats:
+  pDef: 18
+  evasion: 10
+  speed: 12
+  critRate: 2
+icon: /media/assets/item_fringe_treads.webp
+
+---
+id: reaver_gauntlets
+name: Рукавицы потрошителя
+slot: gloves
+rarity: epic
+armorType: heavy
+stats:
+  pDef: 16
+  pAtk: 5
+  accuracy: 5
+  attackSpeed: 2
+icon: /media/assets/item_reaver_gauntlets.webp
+
+---
+id: rift_veil
+name: Вуаль разлома
+slot: cloak
+rarity: epic
+armorType: light
+stats:
+  pDef: 16
+  evasion: 12
+  accuracy: 5
+  maxMp: 24
+  speed: 5
+icon: /media/assets/item_rift_veil.webp
+
+---
+id: godshard_quiver
+name: Колчан богоосколков
+slot: quiver
+rarity: epic
+stats:
+  pAtk: 7
+  accuracy: 5
+  critRate: 3
+  attackRange: 12
+icon: /media/assets/item_godshard_quiver.webp
+
+---
+id: singularity_edge
+name: Грань сингулярности
+slot: weapon
+rarity: legendary
+weaponWeight: normal
+stats:
+  pAtk: 56
+  accuracy: 10
+  critRate: 5
+  attackSpeed: 3
+icon: /media/assets/item_singularity_edge.webp
+
+---
+id: idol_needle
+name: Игла идола
+slot: weapon
+rarity: legendary
+weaponWeight: light
+stats:
+  pAtk: 54
+  accuracy: 13
+  critRate: 11
+  attackSpeed: 9
+icon: /media/assets/item_idol_needle.webp
+
+---
+id: pantheon_arc
+name: Дуга пантеона
+slot: weapon
+rarity: legendary
+weaponKind: bow
+weaponWeight: heavy
+attackRange: 360
+stats:
+  pAtk: 54
+  accuracy: 12
+  critRate: 7
+  attackSpeed: 2
+icon: /media/assets/item_pantheon_arc.webp
+
+---
+id: aegis_of_null
+name: Эгида нуля
+slot: shield
+rarity: legendary
+stats:
+  pDef: 36
+  blockChance: 20
+  maxHp: 40
+icon: /media/assets/item_aegis_of_null.webp
+
+---
+id: oracle_circlet
+name: Венец оракула
+slot: head
+rarity: legendary
+armorType: light
+stats:
+  pDef: 20
+  maxMp: 36
+  accuracy: 8
+  critRate: 3
+icon: /media/assets/item_oracle_circlet.webp
+
+---
+id: throne_plate
+name: Латы трона
+slot: body
+rarity: legendary
+armorType: heavy
+stats:
+  pDef: 52
+  maxHp: 72
+  pAtk: 6
+  evasion: -4
+icon: /media/assets/item_throne_plate.webp
+
+---
+id: ascent_strides
+name: Шаги восхождения
+slot: legs
+rarity: legendary
+armorType: light
+stats:
+  pDef: 22
+  speed: 14
+  evasion: 12
+  accuracy: 4
+icon: /media/assets/item_ascent_strides.webp
+
+---
+id: sovereign_grips
+name: Хваты владыки
+slot: gloves
+rarity: legendary
+armorType: heavy
+stats:
+  pDef: 20
+  pAtk: 8
+  accuracy: 7
+  critRate: 3
+icon: /media/assets/item_sovereign_grips.webp
+
+---
+id: godfall_cloak
+name: Плащ падения богов
+slot: cloak
+rarity: legendary
+armorType: light
+stats:
+  pDef: 20
+  maxMp: 32
+  evasion: 14
+  critRate: 4
+  speed: 6
+  pAtk: 4
+icon: /media/assets/item_godfall_cloak.webp
+
+---
+id: horizon_quiver
+name: Колчан горизонта
+slot: quiver
+rarity: legendary
+stats:
+  pAtk: 10
+  accuracy: 7
+  critRate: 4
+  attackRange: 20
+icon: /media/assets/item_horizon_quiver.webp
+
+---
+id: worldscar_blade
+name: Клинок мирового шрама
+slot: weapon
+rarity: holy
+weaponWeight: heavy
+stats:
+  pAtk: 66
+  accuracy: 12
+  critRate: 6
+  maxHp: 20
+icon: /media/assets/item_worldscar_blade.webp
+
+---
+id: whisper_of_nix
+name: Шёпот Никс
+slot: weapon
+rarity: holy
+weaponWeight: light
+stats:
+  pAtk: 64
+  accuracy: 16
+  critRate: 13
+  attackSpeed: 11
+  maxMp: 16
+icon: /media/assets/item_whisper_of_nix.webp
+
+---
+id: era_skybow
+name: Неболук эры
+slot: weapon
+rarity: holy
+weaponKind: bow
+weaponWeight: normal
+attackRange: 420
+stats:
+  pAtk: 62
+  accuracy: 15
+  critRate: 9
+  attackSpeed: 4
+icon: /media/assets/item_era_skybow.webp
+
+---
+id: bastion_of_eras
+name: Бастион эр
+slot: shield
+rarity: holy
+stats:
+  pDef: 44
+  blockChance: 24
+  maxHp: 56
+  pAtk: 4
+icon: /media/assets/item_bastion_of_eras.webp
+
+---
+id: crown_of_collapse
+name: Корона коллапса
+slot: head
+rarity: holy
+armorType: heavy
+stats:
+  pDef: 28
+  maxHp: 40
+  accuracy: 6
+  pAtk: 4
+icon: /media/assets/item_crown_of_collapse.webp
+
+---
+id: mail_of_the_rift
+name: Кольчуга разлома
+slot: body
+rarity: holy
+armorType: light
+stats:
+  pDef: 48
+  maxHp: 64
+  evasion: 12
+  speed: 8
+  critRate: 4
+  maxMp: 20
+icon: /media/assets/item_mail_of_the_rift.webp
+
+---
+id: greaves_of_ascent
+name: Поножи подъёма
+slot: legs
+rarity: holy
+armorType: heavy
+stats:
+  pDef: 28
+  maxHp: 36
+  speed: 4
+icon: /media/assets/item_greaves_of_ascent.webp
+
+---
+id: gauntlets_of_judgment
+name: Рукавицы суда
+slot: gloves
+rarity: holy
+armorType: heavy
+stats:
+  pDef: 24
+  pAtk: 10
+  accuracy: 9
+  critRate: 4
+icon: /media/assets/item_gauntlets_of_judgment.webp
+
+---
+id: mantle_beyond
+name: Мантия за горизонтом
+slot: cloak
+rarity: holy
+armorType: light
+stats:
+  pDef: 24
+  maxMp: 40
+  evasion: 16
+  accuracy: 7
+  critRate: 5
+  speed: 8
+  pAtk: 6
+icon: /media/assets/item_mantle_beyond.webp
+
+---
+id: quiver_of_godfall
+name: Колчан падения богов
+slot: quiver
+rarity: holy
+stats:
+  pAtk: 14
+  accuracy: 10
+  critRate: 6
+  attackRange: 28
+icon: /media/assets/item_quiver_of_godfall.webp
+
+---
+id: chaos_halberd
+name: Алебарда хаоса
+slot: weapon
+rarity: epic
+weaponWeight: heavy
+stats:
+  pAtk: 46
+  accuracy: 5
+  critRate: 4
+  attackSpeed: -3
+icon: /media/assets/item_chaos_halberd.webp
+
+---
+id: mirror_wand_blade
+name: Клинок-зеркало
+slot: weapon
+rarity: legendary
+weaponWeight: light
+stats:
+  pAtk: 50
+  accuracy: 11
+  maxMp: 28
+  critRate: 6
+  attackSpeed: 4
+icon: /media/assets/item_mirror_wand_blade.webp
+
+---
+id: scar_handaxe
+name: Топор шрама
+slot: weapon
+rarity: rare
+weaponWeight: normal
+stats:
+  pAtk: 27
+  accuracy: 4
+  critRate: 4
+icon: /media/assets/item_scar_handaxe.webp
+
+---
+id: leviathan_scale_cloak
+name: Плащ чешуи левиафана
+slot: cloak
+rarity: epic
+armorType: heavy
+stats:
+  pDef: 22
+  maxHp: 40
+  evasion: 4
+  speed: -1
+icon: /media/assets/item_leviathan_scale_cloak.webp
+
+---
+id: pulse_ringmail
+name: Импульсная кольчуга
+slot: body
+rarity: rare
+armorType: light
+stats:
+  pDef: 24
+  maxHp: 22
+  evasion: 5
+  attackSpeed: 2
+icon: /media/assets/item_pulse_ringmail.webp

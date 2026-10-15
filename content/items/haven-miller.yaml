@@ -1,0 +1,19 @@
+id: mill_grain
+name: Рожь
+slot: material
+rarity: common
+weight: 0.25
+stats: {}
+description: Зерно с южных полей. На мельнице Фаддея станет мукой.
+survival:
+  nutrition: 6
+icon: /media/assets/item_mill_grain.webp
+---
+id: mill_flour
+name: Мука
+slot: material
+rarity: common
+weight: 0.2
+stats: {}
+description: Свежий помол с жерновов Фаддея.
+icon: /media/assets/item_mill_flour.webp

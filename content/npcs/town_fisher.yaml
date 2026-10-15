@@ -1,0 +1,68 @@
+id: town_fisher
+name: Рыбак Ульф
+race: human
+location: empery_haven
+questId: town_fisher
+defaultGreeting: Сети тяжёлые, улов честный. Рыбу беру только здесь, на причале. Мясо — к Брану на рынок, хлеб — к Фаддею.
+
+world:
+  role: character
+  wanderRadius: 48
+  wanderSpeed: 26
+portraits:
+  default: neutral
+
+choices:
+  - id: fisher_quest_start
+    label: «Поручение рыбака» — Доставить улов Марте в таверну
+    flag: _fisher_quest_start
+    portrait: work
+  - id: fisher_quest_claim
+    label: Сдать расписку Марты за доставку рыбы
+    flag: _fisher_quest_claim
+    portrait: happy
+  - id: fisher_shop
+    label: Купить рыбу
+    flag: _fisher_shop
+    portrait: happy
+  - id: fisher_bait
+    label: Купить наживку (6 адены)
+    flag: _fisher_bait
+    portrait: work
+  - id: fisher_nets
+    label: Помочь чинить сети
+    flag: _fisher_nets
+    blocks: [quest_ulf_nets_complete]
+    portrait: work
+  - id: fisher_catch
+    label: Как сегодня улов?
+    flag: _fisher_catch
+    nextNode: catch
+    portrait: happy
+  - id: fisher_tide
+    label: Когда лучше выходить?
+    flag: _fisher_tide
+    nextNode: tide
+    portrait: serious
+  - id: fisher_leave
+    label: Уйти
+    flag: _fisher_done
+    portrait: neutral
+
+nodes:
+  catch:
+    text: Серебристая треска и пара угрей. Чайки уже считают мой карман своим.
+    portrait: happy
+    choices:
+      - id: fisher_catch_bye
+        label: Удачи
+        flag: _fisher_done
+        portrait: happy
+  tide:
+    text: На отливе — к сетям. На приливе — к кружке у Марты. Шторм чуешь по запаху соли за час.
+    portrait: serious
+    choices:
+      - id: fisher_tide_bye
+        label: Понял
+        flag: _fisher_done
+        portrait: neutral

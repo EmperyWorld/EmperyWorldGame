@@ -1,0 +1,114 @@
+id: static_core
+name: Ядро Статики
+subtitle: Сердце восточного луча
+description: 'Подземный узел, где сходятся кабели и разлом. В центре гудит Статический колосс — источник помех всего восточного луча. Выход к шпилю — на западе.'
+mapKey: map-static_core
+backgroundAsset: location_static_core
+safeZone: false
+anomalyTier: 2
+tierLabel: Зона Прорыва
+recommendedLevel:
+  min: 18
+  max: 34
+survivalClimate:
+  temperatureC: 4
+  humidity: 30
+  shelter: 30
+  water: none
+  heatSources:
+    - x: 2560
+      y: 1792
+      radius: 180
+stations:
+  - id: static_core_shrine_2560_1792
+    kind: campfire
+    x: 2560
+    y: 1792
+    radius: 180
+spawn:
+  x: 960
+  y: 1920
+requires:
+  anyFlag: [quest_relay_complete]
+npcs: []
+zones:
+  - x: 320
+    y: 1792
+    label: '← К шпилю'
+    color: '#88ccee'
+    travelTo: relay_spire
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'Искажение →'
+    color: '#aa4466'
+    travelTo: chaos_sector
+    radius: 220
+  - x: 2560
+    y: 560
+    label: 'Ядро'
+    color: '#66e0cc'
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1792
+enemies:
+  - type: null_shade
+    x: 1440
+    y: 1120
+  - type: null_shade
+    x: 2080
+    y: 1440
+  - type: null_shade
+    x: 3200
+    y: 1200
+  - type: null_shade
+    x: 3840
+    y: 1520
+  - type: null_shade
+    x: 1600
+    y: 2400
+  - type: null_shade
+    x: 3360
+    y: 2480
+  - type: null_shade
+    x: 4000
+    y: 2200
+  - type: null_shade
+    x: 1280
+    y: 2560
+farmSpawn:
+  type: null_shade
+  maxAlive: 14
+  respawnMs: 2600
+  points:
+    - { x: 1120, y: 960 }
+    - { x: 1760, y: 880 }
+    - { x: 2400, y: 1000 }
+    - { x: 3040, y: 880 }
+    - { x: 3680, y: 1000 }
+    - { x: 4320, y: 1120 }
+    - { x: 1120, y: 1680 }
+    - { x: 1760, y: 1760 }
+    - { x: 3360, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1280, y: 2400 }
+    - { x: 2080, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+    - { x: 1440, y: 1280 }
+    - { x: 3680, y: 1280 }
+questSpawns:
+  - activeFlag: quest_core_active
+    killCounterFlag: quest_core_kills
+    banner: 'Колосс: {kills}/1'
+    startBanner: 'Квест: уничтожь Статического колосса в ядре'
+    enemies:
+      - type: static_colossus
+        x: 2560
+        y: 1792
+        quest: true
+questComplete:
+  - anyFlag: [quest_core_complete]
+    banner: 'Ядро погасло — квест завершён'

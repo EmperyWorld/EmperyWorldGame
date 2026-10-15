@@ -1,0 +1,52 @@
+id: null_knight
+name: Нулевой рыцарь
+level: 44
+hp: 190
+pAtk: 48
+pDef: 30
+mDef: 27
+accuracy: 30
+evasion: 16
+speed: 96
+xpReward: 74
+drops:
+- kind: adena
+  chance: 1000000
+  min: 110
+  max: 190
+- item: leather_scrap
+  chance: 420000
+  min: 1
+  max: 2
+- item: iron_arrow
+  chance: 200000
+  min: 3
+  max: 10
+- item: knight_blade
+  chance: 40000
+  min: 1
+  max: 1
+- item: elven_longbow
+  chance: 22000
+  min: 1
+  max: 1
+- item: daedric_composite_bow
+  chance: 10000
+  min: 1
+  max: 1
+- item: leviathan_scale_cloak
+  chance: 55000
+  min: 1
+  max: 1
+- item: collapse_longbow
+  chance: 55000
+  min: 1
+  max: 1
+- item: pulse_ringmail
+  chance: 90000
+  min: 1
+  max: 1
+- item: pulse_recurve
+  chance: 90000
+  min: 1
+  max: 1

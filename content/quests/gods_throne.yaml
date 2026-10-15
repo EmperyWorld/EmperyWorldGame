@@ -1,0 +1,10 @@
+id: gods_throne
+radioNpcId: gods_oracle
+completeFlag: quest_throne_complete
+activeFlag: quest_throne_active
+killCounterFlag: quest_throne_kills
+requiredKills: 1
+enemyType: fallen_sovereign
+rewardItems:
+  - starfall_fang
+  - daedric_composite_bow

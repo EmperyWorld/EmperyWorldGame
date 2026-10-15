@@ -1,0 +1,653 @@
+---
+id: support_life_flow
+name: Поток жизни
+type: passive
+profession: support
+maxLevel: 3
+unlockLevel: 1
+description: Восстанавливает HP каждые 5 секунд
+effects:
+  hpRegen: [2, 4, 7]
+  maxHp: [6, 12, 18]
+
+---
+id: support_robe_mastery
+name: Роба наставника
+type: passive
+profession: support
+maxLevel: 3
+description: Запас MP и точность в робе
+effects:
+  maxMp: [14, 24, 36]
+  accuracy: [2, 4, 6]
+
+---
+id: support_mana_flow
+name: Поток маны
+type: passive
+profession: support
+maxLevel: 3
+unlockLevel: 1
+description: Восстанавливает MP каждые 5 секунд
+effects:
+  mpRegen: [2, 4, 7]
+  maxMp: [8, 14, 22]
+
+---
+# —— Human: хил + физбафы ——
+id: support_heal
+name: Исцеление
+type: active
+profession: support
+race: human
+maxLevel: 3
+cooldownMs: 5000
+attackRange: 240
+targetMode: ally
+description: Восстанавливает HP союзнику или себе
+levels:
+  1: { healFlat: 55, healMAtkScale: 1.0, mpCost: 14 }
+  2: { healFlat: 78, healMAtkScale: 1.2, mpCost: 18 }
+  3: { healFlat: 105, healMAtkScale: 1.45, mpCost: 22 }
+
+---
+id: support_might
+name: Мощь
+type: active
+profession: support
+race: human
+maxLevel: 3
+cooldownMs: 8000
+attackRange: 240
+targetMode: ally
+buffId: might
+buffStat: pAtk
+buffName: Мощь
+description: Временно усиливает P.Atk цели
+levels:
+  1: { buffAmount: 14, buffDurationMs: 600000, mpCost: 12 }
+  2: { buffAmount: 20, buffDurationMs: 600000, mpCost: 16 }
+  3: { buffAmount: 28, buffDurationMs: 600000, mpCost: 20 }
+
+---
+id: support_group_heal
+name: Групповое исцеление
+type: active
+profession: support
+race: human
+maxLevel: 3
+unlockLevel: 5
+cooldownMs: 10000
+attackRange: 900
+targetMode: party
+description: Лечит всех живых членов пати в радиусе
+levels:
+  1: { healFlat: 40, healMAtkScale: 0.7, mpCost: 28 }
+  2: { healFlat: 55, healMAtkScale: 0.9, mpCost: 34 }
+  3: { healFlat: 72, healMAtkScale: 1.1, mpCost: 40 }
+
+---
+id: support_shield
+name: Щит
+type: active
+profession: support
+race: human
+maxLevel: 3
+unlockLevel: 6
+cooldownMs: 10000
+attackRange: 240
+targetMode: ally
+buffId: shield
+buffStat: pDef
+buffName: Щит
+description: Временно усиливает P.Def цели
+levels:
+  1: { buffAmount: 12, buffDurationMs: 600000, mpCost: 14 }
+  2: { buffAmount: 18, buffDurationMs: 600000, mpCost: 18 }
+  3: { buffAmount: 26, buffDurationMs: 600000, mpCost: 22 }
+
+---
+id: support_balance
+name: Баланс жизни
+type: active
+profession: support
+race: human
+maxLevel: 3
+unlockLevel: 8
+cooldownMs: 18000
+attackRange: 900
+targetMode: party
+effect: balance
+description: Суммирует текущее HP пати в радиусе и делит поровну
+levels:
+  1: { mpCost: 32 }
+  2: { mpCost: 28 }
+  3: { mpCost: 24 }
+
+---
+id: support_party_might
+name: Боевой дух
+type: active
+profession: support
+race: human
+maxLevel: 3
+unlockLevel: 10
+cooldownMs: 16000
+attackRange: 900
+targetMode: party
+buffId: might
+buffStat: pAtk
+buffName: Мощь
+description: Мощь на всю пати в радиусе
+levels:
+  1: { buffAmount: 12, buffDurationMs: 600000, mpCost: 30 }
+  2: { buffAmount: 18, buffDurationMs: 600000, mpCost: 36 }
+  3: { buffAmount: 24, buffDurationMs: 600000, mpCost: 42 }
+
+---
+id: support_greater_heal
+name: Великое исцеление
+type: active
+profession: support
+race: human
+maxLevel: 3
+unlockLevel: 12
+cooldownMs: 22000
+attackRange: 900
+targetMode: party
+description: Мощный групповой хил с длинной перезарядкой
+levels:
+  1: { healFlat: 90, healMAtkScale: 1.3, mpCost: 48 }
+  2: { healFlat: 120, healMAtkScale: 1.5, mpCost: 56 }
+  3: { healFlat: 155, healMAtkScale: 1.75, mpCost: 64 }
+
+---
+id: support_heal_mastery
+name: Мастерство лечения
+type: passive
+profession: support
+race: human
+maxLevel: 3
+unlockLevel: 4
+description: Запас MP и сила исходящего лечения
+effects:
+  mAtk: [4, 7, 11]
+  maxMp: [10, 18, 28]
+  healPowerPct: [8, 14, 22]
+
+---
+# —— Elf: магбафы + MP ——
+id: support_recharge
+name: Подпитка
+type: active
+profession: support
+race: elf
+maxLevel: 3
+cooldownMs: 6000
+attackRange: 240
+targetMode: ally
+description: Восстанавливает MP союзнику или себе
+levels:
+  1: { mpFlat: 35, mpMAtkScale: 0.9, mpCost: 8 }
+  2: { mpFlat: 50, mpMAtkScale: 1.1, mpCost: 10 }
+  3: { mpFlat: 68, mpMAtkScale: 1.35, mpCost: 12 }
+
+---
+id: support_clarity
+name: Ясность
+type: active
+profession: support
+race: elf
+maxLevel: 3
+cooldownMs: 10000
+attackRange: 240
+targetMode: ally
+buffId: clarity
+buffStat: mpRegen
+buffName: Ясность
+description: Ускоряет восстановление MP цели
+levels:
+  1: { buffAmount: 4, buffDurationMs: 600000, mpCost: 16 }
+  2: { buffAmount: 6, buffDurationMs: 600000, mpCost: 20 }
+  3: { buffAmount: 9, buffDurationMs: 600000, mpCost: 24 }
+
+---
+id: support_mental_shield
+name: Ментальный щит
+type: active
+profession: support
+race: elf
+maxLevel: 3
+unlockLevel: 4
+cooldownMs: 10000
+attackRange: 240
+targetMode: ally
+buffId: mental_shield
+buffStat: mDef
+buffName: Ментальный щит
+description: Временно усиливает M.Def цели
+levels:
+  1: { buffAmount: 12, buffDurationMs: 600000, mpCost: 14 }
+  2: { buffAmount: 18, buffDurationMs: 600000, mpCost: 18 }
+  3: { buffAmount: 26, buffDurationMs: 600000, mpCost: 22 }
+
+---
+id: support_group_recharge
+name: Групповая подпитка
+type: active
+profession: support
+race: elf
+maxLevel: 3
+unlockLevel: 5
+cooldownMs: 12000
+attackRange: 900
+targetMode: party
+description: Восстанавливает MP всей пати в радиусе
+levels:
+  1: { mpFlat: 28, mpMAtkScale: 0.6, mpCost: 20 }
+  2: { mpFlat: 40, mpMAtkScale: 0.8, mpCost: 24 }
+  3: { mpFlat: 55, mpMAtkScale: 1.0, mpCost: 28 }
+
+---
+id: support_empower
+name: Усиление
+type: active
+profession: support
+race: elf
+maxLevel: 3
+unlockLevel: 6
+cooldownMs: 10000
+attackRange: 240
+targetMode: ally
+buffId: empower
+buffStat: mAtk
+buffName: Усиление
+description: Временно усиливает M.Atk цели
+levels:
+  1: { buffAmount: 14, buffDurationMs: 600000, mpCost: 16 }
+  2: { buffAmount: 20, buffDurationMs: 600000, mpCost: 20 }
+  3: { buffAmount: 28, buffDurationMs: 600000, mpCost: 24 }
+
+---
+id: support_acumen
+name: Проницательность
+type: active
+profession: support
+race: elf
+maxLevel: 3
+unlockLevel: 8
+cooldownMs: 12000
+attackRange: 240
+targetMode: ally
+buffId: acumen
+buffStat: attackSpeed
+buffName: Проницательность
+description: Ускоряет атаки цели (снижает задержку удара)
+levels:
+  1: { buffAmount: 8, buffDurationMs: 600000, mpCost: 18 }
+  2: { buffAmount: 12, buffDurationMs: 600000, mpCost: 22 }
+  3: { buffAmount: 16, buffDurationMs: 600000, mpCost: 26 }
+
+---
+id: support_party_clarity
+name: Круг ясности
+type: active
+profession: support
+race: elf
+maxLevel: 3
+unlockLevel: 10
+cooldownMs: 18000
+attackRange: 900
+targetMode: party
+buffId: clarity
+buffStat: mpRegen
+buffName: Ясность
+description: Ясность на всю пати в радиусе
+levels:
+  1: { buffAmount: 3, buffDurationMs: 600000, mpCost: 32 }
+  2: { buffAmount: 5, buffDurationMs: 600000, mpCost: 38 }
+  3: { buffAmount: 7, buffDurationMs: 600000, mpCost: 44 }
+
+---
+id: support_mana_attunement
+name: Созвучие маны
+type: passive
+profession: support
+race: elf
+maxLevel: 3
+unlockLevel: 3
+description: Пассивный прирост MP и сила подпитки
+effects:
+  mpRegen: [2, 4, 6]
+  mAtk: [3, 5, 8]
+  maxMp: [12, 22, 34]
+  mpRestorePct: [10, 16, 24]
+
+---
+# —— Orc: только мощные бафы ——
+id: support_orc_might
+name: Кровь войны
+type: active
+profession: support
+race: orc
+maxLevel: 3
+cooldownMs: 10000
+attackRange: 240
+targetMode: ally
+buffId: might
+buffStat: pAtk
+buffName: Мощь
+description: Мощный прирост P.Atk одной цели
+levels:
+  1: { buffAmount: 20, buffDurationMs: 600000, mpCost: 14 }
+  2: { buffAmount: 28, buffDurationMs: 600000, mpCost: 18 }
+  3: { buffAmount: 38, buffDurationMs: 600000, mpCost: 22 }
+
+---
+id: support_orc_shield
+name: Каменная шкура
+type: active
+profession: support
+race: orc
+maxLevel: 3
+cooldownMs: 10000
+attackRange: 240
+targetMode: ally
+buffId: shield
+buffStat: pDef
+buffName: Щит
+description: Мощный прирост P.Def одной цели
+levels:
+  1: { buffAmount: 18, buffDurationMs: 600000, mpCost: 14 }
+  2: { buffAmount: 26, buffDurationMs: 600000, mpCost: 18 }
+  3: { buffAmount: 36, buffDurationMs: 600000, mpCost: 22 }
+
+---
+id: support_orc_party_might
+name: Рёв орды
+type: active
+profession: support
+race: orc
+maxLevel: 3
+unlockLevel: 5
+cooldownMs: 18000
+attackRange: 900
+targetMode: party
+buffId: might
+buffStat: pAtk
+buffName: Мощь
+description: Мощь на всю пати
+levels:
+  1: { buffAmount: 16, buffDurationMs: 600000, mpCost: 28 }
+  2: { buffAmount: 24, buffDurationMs: 600000, mpCost: 34 }
+  3: { buffAmount: 32, buffDurationMs: 600000, mpCost: 40 }
+
+---
+id: support_orc_fury
+name: Ярость
+type: active
+profession: support
+race: orc
+maxLevel: 3
+unlockLevel: 6
+cooldownMs: 14000
+attackRange: 240
+targetMode: ally
+buffId: fury
+buffStat: critRate
+buffName: Ярость
+description: Повышает шанс крита цели
+levels:
+  1: { buffAmount: 8, buffDurationMs: 600000, mpCost: 16 }
+  2: { buffAmount: 12, buffDurationMs: 600000, mpCost: 20 }
+  3: { buffAmount: 16, buffDurationMs: 600000, mpCost: 24 }
+
+---
+id: support_orc_party_shield
+name: Стена орды
+type: active
+profession: support
+race: orc
+maxLevel: 3
+unlockLevel: 8
+cooldownMs: 18000
+attackRange: 900
+targetMode: party
+buffId: shield
+buffStat: pDef
+buffName: Щит
+description: Щит на всю пати
+levels:
+  1: { buffAmount: 14, buffDurationMs: 600000, mpCost: 28 }
+  2: { buffAmount: 22, buffDurationMs: 600000, mpCost: 34 }
+  3: { buffAmount: 30, buffDurationMs: 600000, mpCost: 40 }
+
+---
+id: support_orc_endurance
+name: Стойкость
+type: active
+profession: support
+race: orc
+maxLevel: 3
+unlockLevel: 10
+cooldownMs: 16000
+attackRange: 900
+targetMode: party
+buffId: endurance
+buffStat: accuracy
+buffName: Стойкость
+description: Точность всей пати — удары реже промахиваются
+levels:
+  1: { buffAmount: 8, buffDurationMs: 600000, mpCost: 26 }
+  2: { buffAmount: 12, buffDurationMs: 600000, mpCost: 32 }
+  3: { buffAmount: 16, buffDurationMs: 600000, mpCost: 38 }
+
+---
+id: support_orc_party_fury
+name: Кровавый пир
+type: active
+profession: support
+race: orc
+maxLevel: 3
+unlockLevel: 12
+cooldownMs: 22000
+attackRange: 900
+targetMode: party
+buffId: fury
+buffStat: critRate
+buffName: Ярость
+description: Ярость на всю пати
+levels:
+  1: { buffAmount: 6, buffDurationMs: 600000, mpCost: 36 }
+  2: { buffAmount: 10, buffDurationMs: 600000, mpCost: 42 }
+  3: { buffAmount: 14, buffDurationMs: 600000, mpCost: 48 }
+
+---
+id: support_war_chant
+name: Боевой напев
+type: passive
+profession: support
+race: orc
+maxLevel: 3
+unlockLevel: 3
+description: Личная сила и мощь исходящих бафов
+effects:
+  pAtk: [4, 7, 11]
+  maxHp: [12, 22, 34]
+  maxMp: [8, 14, 22]
+  buffPowerPct: [10, 16, 24]
+
+---
+# —— V1.5: уровни 15–25 ——
+id: support_party_shield
+name: Стена отряда
+type: active
+profession: support
+race: human
+maxLevel: 3
+unlockLevel: 15
+cooldownMs: 18000
+attackRange: 900
+targetMode: party
+buffId: shield
+buffStat: pDef
+buffName: Щит
+description: Щит на всю пати
+levels:
+  1: { buffAmount: 14, buffDurationMs: 600000, mpCost: 34 }
+  2: { buffAmount: 20, buffDurationMs: 600000, mpCost: 40 }
+  3: { buffAmount: 28, buffDurationMs: 600000, mpCost: 46 }
+
+---
+id: support_barrier
+name: Барьер
+type: active
+profession: support
+race: human
+maxLevel: 3
+unlockLevel: 18
+cooldownMs: 14000
+attackRange: 240
+targetMode: ally
+buffId: barrier
+buffStat: mDef
+buffName: Барьер
+description: Временно усиливает M.Def цели
+levels:
+  1: { buffAmount: 14, buffDurationMs: 600000, mpCost: 18 }
+  2: { buffAmount: 20, buffDurationMs: 600000, mpCost: 22 }
+  3: { buffAmount: 28, buffDurationMs: 600000, mpCost: 26 }
+
+---
+id: support_salvation
+name: Спасение
+type: active
+profession: support
+race: human
+maxLevel: 3
+unlockLevel: 24
+cooldownMs: 28000
+attackRange: 900
+targetMode: party
+description: Мощный групповой хил (длинный CD)
+levels:
+  1: { healFlat: 120, healMAtkScale: 1.5, mpCost: 58 }
+  2: { healFlat: 155, healMAtkScale: 1.7, mpCost: 66 }
+  3: { healFlat: 195, healMAtkScale: 2.0, mpCost: 74 }
+
+---
+id: support_party_empower
+name: Круг силы
+type: active
+profession: support
+race: elf
+maxLevel: 3
+unlockLevel: 15
+cooldownMs: 18000
+attackRange: 900
+targetMode: party
+buffId: empower
+buffStat: mAtk
+buffName: Усиление
+description: Усиление магии на всю пати
+levels:
+  1: { buffAmount: 12, buffDurationMs: 600000, mpCost: 34 }
+  2: { buffAmount: 18, buffDurationMs: 600000, mpCost: 40 }
+  3: { buffAmount: 26, buffDurationMs: 600000, mpCost: 46 }
+
+---
+id: support_party_acumen
+name: Круг проницательности
+type: active
+profession: support
+race: elf
+maxLevel: 3
+unlockLevel: 18
+cooldownMs: 18000
+attackRange: 900
+targetMode: party
+buffId: acumen
+buffStat: attackSpeed
+buffName: Проницательность
+description: Ускорение атаки на всю пати
+levels:
+  1: { buffAmount: 8, buffDurationMs: 600000, mpCost: 36 }
+  2: { buffAmount: 12, buffDurationMs: 600000, mpCost: 42 }
+  3: { buffAmount: 16, buffDurationMs: 600000, mpCost: 48 }
+
+---
+id: support_mana_well
+name: Источник маны
+type: active
+profession: support
+race: elf
+maxLevel: 3
+unlockLevel: 22
+cooldownMs: 24000
+attackRange: 900
+targetMode: party
+description: Мощная групповая подпитка MP
+levels:
+  1: { mpFlat: 55, mpMAtkScale: 1.0, mpCost: 20 }
+  2: { mpFlat: 75, mpMAtkScale: 1.2, mpCost: 24 }
+  3: { mpFlat: 100, mpMAtkScale: 1.45, mpCost: 28 }
+
+---
+id: support_orc_war_banner
+name: Знамя войны
+type: active
+profession: support
+race: orc
+maxLevel: 3
+unlockLevel: 15
+cooldownMs: 20000
+attackRange: 900
+targetMode: party
+buffId: might
+buffStat: pAtk
+buffName: Мощь
+description: Усиленная мощь на всю пати
+levels:
+  1: { buffAmount: 22, buffDurationMs: 600000, mpCost: 36 }
+  2: { buffAmount: 30, buffDurationMs: 600000, mpCost: 42 }
+  3: { buffAmount: 40, buffDurationMs: 600000, mpCost: 48 }
+
+---
+id: support_orc_vanguard
+name: Авангард
+type: active
+profession: support
+race: orc
+maxLevel: 3
+unlockLevel: 18
+cooldownMs: 16000
+attackRange: 240
+targetMode: ally
+buffId: might
+buffStat: pAtk
+buffName: Мощь
+description: Очень сильный Might на одну цель
+levels:
+  1: { buffAmount: 28, buffDurationMs: 600000, mpCost: 22 }
+  2: { buffAmount: 38, buffDurationMs: 600000, mpCost: 26 }
+  3: { buffAmount: 50, buffDurationMs: 600000, mpCost: 30 }
+
+---
+id: support_orc_blood_oath
+name: Кровавая клятва
+type: active
+profession: support
+race: orc
+maxLevel: 3
+unlockLevel: 24
+cooldownMs: 26000
+attackRange: 900
+targetMode: party
+buffId: fury
+buffStat: critRate
+buffName: Ярость
+description: Сильная ярость на всю пати
+levels:
+  1: { buffAmount: 10, buffDurationMs: 600000, mpCost: 42 }
+  2: { buffAmount: 14, buffDurationMs: 600000, mpCost: 48 }
+  3: { buffAmount: 18, buffDurationMs: 600000, mpCost: 54 }

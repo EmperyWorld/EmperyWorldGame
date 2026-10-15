@@ -1,0 +1,10 @@
+id: chaos_fold
+radioNpcId: rift_guide
+completeFlag: quest_fold_complete
+activeFlag: quest_fold_active
+killCounterFlag: quest_fold_kills
+requiredKills: 5
+enemyType: fold_horror
+rewardItems:
+  - knight_blade
+  - hardened_boots

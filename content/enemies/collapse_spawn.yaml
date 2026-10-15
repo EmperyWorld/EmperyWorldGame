@@ -1,0 +1,48 @@
+id: collapse_spawn
+name: Осколок коллапса
+level: 38
+hp: 140
+pAtk: 38
+pDef: 20
+mDef: 18
+accuracy: 32
+evasion: 24
+speed: 110
+xpReward: 60
+drops:
+- kind: adena
+  chance: 1000000
+  min: 88
+  max: 150
+- item: leather_scrap
+  chance: 400000
+  min: 1
+  max: 2
+- item: iron_arrow
+  chance: 260000
+  min: 4
+  max: 12
+- item: storm_bow
+  chance: 24000
+  min: 1
+  max: 1
+- item: void_gloves
+  chance: 28000
+  min: 1
+  max: 1
+- item: siege_tower_shield
+  chance: 55000
+  min: 1
+  max: 1
+- item: fringe_treads
+  chance: 55000
+  min: 1
+  max: 1
+- item: static_buckler
+  chance: 90000
+  min: 1
+  max: 1
+- item: signal_greaves
+  chance: 90000
+  min: 1
+  max: 1

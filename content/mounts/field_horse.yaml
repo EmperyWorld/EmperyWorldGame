@@ -1,0 +1,15 @@
+id: field_horse
+name: Полевой конь
+visual: bay
+speedMult: 1.4
+chargeDamageMult: 1.35
+chargeDurationMs: 500
+chargeCooldownMs: 6000
+chargeSpeed: 480
+chargeReach: 48
+shopPrice: 2500
+staminaDrainMult: 1
+staminaRegenMult: 1
+carryComfortKg: 95
+carryMaxKg: 145
+description: Верховой конь для поля — быстрее бег и таран с разгона.

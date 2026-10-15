@@ -1,0 +1,69 @@
+id: town_miller
+name: Мельник Фаддей
+race: human
+location: empery_haven
+questId: town_miller
+defaultGreeting: Жернова не спят. Хлеб и сухари — с моей мельницы. Мясо у Брана, рыба у Ульфа, питьё у Марты и Хольма.
+
+
+world:
+  role: character
+  wanderRadius: 44
+  wanderSpeed: 24
+portraits:
+  default: neutral
+
+choices:
+  - id: miller_shop
+    label: Купить хлеб
+    flag: _miller_shop
+    portrait: happy
+  - id: miller_mill
+    label: Смолоть зерно
+    flag: _miller_mill
+    portrait: work
+  - id: miller_bake
+    label: Испечь хлеб
+    flag: _miller_bake
+    portrait: happy
+  - id: miller_order_accept
+    label: Взять заказ на муку
+    flag: _miller_order_accept
+    blocks: [quest_miller_order_active, quest_miller_order_complete]
+    portrait: serious
+  - id: miller_order_claim
+    label: Отдать три мешка муки
+    flag: _miller_order_claim
+    portrait: work
+  - id: miller_grain
+    label: Как урожай?
+    flag: _miller_grain
+    nextNode: grain
+    portrait: happy
+  - id: miller_storm
+    label: Чего боишься больше всего?
+    flag: _miller_storm
+    nextNode: storm
+    portrait: serious
+  - id: miller_leave
+    label: Уйти
+    flag: _miller_done
+    portrait: neutral
+
+nodes:
+  grain:
+    text: Поля южнее ворот держатся. Мешки полные — значит, город сытый, а я не зря скриплю жерновами.
+    portrait: happy
+    choices:
+      - id: miller_grain_bye
+        label: Хорошие новости
+        flag: _miller_done
+        portrait: work
+  storm:
+    text: Мокрый амбар и пустой склад. Тогда даже стража начинает считать ломти.
+    portrait: serious
+    choices:
+      - id: miller_storm_bye
+        label: Понял
+        flag: _miller_done
+        portrait: neutral

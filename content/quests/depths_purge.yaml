@@ -1,0 +1,9 @@
+id: depths_purge
+radioNpcId: town_captain
+completeFlag: quest_depths_purge_complete
+activeFlag: quest_depths_purge_active
+killCounterFlag: quest_depths_purge_kills
+requiredKills: 3
+enemyType: deep_wraith
+rewardItems:
+  - void_gloves

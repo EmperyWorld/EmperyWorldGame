@@ -1,0 +1,94 @@
+id: filter_water
+name: Фильтрация воды
+needs:
+  - dirty_water
+  - charcoal_filter
+gives: filtered_water
+requiresWaterSource: true
+requiresStation:
+  - water
+message: Вода профильтрована. Для полной безопасности её лучше вскипятить.
+---
+id: boil_water
+name: Кипячение воды
+needs:
+  - filtered_water
+  - field_pot
+  - camp_fuel
+preserve:
+  - field_pot
+gives: boiled_water
+requiresStation:
+  - pot
+  - campfire
+  - hearth
+message: Вода прокипячена и стала безопасной.
+---
+id: cook_meat
+name: Жарка мяса
+needs:
+  - raw_meat
+  - camp_fuel
+  - firestarter
+preserve:
+  - firestarter
+gives: cooked_meat
+requiresStation:
+  - campfire
+  - hearth
+message: Мясо приготовлено. Горячая еда поможет согреться.
+---
+id: cook_fish
+name: Жарка рыбы
+needs:
+  - raw_fish
+  - camp_fuel
+  - firestarter
+preserve:
+  - firestarter
+gives: cooked_fish
+requiresStation:
+  - campfire
+  - hearth
+message: Рыба приготовлена. Соль моря осталась в послевкусии.
+---
+id: dry_meat
+name: Сушка мяса
+needs:
+  - cooked_meat
+  - camp_fuel
+gives: dried_meat
+requiresStation:
+  - hearth
+  - campfire
+message: Мясо высушено. Долго хранится, но почти не согревает.
+---
+id: dry_fish
+name: Сушка рыбы
+needs:
+  - cooked_fish
+  - camp_fuel
+gives: dried_fish
+requiresStation:
+  - hearth
+  - campfire
+message: Рыба высушена. Лёгкий паёк на долгую дорогу.
+---
+id: light_fire
+name: Разжечь костёр
+needs:
+  - camp_fuel
+  - firestarter
+preserve:
+  - firestarter
+effect: warm
+message: Костёр разожжён. Сухое тепло стабилизирует состояние.
+---
+id: stabilize_camp
+name: Согреться у огня
+needs: []
+effect: stabilize
+requiresStation:
+  - campfire
+  - hearth
+message: У огня стало теплее — ухудшение от холода остановлено.

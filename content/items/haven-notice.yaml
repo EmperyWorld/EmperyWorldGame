@@ -1,0 +1,21 @@
+id: forum_bulletin
+name: Бюллетень доски
+slot: material
+rarity: common
+unsellable: true
+stats: {}
+description: >-
+  Свежая копия указа с городской доски. Клей ещё тянется — не мни углы,
+  иначе герб магистрата смажется.
+icon: /media/assets/item_forum_bulletin.webp
+---
+id: forum_seal
+name: Печать прошения
+slot: material
+rarity: uncommon
+unsellable: true
+stats: {}
+description: >-
+  Восковая печать магистрата на поданном прошении. Одно дело — одна печать;
+  повторно канцелярия не принимает.
+icon: /media/assets/item_forum_seal.webp

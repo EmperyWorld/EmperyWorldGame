@@ -1,0 +1,8 @@
+merchantName: Связист Рен
+offers:
+  - id: radio_battery_pack
+    price: 2000
+  - id: radio_battery_12h
+    price: 18000
+  - id: radio_battery_24h
+    price: 30000

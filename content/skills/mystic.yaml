@@ -1,0 +1,493 @@
+---
+id: mystic_life_flow
+name: Поток жизни
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 1
+description: Восстанавливает HP каждые 5 секунд
+effects:
+  hpRegen: [2, 4, 7]
+  maxHp: [6, 12, 18]
+
+---
+id: robe_mastery
+name: Магическая роба
+type: passive
+profession: mystic
+maxLevel: 3
+description: Эффективнее в робе — запас MP и точность заклинаний
+effects:
+  maxMp: [10, 18, 28]
+  accuracy: [2, 4, 6]
+
+---
+id: flame_burst
+name: Огненный взрыв
+type: active
+profession: mystic
+maxLevel: 3
+cooldownMs: 10000
+attackRange: 170
+tactic: cleave
+description: >-
+  Взрыв по пачке: до 4 целей в радиусе. Основная — полный урон,
+  остальные — 60%. Игнорирует часть M.Def.
+levels:
+  1: { damageMultiplier: 1.6, armorPenetration: 0.35, mpCost: 18 }
+  2: { damageMultiplier: 1.9, armorPenetration: 0.45, mpCost: 22 }
+  3: { damageMultiplier: 2.2, armorPenetration: 0.55, mpCost: 28 }
+
+---
+id: focus_mind
+name: Сосредоточение
+type: passive
+profession: mystic
+maxLevel: 3
+description: Точность заклинаний и запас MP
+effects:
+  accuracy: [3, 5, 8]
+  maxMp: [12, 22, 36]
+
+---
+id: arcane_barrier
+name: Магический барьер
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 3
+description: M.Def и запас HP
+effects:
+  mDef: [4, 7, 11]
+  maxHp: [8, 14, 22]
+
+---
+id: ice_lance
+name: Ледяное копьё
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 5
+cooldownMs: 7000
+attackRange: 175
+control: pin
+description: >-
+  Пронзающий холод: высокое пробитие M.Def и замедление цели.
+levels:
+  1: { damageMultiplier: 1.55, armorPenetration: 0.5, mpCost: 14 }
+  2: { damageMultiplier: 1.85, armorPenetration: 0.6, mpCost: 18 }
+  3: { damageMultiplier: 2.15, armorPenetration: 0.7, mpCost: 24 }
+
+---
+id: mana_flow
+name: Поток маны
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 1
+description: Восстанавливает MP каждые 5 секунд
+effects:
+  mpRegen: [2, 4, 7]
+  maxMp: [8, 14, 22]
+
+---
+id: chain_lightning
+name: Цепная молния
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 10
+cooldownMs: 11000
+attackRange: 170
+tactic: cleave
+description: >-
+  Разряд перескакивает: до 4 целей в радиусе, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.0, armorPenetration: 0.4, accuracyBonus: 5, mpCost: 28 }
+  2: { damageMultiplier: 2.35, armorPenetration: 0.5, accuracyBonus: 8, mpCost: 34 }
+  3: { damageMultiplier: 2.7, armorPenetration: 0.55, accuracyBonus: 10, mpCost: 42 }
+
+---
+id: arcane_reservoir
+name: Чародейский резервуар
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 12
+description: Глубокий запас маны
+effects:
+  maxMp: [20, 36, 56]
+  maxHp: [8, 14, 22]
+
+---
+id: ember_bolt
+name: Уголь-стрела
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 14
+cooldownMs: 6500
+attackRange: 170
+description: Быстрая искра огня
+levels:
+  1: { damageMultiplier: 1.7, armorPenetration: 0.3, accuracyBonus: 6, mpCost: 16 }
+  2: { damageMultiplier: 1.95, armorPenetration: 0.35, accuracyBonus: 8, mpCost: 20 }
+  3: { damageMultiplier: 2.24, armorPenetration: 0.4, accuracyBonus: 10, mpCost: 24 }
+
+---
+id: spell_weave
+name: Плетение заклятий
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 16
+description: Точность плетения магии
+effects:
+  accuracy: [4, 7, 11]
+  mAtk: [3, 5, 8]
+
+---
+id: frost_nova
+name: Морозная нова
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 18
+cooldownMs: 9000
+attackRange: 170
+tactic: cleave
+control: pin
+description: >-
+  Взрыв холода: до 4 врагов, splash 60% по неосновным, всех замедляет.
+levels:
+  1: { damageMultiplier: 1.9, armorPenetration: 0.45, mpCost: 22 }
+  2: { damageMultiplier: 2.18, armorPenetration: 0.5, mpCost: 26 }
+  3: { damageMultiplier: 2.51, armorPenetration: 0.55, mpCost: 30 }
+
+---
+id: mana_shield_weave
+name: Ткань манощита
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 20
+description: Мана уплотняет магическую защиту
+effects:
+  mDef: [5, 9, 14]
+  maxMp: [14, 26, 40]
+
+---
+id: spark_cascade
+name: Каскад искр
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 22
+cooldownMs: 8000
+attackRange: 170
+tactic: cleave
+description: >-
+  Цепь мелких разрядов по пачке: до 4 целей, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 1.85, armorPenetration: 0.35, accuracyBonus: 8, mpCost: 20 }
+  2: { damageMultiplier: 2.13, armorPenetration: 0.4, accuracyBonus: 10, mpCost: 24 }
+  3: { damageMultiplier: 2.44, armorPenetration: 0.45, accuracyBonus: 12, mpCost: 28 }
+
+---
+id: deep_focus
+name: Глубокий фокус
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 24
+description: Взгляд сквозь хаос
+effects:
+  accuracy: [5, 8, 12]
+  critRate: [2, 4, 6]
+
+---
+id: magma_spear
+name: Магмовое копьё
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 26
+cooldownMs: 10000
+attackRange: 170
+description: Раскалённый пронзающий укол
+levels:
+  1: { damageMultiplier: 2.1, armorPenetration: 0.4, mpCost: 26 }
+  2: { damageMultiplier: 2.42, armorPenetration: 0.45, mpCost: 30 }
+  3: { damageMultiplier: 2.77, armorPenetration: 0.5, mpCost: 34 }
+
+---
+id: vital_arcana
+name: Живая аркана
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 28
+description: Жизнь и мана в одном потоке
+effects:
+  maxHp: [14, 24, 36]
+  maxMp: [16, 28, 44]
+
+---
+id: storm_call
+name: Зов бури
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 30
+cooldownMs: 11000
+attackRange: 170
+tactic: cleave
+description: >-
+  Гром по пачке: до 4 целей, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.2, armorPenetration: 0.4, accuracyBonus: 6, mpCost: 30 }
+  2: { damageMultiplier: 2.53, armorPenetration: 0.45, accuracyBonus: 8, mpCost: 34 }
+  3: { damageMultiplier: 2.9, armorPenetration: 0.5, accuracyBonus: 10, mpCost: 38 }
+
+---
+id: rune_skin
+name: Рунная кожа
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 32
+description: Руны по коже
+effects:
+  mDef: [7, 12, 18]
+  maxHp: [12, 20, 32]
+
+---
+id: void_needle
+name: Игла пустоты
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 34
+cooldownMs: 9500
+attackRange: 170
+tactic: seek
+description: >-
+  Тонкая игла бездны: всегда находит цель (магия всё ещё может резистнуть).
+levels:
+  1: { damageMultiplier: 2.15, armorPenetration: 0.55, mpCost: 28 }
+  2: { damageMultiplier: 2.47, armorPenetration: 0.6, mpCost: 32 }
+  3: { damageMultiplier: 2.84, armorPenetration: 0.65, mpCost: 36 }
+
+---
+id: high_channel
+name: Высший канал
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 36
+description: Широкий канал силы
+effects:
+  maxMp: [28, 48, 72]
+  accuracy: [4, 7, 10]
+
+---
+id: pyre_burst
+name: Костровой взрыв
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 38
+cooldownMs: 12000
+attackRange: 170
+tactic: cleave
+rangeBias: close
+description: >-
+  Взрыв костра в упор: до 4 целей, сильнее вблизи, слабее с дистанции.
+levels:
+  1: { damageMultiplier: 2.35, armorPenetration: 0.4, critBonus: 8, mpCost: 34 }
+  2: { damageMultiplier: 2.7, armorPenetration: 0.45, critBonus: 13, mpCost: 38 }
+  3: { damageMultiplier: 3.1, armorPenetration: 0.5, critBonus: 18, mpCost: 42 }
+
+---
+id: astral_mind
+name: Астральный ум
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 40
+description: Ум, открытый астралу
+effects:
+  maxMp: [32, 54, 80]
+  accuracy: [6, 10, 15]
+
+---
+id: comet_fall
+name: Падение кометы
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 42
+cooldownMs: 13000
+attackRange: 210
+tactic: snipe
+description: >-
+  Комета с дистанции: бонус с ≥130, сильнее с ≥200. В упор слабее.
+levels:
+  1: { damageMultiplier: 2.5, armorPenetration: 0.45, accuracyBonus: 8, mpCost: 38 }
+  2: { damageMultiplier: 2.88, armorPenetration: 0.5, accuracyBonus: 10, mpCost: 42 }
+  3: { damageMultiplier: 3.3, armorPenetration: 0.55, accuracyBonus: 12, mpCost: 46 }
+
+---
+id: ether_armor
+name: Эфирный доспех
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 44
+description: Доспех из эфира
+effects:
+  mDef: [10, 16, 24]
+  maxHp: [18, 30, 46]
+
+---
+id: soul_lance
+name: Копьё души
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 46
+cooldownMs: 12000
+attackRange: 170
+description: Копьё, пьющее защиту
+levels:
+  1: { damageMultiplier: 2.55, armorPenetration: 0.6, mpCost: 36 }
+  2: { damageMultiplier: 2.93, armorPenetration: 0.65, mpCost: 40 }
+  3: { damageMultiplier: 3.37, armorPenetration: 0.7, mpCost: 44 }
+
+---
+id: oracle_sight
+name: Взор оракула
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 48
+description: Видеть слабые места мира
+effects:
+  accuracy: [8, 12, 18]
+  critRate: [3, 6, 9]
+
+---
+id: nova_ruin
+name: Нова руин
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 50
+cooldownMs: 15000
+attackRange: 170
+tactic: cleave
+description: >-
+  Вспышка руин по области: до 4 целей в радиусе, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.75, armorPenetration: 0.45, critBonus: 10, mpCost: 44 }
+  2: { damageMultiplier: 3.16, armorPenetration: 0.5, critBonus: 15, mpCost: 48 }
+  3: { damageMultiplier: 3.63, armorPenetration: 0.55, critBonus: 20, mpCost: 52 }
+
+---
+id: leyline_heart
+name: Сердце лей-линии
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 52
+description: Сердце, бьющееся с лей-линиями
+effects:
+  maxMp: [36, 60, 90]
+  mAtk: [8, 14, 22]
+
+---
+id: abyss_flare
+name: Вспышка бездны
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 54
+cooldownMs: 14000
+attackRange: 170
+tactic: cleave
+description: >-
+  Чёрный огонь по области: до 4 целей, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.8, armorPenetration: 0.5, accuracyBonus: 10, mpCost: 42 }
+  2: { damageMultiplier: 3.22, armorPenetration: 0.55, accuracyBonus: 12, mpCost: 46 }
+  3: { damageMultiplier: 3.7, armorPenetration: 0.6, accuracyBonus: 14, mpCost: 50 }
+
+---
+id: sanctum_ward
+name: Страж святилища
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 56
+description: Страж арканного святилища
+effects:
+  mDef: [12, 20, 30]
+  maxHp: [22, 38, 58]
+
+---
+id: singularity
+name: Сингулярность
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 58
+cooldownMs: 17000
+attackRange: 170
+tactic: seek
+description: >-
+  Сжатие силы в точку: гарантированное попадание (магия может резистнуть).
+levels:
+  1: { damageMultiplier: 3.0, armorPenetration: 0.55, critBonus: 12, mpCost: 50 }
+  2: { damageMultiplier: 3.45, armorPenetration: 0.6, critBonus: 17, mpCost: 54 }
+  3: { damageMultiplier: 3.96, armorPenetration: 0.65, critBonus: 22, mpCost: 58 }
+
+---
+id: era_sage
+name: Мудрец эры
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 60
+description: Мудрость переживших эры
+effects:
+  maxMp: [40, 68, 100]
+  accuracy: [8, 13, 20]
+  mAtk: [6, 11, 17]
+
+---
+id: godfall_rite
+name: Обряд падения богов
+type: active
+profession: mystic
+maxLevel: 3
+unlockLevel: 62
+cooldownMs: 18000
+attackRange: 170
+description: Обряд силы павших богов
+levels:
+  1: { damageMultiplier: 3.15, armorPenetration: 0.5, accuracyBonus: 12, mpCost: 54 }
+  2: { damageMultiplier: 3.62, armorPenetration: 0.55, accuracyBonus: 14, mpCost: 58 }
+  3: { damageMultiplier: 4.16, armorPenetration: 0.6, accuracyBonus: 16, mpCost: 62 }
+
+---
+id: apex_mystic
+name: Вершина мистики
+type: passive
+profession: mystic
+maxLevel: 3
+unlockLevel: 65
+description: Предел мистического пути
+effects:
+  maxMp: [48, 80, 120]
+  mAtk: [12, 20, 30]
+  accuracy: [8, 12, 18]

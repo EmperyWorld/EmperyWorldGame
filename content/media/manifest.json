@@ -1,0 +1,5824 @@
+{
+  "generatedAt": "2026-10-14T23:40:06.675Z",
+  "assets": {
+    "race_human": {
+      "url": "/media/assets/race_human.webp",
+      "profile": "character_sheet",
+      "label": "Human"
+    },
+    "race_elf": {
+      "url": "/media/assets/race_elf.webp",
+      "profile": "character_sheet",
+      "label": "Elf"
+    },
+    "race_orc": {
+      "url": "/media/assets/race_orc.webp",
+      "profile": "character_sheet",
+      "label": "Orc"
+    },
+    "npc_elder_mira": {
+      "url": "/media/assets/npc_elder_mira.webp",
+      "profile": "portrait_npc",
+      "label": "Elder Mira"
+    },
+    "item_rusty_sword": {
+      "url": "/media/assets/item_rusty_sword.webp",
+      "profile": "item_icon",
+      "label": "Rusty sword"
+    },
+    "item_leather_scrap": {
+      "url": "/media/assets/item_leather_scrap.webp",
+      "profile": "item_icon",
+      "label": "Leather scrap"
+    },
+    "item_leather_cap": {
+      "url": "/media/assets/item_leather_cap.webp",
+      "profile": "item_icon",
+      "label": "Leather cap"
+    },
+    "item_shadow_dagger": {
+      "url": "/media/assets/item_shadow_dagger.webp",
+      "profile": "item_icon",
+      "label": "Shadow dagger"
+    },
+    "location_starter_grove": {
+      "url": "/media/assets/location_starter_grove.webp",
+      "profile": "location_bg",
+      "label": "Starter grove"
+    },
+    "location_empery_haven": {
+      "url": "/media/assets/location_empery_haven.webp",
+      "profile": "location_bg",
+      "label": "Empery Haven"
+    },
+    "location_silverwood": {
+      "url": "/media/assets/location_silverwood.webp",
+      "profile": "location_bg",
+      "label": "Silverwood"
+    },
+    "location_ash_highlands": {
+      "url": "/media/assets/location_ash_highlands.webp",
+      "profile": "location_bg",
+      "label": "Ash highlands"
+    },
+    "location_cave": {
+      "url": "/media/assets/location_cave.webp",
+      "profile": "location_bg",
+      "label": "Goblin cave"
+    },
+    "location_shadow_grove": {
+      "url": "/media/assets/location_shadow_grove.webp",
+      "profile": "location_bg",
+      "label": "Shadow grove"
+    },
+    "sprite_hero_human": {
+      "url": "/media/assets/sprite_hero_human.webp",
+      "profile": "game_sprite",
+      "label": "Hero human"
+    },
+    "sprite_hero_elf": {
+      "url": "/media/assets/sprite_hero_elf.webp",
+      "profile": "game_sprite",
+      "label": "Hero elf"
+    },
+    "sprite_hero_orc": {
+      "url": "/media/assets/sprite_hero_orc.webp",
+      "profile": "game_sprite",
+      "label": "Hero orc"
+    },
+    "sprite_enemy_goblin": {
+      "url": "/media/assets/sprite_enemy_goblin.webp",
+      "profile": "game_sprite",
+      "label": "Goblin"
+    },
+    "sprite_enemy_shadow": {
+      "url": "/media/assets/sprite_enemy_shadow.webp",
+      "profile": "game_sprite",
+      "label": "Shadow thug"
+    },
+    "sprite_npc_elder_mira": {
+      "url": "/media/assets/sprite_npc_elder_mira.webp",
+      "profile": "game_sprite",
+      "label": "NPC Elder Mira"
+    },
+    "sprite_npc_silvan_hermit": {
+      "url": "/media/assets/sprite_npc_silvan_hermit.webp",
+      "profile": "game_sprite",
+      "label": "NPC Silvan Hermit"
+    },
+    "sprite_npc_ash_shaman": {
+      "url": "/media/assets/sprite_npc_ash_shaman.webp",
+      "profile": "game_sprite",
+      "label": "NPC Ash Shaman"
+    },
+    "skill_weapon_mastery": {
+      "url": "/media/assets/skill_weapon_mastery.webp",
+      "profile": "skill_icon",
+      "label": "Weapon mastery"
+    },
+    "skill_heavy_armor": {
+      "url": "/media/assets/skill_heavy_armor.webp",
+      "profile": "skill_icon",
+      "label": "Heavy armor"
+    },
+    "skill_power_strike": {
+      "url": "/media/assets/skill_power_strike.webp",
+      "profile": "skill_icon",
+      "label": "Power strike"
+    },
+    "skill_acrobatic_move": {
+      "url": "/media/assets/skill_acrobatic_move.webp",
+      "profile": "skill_icon",
+      "label": "Acrobatic move"
+    },
+    "skill_boost_evasion": {
+      "url": "/media/assets/skill_boost_evasion.webp",
+      "profile": "skill_icon",
+      "label": "Boost evasion"
+    },
+    "skill_backstab": {
+      "url": "/media/assets/skill_backstab.webp",
+      "profile": "skill_icon",
+      "label": "Backstab"
+    },
+    "skill_robe_mastery": {
+      "url": "/media/assets/skill_robe_mastery.webp",
+      "profile": "skill_icon",
+      "label": "Robe mastery"
+    },
+    "skill_focus_mind": {
+      "url": "/media/assets/skill_focus_mind.webp",
+      "profile": "skill_icon",
+      "label": "Focus mind"
+    },
+    "skill_flame_burst": {
+      "url": "/media/assets/skill_flame_burst.webp",
+      "profile": "skill_icon",
+      "label": "Flame burst"
+    },
+    "skill_iron_will": {
+      "url": "/media/assets/skill_iron_will.webp",
+      "profile": "skill_icon",
+      "label": "Iron will"
+    },
+    "skill_shield_bash": {
+      "url": "/media/assets/skill_shield_bash.webp",
+      "profile": "skill_icon",
+      "label": "Shield bash"
+    },
+    "skill_deadly_precision": {
+      "url": "/media/assets/skill_deadly_precision.webp",
+      "profile": "skill_icon",
+      "label": "Deadly precision"
+    },
+    "skill_shadow_strike": {
+      "url": "/media/assets/skill_shadow_strike.webp",
+      "profile": "skill_icon",
+      "label": "Shadow strike"
+    },
+    "skill_arcane_barrier": {
+      "url": "/media/assets/skill_arcane_barrier.webp",
+      "profile": "skill_icon",
+      "label": "Arcane barrier"
+    },
+    "skill_ice_lance": {
+      "url": "/media/assets/skill_ice_lance.webp",
+      "profile": "skill_icon",
+      "label": "Ice lance"
+    },
+    "skill_vital_strike": {
+      "url": "/media/assets/skill_vital_strike.webp",
+      "profile": "skill_icon",
+      "label": "Vital strike"
+    },
+    "skill_quick_feet": {
+      "url": "/media/assets/skill_quick_feet.webp",
+      "profile": "skill_icon",
+      "label": "Quick feet"
+    },
+    "skill_mana_flow": {
+      "url": "/media/assets/skill_mana_flow.webp",
+      "profile": "skill_icon",
+      "label": "Mana flow"
+    },
+    "skill_war_cry": {
+      "url": "/media/assets/skill_war_cry.webp",
+      "profile": "skill_icon",
+      "label": "War cry"
+    },
+    "skill_poison_blade": {
+      "url": "/media/assets/skill_poison_blade.webp",
+      "profile": "skill_icon",
+      "label": "Poison blade"
+    },
+    "skill_chain_lightning": {
+      "url": "/media/assets/skill_chain_lightning.webp",
+      "profile": "skill_icon",
+      "label": "Chain lightning"
+    },
+    "skill_swarm_frenzy": {
+      "url": "/media/assets/skill_swarm_frenzy.webp",
+      "profile": "skill_icon",
+      "label": "Swarm frenzy"
+    },
+    "item_leather_tunic": {
+      "url": "/media/assets/item_leather_tunic.webp",
+      "profile": "item_icon",
+      "label": "Leather tunic"
+    },
+    "item_leather_boots": {
+      "url": "/media/assets/item_leather_boots.webp",
+      "profile": "item_icon",
+      "label": "Leather boots"
+    },
+    "item_iron_chain": {
+      "url": "/media/assets/item_iron_chain.webp",
+      "profile": "item_icon",
+      "label": "Iron chainmail"
+    },
+    "item_leather_gloves": {
+      "url": "/media/assets/item_leather_gloves.webp",
+      "profile": "item_icon",
+      "label": "Leather gloves"
+    },
+    "item_traveler_cloak": {
+      "url": "/media/assets/item_traveler_cloak.webp",
+      "profile": "item_icon",
+      "label": "Traveler cloak"
+    },
+    "item_shadow_cloak": {
+      "url": "/media/assets/item_shadow_cloak.webp",
+      "profile": "item_icon",
+      "label": "Shadow cloak"
+    },
+    "tileset_starter_grove": {
+      "url": "/media/assets/tileset_starter_grove.webp",
+      "profile": "tileset",
+      "label": "Tiles starter grove"
+    },
+    "tileset_empery_haven": {
+      "url": "/media/assets/tileset_empery_haven.webp",
+      "profile": "tileset",
+      "label": "Tiles empery haven"
+    },
+    "tileset_silverwood": {
+      "url": "/media/assets/tileset_silverwood.webp",
+      "profile": "tileset",
+      "label": "Tiles silverwood"
+    },
+    "tileset_ash_highlands": {
+      "url": "/media/assets/tileset_ash_highlands.webp",
+      "profile": "tileset",
+      "label": "Tiles ash highlands"
+    },
+    "prop_tree_oak": {
+      "url": "/media/assets/prop_tree_oak.webp",
+      "profile": "prop_sprite",
+      "label": "Oak tree"
+    },
+    "prop_tree_silver": {
+      "url": "/media/assets/prop_tree_silver.webp",
+      "profile": "prop_sprite",
+      "label": "Silver tree"
+    },
+    "prop_rock_volcanic": {
+      "url": "/media/assets/prop_rock_volcanic.webp",
+      "profile": "prop_sprite",
+      "label": "Volcanic rock"
+    },
+    "prop_fountain": {
+      "url": "/media/assets/prop_fountain.webp",
+      "profile": "prop_sprite",
+      "label": "Town fountain"
+    },
+    "prop_market_stall": {
+      "url": "/media/assets/prop_market_stall.webp",
+      "profile": "prop_sprite",
+      "label": "Market stall"
+    },
+    "prop_campfire": {
+      "url": "/media/assets/prop_campfire.webp",
+      "profile": "prop_sprite",
+      "label": "Campfire"
+    },
+    "prop_signpost": {
+      "url": "/media/assets/prop_signpost.webp",
+      "profile": "prop_sprite",
+      "label": "Signpost"
+    },
+    "prop_shrine": {
+      "url": "/media/assets/prop_shrine.webp",
+      "profile": "prop_sprite",
+      "label": "Elven shrine"
+    },
+    "prop_totem": {
+      "url": "/media/assets/prop_totem.webp",
+      "profile": "prop_sprite",
+      "label": "Orc totem"
+    },
+    "sprite_enemy_wolf": {
+      "url": "/media/assets/sprite_enemy_wolf.webp",
+      "profile": "game_sprite",
+      "label": "Forest wolf"
+    },
+    "sprite_enemy_cinder": {
+      "url": "/media/assets/sprite_enemy_cinder.webp",
+      "profile": "game_sprite",
+      "label": "Cinder imp"
+    },
+    "sprite_enemy_bone": {
+      "url": "/media/assets/sprite_enemy_bone.webp",
+      "profile": "game_sprite",
+      "label": "Bone walker"
+    },
+    "sprite_enemy_orc_grunt": {
+      "url": "/media/assets/sprite_enemy_orc_grunt.webp",
+      "profile": "game_sprite",
+      "label": "Orc grunt"
+    },
+    "sprite_npc_town_merchant": {
+      "url": "/media/assets/sprite_npc_town_merchant.webp",
+      "profile": "game_sprite",
+      "label": "NPC Town merchant"
+    },
+    "sprite_npc_town_innkeeper": {
+      "url": "/media/assets/sprite_npc_town_innkeeper.webp",
+      "profile": "game_sprite",
+      "label": "NPC Town innkeeper"
+    },
+    "sprite_npc_town_captain": {
+      "url": "/media/assets/sprite_npc_town_captain.webp",
+      "profile": "game_sprite",
+      "label": "NPC Town captain"
+    },
+    "prop_inn": {
+      "url": "/media/assets/prop_inn.webp",
+      "profile": "prop_sprite",
+      "label": "Town inn"
+    },
+    "prop_street_lamp": {
+      "url": "/media/assets/prop_street_lamp.webp",
+      "profile": "prop_sprite",
+      "label": "Street lamp"
+    },
+    "prop_hut": {
+      "url": "/media/assets/prop_hut.webp",
+      "profile": "prop_sprite",
+      "label": "Forest hut"
+    },
+    "dialogue_elder_mira_neutral": {
+      "url": "/media/assets/dialogue_elder_mira_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Elder Mira — neutral"
+    },
+    "dialogue_elder_mira_serious": {
+      "url": "/media/assets/dialogue_elder_mira_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Elder Mira — serious"
+    },
+    "dialogue_elder_mira_happy": {
+      "url": "/media/assets/dialogue_elder_mira_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Elder Mira — happy"
+    },
+    "dialogue_elder_mira_angry": {
+      "url": "/media/assets/dialogue_elder_mira_angry.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Elder Mira — angry"
+    },
+    "dialogue_silvan_hermit_neutral": {
+      "url": "/media/assets/dialogue_silvan_hermit_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Silvan Hermit — neutral"
+    },
+    "dialogue_silvan_hermit_serious": {
+      "url": "/media/assets/dialogue_silvan_hermit_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Silvan Hermit — serious"
+    },
+    "dialogue_silvan_hermit_happy": {
+      "url": "/media/assets/dialogue_silvan_hermit_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Silvan Hermit — happy"
+    },
+    "dialogue_ash_shaman_neutral": {
+      "url": "/media/assets/dialogue_ash_shaman_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Ash Shaman — neutral"
+    },
+    "dialogue_ash_shaman_serious": {
+      "url": "/media/assets/dialogue_ash_shaman_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Ash Shaman — serious"
+    },
+    "dialogue_ash_shaman_action": {
+      "url": "/media/assets/dialogue_ash_shaman_action.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Ash Shaman — action"
+    },
+    "dialogue_ash_shaman_happy": {
+      "url": "/media/assets/dialogue_ash_shaman_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Ash Shaman — happy"
+    },
+    "dialogue_town_merchant_neutral": {
+      "url": "/media/assets/dialogue_town_merchant_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Merchant Loren — neutral"
+    },
+    "dialogue_town_merchant_trade": {
+      "url": "/media/assets/dialogue_town_merchant_trade.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Merchant Loren — trade"
+    },
+    "dialogue_town_merchant_happy": {
+      "url": "/media/assets/dialogue_town_merchant_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Merchant Loren — happy"
+    },
+    "dialogue_town_innkeeper_neutral": {
+      "url": "/media/assets/dialogue_town_innkeeper_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Innkeeper Marta — neutral"
+    },
+    "dialogue_town_innkeeper_happy": {
+      "url": "/media/assets/dialogue_town_innkeeper_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Innkeeper Marta — happy"
+    },
+    "dialogue_town_captain_neutral": {
+      "url": "/media/assets/dialogue_town_captain_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Captain Garrett — neutral"
+    },
+    "dialogue_town_captain_serious": {
+      "url": "/media/assets/dialogue_town_captain_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Captain Garrett — serious"
+    },
+    "dialogue_town_blacksmith_neutral": {
+      "url": "/media/assets/dialogue_town_blacksmith_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Blacksmith Harold — neutral"
+    },
+    "dialogue_town_blacksmith_work": {
+      "url": "/media/assets/dialogue_town_blacksmith_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Blacksmith Harold — work"
+    },
+    "dialogue_town_blacksmith_happy": {
+      "url": "/media/assets/dialogue_town_blacksmith_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Blacksmith Harold — happy"
+    },
+    "dialogue_town_blacksmith_angry": {
+      "url": "/media/assets/dialogue_town_blacksmith_angry.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Blacksmith Harold — angry"
+    },
+    "location_adena_fields": {
+      "url": "/media/assets/location_adena_fields.webp",
+      "profile": "location_bg",
+      "label": "Adena fields"
+    },
+    "tileset_adena_fields": {
+      "url": "/media/assets/tileset_adena_fields.webp",
+      "profile": "tileset",
+      "label": "Tiles adena fields"
+    },
+    "item_bronze_sword": {
+      "url": "/media/assets/item_bronze_sword.webp",
+      "profile": "item_icon",
+      "label": "Bronze sword"
+    },
+    "item_steel_longsword": {
+      "url": "/media/assets/item_steel_longsword.webp",
+      "profile": "item_icon",
+      "label": "Steel longsword"
+    },
+    "item_war_hammer": {
+      "url": "/media/assets/item_war_hammer.webp",
+      "profile": "item_icon",
+      "label": "War hammer"
+    },
+    "item_studded_leather": {
+      "url": "/media/assets/item_studded_leather.webp",
+      "profile": "item_icon",
+      "label": "Studded leather"
+    },
+    "item_iron_helm": {
+      "url": "/media/assets/item_iron_helm.webp",
+      "profile": "item_icon",
+      "label": "Iron helm"
+    },
+    "item_iron_greaves": {
+      "url": "/media/assets/item_iron_greaves.webp",
+      "profile": "item_icon",
+      "label": "Iron greaves"
+    },
+    "item_iron_gauntlets": {
+      "url": "/media/assets/item_iron_gauntlets.webp",
+      "profile": "item_icon",
+      "label": "Iron gauntlets"
+    },
+    "item_steel_cuirass": {
+      "url": "/media/assets/item_steel_cuirass.webp",
+      "profile": "item_icon",
+      "label": "Steel cuirass"
+    },
+    "item_hunter_cloak": {
+      "url": "/media/assets/item_hunter_cloak.webp",
+      "profile": "item_icon",
+      "label": "Hunter cloak"
+    },
+    "item_dusk_blade": {
+      "url": "/media/assets/item_dusk_blade.webp",
+      "profile": "item_icon",
+      "label": "Dusk blade"
+    },
+    "item_shadow_mail": {
+      "url": "/media/assets/item_shadow_mail.webp",
+      "profile": "item_icon",
+      "label": "Shadow mail"
+    },
+    "item_void_gloves": {
+      "url": "/media/assets/item_void_gloves.webp",
+      "profile": "item_icon",
+      "label": "Void gloves"
+    },
+    "item_depths_cloak": {
+      "url": "/media/assets/item_depths_cloak.webp",
+      "profile": "item_icon",
+      "label": "Depths cloak"
+    },
+    "item_rune_greaves": {
+      "url": "/media/assets/item_rune_greaves.webp",
+      "profile": "item_icon",
+      "label": "Rune greaves"
+    },
+    "item_crystal_helm": {
+      "url": "/media/assets/item_crystal_helm.webp",
+      "profile": "item_icon",
+      "label": "Crystal helm"
+    },
+    "item_oak_spear": {
+      "url": "/media/assets/item_oak_spear.webp",
+      "profile": "item_icon",
+      "label": "Дубовое копьё"
+    },
+    "item_falchion": {
+      "url": "/media/assets/item_falchion.webp",
+      "profile": "item_icon",
+      "label": "Фальшион"
+    },
+    "item_battle_axe": {
+      "url": "/media/assets/item_battle_axe.webp",
+      "profile": "item_icon",
+      "label": "Боевой топор"
+    },
+    "item_knight_blade": {
+      "url": "/media/assets/item_knight_blade.webp",
+      "profile": "item_icon",
+      "label": "Клинок рыцаря"
+    },
+    "item_padded_coif": {
+      "url": "/media/assets/item_padded_coif.webp",
+      "profile": "item_icon",
+      "label": "Стёганый капюшон"
+    },
+    "item_sentry_helm": {
+      "url": "/media/assets/item_sentry_helm.webp",
+      "profile": "item_icon",
+      "label": "Шлем часового"
+    },
+    "item_scale_vest": {
+      "url": "/media/assets/item_scale_vest.webp",
+      "profile": "item_icon",
+      "label": "Чешуйчатый жилет"
+    },
+    "item_hardened_boots": {
+      "url": "/media/assets/item_hardened_boots.webp",
+      "profile": "item_icon",
+      "label": "Укреплённые сапоги"
+    },
+    "item_plate_greaves": {
+      "url": "/media/assets/item_plate_greaves.webp",
+      "profile": "item_icon",
+      "label": "Латные поножи"
+    },
+    "item_ringmail_gloves": {
+      "url": "/media/assets/item_ringmail_gloves.webp",
+      "profile": "item_icon",
+      "label": "Кольчужные перчатки"
+    },
+    "item_sergeant_cloak": {
+      "url": "/media/assets/item_sergeant_cloak.webp",
+      "profile": "item_icon",
+      "label": "Плащ сержанта"
+    },
+    "item_brigandine": {
+      "url": "/media/assets/item_brigandine.webp",
+      "profile": "item_icon",
+      "label": "Бригантина"
+    },
+    "skill_dagger_mastery": {
+      "url": "/media/assets/skill_dagger_mastery.webp",
+      "profile": "skill_icon",
+      "label": "Dagger mastery"
+    },
+    "skill_soft_leather": {
+      "url": "/media/assets/skill_soft_leather.webp",
+      "profile": "skill_icon",
+      "label": "Soft leather"
+    },
+    "skill_keen_eye": {
+      "url": "/media/assets/skill_keen_eye.webp",
+      "profile": "skill_icon",
+      "label": "Keen eye"
+    },
+    "skill_bloodhound": {
+      "url": "/media/assets/skill_bloodhound.webp",
+      "profile": "skill_icon",
+      "label": "Bloodhound"
+    },
+    "skill_phantom_stance": {
+      "url": "/media/assets/skill_phantom_stance.webp",
+      "profile": "skill_icon",
+      "label": "Phantom stance"
+    },
+    "skill_cutthroat": {
+      "url": "/media/assets/skill_cutthroat.webp",
+      "profile": "skill_icon",
+      "label": "Cutthroat"
+    },
+    "skill_scavenger_vitality": {
+      "url": "/media/assets/skill_scavenger_vitality.webp",
+      "profile": "skill_icon",
+      "label": "Scavenger vitality"
+    },
+    "skill_mist_step": {
+      "url": "/media/assets/skill_mist_step.webp",
+      "profile": "skill_icon",
+      "label": "Mist step"
+    },
+    "skill_eviscerate": {
+      "url": "/media/assets/skill_eviscerate.webp",
+      "profile": "skill_icon",
+      "label": "Eviscerate"
+    },
+    "skill_silent_blade": {
+      "url": "/media/assets/skill_silent_blade.webp",
+      "profile": "skill_icon",
+      "label": "Silent blade"
+    },
+    "skill_assassin_instinct": {
+      "url": "/media/assets/skill_assassin_instinct.webp",
+      "profile": "skill_icon",
+      "label": "Assassin instinct"
+    },
+    "skill_vanishing_strike": {
+      "url": "/media/assets/skill_vanishing_strike.webp",
+      "profile": "skill_icon",
+      "label": "Vanishing strike"
+    },
+    "skill_shadow_veil": {
+      "url": "/media/assets/skill_shadow_veil.webp",
+      "profile": "skill_icon",
+      "label": "Shadow veil"
+    },
+    "item_nightfang": {
+      "url": "/media/assets/item_nightfang.webp",
+      "profile": "item_icon",
+      "label": "Nightfang"
+    },
+    "item_hush_cowl": {
+      "url": "/media/assets/item_hush_cowl.webp",
+      "profile": "item_icon",
+      "label": "Hush cowl"
+    },
+    "item_emberhide": {
+      "url": "/media/assets/item_emberhide.webp",
+      "profile": "item_icon",
+      "label": "Emberhide"
+    },
+    "item_ghoststride": {
+      "url": "/media/assets/item_ghoststride.webp",
+      "profile": "item_icon",
+      "label": "Ghoststride"
+    },
+    "item_bloodlace": {
+      "url": "/media/assets/item_bloodlace.webp",
+      "profile": "item_icon",
+      "label": "Bloodlace"
+    },
+    "item_mothwing_cloak": {
+      "url": "/media/assets/item_mothwing_cloak.webp",
+      "profile": "item_icon",
+      "label": "Mothwing cloak"
+    },
+    "skill_mad_dualist": {
+      "url": "/media/assets/skill_mad_dualist.webp",
+      "profile": "skill_icon",
+      "label": "Mad dualist"
+    },
+    "item_void_petal": {
+      "url": "/media/assets/item_void_petal.webp",
+      "profile": "item_icon",
+      "label": "Void petal"
+    },
+    "item_starfall_fang": {
+      "url": "/media/assets/item_starfall_fang.webp",
+      "profile": "item_icon",
+      "label": "Starfall fang"
+    },
+    "item_daedric_razor": {
+      "url": "/media/assets/item_daedric_razor.webp",
+      "profile": "item_icon",
+      "label": "Daedric razor"
+    },
+    "item_daedric_shroud": {
+      "url": "/media/assets/item_daedric_shroud.webp",
+      "profile": "item_icon",
+      "label": "Daedric shroud"
+    },
+    "item_daedric_hide_vest": {
+      "url": "/media/assets/item_daedric_hide_vest.webp",
+      "profile": "item_icon",
+      "label": "Daedric hide vest"
+    },
+    "item_wooden_buckler": {
+      "url": "/media/assets/item_wooden_buckler.webp",
+      "profile": "item_icon",
+      "label": "Wooden buckler"
+    },
+    "item_daedric_warhelm": {
+      "url": "/media/assets/item_daedric_warhelm.webp",
+      "profile": "item_icon",
+      "label": "Daedric warhelm"
+    },
+    "item_iron_kite_shield": {
+      "url": "/media/assets/item_iron_kite_shield.webp",
+      "profile": "item_icon",
+      "label": "Iron kite shield"
+    },
+    "item_daedric_bulkplate": {
+      "url": "/media/assets/item_daedric_bulkplate.webp",
+      "profile": "item_icon",
+      "label": "Daedric bulkplate"
+    },
+    "item_steel_heater_shield": {
+      "url": "/media/assets/item_steel_heater_shield.webp",
+      "profile": "item_icon",
+      "label": "Steel heater shield"
+    },
+    "item_daedric_bulkgreaves": {
+      "url": "/media/assets/item_daedric_bulkgreaves.webp",
+      "profile": "item_icon",
+      "label": "Daedric bulkgreaves"
+    },
+    "item_daedric_tower_shield": {
+      "url": "/media/assets/item_daedric_tower_shield.webp",
+      "profile": "item_icon",
+      "label": "Daedric tower shield"
+    },
+    "item_daedric_bulkgauntlets": {
+      "url": "/media/assets/item_daedric_bulkgauntlets.webp",
+      "profile": "item_icon",
+      "label": "Daedric bulkgauntlets"
+    },
+    "item_holy_crusader_shield": {
+      "url": "/media/assets/item_holy_crusader_shield.webp",
+      "profile": "item_icon",
+      "label": "Holy crusader shield"
+    },
+    "skill_shield_mastery": {
+      "url": "/media/assets/skill_shield_mastery.webp",
+      "profile": "skill_icon",
+      "label": "Shield mastery"
+    },
+    "skill_shield_riposte": {
+      "url": "/media/assets/skill_shield_riposte.webp",
+      "profile": "skill_icon",
+      "label": "Shield riposte"
+    },
+    "skill_shield_bastion": {
+      "url": "/media/assets/skill_shield_bastion.webp",
+      "profile": "skill_icon",
+      "label": "Bastion"
+    },
+    "skill_unyielding_wall": {
+      "url": "/media/assets/skill_unyielding_wall.webp",
+      "profile": "skill_icon",
+      "label": "Unyielding wall"
+    },
+    "skill_battle_focus": {
+      "url": "/media/assets/skill_battle_focus.webp",
+      "profile": "skill_icon",
+      "label": "Battle focus"
+    },
+    "skill_fortitude": {
+      "url": "/media/assets/skill_fortitude.webp",
+      "profile": "skill_icon",
+      "label": "Fortitude"
+    },
+    "skill_crushing_blow": {
+      "url": "/media/assets/skill_crushing_blow.webp",
+      "profile": "skill_icon",
+      "label": "Crushing blow"
+    },
+    "skill_armor_break": {
+      "url": "/media/assets/skill_armor_break.webp",
+      "profile": "skill_icon",
+      "label": "Armor break"
+    },
+    "skill_veteran": {
+      "url": "/media/assets/skill_veteran.webp",
+      "profile": "skill_icon",
+      "label": "Veteran"
+    },
+    "skill_execute": {
+      "url": "/media/assets/skill_execute.webp",
+      "profile": "skill_icon",
+      "label": "Execute"
+    },
+    "skill_war_harden": {
+      "url": "/media/assets/skill_war_harden.webp",
+      "profile": "skill_icon",
+      "label": "War harden"
+    },
+    "skill_cleave": {
+      "url": "/media/assets/skill_cleave.webp",
+      "profile": "skill_icon",
+      "label": "Cleave"
+    },
+    "item_short_bow": {
+      "url": "/media/assets/item_short_bow.webp",
+      "profile": "item_icon",
+      "label": "Короткий лук"
+    },
+    "item_hunter_bow": {
+      "url": "/media/assets/item_hunter_bow.webp",
+      "profile": "item_icon",
+      "label": "Охотничий лук"
+    },
+    "item_composite_bow": {
+      "url": "/media/assets/item_composite_bow.webp",
+      "profile": "item_icon",
+      "label": "Составной лук"
+    },
+    "item_wooden_arrow": {
+      "url": "/media/assets/item_wooden_arrow.webp",
+      "profile": "item_icon",
+      "label": "Деревянная стрела"
+    },
+    "item_iron_arrow": {
+      "url": "/media/assets/item_iron_arrow.webp",
+      "profile": "item_icon",
+      "label": "Железная стрела"
+    },
+    "skill_bow_mastery": {
+      "url": "/media/assets/skill_bow_mastery.webp",
+      "profile": "skill_icon",
+      "label": "Bow mastery"
+    },
+    "skill_eagle_eye": {
+      "url": "/media/assets/skill_eagle_eye.webp",
+      "profile": "skill_icon",
+      "label": "Eagle eye"
+    },
+    "skill_power_shot": {
+      "url": "/media/assets/skill_power_shot.webp",
+      "profile": "skill_icon",
+      "label": "Power shot"
+    },
+    "skill_steady_breath": {
+      "url": "/media/assets/skill_steady_breath.webp",
+      "profile": "skill_icon",
+      "label": "Steady breath"
+    },
+    "skill_quick_draw": {
+      "url": "/media/assets/skill_quick_draw.webp",
+      "profile": "skill_icon",
+      "label": "Quick draw"
+    },
+    "skill_hunter_instinct": {
+      "url": "/media/assets/skill_hunter_instinct.webp",
+      "profile": "skill_icon",
+      "label": "Hunter instinct"
+    },
+    "skill_piercing_shot": {
+      "url": "/media/assets/skill_piercing_shot.webp",
+      "profile": "skill_icon",
+      "label": "Piercing shot"
+    },
+    "skill_sniper_focus": {
+      "url": "/media/assets/skill_sniper_focus.webp",
+      "profile": "skill_icon",
+      "label": "Sniper focus"
+    },
+    "skill_rain_of_arrows": {
+      "url": "/media/assets/skill_rain_of_arrows.webp",
+      "profile": "skill_icon",
+      "label": "Rain of arrows"
+    },
+    "prop_house_stone": {
+      "url": "/media/assets/prop_house_stone.webp",
+      "profile": "prop_sprite",
+      "label": "Stone house"
+    },
+    "prop_house_timber": {
+      "url": "/media/assets/prop_house_timber.webp",
+      "profile": "prop_sprite",
+      "label": "Timber house"
+    },
+    "prop_shop_front": {
+      "url": "/media/assets/prop_shop_front.webp",
+      "profile": "prop_sprite",
+      "label": "Shop building"
+    },
+    "prop_blacksmith": {
+      "url": "/media/assets/prop_blacksmith.webp",
+      "profile": "prop_sprite",
+      "label": "Blacksmith"
+    },
+    "prop_warehouse": {
+      "url": "/media/assets/prop_warehouse.webp",
+      "profile": "prop_sprite",
+      "label": "Warehouse"
+    },
+    "prop_guard_tower": {
+      "url": "/media/assets/prop_guard_tower.webp",
+      "profile": "prop_sprite",
+      "label": "Guard tower"
+    },
+    "prop_city_gate": {
+      "url": "/media/assets/prop_city_gate.webp",
+      "profile": "prop_sprite",
+      "label": "City gate"
+    },
+    "prop_chapel": {
+      "url": "/media/assets/prop_chapel.webp",
+      "profile": "prop_sprite",
+      "label": "Chapel"
+    },
+    "prop_statue_imperial": {
+      "url": "/media/assets/prop_statue_imperial.webp",
+      "profile": "prop_sprite",
+      "label": "Imperial statue"
+    },
+    "prop_well": {
+      "url": "/media/assets/prop_well.webp",
+      "profile": "prop_sprite",
+      "label": "Town well"
+    },
+    "prop_crate_stack": {
+      "url": "/media/assets/prop_crate_stack.webp",
+      "profile": "prop_sprite",
+      "label": "Crate stack"
+    },
+    "prop_barrels": {
+      "url": "/media/assets/prop_barrels.webp",
+      "profile": "prop_sprite",
+      "label": "Barrels"
+    },
+    "prop_merchant_cart": {
+      "url": "/media/assets/prop_merchant_cart.webp",
+      "profile": "prop_sprite",
+      "label": "Merchant cart"
+    },
+    "prop_bench": {
+      "url": "/media/assets/prop_bench.webp",
+      "profile": "prop_sprite",
+      "label": "Bench"
+    },
+    "prop_planter": {
+      "url": "/media/assets/prop_planter.webp",
+      "profile": "prop_sprite",
+      "label": "Flower planter"
+    },
+    "prop_bush_garden": {
+      "url": "/media/assets/prop_bush_garden.webp",
+      "profile": "prop_sprite",
+      "label": "Garden bush"
+    },
+    "prop_pier": {
+      "url": "/media/assets/prop_pier.webp",
+      "profile": "prop_sprite",
+      "label": "Pier"
+    },
+    "prop_rowboat": {
+      "url": "/media/assets/prop_rowboat.webp",
+      "profile": "prop_sprite",
+      "label": "Rowboat"
+    },
+    "prop_banner_pole": {
+      "url": "/media/assets/prop_banner_pole.webp",
+      "profile": "prop_sprite",
+      "label": "Banner pole"
+    },
+    "prop_market_canopy": {
+      "url": "/media/assets/prop_market_canopy.webp",
+      "profile": "prop_sprite",
+      "label": "Market canopy"
+    },
+    "item_elven_longbow": {
+      "url": "/media/assets/item_elven_longbow.webp",
+      "profile": "item_icon",
+      "label": "Эльфийский длинный лук"
+    },
+    "item_storm_bow": {
+      "url": "/media/assets/item_storm_bow.webp",
+      "profile": "item_icon",
+      "label": "Лук бури"
+    },
+    "skill_far_reach": {
+      "url": "/media/assets/skill_far_reach.webp",
+      "profile": "skill_icon",
+      "label": "Far reach"
+    },
+    "location_suburban_park": {
+      "url": "/media/assets/location_suburban_park.webp",
+      "profile": "location_bg",
+      "label": "Suburban park"
+    },
+    "location_abandoned_yard": {
+      "url": "/media/assets/location_abandoned_yard.webp",
+      "profile": "location_bg",
+      "label": "Abandoned yard"
+    },
+    "location_intersection_district": {
+      "url": "/media/assets/location_intersection_district.webp",
+      "profile": "location_bg",
+      "label": "Intersection district"
+    },
+    "location_signal_block": {
+      "url": "/media/assets/location_signal_block.webp",
+      "profile": "location_bg",
+      "label": "Signal block"
+    },
+    "location_relay_spire": {
+      "url": "/media/assets/location_relay_spire.webp",
+      "profile": "location_bg",
+      "label": "Relay spire"
+    },
+    "location_static_core": {
+      "url": "/media/assets/location_static_core.webp",
+      "profile": "location_bg",
+      "label": "Static core"
+    },
+    "location_chaos_sector": {
+      "url": "/media/assets/location_chaos_sector.webp",
+      "profile": "location_bg",
+      "label": "Chaos sector"
+    },
+    "location_fracture_ridge": {
+      "url": "/media/assets/location_fracture_ridge.webp",
+      "profile": "location_bg",
+      "label": "Fracture ridge"
+    },
+    "item_daedric_composite_bow": {
+      "url": "/media/assets/item_daedric_composite_bow.webp",
+      "profile": "item_icon",
+      "label": "Даэдрический составной лук"
+    },
+    "location_void_scar": {
+      "url": "/media/assets/location_void_scar.webp",
+      "profile": "location_bg",
+      "label": "Void scar"
+    },
+    "location_collapse_fringe": {
+      "url": "/media/assets/location_collapse_fringe.webp",
+      "profile": "location_bg",
+      "label": "Collapse fringe"
+    },
+    "location_citadel_approach": {
+      "url": "/media/assets/location_citadel_approach.webp",
+      "profile": "location_bg",
+      "label": "Citadel approach"
+    },
+    "location_singularity_citadel": {
+      "url": "/media/assets/location_singularity_citadel.webp",
+      "profile": "location_bg",
+      "label": "Singularity citadel"
+    },
+    "location_gods_rift": {
+      "url": "/media/assets/location_gods_rift.webp",
+      "profile": "location_bg",
+      "label": "Gods rift"
+    },
+    "location_pantheon_ascent": {
+      "url": "/media/assets/location_pantheon_ascent.webp",
+      "profile": "location_bg",
+      "label": "Pantheon ascent"
+    },
+    "location_godfall_throne": {
+      "url": "/media/assets/location_godfall_throne.webp",
+      "profile": "location_bg",
+      "label": "Godfall throne"
+    },
+    "item_field_radio": {
+      "url": "/media/assets/item_field_radio.webp",
+      "profile": "item_icon",
+      "label": "Полевая рация"
+    },
+    "item_radio_battery_pack": {
+      "url": "/media/assets/item_radio_battery_pack.webp",
+      "profile": "item_icon",
+      "label": "Комплект батареек"
+    },
+    "skill_apex_warrior": {
+      "url": "/media/assets/skill_apex_warrior.webp",
+      "profile": "skill_icon",
+      "label": "Вершина войны"
+    },
+    "skill_wind_stance": {
+      "url": "/media/assets/skill_wind_stance.webp",
+      "profile": "skill_icon",
+      "label": "Стойка ветра"
+    },
+    "skill_marking_shot": {
+      "url": "/media/assets/skill_marking_shot.webp",
+      "profile": "skill_icon",
+      "label": "Меченый выстрел"
+    },
+    "skill_trailblazer": {
+      "url": "/media/assets/skill_trailblazer.webp",
+      "profile": "skill_icon",
+      "label": "Первопроходец"
+    },
+    "skill_scatter_shot": {
+      "url": "/media/assets/skill_scatter_shot.webp",
+      "profile": "skill_icon",
+      "label": "Дробный залп"
+    },
+    "skill_hawk_blood": {
+      "url": "/media/assets/skill_hawk_blood.webp",
+      "profile": "skill_icon",
+      "label": "Кровь ястреба"
+    },
+    "skill_pin_down": {
+      "url": "/media/assets/skill_pin_down.webp",
+      "profile": "skill_icon",
+      "label": "Пригвоздить"
+    },
+    "skill_longshot_drill": {
+      "url": "/media/assets/skill_longshot_drill.webp",
+      "profile": "skill_icon",
+      "label": "Дисциплина дальнего боя"
+    },
+    "skill_serpentine_arrow": {
+      "url": "/media/assets/skill_serpentine_arrow.webp",
+      "profile": "skill_icon",
+      "label": "Змеиная стрела"
+    },
+    "skill_ranger_vitality": {
+      "url": "/media/assets/skill_ranger_vitality.webp",
+      "profile": "skill_icon",
+      "label": "Живучесть следопыта"
+    },
+    "skill_sky_hunter": {
+      "url": "/media/assets/skill_sky_hunter.webp",
+      "profile": "skill_icon",
+      "label": "Небесный охотник"
+    },
+    "skill_ballista_bolt": {
+      "url": "/media/assets/skill_ballista_bolt.webp",
+      "profile": "skill_icon",
+      "label": "Болт баллисты"
+    },
+    "skill_predator_focus": {
+      "url": "/media/assets/skill_predator_focus.webp",
+      "profile": "skill_icon",
+      "label": "Фокус хищника"
+    },
+    "skill_storm_arrows": {
+      "url": "/media/assets/skill_storm_arrows.webp",
+      "profile": "skill_icon",
+      "label": "Стрелы бури"
+    },
+    "skill_iron_string": {
+      "url": "/media/assets/skill_iron_string.webp",
+      "profile": "skill_icon",
+      "label": "Железная тетива"
+    },
+    "skill_eclipse_shot": {
+      "url": "/media/assets/skill_eclipse_shot.webp",
+      "profile": "skill_icon",
+      "label": "Выстрел затмения"
+    },
+    "skill_horizon_eye": {
+      "url": "/media/assets/skill_horizon_eye.webp",
+      "profile": "skill_icon",
+      "label": "Глаз горизонта"
+    },
+    "skill_annihilator": {
+      "url": "/media/assets/skill_annihilator.webp",
+      "profile": "skill_icon",
+      "label": "Аннигилятор"
+    },
+    "skill_warden_of_winds": {
+      "url": "/media/assets/skill_warden_of_winds.webp",
+      "profile": "skill_icon",
+      "label": "Страж ветров"
+    },
+    "skill_starfall_volley": {
+      "url": "/media/assets/skill_starfall_volley.webp",
+      "profile": "skill_icon",
+      "label": "Залп звездопада"
+    },
+    "skill_era_marksman": {
+      "url": "/media/assets/skill_era_marksman.webp",
+      "profile": "skill_icon",
+      "label": "Стрелок эры"
+    },
+    "skill_godpiercer": {
+      "url": "/media/assets/skill_godpiercer.webp",
+      "profile": "skill_icon",
+      "label": "Богопронзатель"
+    },
+    "skill_apex_archer": {
+      "url": "/media/assets/skill_apex_archer.webp",
+      "profile": "skill_icon",
+      "label": "Вершина лука"
+    },
+    "skill_arcane_reservoir": {
+      "url": "/media/assets/skill_arcane_reservoir.webp",
+      "profile": "skill_icon",
+      "label": "Чародейский резервуар"
+    },
+    "skill_ember_bolt": {
+      "url": "/media/assets/skill_ember_bolt.webp",
+      "profile": "skill_icon",
+      "label": "Уголь-стрела"
+    },
+    "skill_spell_weave": {
+      "url": "/media/assets/skill_spell_weave.webp",
+      "profile": "skill_icon",
+      "label": "Плетение заклятий"
+    },
+    "skill_frost_nova": {
+      "url": "/media/assets/skill_frost_nova.webp",
+      "profile": "skill_icon",
+      "label": "Морозная нова"
+    },
+    "skill_mana_shield_weave": {
+      "url": "/media/assets/skill_mana_shield_weave.webp",
+      "profile": "skill_icon",
+      "label": "Ткань манощита"
+    },
+    "skill_spark_cascade": {
+      "url": "/media/assets/skill_spark_cascade.webp",
+      "profile": "skill_icon",
+      "label": "Каскад искр"
+    },
+    "skill_deep_focus": {
+      "url": "/media/assets/skill_deep_focus.webp",
+      "profile": "skill_icon",
+      "label": "Глубокий фокус"
+    },
+    "skill_magma_spear": {
+      "url": "/media/assets/skill_magma_spear.webp",
+      "profile": "skill_icon",
+      "label": "Магмовое копьё"
+    },
+    "skill_vital_arcana": {
+      "url": "/media/assets/skill_vital_arcana.webp",
+      "profile": "skill_icon",
+      "label": "Живая аркана"
+    },
+    "skill_storm_call": {
+      "url": "/media/assets/skill_storm_call.webp",
+      "profile": "skill_icon",
+      "label": "Зов бури"
+    },
+    "skill_rune_skin": {
+      "url": "/media/assets/skill_rune_skin.webp",
+      "profile": "skill_icon",
+      "label": "Рунная кожа"
+    },
+    "skill_void_needle": {
+      "url": "/media/assets/skill_void_needle.webp",
+      "profile": "skill_icon",
+      "label": "Игла пустоты"
+    },
+    "skill_high_channel": {
+      "url": "/media/assets/skill_high_channel.webp",
+      "profile": "skill_icon",
+      "label": "Высший канал"
+    },
+    "skill_pyre_burst": {
+      "url": "/media/assets/skill_pyre_burst.webp",
+      "profile": "skill_icon",
+      "label": "Костровой взрыв"
+    },
+    "skill_astral_mind": {
+      "url": "/media/assets/skill_astral_mind.webp",
+      "profile": "skill_icon",
+      "label": "Астральный ум"
+    },
+    "skill_comet_fall": {
+      "url": "/media/assets/skill_comet_fall.webp",
+      "profile": "skill_icon",
+      "label": "Падение кометы"
+    },
+    "skill_ether_armor": {
+      "url": "/media/assets/skill_ether_armor.webp",
+      "profile": "skill_icon",
+      "label": "Эфирный доспех"
+    },
+    "skill_soul_lance": {
+      "url": "/media/assets/skill_soul_lance.webp",
+      "profile": "skill_icon",
+      "label": "Копьё души"
+    },
+    "skill_oracle_sight": {
+      "url": "/media/assets/skill_oracle_sight.webp",
+      "profile": "skill_icon",
+      "label": "Взор оракула"
+    },
+    "skill_nova_ruin": {
+      "url": "/media/assets/skill_nova_ruin.webp",
+      "profile": "skill_icon",
+      "label": "Нова руин"
+    },
+    "skill_leyline_heart": {
+      "url": "/media/assets/skill_leyline_heart.webp",
+      "profile": "skill_icon",
+      "label": "Сердце лей-линии"
+    },
+    "skill_abyss_flare": {
+      "url": "/media/assets/skill_abyss_flare.webp",
+      "profile": "skill_icon",
+      "label": "Вспышка бездны"
+    },
+    "skill_sanctum_ward": {
+      "url": "/media/assets/skill_sanctum_ward.webp",
+      "profile": "skill_icon",
+      "label": "Страж святилища"
+    },
+    "skill_singularity": {
+      "url": "/media/assets/skill_singularity.webp",
+      "profile": "skill_icon",
+      "label": "Сингулярность"
+    },
+    "skill_era_sage": {
+      "url": "/media/assets/skill_era_sage.webp",
+      "profile": "skill_icon",
+      "label": "Мудрец эры"
+    },
+    "skill_godfall_rite": {
+      "url": "/media/assets/skill_godfall_rite.webp",
+      "profile": "skill_icon",
+      "label": "Обряд падения богов"
+    },
+    "skill_apex_mystic": {
+      "url": "/media/assets/skill_apex_mystic.webp",
+      "profile": "skill_icon",
+      "label": "Вершина мистики"
+    },
+    "skill_night_edge": {
+      "url": "/media/assets/skill_night_edge.webp",
+      "profile": "skill_icon",
+      "label": "Лезвие ночи"
+    },
+    "skill_garrote": {
+      "url": "/media/assets/skill_garrote.webp",
+      "profile": "skill_icon",
+      "label": "Удавка"
+    },
+    "skill_ghost_step": {
+      "url": "/media/assets/skill_ghost_step.webp",
+      "profile": "skill_icon",
+      "label": "Шаг призрака"
+    },
+    "skill_blade_flurry": {
+      "url": "/media/assets/skill_blade_flurry.webp",
+      "profile": "skill_icon",
+      "label": "Шквал клинков"
+    },
+    "skill_venom_mastery": {
+      "url": "/media/assets/skill_venom_mastery.webp",
+      "profile": "skill_icon",
+      "label": "Мастерство яда"
+    },
+    "skill_heartseeker": {
+      "url": "/media/assets/skill_heartseeker.webp",
+      "profile": "skill_icon",
+      "label": "Искатель сердца"
+    },
+    "skill_umbrage": {
+      "url": "/media/assets/skill_umbrage.webp",
+      "profile": "skill_icon",
+      "label": "Сень"
+    },
+    "skill_reaper_waltz": {
+      "url": "/media/assets/skill_reaper_waltz.webp",
+      "profile": "skill_icon",
+      "label": "Вальс жнеца"
+    },
+    "skill_crimson_pact": {
+      "url": "/media/assets/skill_crimson_pact.webp",
+      "profile": "skill_icon",
+      "label": "Алый пакт"
+    },
+    "skill_obliterate": {
+      "url": "/media/assets/skill_obliterate.webp",
+      "profile": "skill_icon",
+      "label": "Стирание"
+    },
+    "skill_veil_of_knives": {
+      "url": "/media/assets/skill_veil_of_knives.webp",
+      "profile": "skill_icon",
+      "label": "Завеса ножей"
+    },
+    "skill_black_sun": {
+      "url": "/media/assets/skill_black_sun.webp",
+      "profile": "skill_icon",
+      "label": "Чёрное солнце"
+    },
+    "skill_apex_assassin": {
+      "url": "/media/assets/skill_apex_assassin.webp",
+      "profile": "skill_icon",
+      "label": "Вершина убийцы"
+    },
+    "skill_final_whisper": {
+      "url": "/media/assets/skill_final_whisper.webp",
+      "profile": "skill_icon",
+      "label": "Последний шёпот"
+    },
+    "skill_era_shadow": {
+      "url": "/media/assets/skill_era_shadow.webp",
+      "profile": "skill_icon",
+      "label": "Тень эры"
+    },
+    "skill_iron_bulwark": {
+      "url": "/media/assets/skill_iron_bulwark.webp",
+      "profile": "skill_icon",
+      "label": "Железный бастион"
+    },
+    "skill_rupture": {
+      "url": "/media/assets/skill_rupture.webp",
+      "profile": "skill_icon",
+      "label": "Разрыв"
+    },
+    "skill_vanguard": {
+      "url": "/media/assets/skill_vanguard.webp",
+      "profile": "skill_icon",
+      "label": "Авангард"
+    },
+    "skill_shockwave": {
+      "url": "/media/assets/skill_shockwave.webp",
+      "profile": "skill_icon",
+      "label": "Ударная волна"
+    },
+    "skill_blood_oath": {
+      "url": "/media/assets/skill_blood_oath.webp",
+      "profile": "skill_icon",
+      "label": "Клятва крови"
+    },
+    "skill_titan_smash": {
+      "url": "/media/assets/skill_titan_smash.webp",
+      "profile": "skill_icon",
+      "label": "Удар титана"
+    },
+    "skill_phalanx": {
+      "url": "/media/assets/skill_phalanx.webp",
+      "profile": "skill_icon",
+      "label": "Фаланга"
+    },
+    "skill_judgment_cut": {
+      "url": "/media/assets/skill_judgment_cut.webp",
+      "profile": "skill_icon",
+      "label": "Карающий разрез"
+    },
+    "skill_warlord_presence": {
+      "url": "/media/assets/skill_warlord_presence.webp",
+      "profile": "skill_icon",
+      "label": "Аура полководца"
+    },
+    "skill_cataclysm": {
+      "url": "/media/assets/skill_cataclysm.webp",
+      "profile": "skill_icon",
+      "label": "Катаклизм"
+    },
+    "skill_immortal_guard": {
+      "url": "/media/assets/skill_immortal_guard.webp",
+      "profile": "skill_icon",
+      "label": "Бессмертный страж"
+    },
+    "skill_reign_of_steel": {
+      "url": "/media/assets/skill_reign_of_steel.webp",
+      "profile": "skill_icon",
+      "label": "Правление стали"
+    },
+    "skill_era_endurance": {
+      "url": "/media/assets/skill_era_endurance.webp",
+      "profile": "skill_icon",
+      "label": "Стойкость эры"
+    },
+    "skill_worldbreaker": {
+      "url": "/media/assets/skill_worldbreaker.webp",
+      "profile": "skill_icon",
+      "label": "Миролом"
+    },
+    "item_rift_cleaver": {
+      "url": "/media/assets/item_rift_cleaver.webp",
+      "profile": "item_icon",
+      "label": "Rift Cleaver"
+    },
+    "item_fold_stiletto": {
+      "url": "/media/assets/item_fold_stiletto.webp",
+      "profile": "item_icon",
+      "label": "Fold Stiletto"
+    },
+    "item_pulse_recurve": {
+      "url": "/media/assets/item_pulse_recurve.webp",
+      "profile": "item_icon",
+      "label": "Pulse Recurve"
+    },
+    "item_static_buckler": {
+      "url": "/media/assets/item_static_buckler.webp",
+      "profile": "item_icon",
+      "label": "Static Buckler"
+    },
+    "item_echo_coif": {
+      "url": "/media/assets/item_echo_coif.webp",
+      "profile": "item_icon",
+      "label": "Echo Coif"
+    },
+    "item_warp_hauberk": {
+      "url": "/media/assets/item_warp_hauberk.webp",
+      "profile": "item_icon",
+      "label": "Warp Hauberk"
+    },
+    "item_signal_greaves": {
+      "url": "/media/assets/item_signal_greaves.webp",
+      "profile": "item_icon",
+      "label": "Signal Greaves"
+    },
+    "item_drone_grips": {
+      "url": "/media/assets/item_drone_grips.webp",
+      "profile": "item_icon",
+      "label": "Drone Grips"
+    },
+    "item_neon_mantle": {
+      "url": "/media/assets/item_neon_mantle.webp",
+      "profile": "item_icon",
+      "label": "Neon Mantle"
+    },
+    "item_shard_arrows": {
+      "url": "/media/assets/item_shard_arrows.webp",
+      "profile": "item_icon",
+      "label": "Shard Arrows"
+    },
+    "item_voidscar_greatsword": {
+      "url": "/media/assets/item_voidscar_greatsword.webp",
+      "profile": "item_icon",
+      "label": "Voidscar Greatsword"
+    },
+    "item_entropy_fang": {
+      "url": "/media/assets/item_entropy_fang.webp",
+      "profile": "item_icon",
+      "label": "Entropy Fang"
+    },
+    "item_collapse_longbow": {
+      "url": "/media/assets/item_collapse_longbow.webp",
+      "profile": "item_icon",
+      "label": "Collapse Longbow"
+    },
+    "item_siege_tower_shield": {
+      "url": "/media/assets/item_siege_tower_shield.webp",
+      "profile": "item_icon",
+      "label": "Siege Tower Shield"
+    },
+    "item_null_visor": {
+      "url": "/media/assets/item_null_visor.webp",
+      "profile": "item_icon",
+      "label": "Null Visor"
+    },
+    "item_citadel_cuirass": {
+      "url": "/media/assets/item_citadel_cuirass.webp",
+      "profile": "item_icon",
+      "label": "Citadel Cuirass"
+    },
+    "item_fringe_treads": {
+      "url": "/media/assets/item_fringe_treads.webp",
+      "profile": "item_icon",
+      "label": "Fringe Treads"
+    },
+    "item_reaver_gauntlets": {
+      "url": "/media/assets/item_reaver_gauntlets.webp",
+      "profile": "item_icon",
+      "label": "Reaver Gauntlets"
+    },
+    "item_rift_veil": {
+      "url": "/media/assets/item_rift_veil.webp",
+      "profile": "item_icon",
+      "label": "Rift Veil"
+    },
+    "item_godshard_quiver": {
+      "url": "/media/assets/item_godshard_quiver.webp",
+      "profile": "item_icon",
+      "label": "Godshard Quiver"
+    },
+    "item_singularity_edge": {
+      "url": "/media/assets/item_singularity_edge.webp",
+      "profile": "item_icon",
+      "label": "Singularity Edge"
+    },
+    "item_idol_needle": {
+      "url": "/media/assets/item_idol_needle.webp",
+      "profile": "item_icon",
+      "label": "Idol Needle"
+    },
+    "item_pantheon_arc": {
+      "url": "/media/assets/item_pantheon_arc.webp",
+      "profile": "item_icon",
+      "label": "Pantheon Arc"
+    },
+    "item_aegis_of_null": {
+      "url": "/media/assets/item_aegis_of_null.webp",
+      "profile": "item_icon",
+      "label": "Aegis Of Null"
+    },
+    "item_oracle_circlet": {
+      "url": "/media/assets/item_oracle_circlet.webp",
+      "profile": "item_icon",
+      "label": "Oracle Circlet"
+    },
+    "item_throne_plate": {
+      "url": "/media/assets/item_throne_plate.webp",
+      "profile": "item_icon",
+      "label": "Throne Plate"
+    },
+    "item_ascent_strides": {
+      "url": "/media/assets/item_ascent_strides.webp",
+      "profile": "item_icon",
+      "label": "Ascent Strides"
+    },
+    "item_sovereign_grips": {
+      "url": "/media/assets/item_sovereign_grips.webp",
+      "profile": "item_icon",
+      "label": "Sovereign Grips"
+    },
+    "item_godfall_cloak": {
+      "url": "/media/assets/item_godfall_cloak.webp",
+      "profile": "item_icon",
+      "label": "Godfall Cloak"
+    },
+    "item_horizon_quiver": {
+      "url": "/media/assets/item_horizon_quiver.webp",
+      "profile": "item_icon",
+      "label": "Horizon Quiver"
+    },
+    "item_worldscar_blade": {
+      "url": "/media/assets/item_worldscar_blade.webp",
+      "profile": "item_icon",
+      "label": "Worldscar Blade"
+    },
+    "item_whisper_of_nix": {
+      "url": "/media/assets/item_whisper_of_nix.webp",
+      "profile": "item_icon",
+      "label": "Whisper Of Nix"
+    },
+    "item_era_skybow": {
+      "url": "/media/assets/item_era_skybow.webp",
+      "profile": "item_icon",
+      "label": "Era Skybow"
+    },
+    "item_bastion_of_eras": {
+      "url": "/media/assets/item_bastion_of_eras.webp",
+      "profile": "item_icon",
+      "label": "Bastion Of Eras"
+    },
+    "item_crown_of_collapse": {
+      "url": "/media/assets/item_crown_of_collapse.webp",
+      "profile": "item_icon",
+      "label": "Crown Of Collapse"
+    },
+    "item_mail_of_the_rift": {
+      "url": "/media/assets/item_mail_of_the_rift.webp",
+      "profile": "item_icon",
+      "label": "Mail Of The Rift"
+    },
+    "item_greaves_of_ascent": {
+      "url": "/media/assets/item_greaves_of_ascent.webp",
+      "profile": "item_icon",
+      "label": "Greaves Of Ascent"
+    },
+    "item_gauntlets_of_judgment": {
+      "url": "/media/assets/item_gauntlets_of_judgment.webp",
+      "profile": "item_icon",
+      "label": "Gauntlets Of Judgment"
+    },
+    "item_mantle_beyond": {
+      "url": "/media/assets/item_mantle_beyond.webp",
+      "profile": "item_icon",
+      "label": "Mantle Beyond"
+    },
+    "item_quiver_of_godfall": {
+      "url": "/media/assets/item_quiver_of_godfall.webp",
+      "profile": "item_icon",
+      "label": "Quiver Of Godfall"
+    },
+    "item_chaos_halberd": {
+      "url": "/media/assets/item_chaos_halberd.webp",
+      "profile": "item_icon",
+      "label": "Chaos Halberd"
+    },
+    "item_mirror_wand_blade": {
+      "url": "/media/assets/item_mirror_wand_blade.webp",
+      "profile": "item_icon",
+      "label": "Mirror Wand Blade"
+    },
+    "item_scar_handaxe": {
+      "url": "/media/assets/item_scar_handaxe.webp",
+      "profile": "item_icon",
+      "label": "Scar Handaxe"
+    },
+    "item_leviathan_scale_cloak": {
+      "url": "/media/assets/item_leviathan_scale_cloak.webp",
+      "profile": "item_icon",
+      "label": "Leviathan Scale Cloak"
+    },
+    "item_pulse_ringmail": {
+      "url": "/media/assets/item_pulse_ringmail.webp",
+      "profile": "item_icon",
+      "label": "Pulse Ringmail"
+    },
+    "race_human_male": {
+      "url": "/media/assets/race_human_male.webp",
+      "profile": "character_sheet",
+      "label": "Human male"
+    },
+    "race_human_female": {
+      "url": "/media/assets/race_human_female.webp",
+      "profile": "character_sheet",
+      "label": "Human female"
+    },
+    "race_elf_male": {
+      "url": "/media/assets/race_elf_male.webp",
+      "profile": "character_sheet",
+      "label": "Elf male"
+    },
+    "race_elf_female": {
+      "url": "/media/assets/race_elf_female.webp",
+      "profile": "character_sheet",
+      "label": "Elf female"
+    },
+    "race_orc_male": {
+      "url": "/media/assets/race_orc_male.webp",
+      "profile": "character_sheet",
+      "label": "Orc male"
+    },
+    "race_orc_female": {
+      "url": "/media/assets/race_orc_female.webp",
+      "profile": "character_sheet",
+      "label": "Orc female"
+    },
+    "race_human_male_warrior": {
+      "url": "/media/assets/race_human_male_warrior.webp",
+      "profile": "character_sheet",
+      "label": "human male warrior"
+    },
+    "race_human_male_rogue": {
+      "url": "/media/assets/race_human_male_rogue.webp",
+      "profile": "character_sheet",
+      "label": "human male rogue"
+    },
+    "race_human_male_mystic": {
+      "url": "/media/assets/race_human_male_mystic.webp",
+      "profile": "character_sheet",
+      "label": "human male mystic"
+    },
+    "race_human_male_archer": {
+      "url": "/media/assets/race_human_male_archer.webp",
+      "profile": "character_sheet",
+      "label": "human male archer"
+    },
+    "race_human_female_warrior": {
+      "url": "/media/assets/race_human_female_warrior.webp",
+      "profile": "character_sheet",
+      "label": "human female warrior"
+    },
+    "race_human_female_rogue": {
+      "url": "/media/assets/race_human_female_rogue.webp",
+      "profile": "character_sheet",
+      "label": "human female rogue"
+    },
+    "race_human_female_mystic": {
+      "url": "/media/assets/race_human_female_mystic.webp",
+      "profile": "character_sheet",
+      "label": "human female mystic"
+    },
+    "race_human_female_archer": {
+      "url": "/media/assets/race_human_female_archer.webp",
+      "profile": "character_sheet",
+      "label": "human female archer"
+    },
+    "race_elf_male_warrior": {
+      "url": "/media/assets/race_elf_male_warrior.webp",
+      "profile": "character_sheet",
+      "label": "elf male warrior"
+    },
+    "race_elf_male_rogue": {
+      "url": "/media/assets/race_elf_male_rogue.webp",
+      "profile": "character_sheet",
+      "label": "elf male rogue"
+    },
+    "race_elf_male_mystic": {
+      "url": "/media/assets/race_elf_male_mystic.webp",
+      "profile": "character_sheet",
+      "label": "elf male mystic"
+    },
+    "race_elf_male_archer": {
+      "url": "/media/assets/race_elf_male_archer.webp",
+      "profile": "character_sheet",
+      "label": "elf male archer"
+    },
+    "race_elf_female_warrior": {
+      "url": "/media/assets/race_elf_female_warrior.webp",
+      "profile": "character_sheet",
+      "label": "elf female warrior"
+    },
+    "race_elf_female_rogue": {
+      "url": "/media/assets/race_elf_female_rogue.webp",
+      "profile": "character_sheet",
+      "label": "elf female rogue"
+    },
+    "race_elf_female_mystic": {
+      "url": "/media/assets/race_elf_female_mystic.webp",
+      "profile": "character_sheet",
+      "label": "elf female mystic"
+    },
+    "race_elf_female_archer": {
+      "url": "/media/assets/race_elf_female_archer.webp",
+      "profile": "character_sheet",
+      "label": "elf female archer"
+    },
+    "race_orc_male_warrior": {
+      "url": "/media/assets/race_orc_male_warrior.webp",
+      "profile": "character_sheet",
+      "label": "orc male warrior"
+    },
+    "race_orc_male_rogue": {
+      "url": "/media/assets/race_orc_male_rogue.webp",
+      "profile": "character_sheet",
+      "label": "orc male rogue"
+    },
+    "race_orc_male_mystic": {
+      "url": "/media/assets/race_orc_male_mystic.webp",
+      "profile": "character_sheet",
+      "label": "orc male mystic"
+    },
+    "race_orc_male_archer": {
+      "url": "/media/assets/race_orc_male_archer.webp",
+      "profile": "character_sheet",
+      "label": "orc male archer"
+    },
+    "race_orc_female_warrior": {
+      "url": "/media/assets/race_orc_female_warrior.webp",
+      "profile": "character_sheet",
+      "label": "orc female warrior"
+    },
+    "race_orc_female_rogue": {
+      "url": "/media/assets/race_orc_female_rogue.webp",
+      "profile": "character_sheet",
+      "label": "orc female rogue"
+    },
+    "race_orc_female_mystic": {
+      "url": "/media/assets/race_orc_female_mystic.webp",
+      "profile": "character_sheet",
+      "label": "orc female mystic"
+    },
+    "race_orc_female_archer": {
+      "url": "/media/assets/race_orc_female_archer.webp",
+      "profile": "character_sheet",
+      "label": "orc female archer"
+    },
+    "item_apprentice_staff": {
+      "url": "/media/assets/item_apprentice_staff.webp",
+      "profile": "item_icon",
+      "label": "Учеников посох"
+    },
+    "item_novice_robe": {
+      "url": "/media/assets/item_novice_robe.webp",
+      "profile": "item_icon",
+      "label": "Роба новичка"
+    },
+    "item_cloth_cowl": {
+      "url": "/media/assets/item_cloth_cowl.webp",
+      "profile": "item_icon",
+      "label": "Тканевый капюшон"
+    },
+    "item_cloth_sandals": {
+      "url": "/media/assets/item_cloth_sandals.webp",
+      "profile": "item_icon",
+      "label": "Тканевые сандалии"
+    },
+    "item_cloth_wraps": {
+      "url": "/media/assets/item_cloth_wraps.webp",
+      "profile": "item_icon",
+      "label": "Тканевые обмотки"
+    },
+    "item_adept_staff": {
+      "url": "/media/assets/item_adept_staff.webp",
+      "profile": "item_icon",
+      "label": "Посох адепта"
+    },
+    "item_linen_robe": {
+      "url": "/media/assets/item_linen_robe.webp",
+      "profile": "item_icon",
+      "label": "Льняная роба"
+    },
+    "item_radio_battery_12h": {
+      "url": "/media/assets/item_radio_battery_12h.webp",
+      "profile": "item_icon",
+      "label": "Батарейки 12 ч"
+    },
+    "item_radio_battery_24h": {
+      "url": "/media/assets/item_radio_battery_24h.webp",
+      "profile": "item_icon",
+      "label": "Батарейки 24 ч"
+    },
+    "item_linen_cowl": {
+      "url": "/media/assets/item_linen_cowl.webp",
+      "profile": "item_icon",
+      "label": "Льняной капюшон"
+    },
+    "item_linen_slippers": {
+      "url": "/media/assets/item_linen_slippers.webp",
+      "profile": "item_icon",
+      "label": "Льняные туфли"
+    },
+    "item_linen_gloves": {
+      "url": "/media/assets/item_linen_gloves.webp",
+      "profile": "item_icon",
+      "label": "Льняные перчатки"
+    },
+    "item_weave_cloak": {
+      "url": "/media/assets/item_weave_cloak.webp",
+      "profile": "item_icon",
+      "label": "Плащ плетения"
+    },
+    "item_crystal_staff": {
+      "url": "/media/assets/item_crystal_staff.webp",
+      "profile": "item_icon",
+      "label": "Кристальный посох"
+    },
+    "item_silk_hood": {
+      "url": "/media/assets/item_silk_hood.webp",
+      "profile": "item_icon",
+      "label": "Шёлковый капюшон"
+    },
+    "item_silk_robe": {
+      "url": "/media/assets/item_silk_robe.webp",
+      "profile": "item_icon",
+      "label": "Шёлковая роба"
+    },
+    "item_silk_slippers": {
+      "url": "/media/assets/item_silk_slippers.webp",
+      "profile": "item_icon",
+      "label": "Шёлковые туфли"
+    },
+    "item_silk_gloves": {
+      "url": "/media/assets/item_silk_gloves.webp",
+      "profile": "item_icon",
+      "label": "Шёлковые перчатки"
+    },
+    "item_silk_mantle": {
+      "url": "/media/assets/item_silk_mantle.webp",
+      "profile": "item_icon",
+      "label": "Шёлковая мантия"
+    },
+    "item_void_oracle_staff": {
+      "url": "/media/assets/item_void_oracle_staff.webp",
+      "profile": "item_icon",
+      "label": "Посох пустотного оракула"
+    },
+    "item_starweave_hood": {
+      "url": "/media/assets/item_starweave_hood.webp",
+      "profile": "item_icon",
+      "label": "Капюшон звёздной нити"
+    },
+    "item_starweave_robe": {
+      "url": "/media/assets/item_starweave_robe.webp",
+      "profile": "item_icon",
+      "label": "Роба звёздной нити"
+    },
+    "item_starweave_slippers": {
+      "url": "/media/assets/item_starweave_slippers.webp",
+      "profile": "item_icon",
+      "label": "Туфли звёздной нити"
+    },
+    "item_starweave_gloves": {
+      "url": "/media/assets/item_starweave_gloves.webp",
+      "profile": "item_icon",
+      "label": "Перчатки звёздной нити"
+    },
+    "item_starweave_cloak": {
+      "url": "/media/assets/item_starweave_cloak.webp",
+      "profile": "item_icon",
+      "label": "Плащ звёздной нити"
+    },
+    "item_rift_scepter": {
+      "url": "/media/assets/item_rift_scepter.webp",
+      "profile": "item_icon",
+      "label": "Скипетр разлома"
+    },
+    "item_eclipse_vestments": {
+      "url": "/media/assets/item_eclipse_vestments.webp",
+      "profile": "item_icon",
+      "label": "Облачение затмения"
+    },
+    "item_resurrection_scroll": {
+      "url": "/media/assets/item_resurrection_scroll.webp",
+      "profile": "item_icon",
+      "label": "Свиток воскрешения"
+    },
+    "dialogue_town_captain_action": {
+      "url": "/media/assets/dialogue_town_captain_action.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Captain Garrett — action"
+    },
+    "dialogue_town_radio_neutral": {
+      "url": "/media/assets/dialogue_town_radio_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Radio Tech Ren — neutral"
+    },
+    "dialogue_town_stable_neutral": {
+      "url": "/media/assets/dialogue_town_stable_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Stablemaster Boris — neutral"
+    },
+    "dialogue_rift_scout_neutral": {
+      "url": "/media/assets/dialogue_rift_scout_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Scout Kai — neutral"
+    },
+    "dialogue_rift_scout_serious": {
+      "url": "/media/assets/dialogue_rift_scout_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Scout Kai — serious"
+    },
+    "dialogue_rift_scout_action": {
+      "url": "/media/assets/dialogue_rift_scout_action.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Scout Kai — action"
+    },
+    "dialogue_rift_guide_neutral": {
+      "url": "/media/assets/dialogue_rift_guide_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Guide Lyra — neutral"
+    },
+    "dialogue_rift_guide_serious": {
+      "url": "/media/assets/dialogue_rift_guide_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Guide Lyra — serious"
+    },
+    "dialogue_rift_guide_action": {
+      "url": "/media/assets/dialogue_rift_guide_action.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Guide Lyra — action"
+    },
+    "dialogue_collapse_seer_neutral": {
+      "url": "/media/assets/dialogue_collapse_seer_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Seer Era — neutral"
+    },
+    "dialogue_collapse_seer_serious": {
+      "url": "/media/assets/dialogue_collapse_seer_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Seer Era — serious"
+    },
+    "dialogue_collapse_seer_action": {
+      "url": "/media/assets/dialogue_collapse_seer_action.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Seer Era — action"
+    },
+    "dialogue_gods_oracle_neutral": {
+      "url": "/media/assets/dialogue_gods_oracle_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Oracle Nyx — neutral"
+    },
+    "dialogue_gods_oracle_serious": {
+      "url": "/media/assets/dialogue_gods_oracle_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Oracle Nyx — serious"
+    },
+    "dialogue_gods_oracle_action": {
+      "url": "/media/assets/dialogue_gods_oracle_action.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Oracle Nyx — action"
+    },
+    "skill_healing_light": {
+      "url": "/media/assets/skill_healing_light.webp",
+      "profile": "skill_icon",
+      "label": "Healing light"
+    },
+    "skill_mystic_ward": {
+      "url": "/media/assets/skill_mystic_ward.webp",
+      "profile": "skill_icon",
+      "label": "Mystic ward"
+    },
+    "skill_battle_shout": {
+      "url": "/media/assets/skill_battle_shout.webp",
+      "profile": "skill_icon",
+      "label": "Battle shout"
+    },
+    "skill_support_robe_mastery": {
+      "url": "/media/assets/skill_support_robe_mastery.webp",
+      "profile": "skill_icon",
+      "label": "Роба наставника"
+    },
+    "skill_support_heal": {
+      "url": "/media/assets/skill_support_heal.webp",
+      "profile": "skill_icon",
+      "label": "Исцеление"
+    },
+    "skill_support_might": {
+      "url": "/media/assets/skill_support_might.webp",
+      "profile": "skill_icon",
+      "label": "Мощь"
+    },
+    "skill_support_group_heal": {
+      "url": "/media/assets/skill_support_group_heal.webp",
+      "profile": "skill_icon",
+      "label": "Групповое исцеление"
+    },
+    "skill_support_shield": {
+      "url": "/media/assets/skill_support_shield.webp",
+      "profile": "skill_icon",
+      "label": "Щит"
+    },
+    "skill_support_balance": {
+      "url": "/media/assets/skill_support_balance.webp",
+      "profile": "skill_icon",
+      "label": "Баланс жизни"
+    },
+    "skill_support_party_might": {
+      "url": "/media/assets/skill_support_party_might.webp",
+      "profile": "skill_icon",
+      "label": "Мощь пати"
+    },
+    "skill_support_greater_heal": {
+      "url": "/media/assets/skill_support_greater_heal.webp",
+      "profile": "skill_icon",
+      "label": "Великое исцеление"
+    },
+    "skill_support_heal_mastery": {
+      "url": "/media/assets/skill_support_heal_mastery.webp",
+      "profile": "skill_icon",
+      "label": "Мастерство лечения"
+    },
+    "skill_support_recharge": {
+      "url": "/media/assets/skill_support_recharge.webp",
+      "profile": "skill_icon",
+      "label": "Подзарядка"
+    },
+    "skill_support_clarity": {
+      "url": "/media/assets/skill_support_clarity.webp",
+      "profile": "skill_icon",
+      "label": "Ясность"
+    },
+    "skill_support_mental_shield": {
+      "url": "/media/assets/skill_support_mental_shield.webp",
+      "profile": "skill_icon",
+      "label": "Ментальный щит"
+    },
+    "skill_support_group_recharge": {
+      "url": "/media/assets/skill_support_group_recharge.webp",
+      "profile": "skill_icon",
+      "label": "Групповая подзарядка"
+    },
+    "skill_support_empower": {
+      "url": "/media/assets/skill_support_empower.webp",
+      "profile": "skill_icon",
+      "label": "Усиление"
+    },
+    "skill_support_acumen": {
+      "url": "/media/assets/skill_support_acumen.webp",
+      "profile": "skill_icon",
+      "label": "Проницательность"
+    },
+    "skill_support_party_clarity": {
+      "url": "/media/assets/skill_support_party_clarity.webp",
+      "profile": "skill_icon",
+      "label": "Ясность пати"
+    },
+    "skill_support_mana_attunement": {
+      "url": "/media/assets/skill_support_mana_attunement.webp",
+      "profile": "skill_icon",
+      "label": "Настройка маны"
+    },
+    "skill_support_orc_might": {
+      "url": "/media/assets/skill_support_orc_might.webp",
+      "profile": "skill_icon",
+      "label": "Кровь войны"
+    },
+    "skill_support_orc_shield": {
+      "url": "/media/assets/skill_support_orc_shield.webp",
+      "profile": "skill_icon",
+      "label": "Каменная шкура"
+    },
+    "skill_support_orc_party_might": {
+      "url": "/media/assets/skill_support_orc_party_might.webp",
+      "profile": "skill_icon",
+      "label": "Рёв орды"
+    },
+    "skill_support_orc_fury": {
+      "url": "/media/assets/skill_support_orc_fury.webp",
+      "profile": "skill_icon",
+      "label": "Ярость"
+    },
+    "skill_support_orc_party_shield": {
+      "url": "/media/assets/skill_support_orc_party_shield.webp",
+      "profile": "skill_icon",
+      "label": "Стена орды"
+    },
+    "skill_support_orc_endurance": {
+      "url": "/media/assets/skill_support_orc_endurance.webp",
+      "profile": "skill_icon",
+      "label": "Выносливость"
+    },
+    "skill_support_orc_party_fury": {
+      "url": "/media/assets/skill_support_orc_party_fury.webp",
+      "profile": "skill_icon",
+      "label": "Ярость орды"
+    },
+    "skill_support_war_chant": {
+      "url": "/media/assets/skill_support_war_chant.webp",
+      "profile": "skill_icon",
+      "label": "Боевой напев"
+    },
+    "skill_support_party_shield": {
+      "url": "/media/assets/skill_support_party_shield.webp",
+      "profile": "skill_icon",
+      "label": "Стена отряда"
+    },
+    "skill_support_barrier": {
+      "url": "/media/assets/skill_support_barrier.webp",
+      "profile": "skill_icon",
+      "label": "Барьер"
+    },
+    "skill_support_salvation": {
+      "url": "/media/assets/skill_support_salvation.webp",
+      "profile": "skill_icon",
+      "label": "Спасение"
+    },
+    "skill_support_party_empower": {
+      "url": "/media/assets/skill_support_party_empower.webp",
+      "profile": "skill_icon",
+      "label": "Круг силы"
+    },
+    "skill_support_party_acumen": {
+      "url": "/media/assets/skill_support_party_acumen.webp",
+      "profile": "skill_icon",
+      "label": "Круг проницательности"
+    },
+    "skill_support_mana_well": {
+      "url": "/media/assets/skill_support_mana_well.webp",
+      "profile": "skill_icon",
+      "label": "Источник маны"
+    },
+    "skill_support_orc_war_banner": {
+      "url": "/media/assets/skill_support_orc_war_banner.webp",
+      "profile": "skill_icon",
+      "label": "Знамя войны"
+    },
+    "skill_support_orc_vanguard": {
+      "url": "/media/assets/skill_support_orc_vanguard.webp",
+      "profile": "skill_icon",
+      "label": "Авангард"
+    },
+    "skill_support_orc_blood_oath": {
+      "url": "/media/assets/skill_support_orc_blood_oath.webp",
+      "profile": "skill_icon",
+      "label": "Кровавая клятва"
+    },
+    "skill_support_mana_flow": {
+      "url": "/media/assets/skill_support_mana_flow.webp",
+      "profile": "skill_icon",
+      "label": "Поток маны"
+    },
+    "skill_warrior_life_flow": {
+      "url": "/media/assets/skill_warrior_life_flow.webp",
+      "profile": "skill_icon",
+      "label": "Поток жизни"
+    },
+    "skill_rogue_life_flow": {
+      "url": "/media/assets/skill_rogue_life_flow.webp",
+      "profile": "skill_icon",
+      "label": "Поток жизни"
+    },
+    "skill_mystic_life_flow": {
+      "url": "/media/assets/skill_mystic_life_flow.webp",
+      "profile": "skill_icon",
+      "label": "Поток жизни"
+    },
+    "skill_archer_life_flow": {
+      "url": "/media/assets/skill_archer_life_flow.webp",
+      "profile": "skill_icon",
+      "label": "Поток жизни"
+    },
+    "skill_support_life_flow": {
+      "url": "/media/assets/skill_support_life_flow.webp",
+      "profile": "skill_icon",
+      "label": "Поток жизни"
+    },
+    "ui_ornament_corner": {
+      "url": "/media/assets/ui_ornament_corner.webp",
+      "profile": "item_icon",
+      "label": "UI corner ornament"
+    },
+    "ui_ornament_divider": {
+      "url": "/media/assets/ui_ornament_divider.webp",
+      "profile": "item_icon",
+      "label": "UI divider ornament"
+    },
+    "ui_seal_imperial": {
+      "url": "/media/assets/ui_seal_imperial.webp",
+      "profile": "item_icon",
+      "label": "Imperial UI seal"
+    },
+    "ui_menu_atmosphere": {
+      "url": "/media/assets/ui_menu_atmosphere.webp",
+      "profile": "location_bg",
+      "label": "Main menu atmosphere"
+    },
+    "prop_barracks": {
+      "url": "/media/assets/prop_barracks.webp",
+      "profile": "prop_sprite",
+      "label": "Barracks"
+    },
+    "prop_stable": {
+      "url": "/media/assets/prop_stable.webp",
+      "profile": "prop_sprite",
+      "label": "Stable"
+    },
+    "prop_city_wall": {
+      "url": "/media/assets/prop_city_wall.webp",
+      "profile": "prop_sprite",
+      "label": "City wall (legacy north)"
+    },
+    "prop_city_wall_corner": {
+      "url": "/media/assets/prop_city_wall_corner.webp",
+      "profile": "prop_sprite",
+      "label": "City wall corner"
+    },
+    "prop_wall_tower": {
+      "url": "/media/assets/prop_wall_tower.webp",
+      "profile": "prop_sprite",
+      "label": "Wall tower"
+    },
+    "prop_house_manor": {
+      "url": "/media/assets/prop_house_manor.webp",
+      "profile": "prop_sprite",
+      "label": "Manor house"
+    },
+    "prop_house_redroof": {
+      "url": "/media/assets/prop_house_redroof.webp",
+      "profile": "prop_sprite",
+      "label": "Red roof house"
+    },
+    "prop_house_slate": {
+      "url": "/media/assets/prop_house_slate.webp",
+      "profile": "prop_sprite",
+      "label": "Slate house"
+    },
+    "prop_house_villa": {
+      "url": "/media/assets/prop_house_villa.webp",
+      "profile": "prop_sprite",
+      "label": "Villa"
+    },
+    "prop_bakery": {
+      "url": "/media/assets/prop_bakery.webp",
+      "profile": "prop_sprite",
+      "label": "Bakery"
+    },
+    "prop_apothecary": {
+      "url": "/media/assets/prop_apothecary.webp",
+      "profile": "prop_sprite",
+      "label": "Apothecary"
+    },
+    "prop_armory": {
+      "url": "/media/assets/prop_armory.webp",
+      "profile": "prop_sprite",
+      "label": "Armory"
+    },
+    "prop_wagon": {
+      "url": "/media/assets/prop_wagon.webp",
+      "profile": "prop_sprite",
+      "label": "Wagon"
+    },
+    "prop_hay_cart": {
+      "url": "/media/assets/prop_hay_cart.webp",
+      "profile": "prop_sprite",
+      "label": "Hay cart"
+    },
+    "prop_water_trough": {
+      "url": "/media/assets/prop_water_trough.webp",
+      "profile": "prop_sprite",
+      "label": "Water trough"
+    },
+    "prop_notice_board": {
+      "url": "/media/assets/prop_notice_board.webp",
+      "profile": "prop_sprite",
+      "label": "Notice board"
+    },
+    "prop_scaffold": {
+      "url": "/media/assets/prop_scaffold.webp",
+      "profile": "prop_sprite",
+      "label": "Scaffold"
+    },
+    "prop_chimney_smoke": {
+      "url": "/media/assets/prop_chimney_smoke.webp",
+      "profile": "prop_sprite",
+      "label": "Chimney hut"
+    },
+    "prop_city_wall_n": {
+      "url": "/media/assets/prop_city_wall_n.webp",
+      "profile": "prop_sprite",
+      "label": "City wall north"
+    },
+    "prop_city_wall_s": {
+      "url": "/media/assets/prop_city_wall_s.webp",
+      "profile": "prop_sprite",
+      "label": "City wall south"
+    },
+    "prop_city_wall_w": {
+      "url": "/media/assets/prop_city_wall_w.webp",
+      "profile": "prop_sprite",
+      "label": "City wall west"
+    },
+    "prop_city_wall_e": {
+      "url": "/media/assets/prop_city_wall_e.webp",
+      "profile": "prop_sprite",
+      "label": "City wall east"
+    },
+    "prop_city_gate_s": {
+      "url": "/media/assets/prop_city_gate_s.webp",
+      "profile": "prop_sprite",
+      "label": "City gate south"
+    },
+    "prop_city_gate_e": {
+      "url": "/media/assets/prop_city_gate_e.webp",
+      "profile": "prop_sprite",
+      "label": "City gate east"
+    },
+    "prop_ship_cog": {
+      "url": "/media/assets/prop_ship_cog.webp",
+      "profile": "ship_sprite",
+      "label": "Merchant cog"
+    },
+    "prop_ship_galley": {
+      "url": "/media/assets/prop_ship_galley.webp",
+      "profile": "prop_sprite",
+      "label": "Imperial galley"
+    },
+    "prop_ship_fishing": {
+      "url": "/media/assets/prop_ship_fishing.webp",
+      "profile": "ship_sprite",
+      "label": "Fishing sailboat"
+    },
+    "prop_pier_long": {
+      "url": "/media/assets/prop_pier_long.webp",
+      "profile": "prop_sprite",
+      "label": "Long pier"
+    },
+    "prop_harbor_crane": {
+      "url": "/media/assets/prop_harbor_crane.webp",
+      "profile": "prop_sprite",
+      "label": "Harbor crane"
+    },
+    "prop_cathedral": {
+      "url": "/media/assets/prop_cathedral.webp",
+      "profile": "prop_sprite",
+      "label": "Cathedral"
+    },
+    "prop_governor_palace": {
+      "url": "/media/assets/prop_governor_palace.webp",
+      "profile": "prop_sprite",
+      "label": "Governor palace"
+    },
+    "prop_guildhall": {
+      "url": "/media/assets/prop_guildhall.webp",
+      "profile": "prop_sprite",
+      "label": "Merchant guildhall"
+    },
+    "prop_trade_hall": {
+      "url": "/media/assets/prop_trade_hall.webp",
+      "profile": "prop_sprite",
+      "label": "Covered trade hall"
+    },
+    "prop_granary": {
+      "url": "/media/assets/prop_granary.webp",
+      "profile": "prop_sprite",
+      "label": "Granary"
+    },
+    "prop_clock_tower": {
+      "url": "/media/assets/prop_clock_tower.webp",
+      "profile": "prop_sprite",
+      "label": "Clock tower"
+    },
+    "prop_colonnade": {
+      "url": "/media/assets/prop_colonnade.webp",
+      "profile": "prop_sprite",
+      "label": "Colonnade"
+    },
+    "prop_forum_arch": {
+      "url": "/media/assets/prop_forum_arch.webp",
+      "profile": "prop_sprite",
+      "label": "Triumph arch"
+    },
+    "prop_keep_wing": {
+      "url": "/media/assets/prop_keep_wing.webp",
+      "profile": "prop_sprite",
+      "label": "Keep wing"
+    },
+    "prop_lighthouse": {
+      "url": "/media/assets/prop_lighthouse.webp",
+      "profile": "prop_sprite",
+      "label": "Harbor lighthouse"
+    },
+    "prop_obelisk": {
+      "url": "/media/assets/prop_obelisk.webp",
+      "profile": "prop_sprite",
+      "label": "Obelisk"
+    },
+    "prop_amphora_stack": {
+      "url": "/media/assets/prop_amphora_stack.webp",
+      "profile": "prop_sprite",
+      "label": "Amphora stack"
+    },
+    "prop_cistern": {
+      "url": "/media/assets/prop_cistern.webp",
+      "profile": "prop_sprite",
+      "label": "Cistern"
+    },
+    "prop_statue_lion": {
+      "url": "/media/assets/prop_statue_lion.webp",
+      "profile": "prop_sprite",
+      "label": "Lion statue"
+    },
+    "prop_weapon_rack": {
+      "url": "/media/assets/prop_weapon_rack.webp",
+      "profile": "prop_sprite",
+      "label": "Weapon rack"
+    },
+    "prop_training_dummy": {
+      "url": "/media/assets/prop_training_dummy.webp",
+      "profile": "prop_sprite",
+      "label": "Training dummy"
+    },
+    "prop_rose_arch": {
+      "url": "/media/assets/prop_rose_arch.webp",
+      "profile": "prop_sprite",
+      "label": "Rose arch"
+    },
+    "prop_customs_house": {
+      "url": "/media/assets/prop_customs_house.webp",
+      "profile": "prop_sprite",
+      "label": "Customs house"
+    },
+    "prop_fish_stall": {
+      "url": "/media/assets/prop_fish_stall.webp",
+      "profile": "prop_sprite",
+      "label": "Fish stall"
+    },
+    "prop_tavern_sign": {
+      "url": "/media/assets/prop_tavern_sign.webp",
+      "profile": "prop_sprite",
+      "label": "Tavern sign"
+    },
+    "prop_quay_bollard": {
+      "url": "/media/assets/prop_quay_bollard.webp",
+      "profile": "prop_sprite",
+      "label": "Quay bollard"
+    },
+    "prop_garden_fountain": {
+      "url": "/media/assets/prop_garden_fountain.webp",
+      "profile": "prop_sprite",
+      "label": "Garden fountain"
+    },
+    "prop_anvil": {
+      "url": "/media/assets/prop_anvil.webp",
+      "profile": "prop_sprite",
+      "label": "Anvil"
+    },
+    "prop_coal_pile": {
+      "url": "/media/assets/prop_coal_pile.webp",
+      "profile": "prop_sprite",
+      "label": "Coal pile"
+    },
+    "prop_shield_stack": {
+      "url": "/media/assets/prop_shield_stack.webp",
+      "profile": "prop_sprite",
+      "label": "Shield stack"
+    },
+    "prop_ballista": {
+      "url": "/media/assets/prop_ballista.webp",
+      "profile": "prop_sprite",
+      "label": "Ballista"
+    },
+    "prop_spice_stall": {
+      "url": "/media/assets/prop_spice_stall.webp",
+      "profile": "prop_sprite",
+      "label": "Spice stall"
+    },
+    "prop_flower_cart": {
+      "url": "/media/assets/prop_flower_cart.webp",
+      "profile": "prop_sprite",
+      "label": "Flower cart"
+    },
+    "prop_outdoor_table": {
+      "url": "/media/assets/prop_outdoor_table.webp",
+      "profile": "prop_sprite",
+      "label": "Outdoor table"
+    },
+    "prop_keg_rack": {
+      "url": "/media/assets/prop_keg_rack.webp",
+      "profile": "prop_sprite",
+      "label": "Keg rack"
+    },
+    "prop_drying_nets": {
+      "url": "/media/assets/prop_drying_nets.webp",
+      "profile": "prop_sprite",
+      "label": "Drying nets"
+    },
+    "prop_lobster_pots": {
+      "url": "/media/assets/prop_lobster_pots.webp",
+      "profile": "prop_sprite",
+      "label": "Lobster pots"
+    },
+    "prop_sundial": {
+      "url": "/media/assets/prop_sundial.webp",
+      "profile": "prop_sprite",
+      "label": "Sundial"
+    },
+    "prop_candle_stand": {
+      "url": "/media/assets/prop_candle_stand.webp",
+      "profile": "prop_sprite",
+      "label": "Candle stand"
+    },
+    "prop_hitching_post": {
+      "url": "/media/assets/prop_hitching_post.webp",
+      "profile": "prop_sprite",
+      "label": "Hitching post"
+    },
+    "prop_clothesline": {
+      "url": "/media/assets/prop_clothesline.webp",
+      "profile": "prop_sprite",
+      "label": "Clothesline"
+    },
+    "prop_chicken_coop": {
+      "url": "/media/assets/prop_chicken_coop.webp",
+      "profile": "prop_sprite",
+      "label": "Chicken coop"
+    },
+    "prop_library": {
+      "url": "/media/assets/prop_library.webp",
+      "profile": "prop_sprite",
+      "label": "Library"
+    },
+    "prop_bathhouse": {
+      "url": "/media/assets/prop_bathhouse.webp",
+      "profile": "prop_sprite",
+      "label": "Bathhouse"
+    },
+    "prop_jeweler": {
+      "url": "/media/assets/prop_jeweler.webp",
+      "profile": "prop_sprite",
+      "label": "Jeweler shop"
+    },
+    "prop_butcher": {
+      "url": "/media/assets/prop_butcher.webp",
+      "profile": "prop_sprite",
+      "label": "Butcher shop"
+    },
+    "prop_guard_post": {
+      "url": "/media/assets/prop_guard_post.webp",
+      "profile": "prop_sprite",
+      "label": "Guard post"
+    },
+    "prop_captain_hut": {
+      "url": "/media/assets/prop_captain_hut.webp",
+      "profile": "prop_sprite",
+      "label": "Harbor master hut"
+    },
+    "prop_sail_rack": {
+      "url": "/media/assets/prop_sail_rack.webp",
+      "profile": "prop_sprite",
+      "label": "Sail rack"
+    },
+    "prop_firewood": {
+      "url": "/media/assets/prop_firewood.webp",
+      "profile": "prop_sprite",
+      "label": "Firewood stack"
+    },
+    "prop_rain_barrel": {
+      "url": "/media/assets/prop_rain_barrel.webp",
+      "profile": "prop_sprite",
+      "label": "Rain barrel"
+    },
+    "prop_herb_garden": {
+      "url": "/media/assets/prop_herb_garden.webp",
+      "profile": "prop_sprite",
+      "label": "Herb garden"
+    },
+    "prop_memorial_stone": {
+      "url": "/media/assets/prop_memorial_stone.webp",
+      "profile": "prop_sprite",
+      "label": "Memorial stone"
+    },
+    "prop_covered_wagon": {
+      "url": "/media/assets/prop_covered_wagon.webp",
+      "profile": "prop_sprite",
+      "label": "Covered wagon"
+    },
+    "prop_windmill": {
+      "url": "/media/assets/prop_windmill.webp",
+      "profile": "prop_sprite",
+      "label": "Windmill"
+    },
+    "prop_brewery": {
+      "url": "/media/assets/prop_brewery.webp",
+      "profile": "prop_sprite",
+      "label": "Brewery"
+    },
+    "prop_healer_hall": {
+      "url": "/media/assets/prop_healer_hall.webp",
+      "profile": "prop_sprite",
+      "label": "Healer hall"
+    },
+    "prop_jail": {
+      "url": "/media/assets/prop_jail.webp",
+      "profile": "prop_sprite",
+      "label": "City jail"
+    },
+    "prop_pottery_kiln": {
+      "url": "/media/assets/prop_pottery_kiln.webp",
+      "profile": "prop_sprite",
+      "label": "Pottery kiln"
+    },
+    "prop_weaver_loom": {
+      "url": "/media/assets/prop_weaver_loom.webp",
+      "profile": "prop_sprite",
+      "label": "Weaver loom"
+    },
+    "prop_flour_sacks": {
+      "url": "/media/assets/prop_flour_sacks.webp",
+      "profile": "prop_sprite",
+      "label": "Flour sacks"
+    },
+    "prop_wall_brazier": {
+      "url": "/media/assets/prop_wall_brazier.webp",
+      "profile": "prop_sprite",
+      "label": "Wall brazier"
+    },
+    "prop_orchard_tree": {
+      "url": "/media/assets/prop_orchard_tree.webp",
+      "profile": "prop_sprite",
+      "label": "Orchard tree"
+    },
+    "prop_steam_vent": {
+      "url": "/media/assets/prop_steam_vent.webp",
+      "profile": "prop_sprite",
+      "label": "Steam vent"
+    },
+    "prop_book_cart": {
+      "url": "/media/assets/prop_book_cart.webp",
+      "profile": "prop_sprite",
+      "label": "Book cart"
+    },
+    "prop_grape_arbor": {
+      "url": "/media/assets/prop_grape_arbor.webp",
+      "profile": "prop_sprite",
+      "label": "Grape arbor"
+    },
+    "prop_stocks": {
+      "url": "/media/assets/prop_stocks.webp",
+      "profile": "prop_sprite",
+      "label": "Pillory stocks"
+    },
+    "prop_gazebo": {
+      "url": "/media/assets/prop_gazebo.webp",
+      "profile": "prop_sprite",
+      "label": "Garden gazebo"
+    },
+    "prop_open_stage": {
+      "url": "/media/assets/prop_open_stage.webp",
+      "profile": "prop_sprite",
+      "label": "Open stage"
+    },
+    "prop_moneylender": {
+      "url": "/media/assets/prop_moneylender.webp",
+      "profile": "prop_sprite",
+      "label": "Moneylender office"
+    },
+    "prop_tailor": {
+      "url": "/media/assets/prop_tailor.webp",
+      "profile": "prop_sprite",
+      "label": "Tailor shop"
+    },
+    "prop_ship_chandler": {
+      "url": "/media/assets/prop_ship_chandler.webp",
+      "profile": "prop_sprite",
+      "label": "Ship chandler"
+    },
+    "prop_rope_coil": {
+      "url": "/media/assets/prop_rope_coil.webp",
+      "profile": "prop_sprite",
+      "label": "Rope coils"
+    },
+    "prop_farmhouse": {
+      "url": "/media/assets/prop_farmhouse.webp",
+      "profile": "prop_sprite",
+      "label": "Farmhouse"
+    },
+    "prop_haystack": {
+      "url": "/media/assets/prop_haystack.webp",
+      "profile": "prop_sprite",
+      "label": "Haystack"
+    },
+    "prop_scarecrow": {
+      "url": "/media/assets/prop_scarecrow.webp",
+      "profile": "prop_sprite",
+      "label": "Scarecrow"
+    },
+    "prop_wheat_sheaf": {
+      "url": "/media/assets/prop_wheat_sheaf.webp",
+      "profile": "prop_sprite",
+      "label": "Wheat sheaves"
+    },
+    "prop_carriage": {
+      "url": "/media/assets/prop_carriage.webp",
+      "profile": "prop_sprite",
+      "label": "Noble carriage"
+    },
+    "prop_produce_cart": {
+      "url": "/media/assets/prop_produce_cart.webp",
+      "profile": "prop_sprite",
+      "label": "Produce cart"
+    },
+    "prop_dock_tavern": {
+      "url": "/media/assets/prop_dock_tavern.webp",
+      "profile": "prop_sprite",
+      "label": "Dock tavern"
+    },
+    "prop_watch_house": {
+      "url": "/media/assets/prop_watch_house.webp",
+      "profile": "prop_sprite",
+      "label": "Watch house"
+    },
+    "prop_carpenter": {
+      "url": "/media/assets/prop_carpenter.webp",
+      "profile": "prop_sprite",
+      "label": "Carpenter shop"
+    },
+    "prop_mason_shed": {
+      "url": "/media/assets/prop_mason_shed.webp",
+      "profile": "prop_sprite",
+      "label": "Mason shed"
+    },
+    "prop_street_shrine": {
+      "url": "/media/assets/prop_street_shrine.webp",
+      "profile": "prop_sprite",
+      "label": "Street shrine"
+    },
+    "prop_aqueduct_arch": {
+      "url": "/media/assets/prop_aqueduct_arch.webp",
+      "profile": "prop_sprite",
+      "label": "Aqueduct arch"
+    },
+    "prop_fishmonger": {
+      "url": "/media/assets/prop_fishmonger.webp",
+      "profile": "prop_sprite",
+      "label": "Fishmonger shop"
+    },
+    "prop_garden_pergola": {
+      "url": "/media/assets/prop_garden_pergola.webp",
+      "profile": "prop_sprite",
+      "label": "Garden pergola"
+    },
+    "prop_beehive": {
+      "url": "/media/assets/prop_beehive.webp",
+      "profile": "prop_sprite",
+      "label": "Beehive"
+    },
+    "prop_water_pump": {
+      "url": "/media/assets/prop_water_pump.webp",
+      "profile": "prop_sprite",
+      "label": "Water pump"
+    },
+    "prop_laundry_tub": {
+      "url": "/media/assets/prop_laundry_tub.webp",
+      "profile": "prop_sprite",
+      "label": "Laundry tubs"
+    },
+    "prop_weigh_house": {
+      "url": "/media/assets/prop_weigh_house.webp",
+      "profile": "prop_sprite",
+      "label": "Weigh house"
+    },
+    "prop_leatherworker": {
+      "url": "/media/assets/prop_leatherworker.webp",
+      "profile": "prop_sprite",
+      "label": "Leatherworker"
+    },
+    "prop_scriptorium": {
+      "url": "/media/assets/prop_scriptorium.webp",
+      "profile": "prop_sprite",
+      "label": "Scriptorium"
+    },
+    "prop_town_milestone": {
+      "url": "/media/assets/prop_town_milestone.webp",
+      "profile": "prop_sprite",
+      "label": "Town milestone"
+    },
+    "prop_public_oven": {
+      "url": "/media/assets/prop_public_oven.webp",
+      "profile": "prop_sprite",
+      "label": "Public oven"
+    },
+    "prop_pigeon_coop": {
+      "url": "/media/assets/prop_pigeon_coop.webp",
+      "profile": "prop_sprite",
+      "label": "Pigeon coop"
+    },
+    "prop_catapult": {
+      "url": "/media/assets/prop_catapult.webp",
+      "profile": "prop_sprite",
+      "label": "Display catapult"
+    },
+    "prop_herb_drying_rack": {
+      "url": "/media/assets/prop_herb_drying_rack.webp",
+      "profile": "prop_sprite",
+      "label": "Herb drying rack"
+    },
+    "prop_palace_kitchen": {
+      "url": "/media/assets/prop_palace_kitchen.webp",
+      "profile": "prop_sprite",
+      "label": "Palace kitchen"
+    },
+    "prop_gate_shrine": {
+      "url": "/media/assets/prop_gate_shrine.webp",
+      "profile": "prop_sprite",
+      "label": "Gate shrine"
+    },
+    "prop_schoolhouse": {
+      "url": "/media/assets/prop_schoolhouse.webp",
+      "profile": "prop_sprite",
+      "label": "Schoolhouse"
+    },
+    "prop_glassblower": {
+      "url": "/media/assets/prop_glassblower.webp",
+      "profile": "prop_sprite",
+      "label": "Glassblower shop"
+    },
+    "prop_map_shop": {
+      "url": "/media/assets/prop_map_shop.webp",
+      "profile": "prop_sprite",
+      "label": "Map shop"
+    },
+    "prop_harbor_bell": {
+      "url": "/media/assets/prop_harbor_bell.webp",
+      "profile": "prop_sprite",
+      "label": "Harbor bell"
+    },
+    "prop_tombstone": {
+      "url": "/media/assets/prop_tombstone.webp",
+      "profile": "prop_sprite",
+      "label": "Tombstone"
+    },
+    "prop_grave_angel": {
+      "url": "/media/assets/prop_grave_angel.webp",
+      "profile": "prop_sprite",
+      "label": "Grave angel"
+    },
+    "prop_dye_vat": {
+      "url": "/media/assets/prop_dye_vat.webp",
+      "profile": "prop_sprite",
+      "label": "Dye vats"
+    },
+    "prop_basket_stall": {
+      "url": "/media/assets/prop_basket_stall.webp",
+      "profile": "prop_sprite",
+      "label": "Basket stall"
+    },
+    "prop_victory_monument": {
+      "url": "/media/assets/prop_victory_monument.webp",
+      "profile": "prop_sprite",
+      "label": "Victory monument"
+    },
+    "prop_neighborhood_well": {
+      "url": "/media/assets/prop_neighborhood_well.webp",
+      "profile": "prop_sprite",
+      "label": "Neighborhood well"
+    },
+    "prop_cobbler": {
+      "url": "/media/assets/prop_cobbler.webp",
+      "profile": "prop_sprite",
+      "label": "Cobbler shop"
+    },
+    "prop_barber": {
+      "url": "/media/assets/prop_barber.webp",
+      "profile": "prop_sprite",
+      "label": "Barber shop"
+    },
+    "prop_sparring_ring": {
+      "url": "/media/assets/prop_sparring_ring.webp",
+      "profile": "prop_sprite",
+      "label": "Sparring ring"
+    },
+    "prop_pilot_lookout": {
+      "url": "/media/assets/prop_pilot_lookout.webp",
+      "profile": "prop_sprite",
+      "label": "Pilot lookout"
+    },
+    "prop_ropewalk": {
+      "url": "/media/assets/prop_ropewalk.webp",
+      "profile": "prop_sprite",
+      "label": "Ropewalk shed"
+    },
+    "prop_imperial_archive": {
+      "url": "/media/assets/prop_imperial_archive.webp",
+      "profile": "prop_sprite",
+      "label": "Imperial archive"
+    },
+    "prop_villa_garden": {
+      "url": "/media/assets/prop_villa_garden.webp",
+      "profile": "prop_sprite",
+      "label": "Villa garden"
+    },
+    "prop_traveler_camp": {
+      "url": "/media/assets/prop_traveler_camp.webp",
+      "profile": "prop_sprite",
+      "label": "Traveler camp"
+    },
+    "prop_millstone": {
+      "url": "/media/assets/prop_millstone.webp",
+      "profile": "prop_sprite",
+      "label": "Millstones"
+    },
+    "prop_flower_bed": {
+      "url": "/media/assets/prop_flower_bed.webp",
+      "profile": "prop_sprite",
+      "label": "Flower bed"
+    },
+    "prop_cheese_shop": {
+      "url": "/media/assets/prop_cheese_shop.webp",
+      "profile": "prop_sprite",
+      "label": "Cheese shop"
+    },
+    "prop_candle_shop": {
+      "url": "/media/assets/prop_candle_shop.webp",
+      "profile": "prop_sprite",
+      "label": "Candle shop"
+    },
+    "prop_tea_house": {
+      "url": "/media/assets/prop_tea_house.webp",
+      "profile": "prop_sprite",
+      "label": "Tea house"
+    },
+    "prop_anchor_monument": {
+      "url": "/media/assets/prop_anchor_monument.webp",
+      "profile": "prop_sprite",
+      "label": "Anchor monument"
+    },
+    "prop_salt_stacks": {
+      "url": "/media/assets/prop_salt_stacks.webp",
+      "profile": "prop_sprite",
+      "label": "Salt stacks"
+    },
+    "prop_crier_stand": {
+      "url": "/media/assets/prop_crier_stand.webp",
+      "profile": "prop_sprite",
+      "label": "Town crier stand"
+    },
+    "prop_wagon_workshop": {
+      "url": "/media/assets/prop_wagon_workshop.webp",
+      "profile": "prop_sprite",
+      "label": "Wagon workshop"
+    },
+    "prop_perfume_stall": {
+      "url": "/media/assets/prop_perfume_stall.webp",
+      "profile": "prop_sprite",
+      "label": "Perfume stall"
+    },
+    "prop_east_garden_pool": {
+      "url": "/media/assets/prop_east_garden_pool.webp",
+      "profile": "prop_sprite",
+      "label": "Garden reflecting pool"
+    },
+    "prop_fire_brigade": {
+      "url": "/media/assets/prop_fire_brigade.webp",
+      "profile": "prop_sprite",
+      "label": "Fire brigade shed"
+    },
+    "dialogue_town_radio_work": {
+      "url": "/media/assets/dialogue_town_radio_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Radio Tech Ren — work"
+    },
+    "dialogue_town_radio_happy": {
+      "url": "/media/assets/dialogue_town_radio_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Radio Tech Ren — happy"
+    },
+    "dialogue_town_radio_serious": {
+      "url": "/media/assets/dialogue_town_radio_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Radio Tech Ren — serious"
+    },
+    "dialogue_town_stable_happy": {
+      "url": "/media/assets/dialogue_town_stable_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Stablemaster Boris — happy"
+    },
+    "dialogue_town_stable_serious": {
+      "url": "/media/assets/dialogue_town_stable_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Stablemaster Boris — serious"
+    },
+    "dialogue_town_stable_work": {
+      "url": "/media/assets/dialogue_town_stable_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Stablemaster Boris — work"
+    },
+    "dialogue_town_priest_neutral": {
+      "url": "/media/assets/dialogue_town_priest_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Father Cassius — neutral"
+    },
+    "dialogue_town_priest_serious": {
+      "url": "/media/assets/dialogue_town_priest_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Father Cassius — serious"
+    },
+    "dialogue_town_priest_happy": {
+      "url": "/media/assets/dialogue_town_priest_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Father Cassius — happy"
+    },
+    "dialogue_town_scribe_neutral": {
+      "url": "/media/assets/dialogue_town_scribe_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Scribe Irina — neutral"
+    },
+    "dialogue_town_scribe_serious": {
+      "url": "/media/assets/dialogue_town_scribe_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Scribe Irina — serious"
+    },
+    "dialogue_town_scribe_happy": {
+      "url": "/media/assets/dialogue_town_scribe_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Scribe Irina — happy"
+    },
+    "dialogue_town_scribe_work": {
+      "url": "/media/assets/dialogue_town_scribe_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Scribe Irina — work"
+    },
+    "dialogue_town_guard_neutral": {
+      "url": "/media/assets/dialogue_town_guard_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Guard Leon — neutral"
+    },
+    "dialogue_town_guard_serious": {
+      "url": "/media/assets/dialogue_town_guard_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Guard Leon — serious"
+    },
+    "dialogue_town_guard_action": {
+      "url": "/media/assets/dialogue_town_guard_action.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Guard Leon — action"
+    },
+    "dialogue_town_guard_happy": {
+      "url": "/media/assets/dialogue_town_guard_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Guard Leon — happy"
+    },
+    "dialogue_town_fisher_neutral": {
+      "url": "/media/assets/dialogue_town_fisher_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Fisher Ulf — neutral"
+    },
+    "dialogue_town_fisher_happy": {
+      "url": "/media/assets/dialogue_town_fisher_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Fisher Ulf — happy"
+    },
+    "dialogue_town_fisher_serious": {
+      "url": "/media/assets/dialogue_town_fisher_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Fisher Ulf — serious"
+    },
+    "dialogue_town_dockhand_neutral": {
+      "url": "/media/assets/dialogue_town_dockhand_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Dockhand Petr — neutral"
+    },
+    "dialogue_town_dockhand_work": {
+      "url": "/media/assets/dialogue_town_dockhand_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Dockhand Petr — work"
+    },
+    "dialogue_town_dockhand_happy": {
+      "url": "/media/assets/dialogue_town_dockhand_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Dockhand Petr — happy"
+    },
+    "dialogue_town_dockhand_serious": {
+      "url": "/media/assets/dialogue_town_dockhand_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Dockhand Petr — serious"
+    },
+    "dialogue_town_bathkeeper_neutral": {
+      "url": "/media/assets/dialogue_town_bathkeeper_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Bathkeeper Nika — neutral"
+    },
+    "dialogue_town_bathkeeper_happy": {
+      "url": "/media/assets/dialogue_town_bathkeeper_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Bathkeeper Nika — happy"
+    },
+    "dialogue_town_bathkeeper_serious": {
+      "url": "/media/assets/dialogue_town_bathkeeper_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Bathkeeper Nika — serious"
+    },
+    "dialogue_town_brewer_neutral": {
+      "url": "/media/assets/dialogue_town_brewer_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Brewer Holm — neutral"
+    },
+    "dialogue_town_brewer_work": {
+      "url": "/media/assets/dialogue_town_brewer_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Brewer Holm — work"
+    },
+    "dialogue_town_brewer_happy": {
+      "url": "/media/assets/dialogue_town_brewer_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Brewer Holm — happy"
+    },
+    "dialogue_town_brewer_serious": {
+      "url": "/media/assets/dialogue_town_brewer_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Brewer Holm — serious"
+    },
+    "dialogue_town_miller_neutral": {
+      "url": "/media/assets/dialogue_town_miller_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Miller Faddey — neutral"
+    },
+    "dialogue_town_miller_work": {
+      "url": "/media/assets/dialogue_town_miller_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Miller Faddey — work"
+    },
+    "dialogue_town_miller_happy": {
+      "url": "/media/assets/dialogue_town_miller_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Miller Faddey — happy"
+    },
+    "dialogue_town_miller_serious": {
+      "url": "/media/assets/dialogue_town_miller_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Miller Faddey — serious"
+    },
+    "dialogue_town_healer_neutral": {
+      "url": "/media/assets/dialogue_town_healer_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Healer Sera — neutral"
+    },
+    "dialogue_town_healer_serious": {
+      "url": "/media/assets/dialogue_town_healer_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Healer Sera — serious"
+    },
+    "dialogue_town_healer_happy": {
+      "url": "/media/assets/dialogue_town_healer_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Healer Sera — happy"
+    },
+    "dialogue_town_healer_work": {
+      "url": "/media/assets/dialogue_town_healer_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Healer Sera — work"
+    },
+    "dialogue_town_teacher_neutral": {
+      "url": "/media/assets/dialogue_town_teacher_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Teacher Lavr — neutral"
+    },
+    "dialogue_town_teacher_happy": {
+      "url": "/media/assets/dialogue_town_teacher_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Teacher Lavr — happy"
+    },
+    "dialogue_town_teacher_serious": {
+      "url": "/media/assets/dialogue_town_teacher_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Teacher Lavr — serious"
+    },
+    "dialogue_town_teacher_work": {
+      "url": "/media/assets/dialogue_town_teacher_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Teacher Lavr — work"
+    },
+    "item_dirty_water": {
+      "url": "/media/assets/item_dirty_water.webp",
+      "profile": "item_icon",
+      "label": "Мутная вода"
+    },
+    "item_filtered_water": {
+      "url": "/media/assets/item_filtered_water.webp",
+      "profile": "item_icon",
+      "label": "Фильтрованная вода"
+    },
+    "item_boiled_water": {
+      "url": "/media/assets/item_boiled_water.webp",
+      "profile": "item_icon",
+      "label": "Кипячёная вода"
+    },
+    "item_raw_meat": {
+      "url": "/media/assets/item_raw_meat.webp",
+      "profile": "item_icon",
+      "label": "Сырое мясо"
+    },
+    "item_cooked_meat": {
+      "url": "/media/assets/item_cooked_meat.webp",
+      "profile": "item_icon",
+      "label": "Жареное мясо"
+    },
+    "item_charcoal_filter": {
+      "url": "/media/assets/item_charcoal_filter.webp",
+      "profile": "item_icon",
+      "label": "Угольный фильтр"
+    },
+    "item_camp_fuel": {
+      "url": "/media/assets/item_camp_fuel.webp",
+      "profile": "item_icon",
+      "label": "Связка сухих дров"
+    },
+    "item_field_pot": {
+      "url": "/media/assets/item_field_pot.webp",
+      "profile": "item_icon",
+      "label": "Походный котелок"
+    },
+    "item_firestarter": {
+      "url": "/media/assets/item_firestarter.webp",
+      "profile": "item_icon",
+      "label": "Огниво"
+    },
+    "item_field_bandage": {
+      "url": "/media/assets/item_field_bandage.webp",
+      "profile": "item_icon",
+      "label": "Полевой бинт"
+    },
+    "item_antibiotic_tonic": {
+      "url": "/media/assets/item_antibiotic_tonic.webp",
+      "profile": "item_icon",
+      "label": "Противоинфекционный настой"
+    },
+    "item_cooling_draught": {
+      "url": "/media/assets/item_cooling_draught.webp",
+      "profile": "item_icon",
+      "label": "Охлаждающий настой"
+    },
+    "item_dried_meat": {
+      "url": "/media/assets/item_dried_meat.webp",
+      "profile": "item_icon",
+      "label": "Вяленое мясо"
+    },
+    "item_raw_fish": {
+      "url": "/media/assets/item_raw_fish.webp",
+      "profile": "item_icon",
+      "label": "Сырая рыба"
+    },
+    "item_cooked_fish": {
+      "url": "/media/assets/item_cooked_fish.webp",
+      "profile": "item_icon",
+      "label": "Жареная рыба"
+    },
+    "item_dried_fish": {
+      "url": "/media/assets/item_dried_fish.webp",
+      "profile": "item_icon",
+      "label": "Вяленая рыба"
+    },
+    "item_bread_loaf": {
+      "url": "/media/assets/item_bread_loaf.webp",
+      "profile": "item_icon",
+      "label": "Свежий хлеб"
+    },
+    "item_travel_biscuit": {
+      "url": "/media/assets/item_travel_biscuit.webp",
+      "profile": "item_icon",
+      "label": "Дорожный сухарь"
+    },
+    "item_haven_ale": {
+      "url": "/media/assets/item_haven_ale.webp",
+      "profile": "item_icon",
+      "label": "Эль Гавани"
+    },
+    "prop_tenement_block": {
+      "url": "/media/assets/prop_tenement_block.webp",
+      "profile": "prop_sprite",
+      "label": "Tenement block"
+    },
+    "prop_russian_stove": {
+      "url": "/media/assets/prop_russian_stove.webp",
+      "profile": "prop_sprite",
+      "label": "Russian stove"
+    },
+    "prop_storage_chest": {
+      "url": "/media/assets/prop_storage_chest.webp",
+      "profile": "prop_sprite",
+      "label": "Storage chest"
+    },
+    "prop_icebox": {
+      "url": "/media/assets/prop_icebox.webp",
+      "profile": "prop_sprite",
+      "label": "Icebox"
+    },
+    "location_haven_apartment": {
+      "url": "/media/assets/location_haven_apartment.webp",
+      "profile": "location_bg",
+      "label": "Haven apartment"
+    },
+    "dialogue_town_steward_neutral": {
+      "url": "/media/assets/dialogue_town_steward_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Steward Edmund — neutral"
+    },
+    "dialogue_town_steward_work": {
+      "url": "/media/assets/dialogue_town_steward_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Steward Edmund — work"
+    },
+    "dialogue_town_steward_happy": {
+      "url": "/media/assets/dialogue_town_steward_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Steward Edmund — happy"
+    },
+    "prop_apt_bed": {
+      "url": "/media/assets/prop_apt_bed.webp",
+      "profile": "prop_sprite",
+      "label": "Apartment bed"
+    },
+    "prop_apt_table": {
+      "url": "/media/assets/prop_apt_table.webp",
+      "profile": "prop_sprite",
+      "label": "Apartment table"
+    },
+    "prop_apt_rug": {
+      "url": "/media/assets/prop_apt_rug.webp",
+      "profile": "prop_sprite",
+      "label": "Apartment rug"
+    },
+    "prop_apt_lantern": {
+      "url": "/media/assets/prop_apt_lantern.webp",
+      "profile": "prop_sprite",
+      "label": "Apartment lantern"
+    },
+    "prop_hearth": {
+      "url": "/media/assets/prop_hearth.webp",
+      "profile": "prop_sprite",
+      "label": "Indoor hearth"
+    },
+    "prop_cookpot": {
+      "url": "/media/assets/prop_cookpot.webp",
+      "profile": "prop_sprite",
+      "label": "Cookpot"
+    },
+    "prop_washbasin": {
+      "url": "/media/assets/prop_washbasin.webp",
+      "profile": "prop_sprite",
+      "label": "Washbasin"
+    },
+    "dialogue_town_butcher_neutral": {
+      "url": "/media/assets/dialogue_town_butcher_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Butcher Bran — neutral"
+    },
+    "dialogue_town_butcher_work": {
+      "url": "/media/assets/dialogue_town_butcher_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Butcher Bran — work"
+    },
+    "dialogue_town_butcher_happy": {
+      "url": "/media/assets/dialogue_town_butcher_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Butcher Bran — happy"
+    },
+    "dialogue_town_butcher_serious": {
+      "url": "/media/assets/dialogue_town_butcher_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Butcher Bran — serious"
+    },
+    "prop_radio_booth": {
+      "url": "/media/assets/prop_radio_booth.webp",
+      "profile": "prop_sprite",
+      "label": "Radio booth"
+    },
+    "tileset_suburban_park": {
+      "url": "/media/assets/tileset_suburban_park.webp",
+      "profile": "tileset",
+      "label": "Tiles suburban park"
+    },
+    "tileset_abandoned_yard": {
+      "url": "/media/assets/tileset_abandoned_yard.webp",
+      "profile": "tileset",
+      "label": "Tiles abandoned yard"
+    },
+    "tileset_intersection_district": {
+      "url": "/media/assets/tileset_intersection_district.webp",
+      "profile": "tileset",
+      "label": "Tiles intersection district"
+    },
+    "tileset_signal_block": {
+      "url": "/media/assets/tileset_signal_block.webp",
+      "profile": "tileset",
+      "label": "Tiles signal block"
+    },
+    "tileset_relay_spire": {
+      "url": "/media/assets/tileset_relay_spire.webp",
+      "profile": "tileset",
+      "label": "Tiles relay spire"
+    },
+    "tileset_static_core": {
+      "url": "/media/assets/tileset_static_core.webp",
+      "profile": "tileset",
+      "label": "Tiles static core"
+    },
+    "tileset_chaos_sector": {
+      "url": "/media/assets/tileset_chaos_sector.webp",
+      "profile": "tileset",
+      "label": "Tiles chaos sector"
+    },
+    "tileset_fracture_ridge": {
+      "url": "/media/assets/tileset_fracture_ridge.webp",
+      "profile": "tileset",
+      "label": "Tiles fracture ridge"
+    },
+    "tileset_void_scar": {
+      "url": "/media/assets/tileset_void_scar.webp",
+      "profile": "tileset",
+      "label": "Tiles void scar"
+    },
+    "tileset_collapse_fringe": {
+      "url": "/media/assets/tileset_collapse_fringe.webp",
+      "profile": "tileset",
+      "label": "Tiles collapse fringe"
+    },
+    "tileset_citadel_approach": {
+      "url": "/media/assets/tileset_citadel_approach.webp",
+      "profile": "tileset",
+      "label": "Tiles citadel approach"
+    },
+    "tileset_singularity_citadel": {
+      "url": "/media/assets/tileset_singularity_citadel.webp",
+      "profile": "tileset",
+      "label": "Tiles singularity citadel"
+    },
+    "tileset_gods_rift": {
+      "url": "/media/assets/tileset_gods_rift.webp",
+      "profile": "tileset",
+      "label": "Tiles gods rift"
+    },
+    "tileset_pantheon_ascent": {
+      "url": "/media/assets/tileset_pantheon_ascent.webp",
+      "profile": "tileset",
+      "label": "Tiles pantheon ascent"
+    },
+    "tileset_godfall_throne": {
+      "url": "/media/assets/tileset_godfall_throne.webp",
+      "profile": "tileset",
+      "label": "Tiles godfall throne"
+    },
+    "item_remnants_of_fallen_glory": {
+      "url": "/media/assets/item_remnants_of_fallen_glory.webp",
+      "profile": "item_icon",
+      "label": "Ошметки былого величия"
+    },
+    "item_shard_of_primordial_era": {
+      "url": "/media/assets/item_shard_of_primordial_era.webp",
+      "profile": "item_icon",
+      "label": "Осколок Изначальной Эры"
+    },
+    "item_eternal_shard_armor": {
+      "url": "/media/assets/item_eternal_shard_armor.webp",
+      "profile": "item_icon",
+      "label": "Осколок Вечности"
+    },
+    "item_shattered_era_shell": {
+      "url": "/media/assets/item_shattered_era_shell.webp",
+      "profile": "item_icon",
+      "label": "Оболочка Расколотой Эры"
+    },
+    "item_gloves_time_distortion_daedric": {
+      "url": "/media/assets/item_gloves_time_distortion_daedric.webp",
+      "profile": "item_icon",
+      "label": "Перчатки Искаженного Времени"
+    },
+    "item_holy_body_1": {
+      "url": "/media/assets/item_holy_body_1.webp",
+      "profile": "item_icon",
+      "label": "Священный Доспех 1"
+    },
+    "prop_house_cottage": {
+      "url": "/media/assets/prop_house_cottage.webp",
+      "profile": "prop_sprite",
+      "label": "Cottage"
+    },
+    "prop_house_townhouse": {
+      "url": "/media/assets/prop_house_townhouse.webp",
+      "profile": "prop_sprite",
+      "label": "Townhouse"
+    },
+    "prop_house_duplex": {
+      "url": "/media/assets/prop_house_duplex.webp",
+      "profile": "prop_sprite",
+      "label": "Duplex house"
+    },
+    "prop_house_gardener": {
+      "url": "/media/assets/prop_house_gardener.webp",
+      "profile": "prop_sprite",
+      "label": "Gardener house"
+    },
+    "prop_house_attic": {
+      "url": "/media/assets/prop_house_attic.webp",
+      "profile": "prop_sprite",
+      "label": "Attic house"
+    },
+    "prop_house_stucco": {
+      "url": "/media/assets/prop_house_stucco.webp",
+      "profile": "prop_sprite",
+      "label": "Stucco house"
+    },
+    "prop_house_bay": {
+      "url": "/media/assets/prop_house_bay.webp",
+      "profile": "prop_sprite",
+      "label": "Bay window house"
+    },
+    "prop_house_workshop_home": {
+      "url": "/media/assets/prop_house_workshop_home.webp",
+      "profile": "prop_sprite",
+      "label": "Workshop home"
+    },
+    "prop_house_blue": {
+      "url": "/media/assets/prop_house_blue.webp",
+      "profile": "prop_sprite",
+      "label": "Blue shutter house"
+    },
+    "prop_house_rooftop": {
+      "url": "/media/assets/prop_house_rooftop.webp",
+      "profile": "prop_sprite",
+      "label": "Rooftop terrace house"
+    },
+    "prop_house_corner_shop": {
+      "url": "/media/assets/prop_house_corner_shop.webp",
+      "profile": "prop_sprite",
+      "label": "Corner grocery home"
+    },
+    "prop_house_row": {
+      "url": "/media/assets/prop_house_row.webp",
+      "profile": "prop_sprite",
+      "label": "Row house"
+    },
+    "prop_basketball_court": {
+      "url": "/media/assets/prop_basketball_court.webp",
+      "profile": "prop_sprite",
+      "label": "Basketball court"
+    },
+    "prop_playground_sandbox": {
+      "url": "/media/assets/prop_playground_sandbox.webp",
+      "profile": "prop_sprite",
+      "label": "Playground sandbox"
+    },
+    "prop_neighborhood_gate": {
+      "url": "/media/assets/prop_neighborhood_gate.webp",
+      "profile": "prop_sprite",
+      "label": "Neighborhood gate"
+    },
+    "prop_picket_fence": {
+      "url": "/media/assets/prop_picket_fence.webp",
+      "profile": "prop_sprite",
+      "label": "Picket fence"
+    },
+    "prop_mailbox": {
+      "url": "/media/assets/prop_mailbox.webp",
+      "profile": "prop_sprite",
+      "label": "Mailbox"
+    },
+    "prop_hopscotch": {
+      "url": "/media/assets/prop_hopscotch.webp",
+      "profile": "prop_sprite",
+      "label": "Hopscotch chalk"
+    },
+    "prop_window_box": {
+      "url": "/media/assets/prop_window_box.webp",
+      "profile": "prop_sprite",
+      "label": "Window flower box"
+    },
+    "prop_yard_fountain": {
+      "url": "/media/assets/prop_yard_fountain.webp",
+      "profile": "prop_sprite",
+      "label": "Yard fountain"
+    },
+    "prop_doghouse": {
+      "url": "/media/assets/prop_doghouse.webp",
+      "profile": "prop_sprite",
+      "label": "Doghouse"
+    },
+    "prop_string_lights": {
+      "url": "/media/assets/prop_string_lights.webp",
+      "profile": "prop_sprite",
+      "label": "String lights"
+    },
+    "prop_shop_awning": {
+      "url": "/media/assets/prop_shop_awning.webp",
+      "profile": "prop_sprite",
+      "label": "Shop awning"
+    },
+    "prop_wheelbarrow": {
+      "url": "/media/assets/prop_wheelbarrow.webp",
+      "profile": "prop_sprite",
+      "label": "Wheelbarrow"
+    },
+    "prop_workbench": {
+      "url": "/media/assets/prop_workbench.webp",
+      "profile": "prop_sprite",
+      "label": "Workbench"
+    },
+    "prop_plank_stack": {
+      "url": "/media/assets/prop_plank_stack.webp",
+      "profile": "prop_sprite",
+      "label": "Plank stack"
+    },
+    "prop_soldier_tent": {
+      "url": "/media/assets/prop_soldier_tent.webp",
+      "profile": "prop_sprite",
+      "label": "Soldier tent"
+    },
+    "prop_archery_target": {
+      "url": "/media/assets/prop_archery_target.webp",
+      "profile": "prop_sprite",
+      "label": "Archery target"
+    },
+    "sprite_npc_town_innkeeper_day": {
+      "url": "/media/assets/sprite_npc_town_innkeeper_day.webp",
+      "profile": "game_sprite",
+      "label": "NPC Town innkeeper Oleg"
+    },
+    "dialogue_town_innkeeper_day_neutral": {
+      "url": "/media/assets/dialogue_town_innkeeper_day_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Innkeeper Oleg — neutral"
+    },
+    "dialogue_town_innkeeper_day_happy": {
+      "url": "/media/assets/dialogue_town_innkeeper_day_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Innkeeper Oleg — happy"
+    },
+    "prop_garden_plot": {
+      "url": "/media/assets/prop_garden_plot.webp",
+      "profile": "prop_sprite",
+      "label": "Garden plot"
+    },
+    "prop_watering_can": {
+      "url": "/media/assets/prop_watering_can.webp",
+      "profile": "prop_sprite",
+      "label": "Watering can"
+    },
+    "prop_secret_arch": {
+      "url": "/media/assets/prop_secret_arch.webp",
+      "profile": "prop_sprite",
+      "label": "Secret alley arch"
+    },
+    "prop_hidden_bench": {
+      "url": "/media/assets/prop_hidden_bench.webp",
+      "profile": "prop_sprite",
+      "label": "Hidden alley bench"
+    },
+    "prop_shadow_lamp": {
+      "url": "/media/assets/prop_shadow_lamp.webp",
+      "profile": "prop_sprite",
+      "label": "Shadow alley lamp"
+    },
+    "dialogue_town_gardener_neutral": {
+      "url": "/media/assets/dialogue_town_gardener_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Gardener Ilya — neutral"
+    },
+    "dialogue_town_gardener_work": {
+      "url": "/media/assets/dialogue_town_gardener_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Gardener Ilya — work"
+    },
+    "dialogue_town_gardener_happy": {
+      "url": "/media/assets/dialogue_town_gardener_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Gardener Ilya — happy"
+    },
+    "dialogue_town_gardener_serious": {
+      "url": "/media/assets/dialogue_town_gardener_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Gardener Ilya — serious"
+    },
+    "dialogue_town_informant_neutral": {
+      "url": "/media/assets/dialogue_town_informant_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue The Informant — neutral"
+    },
+    "dialogue_town_informant_happy": {
+      "url": "/media/assets/dialogue_town_informant_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue The Informant — happy"
+    },
+    "dialogue_town_informant_serious": {
+      "url": "/media/assets/dialogue_town_informant_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue The Informant — serious"
+    },
+    "location_empery_hq": {
+      "url": "/media/assets/location_empery_hq.webp",
+      "profile": "location_bg",
+      "label": "EmperyWorld HQ campus"
+    },
+    "prop_hq_fence": {
+      "url": "/media/assets/prop_hq_fence.webp",
+      "profile": "prop_sprite",
+      "label": "HQ security fence"
+    },
+    "prop_hq_fence_corner": {
+      "url": "/media/assets/prop_hq_fence_corner.webp",
+      "profile": "prop_sprite",
+      "label": "HQ fence corner"
+    },
+    "prop_hq_gate_closed": {
+      "url": "/media/assets/prop_hq_gate_closed.webp",
+      "profile": "prop_sprite",
+      "label": "HQ gate closed"
+    },
+    "prop_hq_gate_open": {
+      "url": "/media/assets/prop_hq_gate_open.webp",
+      "profile": "prop_sprite",
+      "label": "HQ gate open"
+    },
+    "prop_hq_sniper_tower": {
+      "url": "/media/assets/prop_hq_sniper_tower.webp",
+      "profile": "prop_sprite",
+      "label": "HQ sniper tower"
+    },
+    "prop_hq_building": {
+      "url": "/media/assets/prop_hq_building.webp",
+      "profile": "prop_sprite",
+      "label": "HQ main building"
+    },
+    "prop_hq_lab": {
+      "url": "/media/assets/prop_hq_lab.webp",
+      "profile": "prop_sprite",
+      "label": "HQ laboratory wing"
+    },
+    "prop_hq_pad": {
+      "url": "/media/assets/prop_hq_pad.webp",
+      "profile": "prop_sprite",
+      "label": "HQ landing pad"
+    },
+    "prop_hq_antenna": {
+      "url": "/media/assets/prop_hq_antenna.webp",
+      "profile": "prop_sprite",
+      "label": "HQ antenna array"
+    },
+    "prop_hq_checkpoint": {
+      "url": "/media/assets/prop_hq_checkpoint.webp",
+      "profile": "prop_sprite",
+      "label": "HQ checkpoint booth"
+    },
+    "prop_hq_server_rack": {
+      "url": "/media/assets/prop_hq_server_rack.webp",
+      "profile": "prop_sprite",
+      "label": "HQ server racks"
+    },
+    "prop_hq_holo_sign": {
+      "url": "/media/assets/prop_hq_holo_sign.webp",
+      "profile": "prop_sprite",
+      "label": "HQ holo sign"
+    },
+    "prop_hq_floodlight": {
+      "url": "/media/assets/prop_hq_floodlight.webp",
+      "profile": "prop_sprite",
+      "label": "HQ floodlight"
+    },
+    "prop_hq_barrier": {
+      "url": "/media/assets/prop_hq_barrier.webp",
+      "profile": "prop_sprite",
+      "label": "HQ road barrier"
+    },
+    "prop_hq_panel": {
+      "url": "/media/assets/prop_hq_panel.webp",
+      "profile": "prop_sprite",
+      "label": "HQ tech panel"
+    },
+    "dialogue_town_hq_sentry_neutral": {
+      "url": "/media/assets/dialogue_town_hq_sentry_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue EmperyWorld Sentry — neutral"
+    },
+    "dialogue_town_hq_sentry_serious": {
+      "url": "/media/assets/dialogue_town_hq_sentry_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue EmperyWorld Sentry — serious"
+    },
+    "dialogue_town_hq_receptionist_neutral": {
+      "url": "/media/assets/dialogue_town_hq_receptionist_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue EmperyWorld Receptionist — neutral"
+    },
+    "dialogue_town_hq_receptionist_happy": {
+      "url": "/media/assets/dialogue_town_hq_receptionist_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue EmperyWorld Receptionist — happy"
+    },
+    "dialogue_town_hq_sentry_happy": {
+      "url": "/media/assets/dialogue_town_hq_sentry_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue EmperyWorld Sentry — happy"
+    },
+    "sprite_npc_town_blacksmith": {
+      "url": "/media/assets/sprite_npc_town_blacksmith.webp",
+      "profile": "game_sprite",
+      "label": "NPC Town blacksmith"
+    },
+    "skill_leather_craft": {
+      "url": "/media/assets/skill_leather_craft.webp",
+      "profile": "skill_icon",
+      "label": "Кожевничество"
+    },
+    "skill_scrap_thrift": {
+      "url": "/media/assets/skill_scrap_thrift.webp",
+      "profile": "skill_icon",
+      "label": "Бережливость лома"
+    },
+    "skill_stitch_guard": {
+      "url": "/media/assets/skill_stitch_guard.webp",
+      "profile": "skill_icon",
+      "label": "Крепкий шов"
+    },
+    "skill_forge_eye": {
+      "url": "/media/assets/skill_forge_eye.webp",
+      "profile": "skill_icon",
+      "label": "Глаз у горна"
+    },
+    "skill_artisan_focus": {
+      "url": "/media/assets/skill_artisan_focus.webp",
+      "profile": "skill_icon",
+      "label": "Сосредоточение мастера"
+    },
+    "skill_field_hardiness": {
+      "url": "/media/assets/skill_field_hardiness.webp",
+      "profile": "skill_icon",
+      "label": "Полевая закалка"
+    },
+    "skill_trail_ration": {
+      "url": "/media/assets/skill_trail_ration.webp",
+      "profile": "skill_icon",
+      "label": "Дорожный паёк"
+    },
+    "skill_camp_firecraft": {
+      "url": "/media/assets/skill_camp_firecraft.webp",
+      "profile": "skill_icon",
+      "label": "Костровое ремесло"
+    },
+    "skill_water_sense": {
+      "url": "/media/assets/skill_water_sense.webp",
+      "profile": "skill_icon",
+      "label": "Чутьё на воду"
+    },
+    "skill_wilderness_endurance": {
+      "url": "/media/assets/skill_wilderness_endurance.webp",
+      "profile": "skill_icon",
+      "label": "Выносливость глуши"
+    },
+    "dialogue_town_hq_researcher_neutral": {
+      "url": "/media/assets/dialogue_town_hq_researcher_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Dr. Vane — neutral"
+    },
+    "dialogue_town_hq_researcher_work": {
+      "url": "/media/assets/dialogue_town_hq_researcher_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Dr. Vane — work"
+    },
+    "dialogue_town_hq_researcher_happy": {
+      "url": "/media/assets/dialogue_town_hq_researcher_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Dr. Vane — happy"
+    },
+    "dialogue_town_hq_researcher_serious": {
+      "url": "/media/assets/dialogue_town_hq_researcher_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Dr. Vane — serious"
+    },
+    "dialogue_town_hq_terminal_neutral": {
+      "url": "/media/assets/dialogue_town_hq_terminal_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Data Terminal — neutral"
+    },
+    "dialogue_town_hq_terminal_happy": {
+      "url": "/media/assets/dialogue_town_hq_terminal_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Data Terminal — happy"
+    },
+    "dialogue_town_notice_board_neutral": {
+      "url": "/media/assets/dialogue_town_notice_board_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Haven Notice Board — neutral"
+    },
+    "dialogue_town_notice_board_happy": {
+      "url": "/media/assets/dialogue_town_notice_board_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Haven Notice Board — happy"
+    },
+    "dialogue_town_notice_board_serious": {
+      "url": "/media/assets/dialogue_town_notice_board_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Haven Notice Board — serious"
+    },
+    "item_mill_grain": {
+      "url": "/media/assets/item_mill_grain.webp",
+      "profile": "item_icon",
+      "label": "Рожь"
+    },
+    "item_mill_flour": {
+      "url": "/media/assets/item_mill_flour.webp",
+      "profile": "item_icon",
+      "label": "Мука"
+    },
+    "item_stable_hay": {
+      "url": "/media/assets/item_stable_hay.webp",
+      "profile": "item_icon",
+      "label": "Охапка сена"
+    },
+    "item_scribe_travel_writ": {
+      "url": "/media/assets/item_scribe_travel_writ.webp",
+      "profile": "item_icon",
+      "label": "Путевая грамота Гавани"
+    },
+    "item_scribe_port_folio": {
+      "url": "/media/assets/item_scribe_port_folio.webp",
+      "profile": "item_icon",
+      "label": "Опись причалов"
+    },
+    "item_port_crate": {
+      "url": "/media/assets/item_port_crate.webp",
+      "profile": "item_icon",
+      "label": "Портовый ящик"
+    },
+    "item_holm_stout": {
+      "url": "/media/assets/item_holm_stout.webp",
+      "profile": "item_icon",
+      "label": "Стаут Хольма"
+    },
+    "item_marta_stew": {
+      "url": "/media/assets/item_marta_stew.webp",
+      "profile": "item_icon",
+      "label": "Ночной горшок Марты"
+    },
+    "item_nika_oil": {
+      "url": "/media/assets/item_nika_oil.webp",
+      "profile": "item_icon",
+      "label": "Масло Ники"
+    },
+    "item_oleg_broth": {
+      "url": "/media/assets/item_oleg_broth.webp",
+      "profile": "item_icon",
+      "label": "Дневной обед Олега"
+    },
+    "item_apt_ration": {
+      "url": "/media/assets/item_apt_ration.webp",
+      "profile": "item_icon",
+      "label": "Паёк жильца"
+    },
+    "item_ulf_bait": {
+      "url": "/media/assets/item_ulf_bait.webp",
+      "profile": "item_icon",
+      "label": "Наживка Ульфа"
+    },
+    "item_apt_travel_kit": {
+      "url": "/media/assets/item_apt_travel_kit.webp",
+      "profile": "item_icon",
+      "label": "Дорожный набор"
+    },
+    "item_plaza_charm": {
+      "url": "/media/assets/item_plaza_charm.webp",
+      "profile": "item_icon",
+      "label": "Талисман площади"
+    },
+    "item_market_pie": {
+      "url": "/media/assets/item_market_pie.webp",
+      "profile": "item_icon",
+      "label": "Пирог с прилавка"
+    },
+    "item_hq_visitor_badge": {
+      "url": "/media/assets/item_hq_visitor_badge.webp",
+      "profile": "item_icon",
+      "label": "Жетон HQ"
+    },
+    "item_prayer_ribbon": {
+      "url": "/media/assets/item_prayer_ribbon.webp",
+      "profile": "item_icon",
+      "label": "Молитвенная лента"
+    },
+    "item_craft_scrap": {
+      "url": "/media/assets/item_craft_scrap.webp",
+      "profile": "item_icon",
+      "label": "Обрезки с горна"
+    },
+    "item_harbor_charm": {
+      "url": "/media/assets/item_harbor_charm.webp",
+      "profile": "item_icon",
+      "label": "Оберег причала"
+    },
+    "item_lavr_notes": {
+      "url": "/media/assets/item_lavr_notes.webp",
+      "profile": "item_icon",
+      "label": "Записки Лавра"
+    },
+    "item_sera_bandage": {
+      "url": "/media/assets/item_sera_bandage.webp",
+      "profile": "item_icon",
+      "label": "Полевой бинт Серы"
+    },
+    "item_smoked_brisket": {
+      "url": "/media/assets/item_smoked_brisket.webp",
+      "profile": "item_icon",
+      "label": "Копчёная грудинка"
+    },
+    "item_garden_cabbage": {
+      "url": "/media/assets/item_garden_cabbage.webp",
+      "profile": "item_icon",
+      "label": "Капуста с грядки"
+    },
+    "item_whisper_dossier": {
+      "url": "/media/assets/item_whisper_dossier.webp",
+      "profile": "item_icon",
+      "label": "Досье Переулка"
+    },
+    "item_smith_whetstone": {
+      "url": "/media/assets/item_smith_whetstone.webp",
+      "profile": "item_icon",
+      "label": "Оселок Гарольда"
+    },
+    "item_cassius_candle": {
+      "url": "/media/assets/item_cassius_candle.webp",
+      "profile": "item_icon",
+      "label": "Свеча Кассия"
+    },
+    "item_forum_bulletin": {
+      "url": "/media/assets/item_forum_bulletin.webp",
+      "profile": "item_icon",
+      "label": "Листовка форума"
+    },
+    "item_forum_seal": {
+      "url": "/media/assets/item_forum_seal.webp",
+      "profile": "item_icon",
+      "label": "Печать магистрата"
+    },
+    "dialogue_stage_bard_neutral": {
+      "url": "/media/assets/dialogue_stage_bard_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Bard Kai — neutral"
+    },
+    "dialogue_stage_bard_happy": {
+      "url": "/media/assets/dialogue_stage_bard_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Bard Kai — happy"
+    },
+    "dialogue_stage_bard_sing": {
+      "url": "/media/assets/dialogue_stage_bard_sing.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Bard Kai — sing"
+    },
+    "dialogue_town_merchant_serious": {
+      "url": "/media/assets/dialogue_town_merchant_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Merchant Loren — serious"
+    },
+    "dialogue_town_innkeeper_serious": {
+      "url": "/media/assets/dialogue_town_innkeeper_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Innkeeper Marta — serious"
+    },
+    "dialogue_town_captain_happy": {
+      "url": "/media/assets/dialogue_town_captain_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Captain Garrett — happy"
+    },
+    "dialogue_town_blacksmith_serious": {
+      "url": "/media/assets/dialogue_town_blacksmith_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Blacksmith Harold — serious"
+    },
+    "dialogue_elder_mira_action": {
+      "url": "/media/assets/dialogue_elder_mira_action.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Elder Mira — action"
+    },
+    "dialogue_silvan_hermit_action": {
+      "url": "/media/assets/dialogue_silvan_hermit_action.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Silvan Hermit — action"
+    },
+    "dialogue_town_innkeeper_day_serious": {
+      "url": "/media/assets/dialogue_town_innkeeper_day_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Innkeeper Oleg — serious"
+    },
+    "dialogue_town_fisher_work": {
+      "url": "/media/assets/dialogue_town_fisher_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Fisher Ulf — work"
+    },
+    "dialogue_town_hq_terminal_serious": {
+      "url": "/media/assets/dialogue_town_hq_terminal_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Data Terminal — serious"
+    },
+    "dialogue_town_notice_board_work": {
+      "url": "/media/assets/dialogue_town_notice_board_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Haven Notice Board — work"
+    },
+    "dialogue_apartment_fridge_neutral": {
+      "url": "/media/assets/dialogue_apartment_fridge_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Icebox — neutral"
+    },
+    "dialogue_apartment_fridge_happy": {
+      "url": "/media/assets/dialogue_apartment_fridge_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Icebox — happy"
+    },
+    "dialogue_apartment_fridge_serious": {
+      "url": "/media/assets/dialogue_apartment_fridge_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Icebox — serious"
+    },
+    "dialogue_apartment_chest_neutral": {
+      "url": "/media/assets/dialogue_apartment_chest_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Chest — neutral"
+    },
+    "dialogue_apartment_chest_serious": {
+      "url": "/media/assets/dialogue_apartment_chest_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Chest — serious"
+    },
+    "dialogue_apartment_bed_neutral": {
+      "url": "/media/assets/dialogue_apartment_bed_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Bed — neutral"
+    },
+    "dialogue_apartment_bed_happy": {
+      "url": "/media/assets/dialogue_apartment_bed_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Bed — happy"
+    },
+    "dialogue_apartment_bed_serious": {
+      "url": "/media/assets/dialogue_apartment_bed_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Bed — serious"
+    },
+    "dialogue_apartment_rack_neutral": {
+      "url": "/media/assets/dialogue_apartment_rack_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Gear Rack — neutral"
+    },
+    "dialogue_apartment_rack_work": {
+      "url": "/media/assets/dialogue_apartment_rack_work.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Gear Rack — work"
+    },
+    "dialogue_apartment_rack_serious": {
+      "url": "/media/assets/dialogue_apartment_rack_serious.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Apartment Gear Rack — serious"
+    },
+    "tile_haven_plaza_a": {
+      "url": "/media/assets/tile_haven_plaza_a.webp",
+      "profile": "terrain_tile",
+      "label": "Haven plaza A"
+    },
+    "tile_haven_plaza_b": {
+      "url": "/media/assets/tile_haven_plaza_b.webp",
+      "profile": "terrain_tile",
+      "label": "Haven plaza B"
+    },
+    "tile_haven_plaza_c": {
+      "url": "/media/assets/tile_haven_plaza_c.webp",
+      "profile": "terrain_tile",
+      "label": "Haven plaza C"
+    },
+    "tile_haven_road_a": {
+      "url": "/media/assets/tile_haven_road_a.webp",
+      "profile": "terrain_tile",
+      "label": "Haven road A"
+    },
+    "tile_haven_road_b": {
+      "url": "/media/assets/tile_haven_road_b.webp",
+      "profile": "terrain_tile",
+      "label": "Haven road B"
+    },
+    "tile_haven_road_c": {
+      "url": "/media/assets/tile_haven_road_c.webp",
+      "profile": "terrain_tile",
+      "label": "Haven road C"
+    },
+    "tile_haven_water": {
+      "url": "/media/assets/tile_haven_water.webp",
+      "profile": "terrain_tile",
+      "label": "Haven water"
+    },
+    "tile_haven_wall": {
+      "url": "/media/assets/tile_haven_wall.webp",
+      "profile": "terrain_tile",
+      "label": "Haven wall"
+    },
+    "ui_action_enter": {
+      "url": "/media/assets/ui_action_enter.webp",
+      "profile": "item_icon",
+      "label": "HUD action enter"
+    },
+    "ui_action_auto_attack": {
+      "url": "/media/assets/ui_action_auto_attack.webp",
+      "profile": "item_icon",
+      "label": "HUD action auto attack"
+    },
+    "ui_action_inventory": {
+      "url": "/media/assets/ui_action_inventory.webp",
+      "profile": "item_icon",
+      "label": "HUD action inventory"
+    },
+    "ui_action_skills": {
+      "url": "/media/assets/ui_action_skills.webp",
+      "profile": "item_icon",
+      "label": "HUD action skills"
+    },
+    "ui_action_travel": {
+      "url": "/media/assets/ui_action_travel.webp",
+      "profile": "item_icon",
+      "label": "HUD action travel"
+    },
+    "ui_action_radio": {
+      "url": "/media/assets/ui_action_radio.webp",
+      "profile": "item_icon",
+      "label": "HUD action radio"
+    },
+    "ui_action_settings": {
+      "url": "/media/assets/ui_action_settings.webp",
+      "profile": "item_icon",
+      "label": "HUD action settings"
+    },
+    "ui_action_mount": {
+      "url": "/media/assets/ui_action_mount.webp",
+      "profile": "item_icon",
+      "label": "HUD action mount"
+    },
+    "ui_need_ok": {
+      "url": "/media/assets/ui_need_ok.webp",
+      "profile": "item_icon",
+      "label": "HUD need status ok"
+    },
+    "ui_need_hungry": {
+      "url": "/media/assets/ui_need_hungry.webp",
+      "profile": "item_icon",
+      "label": "HUD need hungry"
+    },
+    "ui_need_dehydrated": {
+      "url": "/media/assets/ui_need_dehydrated.webp",
+      "profile": "item_icon",
+      "label": "HUD need dehydrated"
+    },
+    "ui_need_hypothermia": {
+      "url": "/media/assets/ui_need_hypothermia.webp",
+      "profile": "item_icon",
+      "label": "HUD need hypothermia"
+    },
+    "ui_need_hyperthermia": {
+      "url": "/media/assets/ui_need_hyperthermia.webp",
+      "profile": "item_icon",
+      "label": "HUD need hyperthermia"
+    },
+    "ui_need_fatigued": {
+      "url": "/media/assets/ui_need_fatigued.webp",
+      "profile": "item_icon",
+      "label": "HUD need fatigued"
+    },
+    "ui_need_infection": {
+      "url": "/media/assets/ui_need_infection.webp",
+      "profile": "item_icon",
+      "label": "HUD need infection"
+    },
+    "ui_need_food_poisoning": {
+      "url": "/media/assets/ui_need_food_poisoning.webp",
+      "profile": "item_icon",
+      "label": "HUD need food poisoning"
+    },
+    "ui_need_exhaustion_injury": {
+      "url": "/media/assets/ui_need_exhaustion_injury.webp",
+      "profile": "item_icon",
+      "label": "HUD need exhaustion injury"
+    },
+    "ui_need_frostbite": {
+      "url": "/media/assets/ui_need_frostbite.webp",
+      "profile": "item_icon",
+      "label": "HUD need frostbite"
+    },
+    "ui_need_heatstroke": {
+      "url": "/media/assets/ui_need_heatstroke.webp",
+      "profile": "item_icon",
+      "label": "HUD need heatstroke"
+    },
+    "prop_city_gate_open": {
+      "url": "/media/assets/prop_city_gate_open.webp",
+      "profile": "prop_sprite",
+      "label": "City gate open"
+    },
+    "prop_city_gate_s_open": {
+      "url": "/media/assets/prop_city_gate_s_open.webp",
+      "profile": "prop_sprite",
+      "label": "City gate south open"
+    },
+    "prop_city_gate_e_open": {
+      "url": "/media/assets/prop_city_gate_e_open.webp",
+      "profile": "prop_sprite",
+      "label": "City gate east open"
+    },
+    "prop_harbor_guard_arch": {
+      "url": "/media/assets/prop_harbor_guard_arch.webp",
+      "profile": "prop_sprite",
+      "label": "Harbor guard arch"
+    },
+    "prop_ship_brig": {
+      "url": "/media/assets/prop_ship_brig.webp",
+      "profile": "ship_sprite",
+      "label": "Navy brig"
+    },
+    "prop_ship_barge": {
+      "url": "/media/assets/prop_ship_barge.webp",
+      "profile": "ship_sprite",
+      "label": "Cargo barge"
+    },
+    "prop_ship_ferry": {
+      "url": "/media/assets/prop_ship_ferry.webp",
+      "profile": "ship_sprite",
+      "label": "Passenger ferry"
+    },
+    "tile_haven_dock_a": {
+      "url": "/media/assets/tile_haven_dock_a.webp",
+      "profile": "terrain_tile",
+      "label": "Haven quay cobble A"
+    },
+    "prop_dock_crates": {
+      "url": "/media/assets/prop_dock_crates.webp",
+      "profile": "prop_sprite",
+      "label": "Dock crate pile"
+    },
+    "prop_dock_nets": {
+      "url": "/media/assets/prop_dock_nets.webp",
+      "profile": "prop_sprite",
+      "label": "Dock drying nets"
+    },
+    "prop_dock_barrels": {
+      "url": "/media/assets/prop_dock_barrels.webp",
+      "profile": "prop_sprite",
+      "label": "Dock barrel pile"
+    },
+    "prop_dock_rope": {
+      "url": "/media/assets/prop_dock_rope.webp",
+      "profile": "prop_sprite",
+      "label": "Dock rope coils"
+    },
+    "prop_dock_fishboxes": {
+      "url": "/media/assets/prop_dock_fishboxes.webp",
+      "profile": "prop_sprite",
+      "label": "Dock fish boxes"
+    },
+    "prop_ship_brig_e": {
+      "url": "/media/assets/prop_ship_brig_e.webp",
+      "profile": "ship_sprite",
+      "label": "Navy brig E"
+    },
+    "prop_ship_brig_se": {
+      "url": "/media/assets/prop_ship_brig_se.webp",
+      "profile": "ship_sprite",
+      "label": "Navy brig SE"
+    },
+    "prop_ship_brig_s": {
+      "url": "/media/assets/prop_ship_brig_s.webp",
+      "profile": "ship_sprite",
+      "label": "Navy brig S"
+    },
+    "prop_ship_brig_sw": {
+      "url": "/media/assets/prop_ship_brig_sw.webp",
+      "profile": "ship_sprite",
+      "label": "Navy brig SW"
+    },
+    "prop_ship_brig_w": {
+      "url": "/media/assets/prop_ship_brig_w.webp",
+      "profile": "ship_sprite",
+      "label": "Navy brig W"
+    },
+    "prop_ship_brig_nw": {
+      "url": "/media/assets/prop_ship_brig_nw.webp",
+      "profile": "ship_sprite",
+      "label": "Navy brig NW"
+    },
+    "prop_ship_brig_n": {
+      "url": "/media/assets/prop_ship_brig_n.webp",
+      "profile": "ship_sprite",
+      "label": "Navy brig N"
+    },
+    "prop_ship_brig_ne": {
+      "url": "/media/assets/prop_ship_brig_ne.webp",
+      "profile": "ship_sprite",
+      "label": "Navy brig NE"
+    },
+    "prop_ship_cog_e": {
+      "url": "/media/assets/prop_ship_cog_e.webp",
+      "profile": "ship_sprite",
+      "label": "Merchant cog E"
+    },
+    "prop_ship_cog_se": {
+      "url": "/media/assets/prop_ship_cog_se.webp",
+      "profile": "ship_sprite",
+      "label": "Merchant cog SE"
+    },
+    "prop_ship_cog_s": {
+      "url": "/media/assets/prop_ship_cog_s.webp",
+      "profile": "ship_sprite",
+      "label": "Merchant cog S"
+    },
+    "prop_ship_cog_sw": {
+      "url": "/media/assets/prop_ship_cog_sw.webp",
+      "profile": "ship_sprite",
+      "label": "Merchant cog SW"
+    },
+    "prop_ship_cog_w": {
+      "url": "/media/assets/prop_ship_cog_w.webp",
+      "profile": "ship_sprite",
+      "label": "Merchant cog W"
+    },
+    "prop_ship_cog_nw": {
+      "url": "/media/assets/prop_ship_cog_nw.webp",
+      "profile": "ship_sprite",
+      "label": "Merchant cog NW"
+    },
+    "prop_ship_cog_n": {
+      "url": "/media/assets/prop_ship_cog_n.webp",
+      "profile": "ship_sprite",
+      "label": "Merchant cog N"
+    },
+    "prop_ship_cog_ne": {
+      "url": "/media/assets/prop_ship_cog_ne.webp",
+      "profile": "ship_sprite",
+      "label": "Merchant cog NE"
+    },
+    "prop_ship_ferry_e": {
+      "url": "/media/assets/prop_ship_ferry_e.webp",
+      "profile": "ship_sprite",
+      "label": "Passenger ferry E"
+    },
+    "prop_ship_ferry_se": {
+      "url": "/media/assets/prop_ship_ferry_se.webp",
+      "profile": "ship_sprite",
+      "label": "Passenger ferry SE"
+    },
+    "prop_ship_ferry_s": {
+      "url": "/media/assets/prop_ship_ferry_s.webp",
+      "profile": "ship_sprite",
+      "label": "Passenger ferry S"
+    },
+    "prop_ship_ferry_sw": {
+      "url": "/media/assets/prop_ship_ferry_sw.webp",
+      "profile": "ship_sprite",
+      "label": "Passenger ferry SW"
+    },
+    "prop_ship_ferry_w": {
+      "url": "/media/assets/prop_ship_ferry_w.webp",
+      "profile": "ship_sprite",
+      "label": "Passenger ferry W"
+    },
+    "prop_ship_ferry_nw": {
+      "url": "/media/assets/prop_ship_ferry_nw.webp",
+      "profile": "ship_sprite",
+      "label": "Passenger ferry NW"
+    },
+    "prop_ship_ferry_n": {
+      "url": "/media/assets/prop_ship_ferry_n.webp",
+      "profile": "ship_sprite",
+      "label": "Passenger ferry N"
+    },
+    "prop_ship_ferry_ne": {
+      "url": "/media/assets/prop_ship_ferry_ne.webp",
+      "profile": "ship_sprite",
+      "label": "Passenger ferry NE"
+    },
+    "prop_ship_barge_e": {
+      "url": "/media/assets/prop_ship_barge_e.webp",
+      "profile": "ship_sprite",
+      "label": "Cargo barge E"
+    },
+    "prop_ship_barge_se": {
+      "url": "/media/assets/prop_ship_barge_se.webp",
+      "profile": "ship_sprite",
+      "label": "Cargo barge SE"
+    },
+    "prop_ship_barge_s": {
+      "url": "/media/assets/prop_ship_barge_s.webp",
+      "profile": "ship_sprite",
+      "label": "Cargo barge S"
+    },
+    "prop_ship_barge_sw": {
+      "url": "/media/assets/prop_ship_barge_sw.webp",
+      "profile": "ship_sprite",
+      "label": "Cargo barge SW"
+    },
+    "prop_ship_barge_w": {
+      "url": "/media/assets/prop_ship_barge_w.webp",
+      "profile": "ship_sprite",
+      "label": "Cargo barge W"
+    },
+    "prop_ship_barge_nw": {
+      "url": "/media/assets/prop_ship_barge_nw.webp",
+      "profile": "ship_sprite",
+      "label": "Cargo barge NW"
+    },
+    "prop_ship_barge_n": {
+      "url": "/media/assets/prop_ship_barge_n.webp",
+      "profile": "ship_sprite",
+      "label": "Cargo barge N"
+    },
+    "prop_ship_barge_ne": {
+      "url": "/media/assets/prop_ship_barge_ne.webp",
+      "profile": "ship_sprite",
+      "label": "Cargo barge NE"
+    },
+    "prop_ship_fishing_e": {
+      "url": "/media/assets/prop_ship_fishing_e.webp",
+      "profile": "ship_sprite",
+      "label": "Fishing sailboat E"
+    },
+    "prop_ship_fishing_se": {
+      "url": "/media/assets/prop_ship_fishing_se.webp",
+      "profile": "ship_sprite",
+      "label": "Fishing sailboat SE"
+    },
+    "prop_ship_fishing_s": {
+      "url": "/media/assets/prop_ship_fishing_s.webp",
+      "profile": "ship_sprite",
+      "label": "Fishing sailboat S"
+    },
+    "prop_ship_fishing_sw": {
+      "url": "/media/assets/prop_ship_fishing_sw.webp",
+      "profile": "ship_sprite",
+      "label": "Fishing sailboat SW"
+    },
+    "prop_ship_fishing_w": {
+      "url": "/media/assets/prop_ship_fishing_w.webp",
+      "profile": "ship_sprite",
+      "label": "Fishing sailboat W"
+    },
+    "prop_ship_fishing_nw": {
+      "url": "/media/assets/prop_ship_fishing_nw.webp",
+      "profile": "ship_sprite",
+      "label": "Fishing sailboat NW"
+    },
+    "prop_ship_fishing_n": {
+      "url": "/media/assets/prop_ship_fishing_n.webp",
+      "profile": "ship_sprite",
+      "label": "Fishing sailboat N"
+    },
+    "prop_ship_fishing_ne": {
+      "url": "/media/assets/prop_ship_fishing_ne.webp",
+      "profile": "ship_sprite",
+      "label": "Fishing sailboat NE"
+    },
+    "prop_ship_caravel": {
+      "url": "/media/assets/prop_ship_caravel.webp",
+      "profile": "ship_sprite",
+      "label": "Imperial caravel"
+    },
+    "prop_ship_caravel_e": {
+      "url": "/media/assets/prop_ship_caravel_e.webp",
+      "profile": "ship_sprite",
+      "label": "Imperial caravel E"
+    },
+    "prop_ship_caravel_se": {
+      "url": "/media/assets/prop_ship_caravel_se.webp",
+      "profile": "ship_sprite",
+      "label": "Imperial caravel SE"
+    },
+    "prop_ship_caravel_s": {
+      "url": "/media/assets/prop_ship_caravel_s.webp",
+      "profile": "ship_sprite",
+      "label": "Imperial caravel S"
+    },
+    "prop_ship_caravel_sw": {
+      "url": "/media/assets/prop_ship_caravel_sw.webp",
+      "profile": "ship_sprite",
+      "label": "Imperial caravel SW"
+    },
+    "prop_ship_caravel_w": {
+      "url": "/media/assets/prop_ship_caravel_w.webp",
+      "profile": "ship_sprite",
+      "label": "Imperial caravel W"
+    },
+    "prop_ship_caravel_nw": {
+      "url": "/media/assets/prop_ship_caravel_nw.webp",
+      "profile": "ship_sprite",
+      "label": "Imperial caravel NW"
+    },
+    "prop_ship_caravel_n": {
+      "url": "/media/assets/prop_ship_caravel_n.webp",
+      "profile": "ship_sprite",
+      "label": "Imperial caravel N"
+    },
+    "prop_ship_caravel_ne": {
+      "url": "/media/assets/prop_ship_caravel_ne.webp",
+      "profile": "ship_sprite",
+      "label": "Imperial caravel NE"
+    },
+    "prop_ship_skiff": {
+      "url": "/media/assets/prop_ship_skiff.webp",
+      "profile": "ship_sprite",
+      "label": "Harbor skiff"
+    },
+    "prop_ship_skiff_e": {
+      "url": "/media/assets/prop_ship_skiff_e.webp",
+      "profile": "ship_sprite",
+      "label": "Harbor skiff E"
+    },
+    "prop_ship_skiff_se": {
+      "url": "/media/assets/prop_ship_skiff_se.webp",
+      "profile": "ship_sprite",
+      "label": "Harbor skiff SE"
+    },
+    "prop_ship_skiff_s": {
+      "url": "/media/assets/prop_ship_skiff_s.webp",
+      "profile": "ship_sprite",
+      "label": "Harbor skiff S"
+    },
+    "prop_ship_skiff_sw": {
+      "url": "/media/assets/prop_ship_skiff_sw.webp",
+      "profile": "ship_sprite",
+      "label": "Harbor skiff SW"
+    },
+    "prop_ship_skiff_w": {
+      "url": "/media/assets/prop_ship_skiff_w.webp",
+      "profile": "ship_sprite",
+      "label": "Harbor skiff W"
+    },
+    "prop_ship_skiff_nw": {
+      "url": "/media/assets/prop_ship_skiff_nw.webp",
+      "profile": "ship_sprite",
+      "label": "Harbor skiff NW"
+    },
+    "prop_ship_skiff_n": {
+      "url": "/media/assets/prop_ship_skiff_n.webp",
+      "profile": "ship_sprite",
+      "label": "Harbor skiff N"
+    },
+    "prop_ship_skiff_ne": {
+      "url": "/media/assets/prop_ship_skiff_ne.webp",
+      "profile": "ship_sprite",
+      "label": "Harbor skiff NE"
+    },
+    "tile_haven_dock_b": {
+      "url": "/media/assets/tile_haven_dock_b.webp",
+      "profile": "terrain_tile",
+      "label": "Haven quay sett B"
+    },
+    "tile_haven_dock_c": {
+      "url": "/media/assets/tile_haven_dock_c.webp",
+      "profile": "terrain_tile",
+      "label": "Haven quay moss C"
+    },
+    "tile_haven_dock_d": {
+      "url": "/media/assets/tile_haven_dock_d.webp",
+      "profile": "terrain_tile",
+      "label": "Haven quay pebble D"
+    },
+    "tile_haven_dock_e": {
+      "url": "/media/assets/tile_haven_dock_e.webp",
+      "profile": "terrain_tile",
+      "label": "Haven quay repair E"
+    },
+    "portrait_haven_resident_000": {
+      "url": "/media/assets/portrait_haven_resident_000.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 0"
+    },
+    "portrait_haven_resident_001": {
+      "url": "/media/assets/portrait_haven_resident_001.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 1"
+    },
+    "portrait_haven_resident_002": {
+      "url": "/media/assets/portrait_haven_resident_002.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 2"
+    },
+    "portrait_haven_resident_003": {
+      "url": "/media/assets/portrait_haven_resident_003.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 3"
+    },
+    "portrait_haven_resident_004": {
+      "url": "/media/assets/portrait_haven_resident_004.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 4"
+    },
+    "portrait_haven_resident_005": {
+      "url": "/media/assets/portrait_haven_resident_005.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 5"
+    },
+    "portrait_haven_resident_006": {
+      "url": "/media/assets/portrait_haven_resident_006.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 6"
+    },
+    "portrait_haven_resident_007": {
+      "url": "/media/assets/portrait_haven_resident_007.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 7"
+    },
+    "portrait_haven_resident_008": {
+      "url": "/media/assets/portrait_haven_resident_008.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 8"
+    },
+    "portrait_haven_resident_009": {
+      "url": "/media/assets/portrait_haven_resident_009.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 9"
+    },
+    "portrait_haven_resident_010": {
+      "url": "/media/assets/portrait_haven_resident_010.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 10"
+    },
+    "portrait_haven_resident_011": {
+      "url": "/media/assets/portrait_haven_resident_011.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 11"
+    },
+    "portrait_haven_resident_012": {
+      "url": "/media/assets/portrait_haven_resident_012.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 12"
+    },
+    "portrait_haven_resident_013": {
+      "url": "/media/assets/portrait_haven_resident_013.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 13"
+    },
+    "portrait_haven_resident_014": {
+      "url": "/media/assets/portrait_haven_resident_014.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 14"
+    },
+    "portrait_haven_resident_015": {
+      "url": "/media/assets/portrait_haven_resident_015.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 15"
+    },
+    "portrait_haven_resident_016": {
+      "url": "/media/assets/portrait_haven_resident_016.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 16"
+    },
+    "portrait_haven_resident_017": {
+      "url": "/media/assets/portrait_haven_resident_017.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 17"
+    },
+    "portrait_haven_resident_018": {
+      "url": "/media/assets/portrait_haven_resident_018.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 18"
+    },
+    "portrait_haven_resident_019": {
+      "url": "/media/assets/portrait_haven_resident_019.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 19"
+    },
+    "portrait_haven_resident_020": {
+      "url": "/media/assets/portrait_haven_resident_020.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 20"
+    },
+    "portrait_haven_resident_021": {
+      "url": "/media/assets/portrait_haven_resident_021.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 21"
+    },
+    "portrait_haven_resident_022": {
+      "url": "/media/assets/portrait_haven_resident_022.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 22"
+    },
+    "portrait_haven_resident_023": {
+      "url": "/media/assets/portrait_haven_resident_023.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 23"
+    },
+    "portrait_haven_resident_024": {
+      "url": "/media/assets/portrait_haven_resident_024.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 24"
+    },
+    "portrait_haven_resident_025": {
+      "url": "/media/assets/portrait_haven_resident_025.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 25"
+    },
+    "portrait_haven_resident_026": {
+      "url": "/media/assets/portrait_haven_resident_026.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 26"
+    },
+    "portrait_haven_resident_027": {
+      "url": "/media/assets/portrait_haven_resident_027.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 27"
+    },
+    "portrait_haven_resident_028": {
+      "url": "/media/assets/portrait_haven_resident_028.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 28"
+    },
+    "portrait_haven_resident_029": {
+      "url": "/media/assets/portrait_haven_resident_029.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 29"
+    },
+    "portrait_haven_resident_030": {
+      "url": "/media/assets/portrait_haven_resident_030.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 30"
+    },
+    "portrait_haven_resident_031": {
+      "url": "/media/assets/portrait_haven_resident_031.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 31"
+    },
+    "portrait_haven_resident_032": {
+      "url": "/media/assets/portrait_haven_resident_032.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 32"
+    },
+    "portrait_haven_resident_033": {
+      "url": "/media/assets/portrait_haven_resident_033.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 33"
+    },
+    "portrait_haven_resident_034": {
+      "url": "/media/assets/portrait_haven_resident_034.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 34"
+    },
+    "portrait_haven_resident_035": {
+      "url": "/media/assets/portrait_haven_resident_035.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 35"
+    },
+    "portrait_haven_resident_036": {
+      "url": "/media/assets/portrait_haven_resident_036.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 36"
+    },
+    "portrait_haven_resident_037": {
+      "url": "/media/assets/portrait_haven_resident_037.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 37"
+    },
+    "portrait_haven_resident_038": {
+      "url": "/media/assets/portrait_haven_resident_038.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 38"
+    },
+    "portrait_haven_resident_039": {
+      "url": "/media/assets/portrait_haven_resident_039.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 39"
+    },
+    "portrait_haven_resident_040": {
+      "url": "/media/assets/portrait_haven_resident_040.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 40"
+    },
+    "portrait_haven_resident_041": {
+      "url": "/media/assets/portrait_haven_resident_041.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 41"
+    },
+    "portrait_haven_resident_042": {
+      "url": "/media/assets/portrait_haven_resident_042.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 42"
+    },
+    "portrait_haven_resident_043": {
+      "url": "/media/assets/portrait_haven_resident_043.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 43"
+    },
+    "portrait_haven_resident_044": {
+      "url": "/media/assets/portrait_haven_resident_044.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 44"
+    },
+    "portrait_haven_resident_045": {
+      "url": "/media/assets/portrait_haven_resident_045.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 45"
+    },
+    "portrait_haven_resident_046": {
+      "url": "/media/assets/portrait_haven_resident_046.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 46"
+    },
+    "portrait_haven_resident_047": {
+      "url": "/media/assets/portrait_haven_resident_047.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 47"
+    },
+    "portrait_haven_resident_048": {
+      "url": "/media/assets/portrait_haven_resident_048.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 48"
+    },
+    "portrait_haven_resident_049": {
+      "url": "/media/assets/portrait_haven_resident_049.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 49"
+    },
+    "portrait_haven_resident_050": {
+      "url": "/media/assets/portrait_haven_resident_050.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 50"
+    },
+    "portrait_haven_resident_051": {
+      "url": "/media/assets/portrait_haven_resident_051.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 51"
+    },
+    "portrait_haven_resident_052": {
+      "url": "/media/assets/portrait_haven_resident_052.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 52"
+    },
+    "portrait_haven_resident_053": {
+      "url": "/media/assets/portrait_haven_resident_053.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 53"
+    },
+    "portrait_haven_resident_054": {
+      "url": "/media/assets/portrait_haven_resident_054.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 54"
+    },
+    "portrait_haven_resident_055": {
+      "url": "/media/assets/portrait_haven_resident_055.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 55"
+    },
+    "portrait_haven_resident_056": {
+      "url": "/media/assets/portrait_haven_resident_056.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 56"
+    },
+    "portrait_haven_resident_057": {
+      "url": "/media/assets/portrait_haven_resident_057.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 57"
+    },
+    "portrait_haven_resident_058": {
+      "url": "/media/assets/portrait_haven_resident_058.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 58"
+    },
+    "portrait_haven_resident_059": {
+      "url": "/media/assets/portrait_haven_resident_059.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 59"
+    },
+    "portrait_haven_resident_060": {
+      "url": "/media/assets/portrait_haven_resident_060.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 60"
+    },
+    "portrait_haven_resident_061": {
+      "url": "/media/assets/portrait_haven_resident_061.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 61"
+    },
+    "portrait_haven_resident_062": {
+      "url": "/media/assets/portrait_haven_resident_062.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 62"
+    },
+    "portrait_haven_resident_063": {
+      "url": "/media/assets/portrait_haven_resident_063.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 63"
+    },
+    "portrait_haven_resident_064": {
+      "url": "/media/assets/portrait_haven_resident_064.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 64"
+    },
+    "portrait_haven_resident_065": {
+      "url": "/media/assets/portrait_haven_resident_065.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 65"
+    },
+    "portrait_haven_resident_066": {
+      "url": "/media/assets/portrait_haven_resident_066.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 66"
+    },
+    "portrait_haven_resident_067": {
+      "url": "/media/assets/portrait_haven_resident_067.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 67"
+    },
+    "portrait_haven_resident_068": {
+      "url": "/media/assets/portrait_haven_resident_068.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 68"
+    },
+    "portrait_haven_resident_069": {
+      "url": "/media/assets/portrait_haven_resident_069.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 69"
+    },
+    "portrait_haven_resident_070": {
+      "url": "/media/assets/portrait_haven_resident_070.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 70"
+    },
+    "portrait_haven_resident_071": {
+      "url": "/media/assets/portrait_haven_resident_071.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 71"
+    },
+    "portrait_haven_resident_072": {
+      "url": "/media/assets/portrait_haven_resident_072.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 72"
+    },
+    "portrait_haven_resident_073": {
+      "url": "/media/assets/portrait_haven_resident_073.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 73"
+    },
+    "portrait_haven_resident_074": {
+      "url": "/media/assets/portrait_haven_resident_074.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 74"
+    },
+    "portrait_haven_resident_075": {
+      "url": "/media/assets/portrait_haven_resident_075.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 75"
+    },
+    "portrait_haven_resident_076": {
+      "url": "/media/assets/portrait_haven_resident_076.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 76"
+    },
+    "portrait_haven_resident_077": {
+      "url": "/media/assets/portrait_haven_resident_077.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 77"
+    },
+    "portrait_haven_resident_078": {
+      "url": "/media/assets/portrait_haven_resident_078.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 78"
+    },
+    "portrait_haven_resident_079": {
+      "url": "/media/assets/portrait_haven_resident_079.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 79"
+    },
+    "portrait_haven_resident_080": {
+      "url": "/media/assets/portrait_haven_resident_080.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 80"
+    },
+    "portrait_haven_resident_081": {
+      "url": "/media/assets/portrait_haven_resident_081.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 81"
+    },
+    "portrait_haven_resident_082": {
+      "url": "/media/assets/portrait_haven_resident_082.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 82"
+    },
+    "portrait_haven_resident_083": {
+      "url": "/media/assets/portrait_haven_resident_083.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 83"
+    },
+    "portrait_haven_resident_084": {
+      "url": "/media/assets/portrait_haven_resident_084.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 84"
+    },
+    "portrait_haven_resident_085": {
+      "url": "/media/assets/portrait_haven_resident_085.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 85"
+    },
+    "portrait_haven_resident_086": {
+      "url": "/media/assets/portrait_haven_resident_086.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 86"
+    },
+    "portrait_haven_resident_087": {
+      "url": "/media/assets/portrait_haven_resident_087.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 87"
+    },
+    "portrait_haven_resident_088": {
+      "url": "/media/assets/portrait_haven_resident_088.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 88"
+    },
+    "portrait_haven_resident_089": {
+      "url": "/media/assets/portrait_haven_resident_089.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 89"
+    },
+    "portrait_haven_resident_090": {
+      "url": "/media/assets/portrait_haven_resident_090.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 90"
+    },
+    "portrait_haven_resident_091": {
+      "url": "/media/assets/portrait_haven_resident_091.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 91"
+    },
+    "portrait_haven_resident_092": {
+      "url": "/media/assets/portrait_haven_resident_092.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 92"
+    },
+    "portrait_haven_resident_093": {
+      "url": "/media/assets/portrait_haven_resident_093.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 93"
+    },
+    "portrait_haven_resident_094": {
+      "url": "/media/assets/portrait_haven_resident_094.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 94"
+    },
+    "portrait_haven_resident_095": {
+      "url": "/media/assets/portrait_haven_resident_095.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 95"
+    },
+    "portrait_haven_resident_096": {
+      "url": "/media/assets/portrait_haven_resident_096.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 96"
+    },
+    "portrait_haven_resident_097": {
+      "url": "/media/assets/portrait_haven_resident_097.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 97"
+    },
+    "portrait_haven_resident_098": {
+      "url": "/media/assets/portrait_haven_resident_098.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 98"
+    },
+    "portrait_haven_resident_099": {
+      "url": "/media/assets/portrait_haven_resident_099.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 99"
+    },
+    "portrait_haven_resident_100": {
+      "url": "/media/assets/portrait_haven_resident_100.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 100"
+    },
+    "portrait_haven_resident_101": {
+      "url": "/media/assets/portrait_haven_resident_101.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 101"
+    },
+    "portrait_haven_resident_102": {
+      "url": "/media/assets/portrait_haven_resident_102.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 102"
+    },
+    "portrait_haven_resident_103": {
+      "url": "/media/assets/portrait_haven_resident_103.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 103"
+    },
+    "portrait_haven_resident_104": {
+      "url": "/media/assets/portrait_haven_resident_104.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 104"
+    },
+    "portrait_haven_resident_105": {
+      "url": "/media/assets/portrait_haven_resident_105.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 105"
+    },
+    "portrait_haven_resident_106": {
+      "url": "/media/assets/portrait_haven_resident_106.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 106"
+    },
+    "portrait_haven_resident_107": {
+      "url": "/media/assets/portrait_haven_resident_107.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 107"
+    },
+    "portrait_haven_resident_108": {
+      "url": "/media/assets/portrait_haven_resident_108.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 108"
+    },
+    "portrait_haven_resident_109": {
+      "url": "/media/assets/portrait_haven_resident_109.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 109"
+    },
+    "portrait_haven_resident_110": {
+      "url": "/media/assets/portrait_haven_resident_110.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 110"
+    },
+    "portrait_haven_resident_111": {
+      "url": "/media/assets/portrait_haven_resident_111.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 111"
+    },
+    "portrait_haven_resident_112": {
+      "url": "/media/assets/portrait_haven_resident_112.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 112"
+    },
+    "portrait_haven_resident_113": {
+      "url": "/media/assets/portrait_haven_resident_113.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 113"
+    },
+    "portrait_haven_resident_114": {
+      "url": "/media/assets/portrait_haven_resident_114.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 114"
+    },
+    "portrait_haven_resident_115": {
+      "url": "/media/assets/portrait_haven_resident_115.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 115"
+    },
+    "portrait_haven_resident_116": {
+      "url": "/media/assets/portrait_haven_resident_116.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 116"
+    },
+    "portrait_haven_resident_117": {
+      "url": "/media/assets/portrait_haven_resident_117.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 117"
+    },
+    "portrait_haven_resident_118": {
+      "url": "/media/assets/portrait_haven_resident_118.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 118"
+    },
+    "portrait_haven_resident_119": {
+      "url": "/media/assets/portrait_haven_resident_119.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 119"
+    },
+    "portrait_haven_resident_120": {
+      "url": "/media/assets/portrait_haven_resident_120.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 120"
+    },
+    "portrait_haven_resident_121": {
+      "url": "/media/assets/portrait_haven_resident_121.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 121"
+    },
+    "portrait_haven_resident_122": {
+      "url": "/media/assets/portrait_haven_resident_122.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 122"
+    },
+    "portrait_haven_resident_123": {
+      "url": "/media/assets/portrait_haven_resident_123.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 123"
+    },
+    "portrait_haven_resident_124": {
+      "url": "/media/assets/portrait_haven_resident_124.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 124"
+    },
+    "portrait_haven_resident_125": {
+      "url": "/media/assets/portrait_haven_resident_125.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 125"
+    },
+    "portrait_haven_resident_126": {
+      "url": "/media/assets/portrait_haven_resident_126.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 126"
+    },
+    "portrait_haven_resident_127": {
+      "url": "/media/assets/portrait_haven_resident_127.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 127"
+    },
+    "portrait_haven_resident_128": {
+      "url": "/media/assets/portrait_haven_resident_128.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 128"
+    },
+    "portrait_haven_resident_129": {
+      "url": "/media/assets/portrait_haven_resident_129.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 129"
+    },
+    "portrait_haven_resident_130": {
+      "url": "/media/assets/portrait_haven_resident_130.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 130"
+    },
+    "portrait_haven_resident_131": {
+      "url": "/media/assets/portrait_haven_resident_131.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 131"
+    },
+    "portrait_haven_resident_132": {
+      "url": "/media/assets/portrait_haven_resident_132.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 132"
+    },
+    "portrait_haven_resident_133": {
+      "url": "/media/assets/portrait_haven_resident_133.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 133"
+    },
+    "portrait_haven_resident_134": {
+      "url": "/media/assets/portrait_haven_resident_134.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 134"
+    },
+    "portrait_haven_resident_135": {
+      "url": "/media/assets/portrait_haven_resident_135.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 135"
+    },
+    "portrait_haven_resident_136": {
+      "url": "/media/assets/portrait_haven_resident_136.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 136"
+    },
+    "portrait_haven_resident_137": {
+      "url": "/media/assets/portrait_haven_resident_137.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 137"
+    },
+    "portrait_haven_resident_138": {
+      "url": "/media/assets/portrait_haven_resident_138.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 138"
+    },
+    "portrait_haven_resident_139": {
+      "url": "/media/assets/portrait_haven_resident_139.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 139"
+    },
+    "portrait_haven_resident_140": {
+      "url": "/media/assets/portrait_haven_resident_140.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 140"
+    },
+    "portrait_haven_resident_141": {
+      "url": "/media/assets/portrait_haven_resident_141.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 141"
+    },
+    "portrait_haven_resident_142": {
+      "url": "/media/assets/portrait_haven_resident_142.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 142"
+    },
+    "portrait_haven_resident_143": {
+      "url": "/media/assets/portrait_haven_resident_143.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 143"
+    },
+    "portrait_haven_resident_144": {
+      "url": "/media/assets/portrait_haven_resident_144.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 144"
+    },
+    "portrait_haven_resident_145": {
+      "url": "/media/assets/portrait_haven_resident_145.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 145"
+    },
+    "portrait_haven_resident_146": {
+      "url": "/media/assets/portrait_haven_resident_146.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 146"
+    },
+    "portrait_haven_resident_147": {
+      "url": "/media/assets/portrait_haven_resident_147.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 147"
+    },
+    "portrait_haven_resident_148": {
+      "url": "/media/assets/portrait_haven_resident_148.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 148"
+    },
+    "portrait_haven_resident_149": {
+      "url": "/media/assets/portrait_haven_resident_149.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 149"
+    },
+    "portrait_haven_resident_150": {
+      "url": "/media/assets/portrait_haven_resident_150.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 150"
+    },
+    "portrait_haven_resident_151": {
+      "url": "/media/assets/portrait_haven_resident_151.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 151"
+    },
+    "portrait_haven_resident_152": {
+      "url": "/media/assets/portrait_haven_resident_152.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 152"
+    },
+    "portrait_haven_resident_153": {
+      "url": "/media/assets/portrait_haven_resident_153.webp",
+      "profile": "portrait_npc",
+      "label": "Resident 153"
+    },
+    "dialogue_town_hq_founder_lady_boss_neutral": {
+      "url": "/media/assets/dialogue_town_hq_founder_lady_boss_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Lady_Boss — neutral"
+    },
+    "dialogue_town_hq_founder_lady_boss_happy": {
+      "url": "/media/assets/dialogue_town_hq_founder_lady_boss_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue Lady_Boss — happy"
+    },
+    "dialogue_town_hq_founder_pot_neutral": {
+      "url": "/media/assets/dialogue_town_hq_founder_pot_neutral.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue po&T — neutral"
+    },
+    "dialogue_town_hq_founder_pot_happy": {
+      "url": "/media/assets/dialogue_town_hq_founder_pot_happy.webp",
+      "profile": "dialogue_portrait",
+      "label": "Dialogue po&T — happy"
+    },
+    "prop_hq_reception_desk": {
+      "url": "/media/assets/prop_hq_reception_desk.webp",
+      "profile": "prop_sprite",
+      "label": "HQ reception desk"
+    },
+    "prop_hq_design_table": {
+      "url": "/media/assets/prop_hq_design_table.webp",
+      "profile": "prop_sprite",
+      "label": "HQ creative studio table"
+    },
+    "prop_hq_engineering_console": {
+      "url": "/media/assets/prop_hq_engineering_console.webp",
+      "profile": "prop_sprite",
+      "label": "HQ engineering console"
+    },
+    "prop_hq_lounge_sofa": {
+      "url": "/media/assets/prop_hq_lounge_sofa.webp",
+      "profile": "prop_sprite",
+      "label": "Premium reception sofa"
+    },
+    "prop_hq_indoor_planter": {
+      "url": "/media/assets/prop_hq_indoor_planter.webp",
+      "profile": "prop_sprite",
+      "label": "Premium reception planter"
+    },
+    "prop_hq_reception_backdrop": {
+      "url": "/media/assets/prop_hq_reception_backdrop.webp",
+      "profile": "prop_sprite",
+      "label": "Premium reception backdrop"
+    }
+  },
+  "atlases": {
+    "hud": {
+      "image": "/media/atlases/hud.webp",
+      "json": "/media/atlases/hud.json",
+      "pack": "/media/atlases/hud.pack.json",
+      "width": 4032,
+      "height": 1822
+    },
+    "world": {
+      "abandoned_yard": {
+        "image": "/media/atlases/world-abandoned_yard.webp",
+        "json": "/media/atlases/world-abandoned_yard.json",
+        "pack": "/media/atlases/world-abandoned_yard.pack.json",
+        "width": 6170,
+        "height": 516
+      },
+      "adena_fields": {
+        "image": "/media/atlases/world-adena_fields.webp",
+        "json": "/media/atlases/world-adena_fields.json",
+        "pack": "/media/atlases/world-adena_fields.pack.json",
+        "width": 2572,
+        "height": 516
+      },
+      "ash_highlands": {
+        "image": "/media/atlases/world-ash_highlands.webp",
+        "json": "/media/atlases/world-ash_highlands.json",
+        "pack": "/media/atlases/world-ash_highlands.pack.json",
+        "width": 3600,
+        "height": 516
+      },
+      "chaos_sector": {
+        "image": "/media/atlases/world-chaos_sector.webp",
+        "json": "/media/atlases/world-chaos_sector.json",
+        "pack": "/media/atlases/world-chaos_sector.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "citadel_approach": {
+        "image": "/media/atlases/world-citadel_approach.webp",
+        "json": "/media/atlases/world-citadel_approach.json",
+        "pack": "/media/atlases/world-citadel_approach.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "collapse_fringe": {
+        "image": "/media/atlases/world-collapse_fringe.webp",
+        "json": "/media/atlases/world-collapse_fringe.json",
+        "pack": "/media/atlases/world-collapse_fringe.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "empery_haven": {
+        "image": "/media/atlases/world-empery_haven.webp",
+        "json": "/media/atlases/world-empery_haven.json",
+        "pack": "/media/atlases/world-empery_haven.pack.json",
+        "width": 15936,
+        "height": 5142
+      },
+      "empery_hq": {
+        "image": "/media/atlases/world-empery_hq.webp",
+        "json": "/media/atlases/world-empery_hq.json",
+        "pack": "/media/atlases/world-empery_hq.pack.json",
+        "width": 8226,
+        "height": 516
+      },
+      "fracture_ridge": {
+        "image": "/media/atlases/world-fracture_ridge.webp",
+        "json": "/media/atlases/world-fracture_ridge.json",
+        "pack": "/media/atlases/world-fracture_ridge.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "godfall_throne": {
+        "image": "/media/atlases/world-godfall_throne.webp",
+        "json": "/media/atlases/world-godfall_throne.json",
+        "pack": "/media/atlases/world-godfall_throne.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "gods_rift": {
+        "image": "/media/atlases/world-gods_rift.webp",
+        "json": "/media/atlases/world-gods_rift.json",
+        "pack": "/media/atlases/world-gods_rift.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "haven_apartment": {
+        "image": "/media/atlases/world-haven_apartment.webp",
+        "json": "/media/atlases/world-haven_apartment.json",
+        "pack": "/media/atlases/world-haven_apartment.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "intersection_district": {
+        "image": "/media/atlases/world-intersection_district.webp",
+        "json": "/media/atlases/world-intersection_district.json",
+        "pack": "/media/atlases/world-intersection_district.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "pantheon_ascent": {
+        "image": "/media/atlases/world-pantheon_ascent.webp",
+        "json": "/media/atlases/world-pantheon_ascent.json",
+        "pack": "/media/atlases/world-pantheon_ascent.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "relay_spire": {
+        "image": "/media/atlases/world-relay_spire.webp",
+        "json": "/media/atlases/world-relay_spire.json",
+        "pack": "/media/atlases/world-relay_spire.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "shadow_depths": {
+        "image": "/media/atlases/world-shadow_depths.webp",
+        "json": "/media/atlases/world-shadow_depths.json",
+        "pack": "/media/atlases/world-shadow_depths.pack.json",
+        "width": 2572,
+        "height": 516
+      },
+      "signal_block": {
+        "image": "/media/atlases/world-signal_block.webp",
+        "json": "/media/atlases/world-signal_block.json",
+        "pack": "/media/atlases/world-signal_block.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "silverwood": {
+        "image": "/media/atlases/world-silverwood.webp",
+        "json": "/media/atlases/world-silverwood.json",
+        "pack": "/media/atlases/world-silverwood.pack.json",
+        "width": 3600,
+        "height": 516
+      },
+      "singularity_citadel": {
+        "image": "/media/atlases/world-singularity_citadel.webp",
+        "json": "/media/atlases/world-singularity_citadel.json",
+        "pack": "/media/atlases/world-singularity_citadel.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "starter_grove": {
+        "image": "/media/atlases/world-starter_grove.webp",
+        "json": "/media/atlases/world-starter_grove.json",
+        "pack": "/media/atlases/world-starter_grove.pack.json",
+        "width": 3600,
+        "height": 516
+      },
+      "static_core": {
+        "image": "/media/atlases/world-static_core.webp",
+        "json": "/media/atlases/world-static_core.json",
+        "pack": "/media/atlases/world-static_core.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "suburban_park": {
+        "image": "/media/atlases/world-suburban_park.webp",
+        "json": "/media/atlases/world-suburban_park.json",
+        "pack": "/media/atlases/world-suburban_park.pack.json",
+        "width": 6170,
+        "height": 516
+      },
+      "void_scar": {
+        "image": "/media/atlases/world-void_scar.webp",
+        "json": "/media/atlases/world-void_scar.json",
+        "pack": "/media/atlases/world-void_scar.pack.json",
+        "width": 7198,
+        "height": 516
+      },
+      "empery_hq_lobby": {
+        "image": "/media/atlases/world-empery_hq_lobby.webp",
+        "json": "/media/atlases/world-empery_hq_lobby.json",
+        "pack": "/media/atlases/world-empery_hq_lobby.pack.json",
+        "width": 4628,
+        "height": 516
+      }
+    }
+  }
+}

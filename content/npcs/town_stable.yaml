@@ -1,0 +1,77 @@
+id: town_stable
+name: Конюх Борис
+race: human
+location: empery_haven
+questId: town_stable
+defaultGreeting: Кони не для витрины — для дороги. Есть и щенки с рынка — лут таскают, если воспитаешь. Выбирай скакуна, садись на H и не путай таран с рысью.
+
+
+world:
+  role: character
+  wanderRadius: 52
+  wanderSpeed: 28
+portraits:
+  default: neutral
+
+choices:
+  - id: stable_shop
+    label: Купить скакуна
+    flag: _stable_shop
+    portrait: work
+  - id: stable_groom
+    label: Вычистить копыта (15 адены)
+    flag: _stable_groom
+    portrait: work
+  - id: stable_feed
+    label: Накормить сеном (охапка или 8 адены)
+    flag: _stable_feed
+    portrait: happy
+  - id: stable_buy_hay
+    label: Купить охапку сена (6 адены)
+    flag: _stable_buy_hay
+    portrait: work
+  - id: stable_mount
+    label: Как правильно ездить?
+    flag: _stable_mount
+    nextNode: mount
+    portrait: work
+  - id: stable_charge
+    label: Про таран на скаку
+    flag: _stable_charge
+    nextNode: charge
+    portrait: serious
+  - id: stable_puppy
+    label: Купить щенка?
+    flag: _stable_puppy
+    nextNode: puppy
+    portrait: happy
+  - id: stable_leave
+    label: Уйти
+    flag: _stable_done
+    portrait: neutral
+
+nodes:
+  mount:
+    text: H — сесть и спешиться. Держи равновесие, не гони по брусчатке как по полю — камни копытам не друзья.
+    portrait: work
+    choices:
+      - id: stable_mount_bye
+        label: Запомню
+        flag: _stable_done
+        portrait: happy
+  charge:
+    text: Таран — Space на скаку. Сильно, но слепо. В городе лучше не устраивать цирк — стража не оценит.
+    portrait: serious
+    choices:
+      - id: stable_charge_bye
+        label: Понял
+        flag: _stable_done
+        portrait: neutral
+  puppy:
+    text: Щенки с рынка — восемнадцать тысяч. Собирают добычу с земли, если кормишь и не бросаешь. Купи у стойла через меню питомца — я оформлю.
+    portrait: happy
+    choices:
+      - id: stable_puppy_bye
+        label: Понял
+        flag: _stable_done
+        portrait: happy

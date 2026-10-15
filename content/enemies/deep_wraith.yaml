@@ -1,0 +1,48 @@
+id: deep_wraith
+name: Глубинный призрак
+level: 36
+hp: 110
+pAtk: 26
+pDef: 20
+mDef: 18
+accuracy: 36
+evasion: 34
+speed: 118
+xpReward: 52
+drops:
+- kind: adena
+  chance: 1000000
+  min: 42
+  max: 98
+- item: leather_scrap
+  chance: 300000
+  min: 1
+  max: 2
+- item: depths_cloak
+  chance: 40000
+  min: 1
+  max: 1
+- item: rune_greaves
+  chance: 35000
+  min: 1
+  max: 1
+- item: crystal_helm
+  chance: 28000
+  min: 1
+  max: 1
+- item: null_visor
+  chance: 55000
+  min: 1
+  max: 1
+- item: reaver_gauntlets
+  chance: 55000
+  min: 1
+  max: 1
+- item: echo_coif
+  chance: 90000
+  min: 1
+  max: 1
+- item: drone_grips
+  chance: 90000
+  min: 1
+  max: 1

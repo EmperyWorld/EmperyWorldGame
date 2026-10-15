@@ -1,0 +1,144 @@
+id: pantheon_ascent
+name: Подъём Пантеона
+subtitle: Ступени к павшим богам
+description: 'За Разломом Богов каменные лестницы ведут сквозь руины храмов. Стражи Пантеона и призраки идолов охраняют путь к Трону Падения. Связь с Разломом — на западе.'
+mapKey: map-pantheon_ascent
+backgroundAsset: location_pantheon_ascent
+safeZone: false
+anomalyTier: 4
+tierLabel: Зона Коллапса
+recommendedLevel:
+  min: 52
+  max: 70
+survivalClimate:
+  temperatureC: -8
+  humidity: 25
+  shelter: 12
+  water: none
+  heatSources:
+    - x: 2560
+      y: 1792
+      radius: 180
+stations:
+  - id: pantheon_ascent_shrine_2560_1792
+    kind: campfire
+    x: 2560
+    y: 1792
+    radius: 180
+spawn:
+  x: 960
+  y: 1920
+requires:
+  anyFlag: [quest_gods_complete]
+npcs: []
+zones:
+  - x: 320
+    y: 1792
+    label: '← К разлому'
+    color: '#c09040'
+    travelTo: gods_rift
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'Трон →'
+    color: '#f0d060'
+    travelTo: godfall_throne
+    radius: 220
+  - x: 2560
+    y: 480
+    label: 'Храмовые ступени'
+    color: '#e8c060'
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1792
+enemies:
+  - type: pantheon_sentinel
+    x: 1760
+    y: 1120
+  - type: idol_wraith
+    x: 2400
+    y: 1440
+  - type: pantheon_sentinel
+    x: 3200
+    y: 1200
+  - type: idol_wraith
+    x: 3840
+    y: 1520
+  - type: pantheon_sentinel
+    x: 1600
+    y: 2400
+  - type: idol_wraith
+    x: 3040
+    y: 2480
+  - type: pantheon_sentinel
+    x: 4000
+    y: 2320
+  - type: idol_wraith
+    x: 1280
+    y: 2560
+  - type: pantheon_sentinel
+    x: 2560
+    y: 1120
+  - type: idol_wraith
+    x: 2560
+    y: 2560
+  - type: pantheon_sentinel
+    x: 3520
+    y: 1920
+  - type: idol_wraith
+    x: 1920
+    y: 1920
+farmSpawn:
+  type: pantheon_sentinel
+  maxAlive: 16
+  respawnMs: 2400
+  points:
+    - { x: 1120, y: 960 }
+    - { x: 1760, y: 880 }
+    - { x: 2400, y: 960 }
+    - { x: 3040, y: 880 }
+    - { x: 3680, y: 960 }
+    - { x: 4320, y: 1040 }
+    - { x: 1120, y: 1680 }
+    - { x: 1760, y: 1760 }
+    - { x: 3360, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1280, y: 2400 }
+    - { x: 2080, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+    - { x: 1440, y: 1280 }
+    - { x: 3680, y: 1280 }
+    - { x: 1920, y: 2080 }
+    - { x: 3200, y: 2080 }
+questSpawns:
+  - activeFlag: quest_ascent_active
+    killCounterFlag: quest_ascent_kills
+    banner: 'Подъём: стражи {kills}/5'
+    startBanner: 'Квест: уничтожь 5 стражей Пантеона на подъёме'
+    enemies:
+      - type: pantheon_sentinel
+        x: 1920
+        y: 1280
+        quest: true
+      - type: pantheon_sentinel
+        x: 2880
+        y: 1280
+        quest: true
+      - type: pantheon_sentinel
+        x: 1920
+        y: 2304
+        quest: true
+      - type: pantheon_sentinel
+        x: 2880
+        y: 2304
+        quest: true
+      - type: pantheon_sentinel
+        x: 2560
+        y: 1792
+        quest: true
+questComplete:
+  - anyFlag: [quest_ascent_complete]
+    banner: 'Подъём открыт — квест завершён'

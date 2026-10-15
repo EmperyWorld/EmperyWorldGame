@@ -1,0 +1,10 @@
+id: gods_breach
+radioNpcId: gods_oracle
+completeFlag: quest_gods_complete
+activeFlag: quest_gods_active
+killCounterFlag: quest_gods_kills
+requiredKills: 6
+enemyType: divine_echo
+rewardItems:
+  - hush_cowl
+  - ghoststride

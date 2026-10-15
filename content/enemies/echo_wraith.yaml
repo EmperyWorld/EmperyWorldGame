@@ -1,0 +1,32 @@
+id: echo_wraith
+name: Эхо-призрак
+level: 19
+hp: 78
+pAtk: 22
+pDef: 12
+mDef: 11
+accuracy: 28
+evasion: 26
+speed: 110
+xpReward: 34
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 48
+    max: 92
+  - item: leather_scrap
+    chance: 360000
+    min: 1
+    max: 2
+  - item: iron_arrow
+    chance: 280000
+    min: 3
+    max: 8
+  - item: hunter_cloak
+    chance: 40000
+    min: 1
+    max: 1
+  - item: composite_bow
+    chance: 16000
+    min: 1
+    max: 1

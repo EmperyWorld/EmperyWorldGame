@@ -1,0 +1,55 @@
+id: elder_mira
+name: Старейшина Мира
+race: human
+location: starter_grove
+questId: grove_intro
+defaultGreeting: Приветствую, путник. Лес шепчет о твоём приходе.
+
+
+world:
+  role: character
+  wanderRadius: 36
+  wanderSpeed: 22
+portraits:
+  default: neutral
+
+choices:
+  - id: accept_help
+    label: Я готов помочь
+    flag: quest_grove_started
+    nextNode: send_to_cave
+    portrait: serious
+    blocks: [quest_betrayal_started]
+  - id: betray
+    label: Продам информацию торговцам
+    flag: quest_betrayal_started
+    nextNode: betray_path
+    portrait: angry
+    blocks: [quest_grove_started, quest_grove_active]
+  - id: refuse
+    label: Мне некогда
+    flag: quest_grove_refused
+    nextNode: dismiss
+    portrait: serious
+
+nodes:
+  send_to_cave:
+    text: Отлично. На востоке пещера — там завелся гоблин. Прогони его.
+    portrait: serious
+    choices:
+      - id: go
+        label: Иду
+        flag: quest_grove_active
+        portrait: serious
+  betray_path:
+    text: Торговцы ждут у Теневой рощи на западе. Принеси им печать старейшины — получишь своё.
+    portrait: angry
+    choices:
+      - id: betray_go
+        label: Иду к торговцам
+        flag: quest_betrayal_active
+        portrait: angry
+  dismiss:
+    text: Как знаешь. Вернёшься — поговорим.
+    portrait: neutral
+    choices: []

@@ -1,0 +1,8 @@
+merchantName: Фаддей · хлеб с мельницы
+offers:
+  - id: mill_grain
+    price: 4
+  - id: bread_loaf
+    price: 14
+  - id: travel_biscuit
+    price: 10

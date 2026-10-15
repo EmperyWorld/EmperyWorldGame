@@ -1,0 +1,428 @@
+id: empery_haven
+name: Имперская гавань
+subtitle: Районы у речного порта
+description: Безопасный город у воды — рынок, трактир и капитан стражи. Здесь можно отдохнуть, закупиться и узнать новости.
+mapKey: map-empery_haven
+backgroundAsset: location_empery_haven
+safeZone: true
+anomalyTier: 1
+tierLabel: Зона Стабильности
+recommendedLevel:
+  min: 1
+  max: 25
+spawn:
+  x: 2592
+  y: 1312
+npcs:
+  - id: town_captain
+    x: 864
+    y: 736
+    label: Капитан [E]
+  - id: town_guard
+    x: 992
+    y: 736
+    label: Страж Леон [E]
+  - id: town_merchant
+    x: 800
+    y: 1504
+    label: Лорен [E]
+  - id: town_butcher
+    x: 480
+    y: 1504
+    label: Бран [E]
+  - id: town_radio
+    x: 1184
+    y: 1760
+    label: Рен [E]
+  - id: town_blacksmith
+    x: 800
+    y: 2272
+    label: Гарольд [E]
+  - id: town_miller
+    x: 1312
+    y: 2336
+    label: Мельник Фаддей [E]
+  - id: town_stable
+    x: 2016
+    y: 2592
+    label: Борис [E]
+  - id: town_priest
+    x: 3488
+    y: 800
+    label: Отец Кассий [E]
+  - id: town_scribe
+    x: 3872
+    y: 608
+    label: Писец Ирина [E]
+  - id: town_healer
+    x: 3104
+    y: 1120
+    label: Лекарь Сера [E]
+  - id: town_teacher
+    x: 2848
+    y: 2528
+    label: Учитель Лавр [E]
+  - id: town_innkeeper
+    x: 3744
+    y: 1376
+    label: Марта [E]
+  - id: town_innkeeper_day
+    x: 3808
+    y: 1376
+    label: Олег [E]
+  - id: town_bathkeeper
+    x: 3488
+    y: 1632
+    label: Банщица Ника [E]
+  - id: town_brewer
+    x: 4128
+    y: 1632
+    label: Пивовар Хольм [E]
+  - id: town_fisher
+    x: 4256
+    y: 2912
+    label: Рыбак Ульф [E]
+  - id: town_dockhand
+    x: 3744
+    y: 2912
+    label: Грузчик Петр [E]
+  - id: town_steward
+    x: 608
+    y: 2592
+    label: Эдмунд [E]
+  - id: town_gardener
+    x: 928
+    y: 2464
+    label: Садовник [E]
+  - id: town_informant
+    x: 3872
+    y: 1824
+    label: Информатор [E]
+  - id: town_hq_sentry
+    x: 4128
+    y: 2592
+    label: Часовой HQ [E]
+  - id: town_notice_board
+    x: 2336
+    y: 1120
+    label: Доска объявлений [E]
+  - id: stage_bard
+    x: 2720
+    y: 1952
+    label: Бард Кай [E]
+  - id: harbor_skipper_barge
+    x: 3296
+    y: 3744
+    label: Баржевой Томаш [E]
+  - id: harbor_skipper_cog
+    x: 3296
+    y: 4256
+    label: Шкипер кога [E]
+  - id: harbor_skipper_fishing
+    x: 4256
+    y: 3808
+    label: Шкипер Устья [E]
+  - id: harbor_skipper_caravel
+    x: 4256
+    y: 4000
+    label: Капитан каравеллы [E]
+  - id: harbor_skipper_ferry
+    x: 4256
+    y: 4448
+    label: Паромщик [E]
+  - id: harbor_skipper_skiff
+    x: 4768
+    y: 3744
+    label: Шкипер скифа [E]
+  - id: harbor_skipper_brig
+    x: 5728
+    y: 4448
+    label: Капитан брига [E]
+zones:
+  - x: 2592
+    y: 96
+    label: '↑ К роще'
+    color: '#c9e6a0'
+    travelTo: starter_grove
+    radius: 200
+  - x: 928
+    y: 608
+    label: 'Гарнизон'
+    color: '#8890a0'
+  - x: 2592
+    y: 1184
+    label: 'Форум'
+    color: '#d4c090'
+  - x: 2720
+    y: 1952
+    label: 'Театр'
+    color: '#c8a0b0'
+  - x: 800
+    y: 1312
+    label: 'Рынок'
+    color: '#c9a66b'
+  - x: 928
+    y: 2080
+    label: 'Ремёсла'
+    color: '#cc6644'
+  - x: 1056
+    y: 2976
+    label: 'Спальный'
+    color: '#b89878'
+  - x: 1760
+    y: 2912
+    label: 'Общинный сад'
+    color: '#88bb66'
+  - x: 1056
+    y: 2912
+    label: 'Дом жильцов'
+    color: '#c8b090'
+    travelTo: haven_apartment
+    radius: 72
+    arrival: { x: 1120, y: 2976 }
+  - x: 3744
+    y: 672
+    label: 'Муниципальный'
+    color: '#a8c4e8'
+  - x: 3872
+    y: 1312
+    label: 'Сервисный двор'
+    color: '#dd8866'
+  - x: 4000
+    y: 1824
+    label: 'Переулок Шепотов'
+    color: '#6a5a78'
+  - x: 1952
+    y: 2464
+    label: 'Конюшня'
+    color: '#c8a878'
+  - x: 4128
+    y: 2528
+    label: 'Ворота EmperyWorld HQ'
+    color: '#3aa0c8'
+    travelTo: empery_hq
+    radius: 120
+    arrival: { x: 4064, y: 2720 }
+  - x: 4128
+    y: 2976
+    label: 'Порт'
+    color: '#88aacc'
+  - x: 1440
+    y: 3424
+    label: 'Поля'
+    color: '#d4c070'
+  - x: 928
+    y: 3424
+    label: 'Некрополь'
+    color: '#9098a8'
+  - x: 5024
+    y: 1824
+    label: 'Парк →'
+    color: '#88bb88'
+    travelTo: suburban_park
+    radius: 200
+  - x: 2592
+    y: 3488
+    label: '↓ Золотые поля'
+    color: '#e8c878'
+    travelTo: adena_fields
+    radius: 200
+    arrival: { x: 2592, y: 3360 }
+stations:
+  - id: haven_well_court
+    kind: water
+    x: 864
+    y: 2912
+    radius: 84
+  - id: haven_well_forum
+    kind: water
+    x: 2976
+    y: 1440
+    radius: 72
+  - id: haven_inn_hearth
+    kind: hearth
+    x: 3744
+    y: 1312
+    radius: 140
+  - id: haven_inn_pot
+    kind: pot
+    x: 3744
+    y: 1312
+    radius: 140
+  - id: haven_craft_hearth
+    kind: hearth
+    x: 800
+    y: 2144
+    radius: 140
+  - id: haven_craft_pot
+    kind: pot
+    x: 800
+    y: 2144
+    radius: 140
+  - id: haven_garrison_campfire
+    kind: campfire
+    x: 864
+    y: 864
+    radius: 140
+  - id: haven_port_campfire
+    kind: campfire
+    x: 4000
+    y: 3040
+    radius: 140
+landmarks:
+  - kind: fountain
+    x: 2592
+    y: 1184
+  - kind: statue
+    x: 928
+    y: 416
+  - kind: cathedral
+    x: 3488
+    y: 608
+  - kind: library
+    x: 3872
+    y: 416
+  - kind: bathhouse
+    x: 3488
+    y: 1440
+  - kind: brewery
+    x: 4128
+    y: 1440
+  - kind: healer
+    x: 3104
+    y: 928
+  - kind: jail
+    x: 1312
+    y: 672
+  - kind: gazebo
+    x: 2336
+    y: 1824
+  - kind: stage
+    x: 2720
+    y: 1952
+  - kind: chapel
+    x: 2976
+    y: 1824
+  - kind: farmhouse
+    x: 1440
+    y: 3488
+  - kind: chandler
+    x: 4512
+    y: 2848
+  - kind: dock_tavern
+    x: 4768
+    y: 2784
+  - kind: watch_house
+    x: 4768
+    y: 1696
+  - kind: carpenter
+    x: 544
+    y: 1952
+  - kind: aqueduct
+    x: 2592
+    y: 1056
+  - kind: scriptorium
+    x: 3872
+    y: 480
+  - kind: leatherworker
+    x: 1696
+    y: 2336
+  - kind: weigh_house
+    x: 1056
+    y: 1440
+  - kind: palace_kitchen
+    x: 4640
+    y: 800
+  - kind: school
+    x: 2848
+    y: 2336
+  - kind: memorial
+    x: 928
+    y: 3424
+  - kind: map_shop
+    x: 3936
+    y: 2720
+  - kind: glassblower
+    x: 416
+    y: 2208
+  - kind: cobbler
+    x: 800
+    y: 2336
+  - kind: archive
+    x: 4128
+    y: 480
+  - kind: sparring
+    x: 1056
+    y: 864
+  - kind: garrison_fire
+    x: 864
+    y: 864
+  - kind: pilot
+    x: 4768
+    y: 2976
+  - kind: tea_house
+    x: 4256
+    y: 1312
+  - kind: anchor
+    x: 3872
+    y: 2976
+  - kind: fire_brigade
+    x: 3360
+    y: 1312
+  - kind: palace
+    x: 4384
+    y: 672
+  - kind: guildhall
+    x: 544
+    y: 1056
+  - kind: clock_tower
+    x: 2976
+    y: 1056
+  - kind: lighthouse
+    x: 5152
+    y: 3488
+  - kind: windmill
+    x: 1440
+    y: 2208
+  - kind: shop
+    x: 1056
+    y: 1184
+  - kind: inn
+    x: 3744
+    y: 1184
+  - kind: blacksmith
+    x: 800
+    y: 2080
+  - kind: stable
+    x: 1952
+    y: 2464
+  - kind: barracks
+    x: 928
+    y: 544
+  - kind: tenement
+    x: 1056
+    y: 2720
+  - kind: empery_hq
+    x: 4128
+    y: 2272
+  - kind: hq_gate
+    x: 4128
+    y: 2528
+  - kind: gate_north
+    x: 2592
+    y: 160
+  - kind: gate_south
+    x: 2592
+    y: 3232
+  - kind: gate_east
+    x: 4960
+    y: 1824
+  - kind: harbor_gate
+    x: 4000
+    y: 3232
+  - kind: warehouse
+    x: 3744
+    y: 2720
+  - kind: pier
+    x: 4064
+    y: 3744

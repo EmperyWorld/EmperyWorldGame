@@ -1,0 +1,106 @@
+# Data-driven survival conditions (illness / injury / deficit labels, cures, modifiers).
+conditions:
+  - id: hungry
+    name: голод
+    kind: deficit
+    uiHint: Найди еду или отдохни в безопасной зоне.
+    modifiers:
+      deficit: { speed: 0.9, accuracy: 0.92, stamina: 0.85, hpRegen: 0.55 }
+      critical: { speed: 0.72, accuracy: 0.75, stamina: 0.55, hpRegen: 0 }
+  - id: dehydrated
+    name: жажда
+    kind: deficit
+    uiHint: Выпей чистую воду.
+    modifiers:
+      deficit: { speed: 0.88, accuracy: 0.9, stamina: 0.8, hpRegen: 0.5 }
+      critical: { speed: 0.7, accuracy: 0.72, stamina: 0.5, hpRegen: 0 }
+  - id: hypothermia
+    name: переохлаждение
+    kind: deficit
+    uiHint: Согрейсь у огня или надень тёплую одежду.
+    stabilize: heat
+    modifiers:
+      deficit: { speed: 0.86, accuracy: 0.88, stamina: 0.78, hpRegen: 0.4 }
+      critical: { speed: 0.68, accuracy: 0.7, stamina: 0.45, hpRegen: 0 }
+  - id: hyperthermia
+    name: перегрев
+    kind: deficit
+    uiHint: Остынь в тени и пей воду.
+    modifiers:
+      deficit: { speed: 0.9, accuracy: 0.9, stamina: 0.82, hpRegen: 0.5 }
+      critical: { speed: 0.72, accuracy: 0.74, stamina: 0.55, hpRegen: 0 }
+  - id: fatigued
+    name: усталость
+    kind: deficit
+    uiHint: Отдохни в безопасной зоне.
+    modifiers:
+      deficit: { speed: 0.92, accuracy: 0.94, stamina: 0.75, hpRegen: 0.7 }
+      critical: { speed: 0.75, accuracy: 0.78, stamina: 0.5, hpRegen: 0.2 }
+  - id: infection
+    name: инфекция
+    kind: illness
+    uiHint: Нужны антибиотики или лекарь в Гавани.
+    stages: [mild, acute]
+    cures:
+      tools: [antibiotic]
+      npc: town_healer
+    modifiers:
+      deficit: { speed: 0.9, accuracy: 0.9, stamina: 0.8, hpRegen: 0.45 }
+  - id: food_poisoning
+    name: пищевое отравление
+    kind: illness
+    uiHint: Нужны антибиотики или лекарь в Гавани.
+    stages: [mild, acute]
+    cures:
+      tools: [antibiotic]
+      npc: town_healer
+    modifiers:
+      deficit: { speed: 0.88, accuracy: 0.88, stamina: 0.78, hpRegen: 0.4 }
+  - id: exhaustion_injury
+    name: истощение
+    kind: injury
+    uiHint: Бинт или Сера. Иначе следующий обморок — Гибель.
+    cures:
+      tools: [bandage]
+      npc: town_healer
+    modifiers:
+      deficit: { speed: 0.85, accuracy: 0.9, stamina: 0.7, hpRegen: 0.55 }
+  - id: frostbite
+    name: обморожение
+    kind: injury
+    uiHint: Бинт, тепло и Сера. Иначе следующий обморок — Гибель.
+    stabilize: heat
+    cures:
+      tools: [bandage]
+      npc: town_healer
+    modifiers:
+      deficit: { speed: 0.82, accuracy: 0.86, stamina: 0.72, hpRegen: 0.5 }
+  - id: heatstroke
+    name: тепловой удар
+    kind: injury
+    uiHint: Охлаждающий настой или Сера. Иначе следующий обморок — Гибель.
+    cures:
+      tools: [antipyretic]
+      npc: town_healer
+    modifiers:
+      deficit: { speed: 0.84, accuracy: 0.88, stamina: 0.7, hpRegen: 0.45 }
+
+treatments:
+  bandage:
+    removes: [exhaustion_injury, frostbite]
+  antibiotic:
+    removes: [infection, food_poisoning]
+  antipyretic:
+    removes: [heatstroke, hyperthermia]
+
+npcCare:
+  town_healer:
+    costAdena: 45
+    removesKinds: [illness, injury]
+    restores:
+      satiety: 8
+      hydration: 8
+      fatigue: -18
+    messageOk: Сера обработала раны и сняла острые симптомы. Полное восстановление — отдых и еда.
+    messageNothing: Сейчас тебе не нужно лечение — береги силы.
+    messagePoor: Не хватает адены на полный приём. Нужно 45.

@@ -1,0 +1,52 @@
+id: empery_hq
+name: EmperyWorld HQ
+subtitle: Кампус корпорации · главный корпус и лаборатории
+description: Закрытый кампус EmperyWorld. Приёмная находится внутри главного корпуса; лаборатории и серверное крыло выходят во двор.
+mapKey: map-empery_hq
+backgroundAsset: location_empery_hq
+safeZone: true
+anomalyTier: 1
+tierLabel: Зона Допуска
+dayNight: outdoor
+recommendedLevel:
+  min: 1
+  max: 99
+requires:
+  anyFlag: [quest_empery_hq_access]
+  denyMessage: Ворота EmperyWorld закрыты. Нужен допуск героя — квест ещё впереди.
+spawn:
+  x: 1312
+  y: 1696
+npcs:
+  - id: town_hq_researcher
+    x: 672
+    y: 736
+    label: Д-р Вейн [E]
+  - id: town_hq_terminal
+    x: 1952
+    y: 736
+    label: Терминал [E]
+zones:
+  - x: 1312
+    y: 688
+    label: 'Главный корпус · Приёмная'
+    color: '#d8c69c'
+    travelTo: empery_hq_lobby
+    radius: 96
+    arrival: { x: 1312, y: 800 }
+  - x: 1312
+    y: 1824
+    label: '↓ Выход · Гавань'
+    color: '#c9a66b'
+    travelTo: empery_haven
+    radius: 110
+  - x: 672
+    y: 608
+    label: 'Лаборатории'
+    color: '#88dde8'
+  - x: 1952
+    y: 608
+    label: 'Серверы'
+    color: '#66aacc'
+landmarks: []
+enemies: []

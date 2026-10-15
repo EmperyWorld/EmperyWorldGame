@@ -1,0 +1,60 @@
+id: singularity_avatar
+name: Аватар Сингулярности
+level: 50
+hp: 280
+pAtk: 52
+pDef: 34
+mDef: 31
+accuracy: 36
+evasion: 18
+speed: 100
+xpReward: 140
+drops:
+- kind: adena
+  chance: 1000000
+  min: 160
+  max: 260
+- item: storm_bow
+  chance: 90000
+  min: 1
+  max: 1
+- item: daedric_composite_bow
+  chance: 35000
+  min: 1
+  max: 1
+- item: nightfang
+  chance: 60000
+  min: 1
+  max: 1
+- item: mothwing_cloak
+  chance: 50000
+  min: 1
+  max: 1
+- item: crystal_helm
+  chance: 45000
+  min: 1
+  max: 1
+- item: dusk_blade
+  chance: 40000
+  min: 1
+  max: 1
+- item: sovereign_grips
+  chance: 49000
+  min: 1
+  max: 1
+- item: mirror_wand_blade
+  chance: 49000
+  min: 1
+  max: 1
+- item: citadel_cuirass
+  chance: 77000
+  min: 1
+  max: 1
+- item: rift_veil
+  chance: 77000
+  min: 1
+  max: 1
+- item: warp_hauberk
+  chance: 125999
+  min: 1
+  max: 1

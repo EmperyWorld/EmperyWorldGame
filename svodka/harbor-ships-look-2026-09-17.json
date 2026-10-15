@@ -1,0 +1,80 @@
+{
+  "uniqueHulls": [
+    "prop_ship_skiff",
+    "prop_ship_fishing",
+    "prop_ship_barge",
+    "prop_ship_cog",
+    "prop_ship_caravel",
+    "prop_ship_ferry",
+    "prop_ship_brig"
+  ],
+  "docked": [
+    {
+      "id": "prop_ship_skiff",
+      "visual": "prop_ship_skiff_s",
+      "heading": "s",
+      "state": "in_port",
+      "visible": true
+    },
+    {
+      "id": "prop_ship_fishing",
+      "visual": "prop_ship_fishing_s",
+      "heading": "s",
+      "state": "in_port",
+      "visible": true
+    },
+    {
+      "id": "prop_ship_barge",
+      "visual": "prop_ship_barge_s",
+      "heading": "s",
+      "state": "at_sea",
+      "visible": false
+    },
+    {
+      "id": "prop_ship_cog",
+      "visual": "prop_ship_cog_s",
+      "heading": "s",
+      "state": "at_sea",
+      "visible": false
+    },
+    {
+      "id": "prop_ship_caravel",
+      "visual": "prop_ship_caravel_s",
+      "heading": "s",
+      "state": "at_sea",
+      "visible": false
+    },
+    {
+      "id": "prop_ship_ferry",
+      "visual": "prop_ship_ferry_s",
+      "heading": "s",
+      "state": "at_sea",
+      "visible": false
+    },
+    {
+      "id": "prop_ship_brig",
+      "visual": "prop_ship_brig_w",
+      "heading": "w",
+      "state": "at_sea",
+      "visible": false
+    }
+  ],
+  "ferry": {
+    "id": "prop_ship_ferry",
+    "visual": "prop_ship_ferry_e",
+    "heading": "e",
+    "state": "departing",
+    "visible": true,
+    "x": 5756,
+    "y": 5141
+  },
+  "brig": {
+    "id": "prop_ship_brig",
+    "visual": "prop_ship_brig_e",
+    "heading": "e",
+    "state": "departing",
+    "visible": true,
+    "x": 7023,
+    "y": 5010
+  }
+}

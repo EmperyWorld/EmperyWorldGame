@@ -1,0 +1,65 @@
+id: town_dockhand
+name: Грузчик Петр
+race: human
+location: empery_haven
+questId: town_dockhand
+defaultGreeting: Бочки, канаты, котелки — вот и вся поэзия порта. Походные припасы есть. Рыбу бери у Ульфа рядом, еду в городе — у Брана и Фаддея.
+
+
+world:
+  role: character
+  wanderRadius: 56
+  wanderSpeed: 30
+portraits:
+  default: neutral
+
+choices:
+  - id: dock_shift_start
+    label: Взять смену с ящиками
+    flag: _dock_shift_start
+    portrait: work
+    blocks: [quest_dock_shift_active]
+  - id: dock_shift_finish
+    label: Сдать ящики
+    flag: _dock_shift_finish
+    portrait: happy
+  - id: dock_shift_abandon
+    label: Отказаться от смены
+    flag: _dock_shift_abandon
+    portrait: serious
+  - id: dock_supplies
+    label: Купить походные припасы
+    flag: _dock_supplies
+    portrait: work
+  - id: dock_work
+    label: Чем занят порт сегодня?
+    flag: _dock_work
+    nextNode: work
+    portrait: work
+  - id: dock_warn
+    label: Куда лучше не соваться?
+    flag: _dock_warn
+    nextNode: warn
+    portrait: serious
+  - id: dock_leave
+    label: Уйти
+    flag: _dock_done
+    portrait: neutral
+
+nodes:
+  work:
+    text: Разгружаем галеру, вяжем снасти на ког. Спина гудит — значит, день честный.
+    portrait: work
+    choices:
+      - id: dock_work_bye
+        label: Не мешаю
+        flag: _dock_done
+        portrait: happy
+  warn:
+    text: 'Под стрелой крана — могила без камня. И не кури у смолы: капитан Гаррет потом лекции читает.'
+    portrait: serious
+    choices:
+      - id: dock_warn_bye
+        label: Отойду
+        flag: _dock_done
+        portrait: neutral

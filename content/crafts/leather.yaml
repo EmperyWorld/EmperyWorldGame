@@ -1,0 +1,24 @@
+---
+id: craft_leather_gloves
+name: Кожаные перчатки
+result: leather_gloves
+ingredients:
+  leather_scrap: 3
+---
+id: craft_leather_boots
+name: Кожаные сапоги
+result: leather_boots
+ingredients:
+  leather_scrap: 5
+---
+id: craft_leather_cap
+name: Кожаный шлем
+result: leather_cap
+ingredients:
+  leather_scrap: 4
+---
+id: craft_leather_tunic
+name: Кожаный доспех
+result: leather_tunic
+ingredients:
+  leather_scrap: 6

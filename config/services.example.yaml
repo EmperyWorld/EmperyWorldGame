@@ -1,0 +1,57 @@
+llama:
+  chat:
+    url: http://127.0.0.1:8080/v1
+    model: /path/to/chat-model.gguf
+
+  embeddings:
+    url: http://127.0.0.1:8081/v1
+    model: /path/to/embedding-model.gguf
+
+  rerank:
+    url: http://127.0.0.1:8082
+    model: /path/to/rerank-model.gguf
+
+comfyui:
+  url: http://127.0.0.1:31003
+  backend: flux2_klein
+  checkpoint: v1-5-pruned-emaonly-fp16.safetensors
+  outputDir: ./data/generated
+  jobsDir: ./data/media-jobs
+  steps: 20
+  cfg: 5
+  flux:
+    unet: flux-2-klein-4b-fp8.safetensors
+    clip: qwen_3_4b.safetensors
+    vae: flux2-vae.safetensors
+    distilled: true
+    steps: 4
+    cfg: 1
+  upscaleModel: 4x-UltraSharp.pth
+
+server:
+  port: 3000
+  host: 0.0.0.0
+
+client:
+  port: 5180
+  host: 0.0.0.0
+
+admin:
+  port: 5190
+  host: 0.0.0.0
+
+worker:
+  pollIntervalMs: 2000
+
+save:
+  backend: postgres
+  dir: ./data/saves
+
+# Local multiplayer infra (Podman bind-mount). Start: ./scripts/start-infra.sh
+persistence:
+  postgres:
+    enabled: true
+    url: postgres://empery:empery@127.0.0.1:5433/empery
+  redis:
+    enabled: true
+    url: redis://127.0.0.1:6380/0

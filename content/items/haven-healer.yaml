@@ -1,0 +1,10 @@
+id: sera_bandage
+name: Полевой бинт Серы
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Полевой бинт Серы. Снимает травму и угрозу Гибели в поле, не жди Гавани.
+survival:
+  tool: bandage
+  nutrition: 0
+icon: /media/assets/item_sera_bandage.webp

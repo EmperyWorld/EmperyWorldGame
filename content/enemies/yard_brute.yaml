@@ -1,0 +1,36 @@
+id: yard_brute
+name: Браконьер стройки
+level: 7
+hp: 48
+pAtk: 13
+pDef: 10
+mDef: 9
+accuracy: 18
+evasion: 12
+speed: 82
+xpReward: 16
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 18
+    max: 48
+  - item: leather_scrap
+    chance: 420000
+    min: 1
+    max: 2
+  - item: bronze_sword
+    chance: 70000
+    min: 1
+    max: 1
+  - item: leather_gloves
+    chance: 55000
+    min: 1
+    max: 1
+  - item: short_bow
+    chance: 25000
+    min: 1
+    max: 1
+  - item: iron_arrow
+    chance: 160000
+    min: 2
+    max: 6

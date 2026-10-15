@@ -1,0 +1,15 @@
+id: pale_courser
+name: Бледный скакун
+visual: pale
+speedMult: 1.55
+chargeDamageMult: 1.5
+chargeDurationMs: 540
+chargeCooldownMs: 5200
+chargeSpeed: 530
+chargeReach: 52
+shopPrice: 14000
+staminaDrainMult: 0.85
+staminaRegenMult: 1.12
+carryComfortKg: 105
+carryMaxKg: 160
+description: Серебристый скакун с холодной гривой — почти ультимативная скорость.

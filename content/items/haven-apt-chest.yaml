@@ -1,0 +1,8 @@
+id: apt_travel_kit
+name: Дорожный набор
+slot: material
+rarity: common
+weight: 0.4
+stats: {}
+description: 'Компактный набор из сундука квартиры: нитки, бинт, сухарь. Для дороги, не для лавки.'
+icon: /media/assets/item_apt_travel_kit.webp

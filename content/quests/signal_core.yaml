@@ -1,0 +1,10 @@
+id: signal_core
+radioNpcId: rift_scout
+completeFlag: quest_core_complete
+activeFlag: quest_core_active
+killCounterFlag: quest_core_kills
+requiredKills: 1
+enemyType: static_colossus
+rewardItems:
+  - brigandine
+  - void_gloves

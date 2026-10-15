@@ -1,0 +1,56 @@
+id: town_teacher
+name: Учитель Лавр
+race: human
+location: empery_haven
+questId: town_teacher
+defaultGreeting: 'Буквы — тоже оружие. В книге навыков [K] три раздела: бой своей профессии, выживание в поле и крафт — общие для всех.'
+
+
+world:
+  role: character
+  wanderRadius: 36
+  wanderSpeed: 20
+portraits:
+  default: neutral
+
+choices:
+  - id: teacher_lesson
+    label: Взять урок странника (10 адены)
+    flag: _teacher_lesson
+    portrait: work
+  - id: teacher_exam
+    label: Сдать экзамен
+    flag: _teacher_exam
+    portrait: happy
+  - id: teacher_map
+    label: Чему учите детей о мире?
+    flag: _teacher_map
+    nextNode: map
+    portrait: serious
+  - id: teacher_praise
+    label: Есть ли толк в учёбе для странника?
+    flag: _teacher_praise
+    nextNode: praise
+    portrait: happy
+  - id: teacher_leave
+    label: Уйти
+    flag: _teacher_done
+    portrait: neutral
+
+nodes:
+  map:
+    text: Что север — холод и тени, юг — поля и вода, а центр — Империя, которую надо держать вместе.
+    portrait: serious
+    choices:
+      - id: teacher_map_bye
+        label: Урок принят
+        flag: _teacher_done
+        portrait: work
+  praise:
+    text: Есть. Кто читает вывески — не купит яд вместо зелья. Кто читает лица — реже ложится в некрополь.
+    portrait: happy
+    choices:
+      - id: teacher_praise_bye
+        label: Мудро
+        flag: _teacher_done
+        portrait: happy

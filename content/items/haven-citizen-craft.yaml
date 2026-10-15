@@ -1,0 +1,8 @@
+id: craft_scrap
+name: Обрезки с горна
+slot: material
+rarity: common
+weight: 0.2
+stats: {}
+description: Железные обрезки из квартала ремёсел. Годятся на переплавку у подмастерья.
+icon: /media/assets/item_craft_scrap.webp

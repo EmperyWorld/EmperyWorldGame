@@ -1,0 +1,28 @@
+id: yard_dog
+name: Стройплощадочный пёс
+level: 6
+hp: 36
+pAtk: 11
+pDef: 7
+mDef: 6
+accuracy: 22
+evasion: 26
+speed: 122
+xpReward: 13
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 14
+    max: 34
+  - item: leather_scrap
+    chance: 520000
+    min: 1
+    max: 2
+  - item: wooden_arrow
+    chance: 200000
+    min: 2
+    max: 4
+  - item: iron_arrow
+    chance: 80000
+    min: 1
+    max: 2

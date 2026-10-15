@@ -1,0 +1,11 @@
+id: depths_boss
+radioNpcId: town_captain
+completeFlag: quest_depths_boss_complete
+activeFlag: quest_depths_boss_active
+killCounterFlag: quest_depths_boss_kills
+requiredKills: 1
+enemyType: shadow_overlord
+rewardItems:
+  - dusk_blade
+  - shadow_mail
+  - nightfang

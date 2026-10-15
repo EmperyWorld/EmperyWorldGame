@@ -1,0 +1,105 @@
+id: starter_grove
+name: Стартовая роща
+subtitle: Лагерь новичков у древнего дуба
+description: Мирная поляна между лесом и торговым трактом. Здесь живёт старейшина Мира — с неё начинается путь героя.
+mapKey: map-starter_grove
+backgroundAsset: location_starter_grove
+safeZone: false
+survivalClimate:
+  temperatureC: 15
+  humidity: 66
+  shelter: 18
+  water: dirty
+  heatSources:
+    - x: 2080
+      y: 1840
+      radius: 180
+stations:
+  - id: grove_campfire
+    kind: campfire
+    x: 2080
+    y: 1840
+    radius: 180
+  - id: grove_spring
+    kind: water
+    x: 2640
+    y: 1880
+    radius: 120
+anomalyTier: 1
+tierLabel: Зона Стабильности
+recommendedLevel:
+  min: 1
+  max: 15
+spawn:
+  x: 2560
+  y: 1920
+npcs:
+  - id: elder_mira
+    x: 1600
+    y: 1600
+    label: Мира [E]
+zones:
+  - x: 3920
+    y: 384
+    label: 'Пещеры теней →'
+    color: '#8866aa'
+    travelTo: shadow_depths
+    radius: 224
+  - x: 440
+    y: 384
+    label: '← Теневая роща'
+    color: '#8899cc'
+  - x: 2560
+    y: 384
+    label: '↑ Город'
+    color: '#ffcc88'
+    travelTo: empery_haven
+    radius: 256
+landmarks:
+  - kind: campfire
+    x: 2080
+    y: 1840
+enemies:
+  - type: goblin_scout
+    x: 3600
+    y: 1200
+  - type: forest_wolf
+    x: 3840
+    y: 2240
+  - type: goblin_scout
+    x: 3120
+    y: 2480
+questSpawns:
+  - activeFlag: quest_grove_active
+    killCounterFlag: quest_grove_kills
+    banner: 'Пещера: гоблины {kills}/3'
+    startBanner: 'Квест: очисти пещеру на востоке (3 гоблина)'
+    enemies:
+      - type: goblin_scout
+        x: 3920
+        y: 800
+        quest: true
+      - type: goblin_scout
+        x: 4320
+        y: 1680
+        quest: true
+      - type: goblin_scout
+        x: 4080
+        y: 2600
+        quest: true
+  - activeFlag: quest_betrayal_active
+    killCounterFlag: quest_betrayal_kills
+    banner: 'Теневая роща: {kills}/2'
+    startBanner: 'Квест: разберись с охраной в Теневой роще (2 врага)'
+    enemies:
+      - type: shadow_thug
+        x: 480
+        y: 1120
+        quest: true
+      - type: shadow_thug
+        x: 640
+        y: 2080
+        quest: true
+questComplete:
+  - anyFlag: [quest_grove_complete, quest_betrayal_complete]
+    banner: 'Квест завершён — выходы на севере / [T]'

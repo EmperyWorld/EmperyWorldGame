@@ -1,0 +1,66 @@
+id: town_hq_receptionist
+name: Ресепшен EmperyWorld
+race: human
+location: empery_hq_lobby
+questId: empery_hq_lobby
+defaultGreeting: >-
+  Добро пожаловать в кампус EmperyWorld. Допуск подтверждён.
+  Вы в приёмной главного корпуса. Авторы встречают гостей в зонах ожидания; выход во двор — через южную дверь.
+
+world:
+  role: character
+  wanderRadius: 0
+  wanderSpeed: 0
+portraits:
+  default: neutral
+
+choices:
+  - id: hq_meet_founders
+    label: Где найти авторов EmperyWorld?
+    flag: _hq_meet_founders
+    nextNode: founders
+    portrait: happy
+  - id: hq_lobby_tour
+    label: Где что находится?
+    flag: _hq_lobby_tour
+    nextNode: hq_tour
+    portrait: happy
+  - id: hq_lobby_mission
+    label: Чем занимается кампус?
+    flag: _hq_lobby_mission
+    nextNode: hq_mission
+    portrait: neutral
+  - id: hq_lobby_leave
+    label: Спасибо.
+    flag: _hq_lobby_done
+    portrait: neutral
+
+nodes:
+  founders:
+    text: >-
+      Lady_Boss ждёт гостей в зоне ожидания к западу от ресепшена,
+      а po&T встречает гостей в приёмной на востоке. Они оба авторы EmperyWorld.
+      Подойдите к ним: каждый расскажет о своей части мира.
+    portrait: happy
+    choices:
+      - { id: hq_lobby_leave, label: Спасибо, познакомлюсь., flag: _hq_lobby_done, portrait: happy }
+  hq_tour:
+    text: >-
+      Прямо по оси — главный корпус. Слева лаборатории, справа серверное крыло.
+      Южная дверь ведёт во двор; дальше через КПП можно вернуться в Гавань.
+    choices:
+      - id: hq_lobby_leave
+        label: Понятно.
+        flag: _hq_lobby_done
+        portrait: neutral
+    portrait: happy
+  hq_mission:
+    text: >-
+      Мы изучаем излучение Разлома и производим матрицы стабильности.
+      Именно генераторы EmperyWorld сдерживают распад материи в районе Гавани.
+    choices:
+      - id: hq_lobby_leave
+        label: Впечатляет.
+        flag: _hq_lobby_done
+        portrait: neutral
+    portrait: happy

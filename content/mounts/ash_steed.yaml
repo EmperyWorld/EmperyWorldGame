@@ -1,0 +1,15 @@
+id: ash_steed
+name: Пепельный скакун
+visual: ash
+speedMult: 1.5
+chargeDamageMult: 1.45
+chargeDurationMs: 520
+chargeCooldownMs: 5500
+chargeSpeed: 510
+chargeReach: 50
+shopPrice: 8000
+staminaDrainMult: 0.92
+staminaRegenMult: 1.05
+carryComfortKg: 100
+carryMaxKg: 155
+description: Тёмный скакун пепельных равнин — резвее и жёстче таранит.

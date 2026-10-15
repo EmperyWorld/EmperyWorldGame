@@ -1,0 +1,119 @@
+{
+  "name": "@empery/shared",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./config": {
+      "types": "./dist/config.d.ts",
+      "import": "./dist/config.js"
+    },
+    "./level-diff": {
+      "types": "./dist/level-diff.d.ts",
+      "import": "./dist/level-diff.js"
+    },
+    "./attack-speed": {
+      "types": "./dist/attack-speed.d.ts",
+      "import": "./dist/attack-speed.js"
+    },
+    "./dialogue-portraits": {
+      "types": "./dist/dialogue-portraits.d.ts",
+      "import": "./dist/dialogue-portraits.js"
+    },
+    "./enchant": {
+      "types": "./dist/enchant.d.ts",
+      "import": "./dist/enchant.js"
+    },
+    "./equipment-slots": {
+      "types": "./dist/equipment-slots.d.ts",
+      "import": "./dist/equipment-slots.js"
+    },
+    "./attack-range": {
+      "types": "./dist/attack-range.d.ts",
+      "import": "./dist/attack-range.js"
+    },
+    "./combat-delta": {
+      "types": "./dist/combat-delta.d.ts",
+      "import": "./dist/combat-delta.js"
+    },
+    "./multiplayer": {
+      "types": "./dist/multiplayer.d.ts",
+      "import": "./dist/multiplayer.js"
+    },
+    "./gender": {
+      "types": "./dist/gender.d.ts",
+      "import": "./dist/gender.js"
+    },
+    "./race-portrait": {
+      "types": "./dist/race-portrait.d.ts",
+      "import": "./dist/race-portrait.js"
+    },
+    "./magic-combat": {
+      "types": "./dist/magic-combat.d.ts",
+      "import": "./dist/magic-combat.js"
+    },
+    "./combat-tactics": {
+      "types": "./dist/combat-tactics.d.ts",
+      "import": "./dist/combat-tactics.js"
+    },
+    "./prop-layer": {
+      "types": "./dist/prop-layer.d.ts",
+      "import": "./dist/prop-layer.js"
+    },
+    "./prop-footprint": {
+      "types": "./dist/prop-footprint.d.ts",
+      "import": "./dist/prop-footprint.js"
+    },
+    "./prop-silhouette-math": {
+      "types": "./dist/prop-silhouette-math.d.ts",
+      "import": "./dist/prop-silhouette-math.js"
+    },
+    "./haven-city-data": {
+      "types": "./dist/haven-city-data.d.ts",
+      "import": "./dist/haven-city-data.js"
+    },
+    "./empery-hq-data": {
+      "types": "./dist/empery-hq-data.d.ts",
+      "import": "./dist/empery-hq-data.js"
+    },
+    "./haven-npc-buildings": {
+      "types": "./dist/haven-npc-buildings.d.ts",
+      "import": "./dist/haven-npc-buildings.js"
+    },
+    "./world-collision": {
+      "types": "./dist/world-collision.d.ts",
+      "import": "./dist/world-collision.js"
+    },
+    "./movement": {
+      "types": "./dist/movement.d.ts",
+      "import": "./dist/movement.js"
+    },
+    "./world-props": {
+      "types": "./dist/world-props.d.ts",
+      "import": "./dist/world-props.js"
+    },
+    "./terrain-tiles": {
+      "types": "./dist/terrain-tiles.d.ts",
+      "import": "./dist/terrain-tiles.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "tsc -p tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1",
+    "zod": "^4.6.5"
+  }
+}

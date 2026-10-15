@@ -1,0 +1,86 @@
+{
+  "3": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 42,
+      "steps": 32,
+      "cfg": 7.5,
+      "sampler_name": "euler",
+      "scheduler": "normal",
+      "denoise": 1,
+      "model": [
+        "4",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ]
+    }
+  },
+  "4": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "v1-5-pruned-emaonly-fp16.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 64,
+      "height": 64,
+      "batch_size": 1
+    }
+  },
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "single 64x64 pixel RPG tileset ground tile, top-down orthographic, warm beige sandstone plaza cobbles, irregular small river stones, 12 to 16 stones across width, thin dark mortar, pixel art style, exactly about 12 to 16 tiny cobblestones spanning the full width, thin dark mortar, seamless tileable edges, no characters, no buildings, no sky, no perspective, game asset",
+      "clip": [
+        "4",
+        1
+      ]
+    }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "blurry, text, watermark, characters, people, animals, buildings, props, perspective, vanishing point, 3d render, giant paving slabs the size of cars, huge flagstones, only 2 or 4 stones in frame, empty plain color, collage, grid lines overlay, UI",
+      "clip": [
+        "4",
+        1
+      ]
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "filename_prefix": "empery_terrain_tile_tile_hav",
+      "images": [
+        "8",
+        0
+      ]
+    }
+  }
+}

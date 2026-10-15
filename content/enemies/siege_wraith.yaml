@@ -1,0 +1,48 @@
+id: siege_wraith
+name: Осадный призрак
+level: 42
+hp: 155
+pAtk: 42
+pDef: 22
+mDef: 20
+accuracy: 32
+evasion: 24
+speed: 108
+xpReward: 66
+drops:
+- kind: adena
+  chance: 1000000
+  min: 100
+  max: 170
+- item: leather_scrap
+  chance: 400000
+  min: 1
+  max: 2
+- item: iron_arrow
+  chance: 260000
+  min: 4
+  max: 12
+- item: storm_bow
+  chance: 26000
+  min: 1
+  max: 1
+- item: depths_cloak
+  chance: 28000
+  min: 1
+  max: 1
+- item: reaver_gauntlets
+  chance: 55000
+  min: 1
+  max: 1
+- item: chaos_halberd
+  chance: 55000
+  min: 1
+  max: 1
+- item: drone_grips
+  chance: 90000
+  min: 1
+  max: 1
+- item: scar_handaxe
+  chance: 90000
+  min: 1
+  max: 1

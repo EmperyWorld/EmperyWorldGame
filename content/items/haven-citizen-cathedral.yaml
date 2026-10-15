@@ -1,0 +1,8 @@
+id: prayer_ribbon
+name: Молитвенная лента
+slot: material
+rarity: common
+weight: 0.05
+stats: {}
+description: Тонкая лента паломников Собора Гавани. Её носят на запястье в знак молитвы о стенах города.
+icon: /media/assets/item_prayer_ribbon.webp

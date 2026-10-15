@@ -1,0 +1,47 @@
+# EmperyWorldGame local multiplayer infra — Podman Compose
+# Bind mounts: <repo>/data/postgres, <repo>/data/redis
+#
+# Host ports 5433 / 6380 — avoid clash with other local "empery-*" stacks on 5432/6379.
+#
+#   ./scripts/start-infra.sh
+
+name: emperyworld-infra
+
+services:
+  postgres:
+    image: docker.io/library/postgres:16-alpine
+    container_name: ewg-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: empery
+      POSTGRES_PASSWORD: empery
+      POSTGRES_DB: empery
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      # :Z — SELinux relabel for Fedora/Podman bind mounts
+      - ${EMPERY_POSTGRES_DATA:-../../data/postgres}:/var/lib/postgresql/data:Z
+      - ./init/01-schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro,Z
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U empery -d empery"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 10s
+
+  redis:
+    image: docker.io/library/redis:7-alpine
+    container_name: ewg-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes", "--save", "60", "1"]
+    ports:
+      - "127.0.0.1:6380:6379"
+    volumes:
+      - ${EMPERY_REDIS_DATA:-../../data/redis}:/data:Z
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 5s

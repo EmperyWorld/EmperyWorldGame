@@ -1,0 +1,52 @@
+id: rift_scout
+name: Разведчик Кай
+race: human
+location: intersection_district
+questId: signal_sweep
+defaultGreeting: Стой. Дальше на восток — Квартал Сигнала. Там гудит статика, а дроны режут связь.
+
+
+world:
+  role: character
+  wanderRadius: 52
+  wanderSpeed: 34
+portraits:
+  default: neutral
+
+choices:
+  - id: signal_accept
+    label: Чем помочь?
+    flag: quest_signal_started
+    nextNode: signal_brief
+    portrait: serious
+    blocks: [quest_signal_complete, quest_signal_active, quest_signal_started]
+  - id: signal_bye
+    label: Просто прохожу
+    flag: _scout_done
+    portrait: neutral
+
+nodes:
+  signal_brief:
+    text: В Квартале Сигнала роятся сигнальные дроны. Сбей пять — квест закроется сам. Без этого восточный луч не пробьём.
+    portrait: action
+    choices:
+      - id: signal_go
+        label: Иду зачищать сигнал
+        flag: quest_signal_active
+        portrait: action
+  relay_brief:
+    text: Сигнал чист. Теперь — Релейный шпиль за восточными воротами квартала. Изгони четырёх эхо-призраков с вышки.
+    portrait: action
+    choices:
+      - id: relay_go
+        label: Иду на шпиль
+        flag: quest_relay_active
+        portrait: action
+  core_brief:
+    text: Шпиль тих. Осталось Ядро Статики — там колосс кормит весь восточный луч. Один удар по сердцу помех.
+    portrait: action
+    choices:
+      - id: core_go
+        label: Иду в ядро
+        flag: quest_core_active
+        portrait: action

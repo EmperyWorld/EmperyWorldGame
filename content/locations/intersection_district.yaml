@@ -1,0 +1,124 @@
+id: intersection_district
+name: Перекрёсток Разлома
+subtitle: Неон, стекло и гул аномалии
+description: 'Квартал, где улицы сходятся в крест разлома. Фонари мигают холодным светом, в воздухе звенит статика. Зона Прорыва — сюда идут уже не новички.'
+mapKey: map-intersection_district
+backgroundAsset: location_intersection_district
+safeZone: false
+anomalyTier: 2
+tierLabel: Зона Прорыва
+recommendedLevel:
+  min: 12
+  max: 28
+survivalClimate:
+  temperatureC: 10
+  humidity: 52
+  shelter: 6
+  water: none
+  heatSources:
+    - x: 2560
+      y: 1792
+      radius: 180
+stations:
+  - id: intersection_district_shrine_2560_1792
+    kind: campfire
+    x: 2560
+    y: 1792
+    radius: 180
+spawn:
+  x: 960
+  y: 1920
+npcs:
+  - id: rift_scout
+    x: 4160
+    y: 1680
+    label: Кай [E]
+zones:
+  - x: 320
+    y: 1792
+    label: '← К стройке'
+    color: '#c9a66b'
+    travelTo: abandoned_yard
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'Сигнал →'
+    color: '#66ccaa'
+    travelTo: signal_block
+    radius: 220
+  - x: 2560
+    y: 320
+    label: 'Северный луч'
+    color: '#66aacc'
+  - x: 2560
+    y: 3280
+    label: 'Южный луч'
+    color: '#aa6688'
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1792
+enemies:
+  - type: rift_stalker
+    x: 1600
+    y: 1120
+  - type: neon_shade
+    x: 2080
+    y: 1440
+  - type: rift_stalker
+    x: 3200
+    y: 1200
+  - type: neon_shade
+    x: 3840
+    y: 1520
+  - type: rift_stalker
+    x: 1760
+    y: 2400
+  - type: neon_shade
+    x: 3040
+    y: 2480
+  - type: rift_stalker
+    x: 4000
+    y: 2320
+  - type: neon_shade
+    x: 1280
+    y: 2560
+  - type: crystal_wisp
+    x: 2560
+    y: 1120
+  - type: crystal_wisp
+    x: 2560
+    y: 2560
+  - type: neon_shade
+    x: 3520
+    y: 1920
+  - type: rift_stalker
+    x: 1600
+    y: 1920
+farmSpawn:
+  type: neon_shade
+  maxAlive: 18
+  respawnMs: 2400
+  points:
+    - { x: 1120, y: 960 }
+    - { x: 1760, y: 880 }
+    - { x: 2400, y: 960 }
+    - { x: 3040, y: 880 }
+    - { x: 3680, y: 960 }
+    - { x: 4320, y: 1040 }
+    - { x: 1120, y: 1680 }
+    - { x: 1760, y: 1760 }
+    - { x: 3360, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1280, y: 2400 }
+    - { x: 2080, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+    - { x: 1440, y: 1280 }
+    - { x: 3680, y: 1280 }
+    - { x: 1920, y: 2080 }
+    - { x: 3200, y: 2080 }
+    - { x: 2560, y: 1520 }
+    - { x: 2560, y: 2200 }
+    - { x: 960, y: 2200 }

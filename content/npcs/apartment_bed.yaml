@@ -1,0 +1,24 @@
+id: apartment_bed
+name: Кровать
+race: human
+location: haven_apartment
+questId: apartment_bed
+defaultGreeting: Можно отдохнуть и восстановить силы.
+
+
+world:
+  role: prop
+portraits:
+  default: neutral
+
+choices:
+  - id: rest_here
+    label: Отдохнуть
+    flag: _apt_rest
+    portrait: neutral
+  - id: apt_linen
+    label: Перестелить и отдохнуть
+    flag: _apt_linen
+    portrait: happy
+
+nodes: {}

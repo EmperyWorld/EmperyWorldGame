@@ -1,0 +1,483 @@
+---
+id: warrior_life_flow
+name: Поток жизни
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 1
+description: Восстанавливает HP каждые 5 секунд
+effects:
+  hpRegen: [2, 4, 7]
+  maxHp: [6, 12, 18]
+
+---
+id: heavy_armor
+name: Тяжёлая броня
+type: passive
+profession: warrior
+maxLevel: 3
+description: Увеличивает P.Def
+effects:
+  pDef: [5, 9, 14]
+
+---
+id: power_strike
+name: Мощный удар
+type: active
+profession: warrior
+maxLevel: 3
+cooldownMs: 8000
+description: Удар с повышенным уроном
+levels:
+  1: { damageMultiplier: 1.8 }
+  2: { damageMultiplier: 2.1 }
+  3: { damageMultiplier: 2.5 }
+
+---
+id: weapon_mastery
+name: Мастерство оружия
+type: passive
+profession: warrior
+maxLevel: 3
+description: Увеличивает физ. атаку
+effects:
+  pAtk: [4, 7, 11]
+
+---
+id: iron_will
+name: Железная воля
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 3
+description: Увеличивает максимум HP
+effects:
+  maxHp: [12, 22, 35]
+
+---
+id: shield_bash
+name: Удар щитом
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 5
+cooldownMs: 5000
+control: stun
+description: >-
+  Удар щитом: стан 1.6с, если щит надет. Без щита — только урон.
+levels:
+  1: { damageMultiplier: 1.45, accuracyBonus: 18 }
+  2: { damageMultiplier: 1.65, accuracyBonus: 22 }
+  3: { damageMultiplier: 1.9, accuracyBonus: 28 }
+
+---
+id: vital_strike
+name: Удар по уязвимости
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 8
+description: Точность против хорошо защищённых целей
+effects:
+  accuracy: [2, 4, 7]
+
+---
+id: battle_shout
+name: Боевой клич
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 9
+cooldownMs: 14000
+attackRange: 220
+targetMode: ally
+description: Воодушевляет союзника или себя — временный бонус к P.Atk
+levels:
+  1: { buffPAtk: 14, buffDurationMs: 600000 }
+  2: { buffPAtk: 20, buffDurationMs: 600000 }
+  3: { buffPAtk: 28, buffDurationMs: 600000 }
+
+---
+id: war_cry
+name: Боевой крик
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 10
+cooldownMs: 12000
+tactic: cleave
+description: >-
+  Крик по пачке: до 4 целей, splash 60% по неосновным, высокий крит.
+levels:
+  1: { damageMultiplier: 2.0, critBonus: 20 }
+  2: { damageMultiplier: 2.3, critBonus: 28 }
+  3: { damageMultiplier: 2.7, critBonus: 35 }
+
+---
+id: battle_focus
+name: Боевой фокус
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 12
+description: Острее глаз и рука — выше точность и шанс критического удара
+effects:
+  accuracy: [3, 5, 8]
+  critRate: [2, 4, 6]
+
+---
+id: fortitude
+name: Стойкость
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 14
+description: Закалка тела — больше HP и физической защиты
+effects:
+  maxHp: [18, 32, 48]
+  pDef: [4, 7, 11]
+
+---
+id: crushing_blow
+name: Сокрушающий удар
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 15
+cooldownMs: 10000
+description: Тяжёлый удар с большим множителем урона
+levels:
+  1: { damageMultiplier: 2.2, accuracyBonus: 6 }
+  2: { damageMultiplier: 2.55, accuracyBonus: 9 }
+  3: { damageMultiplier: 3.0, accuracyBonus: 12 }
+
+---
+id: armor_break
+name: Пробитие брони
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 18
+cooldownMs: 11000
+description: Удар, игнорирующий часть брони цели
+levels:
+  1: { damageMultiplier: 1.9, armorPenetration: 0.35, accuracyBonus: 4 }
+  2: { damageMultiplier: 2.2, armorPenetration: 0.45, accuracyBonus: 6 }
+  3: { damageMultiplier: 2.55, armorPenetration: 0.55, accuracyBonus: 8 }
+
+---
+id: shield_mastery
+name: Мастерство щита
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 20
+requiresShield: true
+description: >-
+  Уникально для щита. Пока щит экипирован: выше шанс блока, а заблокированный удар режет
+  куда сильнее обычного (остаток урона 34% / 26% / 18% вместо 40%).
+effects:
+  blockChance: [8, 12, 16]
+
+---
+id: veteran
+name: Ветеран
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 22
+description: Опыт сражений — сильнее атака и защита
+effects:
+  pAtk: [6, 10, 15]
+  pDef: [5, 9, 14]
+
+---
+id: shield_riposte
+name: Ответный удар
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 23
+requiresShield: true
+description: >-
+  Уникально для щита. После успешного блока следующий удар (4–5с) бьёт сильнее (×1.5 /
+  ×1.75 / ×2.1) и точнее. Промах не снимает эффект.
+effects: {}
+
+---
+id: execute
+name: Казнь
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 25
+cooldownMs: 12000
+tactic: execute
+description: >-
+  Решающий удар по ослабленному: HP цели ≤35%. Гарантированный крит
+  и бонус к урону. По здоровому врагу навык не тратится.
+levels:
+  1: { damageMultiplier: 2.1, critBonus: 28 }
+  2: { damageMultiplier: 2.45, critBonus: 36 }
+  3: { damageMultiplier: 2.9, critBonus: 45 }
+
+---
+id: unyielding_wall
+name: Несокрушимая стена
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 26
+requiresShield: true
+description: >-
+  Уникально для щита. При HP ≤50% — доп. шанс блока (8 / 14 / 20). Заблокированный удар в
+  этом состоянии имеет шанс полностью погасить урон (12% / 20% / 30%).
+effects: {}
+
+---
+id: war_harden
+name: Закалка войны
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 28
+description: Боевая закалка — запас HP и шанс парировать удар щитом или доспехом
+effects:
+  maxHp: [22, 40, 60]
+  blockChance: [4, 7, 11]
+
+---
+id: shield_bastion
+name: Бастион
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 29
+requiresShield: true
+description: >-
+  Уникально для щита. Стоя на месте (не в беге) щит закрывает корпус лучше: +10 / +16 /
+  +22 к шансу блока.
+effects: {}
+
+---
+id: cleave
+name: Рассечение
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 32
+cooldownMs: 14000
+tactic: cleave
+description: >-
+  Широкий замах: до 4 врагов в радиусе. Основная цель — полный урон навыка,
+  остальные — 60%.
+levels:
+  1: { damageMultiplier: 2.6, accuracyBonus: 12 }
+  2: { damageMultiplier: 3.0, accuracyBonus: 16 }
+  3: { damageMultiplier: 3.5, accuracyBonus: 20 }
+
+---
+id: iron_bulwark
+name: Железный бастион
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 35
+description: Закалка ветерана — плоть и сталь
+effects:
+  pDef: [8, 14, 22]
+  maxHp: [18, 32, 48]
+
+---
+id: rupture
+name: Разрыв
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 38
+cooldownMs: 9000
+description: Тяжёлый удар, рвущий броню
+levels:
+  1: { damageMultiplier: 2.2, armorPenetration: 0.4, accuracyBonus: 8 }
+  2: { damageMultiplier: 2.53, armorPenetration: 0.45, accuracyBonus: 10 }
+  3: { damageMultiplier: 2.9, armorPenetration: 0.5, accuracyBonus: 12 }
+
+---
+id: vanguard
+name: Авангард
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 40
+description: Передовая линия наступления
+effects:
+  pAtk: [8, 14, 22]
+  accuracy: [4, 7, 11]
+
+---
+id: shockwave
+name: Ударная волна
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 42
+cooldownMs: 12000
+tactic: cleave
+description: >-
+  Сокрушительный замах по пачке: до 4 целей, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.4, armorPenetration: 0.25, accuracyBonus: 6 }
+  2: { damageMultiplier: 2.76, armorPenetration: 0.3, accuracyBonus: 8 }
+  3: { damageMultiplier: 3.17, armorPenetration: 0.35, accuracyBonus: 10 }
+
+---
+id: blood_oath
+name: Клятва крови
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 44
+description: Клятва выстоять любой ценой
+effects:
+  maxHp: [24, 40, 60]
+  pDef: [6, 10, 16]
+
+---
+id: titan_smash
+name: Удар титана
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 46
+cooldownMs: 14000
+description: Чудовищная мощь позднего рубежа
+levels:
+  1: { damageMultiplier: 2.7, armorPenetration: 0.35, critBonus: 10 }
+  2: { damageMultiplier: 3.1, armorPenetration: 0.4, critBonus: 15 }
+  3: { damageMultiplier: 3.56, armorPenetration: 0.45, critBonus: 20 }
+
+---
+id: phalanx
+name: Фаланга
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 48
+requiresShield: true
+description: Строй щитов — требует щит
+effects:
+  blockChance: [6, 10, 14]
+  pDef: [8, 12, 18]
+
+---
+id: judgment_cut
+name: Карающий разрез
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 50
+cooldownMs: 11000
+tactic: execute
+description: >-
+  Приговор клинка: срабатывает при HP цели ≤35%. Гарантированный крит.
+  По здоровому врагу навык не тратится.
+levels:
+  1: { damageMultiplier: 2.55, armorPenetration: 0.45, accuracyBonus: 10 }
+  2: { damageMultiplier: 2.93, armorPenetration: 0.5, accuracyBonus: 12 }
+  3: { damageMultiplier: 3.37, armorPenetration: 0.55, accuracyBonus: 14 }
+
+---
+id: warlord_presence
+name: Аура полководца
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 52
+description: Присутствие военачальника на поле
+effects:
+  pAtk: [10, 16, 24]
+  critRate: [3, 5, 8]
+
+---
+id: cataclysm
+name: Катаклизм
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 54
+cooldownMs: 16000
+tactic: cleave
+description: >-
+  Апокалиптический удар по области: до 4 целей, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.9, armorPenetration: 0.4, critBonus: 12 }
+  2: { damageMultiplier: 3.33, armorPenetration: 0.45, critBonus: 17 }
+  3: { damageMultiplier: 3.83, armorPenetration: 0.5, critBonus: 22 }
+
+---
+id: immortal_guard
+name: Бессмертный страж
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 56
+requiresShield: true
+description: Страж, которого не сломить
+effects:
+  maxHp: [30, 50, 75]
+  blockChance: [5, 8, 12]
+
+---
+id: reign_of_steel
+name: Правление стали
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 58
+cooldownMs: 13000
+description: Сталь решает всё
+levels:
+  1: { damageMultiplier: 2.75, armorPenetration: 0.5, accuracyBonus: 12 }
+  2: { damageMultiplier: 3.16, armorPenetration: 0.55, accuracyBonus: 14 }
+  3: { damageMultiplier: 3.63, armorPenetration: 0.6, accuracyBonus: 16 }
+
+---
+id: era_endurance
+name: Стойкость эры
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 60
+description: Тело, закалённое аномалией
+effects:
+  pDef: [12, 20, 30]
+  maxHp: [28, 46, 70]
+
+---
+id: worldbreaker
+name: Миролом
+type: active
+profession: warrior
+maxLevel: 3
+unlockLevel: 62
+cooldownMs: 18000
+tactic: cleave
+description: >-
+  Удар, раскалывающий строй: до 4 целей, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 3.1, armorPenetration: 0.45, critBonus: 15 }
+  2: { damageMultiplier: 3.56, armorPenetration: 0.5, critBonus: 20 }
+  3: { damageMultiplier: 4.09, armorPenetration: 0.55, critBonus: 25 }
+
+---
+id: apex_warrior
+name: Вершина войны
+type: passive
+profession: warrior
+maxLevel: 3
+unlockLevel: 65
+description: Предел воинского мастерства
+effects:
+  pAtk: [14, 22, 32]
+  accuracy: [6, 10, 15]
+  critRate: [4, 7, 10]

@@ -1,0 +1,9 @@
+id: port_crate
+name: Портовый ящик
+slot: material
+rarity: common
+unsellable: true
+weight: 12
+stats: {}
+description: Тяжёлый портовый ящик со склада Петра. Не продавать и не бросать — верни грузчику Петру на пристани, иначе смены нет.
+icon: /media/assets/item_port_crate.webp

@@ -1,0 +1,10 @@
+id: gods_ascent
+radioNpcId: gods_oracle
+completeFlag: quest_ascent_complete
+activeFlag: quest_ascent_active
+killCounterFlag: quest_ascent_kills
+requiredKills: 5
+enemyType: pantheon_sentinel
+rewardItems:
+  - emberhide
+  - bloodlace

@@ -1,0 +1,591 @@
+{
+  "generatedAt": "2026-09-17T00:52:04.797Z",
+  "count": 117,
+  "doors": [
+    {
+      "tx": 5,
+      "ty": 38,
+      "tag": "prop_house_cottage"
+    },
+    {
+      "tx": 8,
+      "ty": 38,
+      "tag": "prop_house_attic"
+    },
+    {
+      "tx": 14,
+      "ty": 38,
+      "tag": "prop_house_timber"
+    },
+    {
+      "tx": 17,
+      "ty": 38,
+      "tag": "prop_house_stucco"
+    },
+    {
+      "tx": 11,
+      "ty": 40,
+      "tag": "prop_house_gardener"
+    },
+    {
+      "tx": 22,
+      "ty": 40,
+      "tag": "prop_house_workshop_home"
+    },
+    {
+      "tx": 25,
+      "ty": 40,
+      "tag": "prop_house_rooftop"
+    },
+    {
+      "tx": 5,
+      "ty": 45,
+      "tag": "prop_house_stone"
+    },
+    {
+      "tx": 8,
+      "ty": 45,
+      "tag": "prop_house_slate"
+    },
+    {
+      "tx": 11,
+      "ty": 45,
+      "tag": "prop_house_row"
+    },
+    {
+      "tx": 22,
+      "ty": 45,
+      "tag": "prop_house_townhouse"
+    },
+    {
+      "tx": 25,
+      "ty": 45,
+      "tag": "prop_house_manor"
+    },
+    {
+      "tx": 28,
+      "ty": 45,
+      "tag": "prop_house_villa"
+    },
+    {
+      "tx": 5,
+      "ty": 49,
+      "tag": "prop_house_timber"
+    },
+    {
+      "tx": 8,
+      "ty": 49,
+      "tag": "prop_house_duplex"
+    },
+    {
+      "tx": 11,
+      "ty": 49,
+      "tag": "prop_house_blue"
+    },
+    {
+      "tx": 22,
+      "ty": 49,
+      "tag": "prop_house_stucco"
+    },
+    {
+      "tx": 25,
+      "ty": 49,
+      "tag": "prop_house_corner_shop"
+    },
+    {
+      "tx": 28,
+      "ty": 49,
+      "tag": "prop_house_redroof"
+    },
+    {
+      "tx": 16,
+      "ty": 50,
+      "tag": "prop_house_bay"
+    },
+    {
+      "tx": 12,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 12,
+      "ty": 38,
+      "tag": "tenement_n"
+    },
+    {
+      "tx": 13,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 13,
+      "ty": 38,
+      "tag": "tenement_n"
+    },
+    {
+      "tx": 14,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 15,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 15,
+      "ty": 38,
+      "tag": "tenement_n"
+    },
+    {
+      "tx": 16,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 16,
+      "ty": 38,
+      "tag": "tenement_n"
+    },
+    {
+      "tx": 17,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 18,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 18,
+      "ty": 38,
+      "tag": "tenement_n"
+    },
+    {
+      "tx": 19,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 19,
+      "ty": 38,
+      "tag": "tenement_n"
+    },
+    {
+      "tx": 20,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 20,
+      "ty": 38,
+      "tag": "tenement_n"
+    },
+    {
+      "tx": 21,
+      "ty": 46,
+      "tag": "tenement_s"
+    },
+    {
+      "tx": 21,
+      "ty": 38,
+      "tag": "tenement_n"
+    },
+    {
+      "tx": 11,
+      "ty": 39,
+      "tag": "tenement_w"
+    },
+    {
+      "tx": 22,
+      "ty": 39,
+      "tag": "tenement_e"
+    },
+    {
+      "tx": 11,
+      "ty": 41,
+      "tag": "tenement_w"
+    },
+    {
+      "tx": 22,
+      "ty": 41,
+      "tag": "tenement_e"
+    },
+    {
+      "tx": 11,
+      "ty": 42,
+      "tag": "tenement_w"
+    },
+    {
+      "tx": 22,
+      "ty": 42,
+      "tag": "tenement_e"
+    },
+    {
+      "tx": 11,
+      "ty": 43,
+      "tag": "tenement_w"
+    },
+    {
+      "tx": 22,
+      "ty": 43,
+      "tag": "tenement_e"
+    },
+    {
+      "tx": 11,
+      "ty": 44,
+      "tag": "tenement_w"
+    },
+    {
+      "tx": 22,
+      "ty": 44,
+      "tag": "tenement_e"
+    },
+    {
+      "tx": 14,
+      "ty": 44,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 14,
+      "ty": 40,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 15,
+      "ty": 44,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 15,
+      "ty": 40,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 16,
+      "ty": 44,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 16,
+      "ty": 40,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 17,
+      "ty": 44,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 17,
+      "ty": 40,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 18,
+      "ty": 44,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 18,
+      "ty": 40,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 19,
+      "ty": 44,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 19,
+      "ty": 40,
+      "tag": "tenement_court"
+    },
+    {
+      "tx": 14,
+      "ty": 9,
+      "tag": "garrison"
+    },
+    {
+      "tx": 16,
+      "ty": 9,
+      "tag": "garrison"
+    },
+    {
+      "tx": 12,
+      "ty": 10,
+      "tag": "garrison"
+    },
+    {
+      "tx": 18,
+      "ty": 9,
+      "tag": "garrison"
+    },
+    {
+      "tx": 15,
+      "ty": 8,
+      "tag": "garrison"
+    },
+    {
+      "tx": 13,
+      "ty": 8,
+      "tag": "garrison"
+    },
+    {
+      "tx": 17,
+      "ty": 10,
+      "tag": "garrison"
+    },
+    {
+      "tx": 11,
+      "ty": 9,
+      "tag": "garrison"
+    },
+    {
+      "tx": 19,
+      "ty": 8,
+      "tag": "garrison"
+    },
+    {
+      "tx": 10,
+      "ty": 10,
+      "tag": "garrison"
+    },
+    {
+      "tx": 54,
+      "ty": 21,
+      "tag": "inn"
+    },
+    {
+      "tx": 56,
+      "ty": 21,
+      "tag": "inn"
+    },
+    {
+      "tx": 58,
+      "ty": 20,
+      "tag": "inn"
+    },
+    {
+      "tx": 60,
+      "ty": 21,
+      "tag": "inn"
+    },
+    {
+      "tx": 55,
+      "ty": 22,
+      "tag": "inn"
+    },
+    {
+      "tx": 62,
+      "ty": 21,
+      "tag": "inn"
+    },
+    {
+      "tx": 57,
+      "ty": 19,
+      "tag": "inn"
+    },
+    {
+      "tx": 61,
+      "ty": 22,
+      "tag": "inn"
+    },
+    {
+      "tx": 58,
+      "ty": 45,
+      "tag": "harbor"
+    },
+    {
+      "tx": 60,
+      "ty": 45,
+      "tag": "harbor"
+    },
+    {
+      "tx": 62,
+      "ty": 44,
+      "tag": "harbor"
+    },
+    {
+      "tx": 56,
+      "ty": 46,
+      "tag": "harbor"
+    },
+    {
+      "tx": 64,
+      "ty": 45,
+      "tag": "harbor"
+    },
+    {
+      "tx": 66,
+      "ty": 46,
+      "tag": "harbor"
+    },
+    {
+      "tx": 63,
+      "ty": 47,
+      "tag": "harbor"
+    },
+    {
+      "tx": 59,
+      "ty": 44,
+      "tag": "harbor"
+    },
+    {
+      "tx": 48,
+      "ty": 14,
+      "tag": "cloister"
+    },
+    {
+      "tx": 50,
+      "ty": 14,
+      "tag": "cloister"
+    },
+    {
+      "tx": 52,
+      "ty": 13,
+      "tag": "cloister"
+    },
+    {
+      "tx": 54,
+      "ty": 12,
+      "tag": "cloister"
+    },
+    {
+      "tx": 49,
+      "ty": 15,
+      "tag": "cloister"
+    },
+    {
+      "tx": 51,
+      "ty": 12,
+      "tag": "cloister"
+    },
+    {
+      "tx": 8,
+      "ty": 40,
+      "tag": "forge"
+    },
+    {
+      "tx": 10,
+      "ty": 41,
+      "tag": "forge"
+    },
+    {
+      "tx": 12,
+      "ty": 40,
+      "tag": "forge"
+    },
+    {
+      "tx": 14,
+      "ty": 41,
+      "tag": "forge"
+    },
+    {
+      "tx": 9,
+      "ty": 39,
+      "tag": "forge"
+    },
+    {
+      "tx": 30,
+      "ty": 39,
+      "tag": "stable"
+    },
+    {
+      "tx": 32,
+      "ty": 39,
+      "tag": "stable"
+    },
+    {
+      "tx": 31,
+      "ty": 40,
+      "tag": "stable"
+    },
+    {
+      "tx": 33,
+      "ty": 38,
+      "tag": "stable"
+    },
+    {
+      "tx": 29,
+      "ty": 40,
+      "tag": "stable"
+    },
+    {
+      "tx": 34,
+      "ty": 39,
+      "tag": "stable"
+    },
+    {
+      "tx": 10,
+      "ty": 25,
+      "tag": "market"
+    },
+    {
+      "tx": 9,
+      "ty": 26,
+      "tag": "market"
+    },
+    {
+      "tx": 11,
+      "ty": 26,
+      "tag": "market"
+    },
+    {
+      "tx": 12,
+      "ty": 25,
+      "tag": "market"
+    },
+    {
+      "tx": 8,
+      "ty": 24,
+      "tag": "market"
+    },
+    {
+      "tx": 13,
+      "ty": 24,
+      "tag": "market"
+    },
+    {
+      "tx": 7,
+      "ty": 25,
+      "tag": "market"
+    },
+    {
+      "tx": 22,
+      "ty": 53,
+      "tag": "farm"
+    },
+    {
+      "tx": 24,
+      "ty": 52,
+      "tag": "farm"
+    },
+    {
+      "tx": 20,
+      "ty": 53,
+      "tag": "farm"
+    },
+    {
+      "tx": 68,
+      "ty": 13,
+      "tag": "palace"
+    },
+    {
+      "tx": 70,
+      "ty": 14,
+      "tag": "palace"
+    },
+    {
+      "tx": 66,
+      "ty": 14,
+      "tag": "palace"
+    },
+    {
+      "tx": 72,
+      "ty": 12,
+      "tag": "palace"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+# Auto-generated items — DROP-ONLY: не добавлять в shops
+# seed=662234491 theme="аномалия Empery, разлом, эры, тёмный фэнтези"
+
+---
+id: remnants_of_fallen_glory
+name: Ошметки былого величия
+slot: legs
+rarity: common
+description: "Обрывки ткани, пропитанные эхом павшей империи."
+armorType: light
+stats:
+  pDef: 5
+  evasion: 3
+  speed: 10
+icon: /media/assets/item_remnants_of_fallen_glory.webp
+
+---
+id: shard_of_primordial_era
+name: Осколок Изначальной Эры
+slot: weapon
+rarity: legendary
+description: "Тяжелый клинок, пульсирующий энергией расколотого времени."
+weaponKind: melee
+weaponWeight: heavy
+stats:
+  pAtk: 60
+  accuracy: 3
+icon: /media/assets/item_shard_of_primordial_era.webp
+
+---
+id: eternal_shard_armor
+name: Осколок Вечности
+slot: body
+rarity: legendary
+description: "Тяжелый доспех, сотканный из застывшего времени и разломов мироздания."
+armorType: heavy
+stats:
+  pDef: 59
+  maxHp: 44
+  evasion: -8
+  speed: -8
+icon: /media/assets/item_eternal_shard_armor.webp
+
+---
+id: shattered_era_shell
+name: Оболочка Расколотой Эры
+slot: body
+rarity: daedric
+description: "Древние доспехи, пульсирующие энергией разрушенного мироздания."
+armorType: light
+stats:
+  pDef: 50
+  maxHp: 69
+  evasion: 13
+  critRate: 4
+icon: /media/assets/item_shattered_era_shell.webp
+
+---
+id: gloves_time_distortion_daedric
+name: Перчатки Искаженного Времени
+slot: gloves
+rarity: daedric
+description: "Осколки вечности, запертые в тонкой коже, заставляющие плоть двигаться вне потока реальности."
+armorType: light
+stats:
+  pDef: 21
+  evasion: 7
+  speed: 6
+  accuracy: 10
+icon: /media/assets/item_gloves_time_distortion_daedric.webp
+---
+id: holy_body_1
+name: Священный Доспех 1
+slot: body
+rarity: holy
+description: "Доспех редкости holy, найденный в разломе."
+armorType: heavy
+stats:
+  pDef: 51
+  maxHp: 64
+  pAtk: 1
+icon: /media/assets/item_holy_body_1.webp

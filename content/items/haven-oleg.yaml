@@ -1,0 +1,11 @@
+id: oleg_broth
+name: Бульон Олега
+slot: consumable
+rarity: common
+stats: {}
+description: Дневной бульон трактира — перец, корень и кость. Сытно на ходу, не ночной пирог Марты.
+survival:
+  nutrition: 14
+  warming: 0.12
+  shelfLifeHours: 12
+icon: /media/assets/item_oleg_broth.webp

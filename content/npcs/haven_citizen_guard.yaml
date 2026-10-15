@@ -1,0 +1,62 @@
+id: haven_citizen_guard
+name: Городской стражник
+race: human
+location: empery_haven
+questId: haven_citizen_guard
+defaultGreeting: >-
+  Стой, путник. Стража Гавани несёт дозор день и ночь. Соблюдай закон, держи клинок в ножнах и не устраивай драк на улицах.
+world:
+  role: character
+portraits:
+  default: neutral
+  neutral: dialogue_town_guard_neutral
+  happy: dialogue_town_guard_happy
+  serious: dialogue_town_guard_serious
+  angry: dialogue_town_guard_serious
+choices:
+  - id: militia_drill
+    label: Пройти муштру ополчения
+    flag: _militia_drill
+    portrait: serious
+  - id: militia_watch
+    label: Выйти добровольцем на стену
+    flag: _militia_watch
+    blocks: [quest_militia_watch_complete]
+    portrait: happy
+  - id: citizen_rumors
+    label: Как обстановка на постах?
+    flag: _cit_rumors
+    portrait: neutral
+  - id: citizen_advice
+    label: Что нужно знать о законах Гавани?
+    flag: _cit_advice
+    portrait: happy
+  - id: citizen_directions
+    label: Подскажи дорогу в городе
+    flag: _cit_directions
+    portrait: neutral
+  - id: citizen_leave
+    label: Спокойной службы, страж.
+    flag: _cit_done
+    portrait: neutral
+nodes:
+  rumors:
+    text: >-
+      Ночной дозор докладывает: у южных ворот бродили волки, но свет факелов их разогнал.
+      В доках тихо, а вот в окрестных лесах разведчики заметили активность бандитов. Не гуляй без оружия за городскими стенами.
+    portrait: serious
+    choices:
+      - id: citizen_leave
+        label: Буду настороже.
+        flag: _cit_done
+        portrait: neutral
+  advice:
+    text: >-
+      После двадцати одного часа звенит вечерний колокол — добропорядочные граждане идут по домам.
+      Если натворил бед и запятнал честь — не жди стражи с кандалами, иди к отцу Кассиану в Собор.
+    portrait: happy
+    choices:
+      - id: citizen_leave
+        label: Закон суров, но справедлив.
+        flag: _cit_done
+        portrait: serious

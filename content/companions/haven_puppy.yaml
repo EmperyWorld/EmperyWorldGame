@@ -1,0 +1,8 @@
+id: haven_puppy
+name: Гаванский щенок
+kind: puppy
+shopPrice: 18000
+baseObedience: 420
+baseEnergy: 500
+baseFetchSkill: 260
+description: Щенок с рынка у конюшни. Собирает лут рядом с хозяином; воспитание влияет на скорость и послушание.

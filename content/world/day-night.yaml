@@ -1,0 +1,11 @@
+# Shared world day/night clock — same for all players online.
+# One full in-game day (24 h) elapses over cycleMinutes of real time.
+# 24 → 1 game hour = 1 real minute.
+cycleMinutes: 24
+epoch: "2026-01-01T00:00:00.000Z"
+
+# Location lighting: optional dayNight in location YAML (outdoor | indoor | dungeon).
+# Defaults: haven/apartment → indoor; anomalyTier >= 2 → dungeon; safeZone → softer outdoor night.
+
+# Haven NPC schedule (21:00–07:00): merchants sleep at home; innkeeper + healer stay open;
+# town_guard patrols. Sleep homes: packages/shared/src/haven-npc-homes.ts

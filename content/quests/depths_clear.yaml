@@ -1,0 +1,9 @@
+id: depths_clear
+radioNpcId: town_captain
+completeFlag: quest_depths_clear_complete
+activeFlag: quest_depths_clear_active
+killCounterFlag: quest_depths_clear_kills
+requiredKills: 4
+enemyType: cave_stalker
+rewardItems:
+  - crystal_helm

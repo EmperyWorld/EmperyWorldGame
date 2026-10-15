@@ -1,0 +1,92 @@
+id: silverwood
+name: Серебряный лес
+subtitle: Лунная опушка древних эльфов
+description: Родина эльфов — серебристые деревья, ручьи и магический туман. На севере таятся тени, которых лес давно не видел.
+mapKey: map-silverwood
+backgroundAsset: location_silverwood
+anomalyTier: 1
+tierLabel: Зона Стабильности
+recommendedLevel:
+  min: 5
+  max: 25
+survivalClimate:
+  temperatureC: 9
+  humidity: 72
+  shelter: 22
+  water: dirty
+  heatSources:
+    - x: 2560
+      y: 1680
+      radius: 180
+stations:
+  - id: silverwood_shrine_2560_1680
+    kind: campfire
+    x: 2560
+    y: 1680
+    radius: 180
+  - id: silverwood_spring
+    kind: water
+    x: 2640
+    y: 1880
+    radius: 120
+spawn:
+  x: 2560
+  y: 1920
+requires:
+  anyFlag: [quest_grove_complete, quest_betrayal_complete]
+raceHint: elf
+npcs:
+  - id: silvan_hermit
+    x: 1520
+    y: 1520
+    label: Отшельник [E]
+zones:
+  - x: 2560
+    y: 384
+    label: '↑ Северная опушка'
+    color: '#aaccff'
+  - x: 1280
+    y: 1200
+    label: 'Лунный ручей'
+    color: '#88bbee'
+  - x: 2560
+    y: 3280
+    label: '↓ К роще'
+    color: '#c9e6a0'
+    travelTo: starter_grove
+    radius: 256
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1680
+enemies:
+  - type: forest_wolf
+    x: 3280
+    y: 1280
+  - type: shadow_thug
+    x: 2080
+    y: 1680
+  - type: forest_wolf
+    x: 3600
+    y: 2320
+questSpawns:
+  - activeFlag: quest_silverwood_active
+    killCounterFlag: quest_silverwood_kills
+    banner: 'Северная опушка: тени {kills}/3'
+    startBanner: 'Квест: тени на северной опушке (3 врага)'
+    enemies:
+      - type: shadow_thug
+        x: 2560
+        y: 480
+        quest: true
+      - type: shadow_thug
+        x: 2080
+        y: 720
+        quest: true
+      - type: shadow_thug
+        x: 3040
+        y: 640
+        quest: true
+questComplete:
+  - anyFlag: [quest_silverwood_complete]
+    banner: 'Лес спасён — [T] путешествие'

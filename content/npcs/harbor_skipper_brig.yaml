@@ -1,0 +1,53 @@
+id: harbor_skipper_brig
+name: Капитан брига Ворон
+race: human
+location: empery_haven
+questId: harbor_skipper_brig
+defaultGreeting: Бриг у мола. Пока пушки под чехлом — я на камне у борта.
+world:
+  role: character
+  wanderRadius: 0
+  wanderSpeed: 0
+portraits:
+  default: neutral
+  neutral: dialogue_town_dockhand_neutral
+  happy: dialogue_town_dockhand_happy
+  serious: dialogue_town_dockhand_serious
+  work: dialogue_town_dockhand_work
+choices:
+  - id: skipper_where
+    label: Куда идёте?
+    flag: _skipper_where
+    nextNode: where
+    portrait: work
+  - id: skipper_board
+    label: Возьмёте пассажира?
+    flag: _skipper_board
+    nextNode: board
+    portrait: serious
+  - id: skipper_leave
+    label: Не мешаю
+    flag: _skipper_done
+    portrait: neutral
+nodes:
+  where:
+    text: Имперский рейд к Архипелагу. Курс закрытый, попутчиков не ждут.
+    portrait: work
+    choices:
+      - id: skipper_board
+        label: Возьмёте пассажира?
+        flag: _skipper_board
+        nextNode: board
+        portrait: serious
+      - id: skipper_leave
+        label: Понял
+        flag: _skipper_done
+        portrait: neutral
+  board:
+    text: Пассажиров не берём. Военный борт, не ялик.
+    portrait: serious
+    choices:
+      - id: skipper_leave
+        label: Тогда удачи в рейсе
+        flag: _skipper_done
+        portrait: neutral

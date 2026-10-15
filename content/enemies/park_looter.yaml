@@ -1,0 +1,32 @@
+id: park_looter
+name: Парковый мародёр
+level: 5
+hp: 34
+pAtk: 9
+pDef: 7
+mDef: 6
+accuracy: 16
+evasion: 14
+speed: 88
+xpReward: 11
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 12
+    max: 32
+  - item: leather_scrap
+    chance: 360000
+    min: 1
+    max: 1
+  - item: bronze_sword
+    chance: 40000
+    min: 1
+    max: 1
+  - item: padded_coif
+    chance: 35000
+    min: 1
+    max: 1
+  - item: wooden_arrow
+    chance: 220000
+    min: 2
+    max: 5

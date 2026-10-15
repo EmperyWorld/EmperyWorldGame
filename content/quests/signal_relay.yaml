@@ -1,0 +1,9 @@
+id: signal_relay
+radioNpcId: rift_scout
+completeFlag: quest_relay_complete
+activeFlag: quest_relay_active
+killCounterFlag: quest_relay_kills
+requiredKills: 4
+enemyType: echo_wraith
+rewardItems:
+  - sentry_helm

@@ -1,0 +1,8 @@
+merchantName: Мясник Бран · мясная лавка
+offers:
+  - id: raw_meat
+    price: 12
+  - id: cooked_meat
+    price: 18
+  - id: dried_meat
+    price: 22

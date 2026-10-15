@@ -1,0 +1,152 @@
+id: gods_rift
+name: Разлом Богов
+subtitle: Где воля богов трескается
+description: 'За Цитаделью Сингулярности реальность рвётся на осколки божественной воли. Золотые трещины, парящие руины храмов — начало финальной гряды Коллапса. Связь с Цитаделью — на западе.'
+mapKey: map-gods_rift
+backgroundAsset: location_gods_rift
+safeZone: false
+anomalyTier: 4
+tierLabel: Зона Коллапса
+recommendedLevel:
+  min: 48
+  max: 66
+survivalClimate:
+  temperatureC: -6
+  humidity: 28
+  shelter: 8
+  water: none
+  heatSources:
+    - x: 2560
+      y: 1792
+      radius: 180
+stations:
+  - id: gods_rift_shrine_2560_1792
+    kind: campfire
+    x: 2560
+    y: 1792
+    radius: 180
+spawn:
+  x: 960
+  y: 1920
+requires:
+  anyFlag: [quest_citadel_complete]
+npcs:
+  - id: gods_oracle
+    x: 1280
+    y: 1680
+    label: Никс [E]
+zones:
+  - x: 320
+    y: 1792
+    label: '← К цитадели'
+    color: '#dd6699'
+    travelTo: singularity_citadel
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'Пантеон →'
+    color: '#e8c060'
+    travelTo: pantheon_ascent
+    radius: 220
+  - x: 2560
+    y: 480
+    label: 'Золотой разлом'
+    color: '#d4a840'
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1792
+enemies:
+  - type: divine_echo
+    x: 1760
+    y: 1120
+  - type: godshard_hound
+    x: 2400
+    y: 1440
+  - type: divine_echo
+    x: 3200
+    y: 1200
+  - type: godshard_hound
+    x: 3840
+    y: 1520
+  - type: divine_echo
+    x: 1600
+    y: 2400
+  - type: godshard_hound
+    x: 3040
+    y: 2480
+  - type: divine_echo
+    x: 4000
+    y: 2320
+  - type: godshard_hound
+    x: 1280
+    y: 2560
+  - type: divine_echo
+    x: 2560
+    y: 1120
+  - type: godshard_hound
+    x: 2560
+    y: 2560
+  - type: divine_echo
+    x: 3520
+    y: 1920
+  - type: godshard_hound
+    x: 1920
+    y: 1920
+farmSpawn:
+  type: divine_echo
+  maxAlive: 16
+  respawnMs: 2400
+  points:
+    - { x: 1120, y: 960 }
+    - { x: 1760, y: 880 }
+    - { x: 2400, y: 960 }
+    - { x: 3040, y: 880 }
+    - { x: 3680, y: 960 }
+    - { x: 4320, y: 1040 }
+    - { x: 1120, y: 1680 }
+    - { x: 1760, y: 1760 }
+    - { x: 3360, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1280, y: 2400 }
+    - { x: 2080, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+    - { x: 1440, y: 1280 }
+    - { x: 3680, y: 1280 }
+    - { x: 1920, y: 2080 }
+    - { x: 3200, y: 2080 }
+questSpawns:
+  - activeFlag: quest_gods_active
+    killCounterFlag: quest_gods_kills
+    banner: 'Разлом: эхо {kills}/6'
+    startBanner: 'Квест: уничтожь 6 божественных эхо'
+    enemies:
+      - type: divine_echo
+        x: 1920
+        y: 1280
+        quest: true
+      - type: divine_echo
+        x: 2880
+        y: 1280
+        quest: true
+      - type: divine_echo
+        x: 1920
+        y: 2304
+        quest: true
+      - type: divine_echo
+        x: 2880
+        y: 2304
+        quest: true
+      - type: divine_echo
+        x: 2400
+        y: 1792
+        quest: true
+      - type: divine_echo
+        x: 2720
+        y: 1792
+        quest: true
+questComplete:
+  - anyFlag: [quest_gods_complete]
+    banner: 'Разлом стабилен — квест завершён'

@@ -1,0 +1,66 @@
+# Лёгкие клинки высших редкостей
+id: void_petal
+name: Кинжал алой вуали
+slot: weapon
+rarity: epic
+weaponWeight: light
+stats:
+  pAtk: 42
+  accuracy: 9
+  critRate: 7
+  attackSpeed: 7
+icon: /media/assets/item_void_petal.webp
+---
+id: starfall_fang
+name: Клык звездопада
+slot: weapon
+rarity: legendary
+weaponWeight: light
+stats:
+  pAtk: 52
+  accuracy: 11
+  critRate: 9
+  attackSpeed: 8
+icon: /media/assets/item_starfall_fang.webp
+---
+id: daedric_razor
+name: Даэдрическая бритва
+slot: weapon
+rarity: daedric
+weaponWeight: light
+stats:
+  pAtk: 68
+  accuracy: 14
+  critRate: 12
+  attackSpeed: 10
+icon: /media/assets/item_daedric_razor.webp
+---
+id: daedric_shroud
+name: Даэдрический покров
+slot: cloak
+rarity: daedric
+armorType: light
+stats:
+  pDef: 22
+  evasion: 18
+  accuracy: 6
+  critRate: 5
+  speed: 8
+  attackSpeed: 4
+  maxMp: 28
+icon: /media/assets/item_daedric_shroud.webp
+---
+id: daedric_hide_vest
+name: Жилет из кожи дэдры
+slot: body
+rarity: daedric
+armorType: light
+stats:
+  pDef: 42
+  evasion: 14
+  maxHp: 58
+  speed: 10
+  attackSpeed: 4
+  critRate: 4
+  accuracy: 5
+icon: /media/assets/item_daedric_hide_vest.webp

@@ -1,0 +1,8 @@
+id: smith_whetstone
+name: Оселок Гарольда
+slot: material
+rarity: common
+weight: 0.15
+stats: {}
+description: Точильный камень с горна Гарольда. В поле правит кромку, когда кузня далеко.
+icon: /media/assets/item_smith_whetstone.webp

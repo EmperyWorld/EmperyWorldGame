@@ -1,0 +1,46 @@
+id: town_hq_researcher
+name: Д-р Вейн
+race: human
+location: empery_hq
+questId: hq_lab_quest
+defaultGreeting: >-
+  Осторожно, здесь высоковольтные контуры. Лаборатория EmperyWorld изучает резонанс Аномалий.
+  Если ты от охраны кампуса — у меня как раз открыт запрос на стабилизирующий компонент.
+
+world:
+  role: character
+  wanderRadius: 16
+  wanderSpeed: 14
+portraits:
+  default: neutral
+
+choices:
+  - id: hq_research_accept
+    label: Что за запрос на компонент?
+    flag: _hq_research_accept
+    portrait: serious
+  - id: hq_research_submit
+    label: Сдать компонент для калибровки
+    flag: _hq_research_submit
+    portrait: work
+  - id: hq_research_about
+    label: Что вы здесь исследуете?
+    flag: _hq_research_about
+    portrait: neutral
+  - id: hq_research_leave
+    label: Не буду отвлекать.
+    flag: _hq_research_done
+    portrait: neutral
+
+nodes:
+  hq_research_about_node:
+    text: >-
+      Мы фиксируем искажения пространства вокруг Гавани. Разломы дестабилизируют
+      вещество, но дают редкие материалы. Мы создаём полевые фильтры и батареи,
+      чтобы связь и барьер не гасли.
+    choices:
+      - id: hq_research_leave
+        label: Понятно.
+        flag: _hq_research_done
+        portrait: neutral
+    portrait: neutral

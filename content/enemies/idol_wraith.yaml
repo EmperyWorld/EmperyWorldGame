@@ -1,0 +1,52 @@
+id: idol_wraith
+name: Призрак идола
+level: 55
+hp: 180
+pAtk: 50
+pDef: 26
+mDef: 23
+accuracy: 34
+evasion: 26
+speed: 114
+xpReward: 84
+drops:
+- kind: adena
+  chance: 1000000
+  min: 130
+  max: 210
+- item: leather_scrap
+  chance: 400000
+  min: 1
+  max: 2
+- item: iron_arrow
+  chance: 260000
+  min: 5
+  max: 14
+- item: daedric_composite_bow
+  chance: 20000
+  min: 1
+  max: 1
+- item: bloodlace
+  chance: 22000
+  min: 1
+  max: 1
+- item: ascent_strides
+  chance: 49000
+  min: 1
+  max: 1
+- item: horizon_quiver
+  chance: 49000
+  min: 1
+  max: 1
+- item: collapse_longbow
+  chance: 77000
+  min: 1
+  max: 1
+- item: citadel_cuirass
+  chance: 77000
+  min: 1
+  max: 1
+- item: pulse_recurve
+  chance: 125999
+  min: 1
+  max: 1

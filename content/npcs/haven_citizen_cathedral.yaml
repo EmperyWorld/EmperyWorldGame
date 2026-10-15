@@ -1,0 +1,61 @@
+id: haven_citizen_cathedral
+name: Паломник Гавани
+race: human
+location: empery_haven
+questId: haven_citizen_cathedral
+defaultGreeting: >-
+  Мир тебе, путник. Своды Собора Гавани хранят тишину и молитву посреди шумного города. Пусть свет ведёт твои шаги.
+world:
+  role: character
+portraits:
+  default: neutral
+  neutral: dialogue_town_priest_neutral
+  happy: dialogue_town_priest_happy
+  serious: dialogue_town_priest_serious
+  angry: dialogue_town_priest_serious
+choices:
+  - id: cathedral_ribbon
+    label: Купить молитвенную ленту (7 адены)
+    flag: _cathedral_ribbon
+    portrait: happy
+  - id: cathedral_pilgrim_alms
+    label: Подать милостыню (10 адены)
+    flag: _cathedral_pilgrim_alms
+    portrait: happy
+  - id: citizen_rumors
+    label: О чём молятся паломники?
+    flag: _cit_rumors
+    portrait: neutral
+  - id: citizen_advice
+    label: Зачем приходят к отцу Кассиану?
+    flag: _cit_advice
+    portrait: happy
+  - id: citizen_directions
+    label: Подскажи дорогу в городе
+    flag: _cit_directions
+    portrait: neutral
+  - id: citizen_leave
+    label: Мир и покой вашей душе.
+    flag: _cit_done
+    portrait: neutral
+nodes:
+  rumors:
+    text: >-
+      Говорят, Разломы в далёких землях снова пульсируют. Паломники несут ладан и просят святых о защите стен Гавани.
+      Колокол Собора звонит каждый вечер, возвещая покой городу.
+    portrait: serious
+    choices:
+      - id: citizen_leave
+        label: Сила веры хранит Гавань.
+        flag: _cit_done
+        portrait: neutral
+  advice:
+    text: >-
+      Если в битвах на сердце пала тяжесть, или совершил дурной поступок — отец Кассиан отпустит грехи на исповеди.
+      А благословение Собора укрепит броню и наделит стойкостью перед демонами Разлома.
+    portrait: happy
+    choices:
+      - id: citizen_leave
+        label: Благодарю за наставление.
+        flag: _cit_done
+        portrait: happy

@@ -1,0 +1,52 @@
+id: rift_guide
+name: Проводница Лира
+race: elf
+location: chaos_sector
+questId: chaos_breach
+defaultGreeting: Ты из луча сигнала? Здесь законы уже другие. Искажение глотает форму — держись троп, или станешь одним из порождений.
+
+
+world:
+  role: character
+  wanderRadius: 40
+  wanderSpeed: 22
+portraits:
+  default: neutral
+
+choices:
+  - id: chaos_accept
+    label: Что нужно сделать?
+    flag: quest_chaos_started
+    nextNode: chaos_brief
+    portrait: serious
+    blocks: [quest_chaos_complete, quest_chaos_active, quest_chaos_started]
+  - id: chaos_bye
+    label: Осмотрюсь сам
+    flag: _guide_done
+    portrait: neutral
+
+nodes:
+  chaos_brief:
+    text: Шесть порождений искажения — и брешь чуть стабилизируется. Без этого дальше в хаос не пущу даже взглядом.
+    portrait: action
+    choices:
+      - id: chaos_go
+        label: Принимаю
+        flag: quest_chaos_active
+        portrait: action
+  fold_brief:
+    text: Брешь держится. Дальше — Гребень Разлома. Там ужасы складки рвут тропы. Пять штук — и путь чуть прояснится.
+    portrait: action
+    choices:
+      - id: fold_go
+        label: Иду на гребень
+        flag: quest_fold_active
+        portrait: action
+  scar_brief:
+    text: Гребень открыл путь. В Шраме Пустоты спит Левиафан — сердце этой раны. Один удар по чудовищу, и искажение отступит.
+    portrait: action
+    choices:
+      - id: scar_go
+        label: Иду в шрам
+        flag: quest_scar_active
+        portrait: action

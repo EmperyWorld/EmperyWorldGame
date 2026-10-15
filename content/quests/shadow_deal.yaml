@@ -1,0 +1,9 @@
+id: shadow_deal
+radioNpcId: elder_mira
+completeFlag: quest_betrayal_complete
+activeFlag: quest_betrayal_active
+killCounterFlag: quest_betrayal_kills
+requiredKills: 2
+enemyType: shadow_thug
+rewardItems:
+  - shadow_dagger

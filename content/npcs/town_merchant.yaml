@@ -1,0 +1,30 @@
+id: town_merchant
+name: Торговец Лорен
+race: human
+location: empery_haven
+questId: town_shop
+defaultGreeting: Клинок, лук или посох — это ко мне. Доспехи у Гарольда. Мясо у Брана, рыба у Ульфа, хлеб у Фаддея, питьё у Марты и Хольма.
+
+
+world:
+  role: character
+  wanderRadius: 44
+  wanderSpeed: 26
+portraits:
+  default: neutral
+
+choices:
+  - id: merchant_shop
+    label: Открыть лавку
+    flag: _merchant_shop
+    portrait: happy
+  - id: merchant_deal
+    label: Сделка дня
+    flag: _merchant_deal
+    portrait: happy
+  - id: browse_done
+    label: Уйти
+    flag: _shop_done
+    portrait: neutral
+
+nodes: {}

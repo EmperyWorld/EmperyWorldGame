@@ -1,0 +1,20 @@
+id: forest_wolf
+name: Лесной волк
+level: 3
+hp: 22
+pAtk: 7
+pDef: 5
+mDef: 4
+accuracy: 18
+evasion: 22
+speed: 115
+xpReward: 11
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 5
+    max: 18
+  - item: leather_scrap
+    chance: 550000
+    min: 1
+    max: 1

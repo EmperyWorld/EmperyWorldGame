@@ -1,0 +1,6 @@
+merchantName: Марта · питьё трактира
+offers:
+  - id: boiled_water
+    price: 8
+  - id: dirty_water
+    price: 2

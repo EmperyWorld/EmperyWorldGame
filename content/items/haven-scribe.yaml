@@ -1,0 +1,17 @@
+id: scribe_travel_writ
+name: Путевая грамота Гавани
+slot: material
+rarity: uncommon
+unsellable: true
+stats: {}
+description: Печать скриптория Гавани на пергаменте. Городские ворота узнают герб — грамота открывает путь, не клинок.
+icon: /media/assets/item_scribe_travel_writ.webp
+---
+id: scribe_port_folio
+name: Опись причалов
+slot: material
+rarity: uncommon
+unsellable: true
+stats: {}
+description: Сводка причалов, пошлин и якорных мест. Архивный список — не карта, но лоцману дороже золота.
+icon: /media/assets/item_scribe_port_folio.webp

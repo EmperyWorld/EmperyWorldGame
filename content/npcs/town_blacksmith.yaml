@@ -1,0 +1,38 @@
+id: town_blacksmith
+name: Кузнец Гарольд
+race: human
+location: empery_haven
+questId: town_forge
+defaultGreeting: Доспехи и щиты — с полки. Заточка и крафт — у горна. Оружие бери у Лорена на рынке.
+
+
+world:
+  role: character
+  wanderRadius: 36
+  wanderSpeed: 20
+portraits:
+  default: neutral
+
+choices:
+  - id: forge_armor
+    label: Купить доспехи
+    flag: _forge_armor
+    portrait: work
+  - id: forge_open
+    label: К кузнице (заточка и крафт)
+    flag: _forge_open
+    portrait: work
+  - id: forge_sharpen
+    label: Заточить клинок (15 адены)
+    flag: _forge_sharpen
+    portrait: work
+  - id: forge_whetstone
+    label: Купить оселок (12 адены)
+    flag: _forge_whetstone
+    portrait: work
+  - id: forge_leave
+    label: Уйти
+    flag: _forge_done
+    portrait: neutral
+
+nodes: {}

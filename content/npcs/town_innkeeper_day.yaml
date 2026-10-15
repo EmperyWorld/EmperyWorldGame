@@ -1,0 +1,93 @@
+id: town_innkeeper_day
+name: Трактирщик Олег
+race: human
+location: empery_haven
+questId: town_inn
+defaultGreeting: >-
+  Дневная смена — я за стойкой до вечера. Вода, отдых, новости.
+  Ночью трактир держит Марта: очаг не гаснет.
+
+world:
+  role: character
+  wanderRadius: 28
+  wanderSpeed: 22
+portraits:
+  default: neutral
+
+choices:
+  - id: inn_fish_delivery
+    label: «Доставка улова» — Передать рыбу от рыбака Ульфа
+    flag: _inn_fish_delivery
+    portrait: happy
+  - id: inn_provisions
+    label: Купить питьё
+    flag: _inn_provisions
+    portrait: happy
+  - id: oleg_lunch
+    label: Дневной обед (12 адены)
+    flag: _oleg_lunch
+    portrait: happy
+  - id: inn_rest
+    label: Отдохнуть и восстановить HP/MP (25 adena)
+    flag: _inn_rest
+    portrait: happy
+  - id: inn_dice
+    label: Сыграть в «Кости Гавани» (азартный стол)
+    flag: _inn_dice
+    nextNode: dice_table
+    portrait: happy
+  - id: oleg_news
+    label: Что слышно за дневную смену?
+    flag: _oleg_news
+    portrait: happy
+  - id: inn_day
+    label: Марта только ночью?
+    flag: _inn_day_ask
+    nextNode: day
+    portrait: neutral
+  - id: inn_leave
+    label: Спасибо, я в порядке
+    flag: _inn_done
+    portrait: neutral
+
+nodes:
+  dice_table:
+    text: >-
+      Трактирные кости Гавани! Правила просты: два кубика у тебя, два у меня.
+      Чья сумма больше — тот забирает куш (выигрыш x2).
+      При дубле кубиков у тебя — супер-выигрыш x2.5 и кружка эля за счёт заведения! При ничьей — ставка возвращается.
+    portrait: happy
+    choices:
+      - id: inn_dice_10
+        label: Бросить кости на 10 адены
+        flag: _inn_dice_10
+        portrait: happy
+      - id: inn_dice_25
+        label: Бросить кости на 25 адены
+        flag: _inn_dice_25
+        portrait: happy
+      - id: inn_dice_50
+        label: Бросить кости на 50 адены
+        flag: _inn_dice_50
+        portrait: serious
+      - id: inn_dice_leave
+        label: Отойти от игорного стола
+        flag: _inn_done
+        portrait: neutral
+  day:
+    text: >-
+      С заката до рассвета у печи Марта — у неё ночная смена.
+      Днём я здесь, а стража и лекарь всё равно на связи.
+    choices:
+      - id: inn_provisions
+        label: Купить питьё
+        flag: _inn_provisions
+        portrait: happy
+      - id: inn_rest
+        label: Отдохнуть (25 adena)
+        flag: _inn_rest
+        portrait: happy
+      - id: inn_leave
+        label: Понял, спасибо
+        flag: _inn_done
+        portrait: neutral

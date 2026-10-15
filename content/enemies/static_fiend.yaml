@@ -1,0 +1,32 @@
+id: static_fiend
+name: Статический бес
+level: 18
+hp: 96
+pAtk: 24
+pDef: 16
+mDef: 14
+accuracy: 24
+evasion: 18
+speed: 92
+xpReward: 36
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 52
+    max: 102
+  - item: leather_scrap
+    chance: 400000
+    min: 1
+    max: 2
+  - item: iron_arrow
+    chance: 220000
+    min: 2
+    max: 6
+  - item: padded_coif
+    chance: 45000
+    min: 1
+    max: 1
+  - item: composite_bow
+    chance: 14000
+    min: 1
+    max: 1

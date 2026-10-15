@@ -1,0 +1,6 @@
+merchantName: Хольм · эль пивоварни
+offers:
+  - id: haven_ale
+    price: 16
+  - id: holm_stout
+    price: 22

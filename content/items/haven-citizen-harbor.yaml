@@ -1,0 +1,8 @@
+id: harbor_charm
+name: Оберег причала
+slot: material
+rarity: common
+weight: 0.08
+stats: {}
+description: Плотный морской узел на удачу. Моряк Гавани вяжет такие прямо на причале.
+icon: /media/assets/item_harbor_charm.webp

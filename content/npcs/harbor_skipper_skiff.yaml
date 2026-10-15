@@ -1,0 +1,53 @@
+id: harbor_skipper_skiff
+name: Шкипер скифа Лев
+race: human
+location: empery_haven
+questId: harbor_skipper_skiff
+defaultGreeting: Скиф у рыбацкого пальца. Мал, да свой.
+world:
+  role: character
+  wanderRadius: 0
+  wanderSpeed: 0
+portraits:
+  default: neutral
+  neutral: dialogue_town_fisher_neutral
+  happy: dialogue_town_fisher_happy
+  serious: dialogue_town_fisher_serious
+  work: dialogue_town_fisher_work
+choices:
+  - id: skipper_where
+    label: Куда идёте?
+    flag: _skipper_where
+    nextNode: where
+    portrait: work
+  - id: skipper_board
+    label: Возьмёте пассажира?
+    flag: _skipper_board
+    nextNode: board
+    portrait: serious
+  - id: skipper_leave
+    label: Не мешаю
+    flag: _skipper_done
+    portrait: neutral
+nodes:
+  where:
+    text: Каботаж вдоль мола — снасти, вести, иногда почта.
+    portrait: work
+    choices:
+      - id: skipper_board
+        label: Возьмёте пассажира?
+        flag: _skipper_board
+        nextNode: board
+        portrait: serious
+      - id: skipper_leave
+        label: Понял
+        flag: _skipper_done
+        portrait: neutral
+  board:
+    text: Пассажиров не берём. В скиф двоим тесно, а я уже один лишний.
+    portrait: serious
+    choices:
+      - id: skipper_leave
+        label: Тогда удачи в рейсе
+        flag: _skipper_done
+        portrait: neutral

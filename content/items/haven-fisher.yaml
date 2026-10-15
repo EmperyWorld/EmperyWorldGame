@@ -1,0 +1,8 @@
+id: ulf_bait
+name: Наживка Ульфа
+slot: material
+rarity: common
+weight: 0.05
+stats: {}
+description: Червь с причала. Ульф продаёт горсть за шесть адены — клёв честнее, чем на голый крючок.
+icon: /media/assets/item_ulf_bait.webp

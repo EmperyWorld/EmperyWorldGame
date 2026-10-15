@@ -1,0 +1,66 @@
+id: town_informant
+name: Информатор
+race: human
+location: empery_haven
+questId: rumors_hub
+defaultGreeting: >-
+  Тише... У стен есть уши, а у меня есть новости.
+  Что тебя интересует?
+
+world:
+  role: character
+  wanderRadius: 5
+  wanderSpeed: 10
+portraits:
+  default: neutral
+
+choices:
+  - id: informant_dossier
+    label: Купить досье (18 адены)
+    flag: _informant_dossier
+    portrait: serious
+  - id: informant_contract
+    label: Заплатить за имя (25 адены)
+    flag: _informant_contract
+    portrait: happy
+  - id: informant_claim
+    label: Забрать долю
+    flag: _informant_claim
+    portrait: happy
+  - id: rumor_latest
+    label: Что нового в городе?
+    flag: _rumor_latest
+    portrait: neutral
+  - id: rumor_shady
+    label: Есть что-то... необычное?
+    flag: _rumor_shady
+    portrait: happy
+  - id: informant_night
+    label: Ночью здесь тише?
+    flag: _informant_night_ask
+    nextNode: night
+    portrait: happy
+  - id: rumor_leave
+    label: Я просто мимо проходил.
+    flag: _rumor_done
+    portrait: neutral
+
+nodes:
+  night:
+    text: >-
+      Днём слишком много глаз. После колокола на форуме зажигают ночной ряд: сны, имена, чужие долги.
+      Цены — шёпотом. Платят молчанием. Если нужно имя — сейчас самое время.
+    portrait: happy
+    choices:
+      - id: informant_dossier
+        label: Купить досье (18 адены)
+        flag: _informant_dossier
+        portrait: serious
+      - id: rumor_shady
+        label: Есть что-то... необычное?
+        flag: _rumor_shady
+        portrait: happy
+      - id: rumor_leave
+        label: Понял. Исчезаю.
+        flag: _rumor_done
+        portrait: neutral

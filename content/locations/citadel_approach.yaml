@@ -1,0 +1,144 @@
+id: citadel_approach
+name: Подступы к Цитадели
+subtitle: Дорога к Сингулярности
+description: 'Осаждённый тракт к Цитадели Сингулярности — чёрные стены на горизонте, осадные призраки и нулевые рыцари. Связь с Окраиной — на западе.'
+mapKey: map-citadel_approach
+backgroundAsset: location_citadel_approach
+safeZone: false
+anomalyTier: 4
+tierLabel: Зона Коллапса
+recommendedLevel:
+  min: 40
+  max: 58
+survivalClimate:
+  temperatureC: -3
+  humidity: 42
+  shelter: 10
+  water: none
+  heatSources:
+    - x: 2560
+      y: 1792
+      radius: 180
+stations:
+  - id: citadel_approach_shrine_2560_1792
+    kind: campfire
+    x: 2560
+    y: 1792
+    radius: 180
+spawn:
+  x: 960
+  y: 1920
+requires:
+  anyFlag: [quest_collapse_complete]
+npcs: []
+zones:
+  - x: 320
+    y: 1792
+    label: '← К окраине'
+    color: '#884466'
+    travelTo: collapse_fringe
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'Цитадель →'
+    color: '#dd6699'
+    travelTo: singularity_citadel
+    radius: 220
+  - x: 2560
+    y: 480
+    label: 'Чёрные стены'
+    color: '#886688'
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1792
+enemies:
+  - type: siege_wraith
+    x: 1760
+    y: 1120
+  - type: null_knight
+    x: 2400
+    y: 1440
+  - type: siege_wraith
+    x: 3200
+    y: 1200
+  - type: null_knight
+    x: 3840
+    y: 1520
+  - type: siege_wraith
+    x: 1600
+    y: 2400
+  - type: null_knight
+    x: 3040
+    y: 2480
+  - type: siege_wraith
+    x: 4000
+    y: 2320
+  - type: null_knight
+    x: 1280
+    y: 2560
+  - type: siege_wraith
+    x: 2560
+    y: 1120
+  - type: null_knight
+    x: 2560
+    y: 2560
+  - type: siege_wraith
+    x: 3520
+    y: 1920
+  - type: null_knight
+    x: 1920
+    y: 1920
+farmSpawn:
+  type: siege_wraith
+  maxAlive: 16
+  respawnMs: 2400
+  points:
+    - { x: 1120, y: 960 }
+    - { x: 1760, y: 880 }
+    - { x: 2400, y: 960 }
+    - { x: 3040, y: 880 }
+    - { x: 3680, y: 960 }
+    - { x: 4320, y: 1040 }
+    - { x: 1120, y: 1680 }
+    - { x: 1760, y: 1760 }
+    - { x: 3360, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1280, y: 2400 }
+    - { x: 2080, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+    - { x: 1440, y: 1280 }
+    - { x: 3680, y: 1280 }
+    - { x: 1920, y: 2080 }
+    - { x: 3200, y: 2080 }
+questSpawns:
+  - activeFlag: quest_siege_active
+    killCounterFlag: quest_siege_kills
+    banner: 'Осада: призраки {kills}/5'
+    startBanner: 'Квест: уничтожь 5 осадных призраков на подступах'
+    enemies:
+      - type: siege_wraith
+        x: 1920
+        y: 1280
+        quest: true
+      - type: siege_wraith
+        x: 2880
+        y: 1280
+        quest: true
+      - type: siege_wraith
+        x: 1920
+        y: 2304
+        quest: true
+      - type: siege_wraith
+        x: 2880
+        y: 2304
+        quest: true
+      - type: siege_wraith
+        x: 2560
+        y: 1792
+        quest: true
+questComplete:
+  - anyFlag: [quest_siege_complete]
+    banner: 'Подступы зачищены — квест завершён'

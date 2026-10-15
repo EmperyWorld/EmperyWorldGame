@@ -1,0 +1,60 @@
+id: town_radio
+name: Связист Рен
+race: human
+location: empery_haven
+questId: town_radio
+defaultGreeting: Новичкам рацию сразу включаю на сутки. Корпус потом один раз дохнет — чиню за 100000 adena навсегда. Батарейки на 1 / 12 / 24 часа; заряд сгорает по таймеру даже если выключил.
+
+
+world:
+  role: character
+  wanderRadius: 40
+  wanderSpeed: 26
+portraits:
+  default: neutral
+
+choices:
+  - id: radio_shop
+    label: Купить батареи
+    flag: _radio_shop
+    portrait: happy
+  - id: radio_broadcast
+    label: Поймать эфир Гавани (6 адены)
+    flag: _radio_broadcast
+    portrait: work
+  - id: radio_signal
+    label: Проверить сигнал
+    flag: _radio_signal
+    portrait: serious
+  - id: radio_howto
+    label: Как пользоваться рацией?
+    flag: _radio_howto
+    nextNode: howto
+    portrait: work
+  - id: radio_static
+    label: Почему ловит помехи?
+    flag: _radio_static
+    nextNode: static
+    portrait: serious
+  - id: radio_shop_done
+    label: Уйти
+    flag: _radio_done
+    portrait: neutral
+
+nodes:
+  howto:
+    text: Включи — говори коротко. Клавиша R открывает пульт. Батарея тает сама, так что не держи эфир ради трескотни.
+    portrait: work
+    choices:
+      - id: radio_howto_bye
+        label: Принял
+        flag: _radio_done
+        portrait: happy
+  static:
+    text: Рядом с разломами сигнал пляшет. В Гавани — чище. Если шипит — отойди от стен и мачты маяка.
+    portrait: serious
+    choices:
+      - id: radio_static_bye
+        label: Ясно
+        flag: _radio_done
+        portrait: neutral

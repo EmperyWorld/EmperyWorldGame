@@ -1,0 +1,10 @@
+id: garden_cabbage
+name: Капуста с грядки
+slot: consumable
+rarity: common
+stats: {}
+description: Свежий кочан с грядок Ильи. Сытный, но не лежит вечно.
+survival:
+  nutrition: 28
+  shelfLifeHours: 72
+icon: /media/assets/item_garden_cabbage.webp

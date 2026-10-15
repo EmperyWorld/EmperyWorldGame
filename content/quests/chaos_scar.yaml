@@ -1,0 +1,10 @@
+id: chaos_scar
+radioNpcId: rift_guide
+completeFlag: quest_scar_complete
+activeFlag: quest_scar_active
+killCounterFlag: quest_scar_kills
+requiredKills: 1
+enemyType: void_leviathan
+rewardItems:
+  - elven_longbow
+  - depths_cloak

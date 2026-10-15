@@ -1,0 +1,48 @@
+id: warp_spawn
+name: Порождение искажения
+level: 26
+hp: 100
+pAtk: 28
+pDef: 16
+mDef: 14
+accuracy: 30
+evasion: 26
+speed: 114
+xpReward: 44
+drops:
+- kind: adena
+  chance: 1000000
+  min: 64
+  max: 118
+- item: leather_scrap
+  chance: 400000
+  min: 1
+  max: 2
+- item: iron_arrow
+  chance: 280000
+  min: 4
+  max: 10
+- item: composite_bow
+  chance: 30000
+  min: 1
+  max: 1
+- item: plate_greaves
+  chance: 32000
+  min: 1
+  max: 1
+- item: pulse_recurve
+  chance: 90000
+  min: 1
+  max: 1
+- item: warp_hauberk
+  chance: 90000
+  min: 1
+  max: 1
+- item: neon_mantle
+  chance: 90000
+  min: 1
+  max: 1
+- item: collapse_longbow
+  chance: 55000
+  min: 1
+  max: 1

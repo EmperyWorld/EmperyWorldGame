@@ -1,0 +1,25 @@
+tiers:
+  - tier: 1
+    name: Однокомнатная
+    price: 25000
+    materials: 40
+    gear: 20
+    food: 24
+    rooms: 1
+  - tier: 2
+    name: Двухкомнатная
+    price: 75000
+    materials: 70
+    gear: 40
+    food: 40
+    rooms: 2
+  - tier: 3
+    name: Трёхкомнатная
+    price: 180000
+    materials: 120
+    gear: 70
+    food: 70
+    rooms: 3
+
+apartmentLocationId: haven_apartment
+stewardNpcId: town_steward

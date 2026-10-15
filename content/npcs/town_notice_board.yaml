@@ -1,0 +1,63 @@
+id: town_notice_board
+name: Доска объявлений Гавани
+race: human
+location: empery_haven
+questId: haven_notice_board
+defaultGreeting: >-
+  [ГОРОДСКАЯ ДОСКА ОБЪЯВЛЕНИЙ ГАВАНИ]
+  Свежие контракты гильдии, муниципальные указы и сводка новостей магистрата.
+
+world:
+  role: prop
+portraits:
+  default: neutral
+
+choices:
+  - id: board_bounty_accept
+    label: «Контракт магистрата» — Санитарная зачистка подступов (Роща)
+    flag: _board_bounty_accept
+    portrait: serious
+  - id: board_bounty_claim
+    label: Сдать выполненный контракт магистрата
+    flag: _board_bounty_claim
+    portrait: happy
+  - id: board_copy
+    label: 'Снять копию листовки: 6 адены'
+    flag: _board_copy
+    portrait: work
+  - id: board_petition
+    label: 'Подать прошение магистрату: 15 адены'
+    flag: _board_petition
+    blocks: [quest_forum_petition_complete]
+    portrait: serious
+  - id: board_news
+    label: Читать городские вести и слухи
+    flag: _board_news
+    portrait: neutral
+  - id: board_guide
+    label: Путеводитель по районам и службам Гавани
+    flag: _board_guide
+    nextNode: node_guide
+    portrait: neutral
+  - id: board_leave
+    label: [Отойти]
+    flag: _board_done
+    portrait: neutral
+
+nodes:
+  node_guide:
+    text: >-
+      [ПУТЕВОДИТЕЛЬ ПО ГАВАНИ]:
+      Северо-запад: Гарнизон (капитан Гаррет, стража, казармы).
+      Запад: Торговые ряды (Лорен, мясник Бран, связист Рен).
+      Юго-запад: Ремёсла (кузнец Гарольд, мельница Фаддея, конюшня Бориса).
+      Юг: Спальный район (Дом жильцов, дворецкий Эдмунд, сад Ильи).
+      Северо-восток: Храмовый квартал (отец Кассий, писец Ирина, лекарь Сера).
+      Восток: Трактирный двор (Марта, Олег, баня Ники, пивовар Хольм).
+      Юго-восток: Речной порт (рыбак Ульф, грузчик Петр) и кампус EmperyWorld HQ.
+    choices:
+      - id: board_leave
+        label: Понятно.
+        flag: _board_done
+        portrait: neutral
+    portrait: neutral

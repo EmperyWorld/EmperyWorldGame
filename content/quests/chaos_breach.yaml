@@ -1,0 +1,10 @@
+id: chaos_breach
+radioNpcId: rift_guide
+completeFlag: quest_chaos_complete
+activeFlag: quest_chaos_active
+killCounterFlag: quest_chaos_kills
+requiredKills: 6
+enemyType: warp_spawn
+rewardItems:
+  - plate_greaves
+  - ringmail_gloves

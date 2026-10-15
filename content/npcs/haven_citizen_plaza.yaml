@@ -1,0 +1,62 @@
+id: haven_citizen_plaza
+name: Горожанин Гавани
+race: human
+location: empery_haven
+questId: haven_citizen_plaza
+defaultGreeting: >-
+  Добрый день, странник! У фонтана на площади всегда прохладно, а с открытой сцены слышны новые баллады барда.
+world:
+  role: character
+portraits:
+  default: neutral
+  neutral: dialogue_town_captain_neutral
+  happy: dialogue_town_captain_happy
+  serious: dialogue_town_captain_serious
+  angry: dialogue_town_captain_serious
+choices:
+  - id: plaza_coin
+    label: Бросить монету в фонтан (3 адены)
+    flag: _plaza_coin
+    portrait: happy
+  - id: plaza_charm
+    label: Купить талисман площади (12 адены)
+    flag: _plaza_charm
+    blocks: [quest_plaza_charm_complete]
+    portrait: happy
+  - id: citizen_rumors
+    label: О чём говорят на площади?
+    flag: _cit_rumors
+    portrait: neutral
+  - id: citizen_advice
+    label: Чем заняться в городе новоприбывшему?
+    flag: _cit_advice
+    portrait: happy
+  - id: citizen_directions
+    label: Подскажи дорогу в городе
+    flag: _cit_directions
+    portrait: neutral
+  - id: citizen_leave
+    label: Всего доброго.
+    flag: _cit_done
+    portrait: neutral
+nodes:
+  rumors:
+    text: >-
+      Магистрат вывесил новые указы на доске объявлений у форума. За головы главарей нежити на болотах объявлена щедрая награда!
+      А бард Кай вчера сочинил куплет о древних руинах за стенами.
+    portrait: serious
+    choices:
+      - id: citizen_leave
+        label: Интересно послушать.
+        flag: _cit_done
+        portrait: neutral
+  advice:
+    text: >-
+      Загляни на городскую доску объявлений — там всегда есть работа для вольных мечей.
+      А перед долгим походом зайди в амфитеатр: баллада Кая придаёт ногам лёгкость и возвращает ману.
+    portrait: happy
+    choices:
+      - id: citizen_leave
+        label: Спасибо за подсказку!
+        flag: _cit_done
+        portrait: happy

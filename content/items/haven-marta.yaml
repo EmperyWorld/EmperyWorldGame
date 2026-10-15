@@ -1,0 +1,11 @@
+id: marta_stew
+name: Ночной горшок Марты
+slot: consumable
+rarity: uncommon
+stats: {}
+description: Густой ночной горшок с очага Марты. Согревает и держит сытость до утра.
+survival:
+  nutrition: 18
+  warming: 0.3
+  shelfLifeHours: 24
+icon: /media/assets/item_marta_stew.webp

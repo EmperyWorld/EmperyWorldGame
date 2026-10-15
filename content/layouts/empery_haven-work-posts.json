@@ -1,0 +1,561 @@
+{
+  "generatedAt": "2026-09-17T00:52:04.797Z",
+  "count": 111,
+  "works": [
+    {
+      "tx": 12,
+      "ty": 22,
+      "tag": "prop_trade_hall"
+    },
+    {
+      "tx": 11,
+      "ty": 22,
+      "tag": "prop_trade_hall"
+    },
+    {
+      "tx": 13,
+      "ty": 22,
+      "tag": "prop_trade_hall"
+    },
+    {
+      "tx": 7,
+      "ty": 22,
+      "tag": "prop_butcher"
+    },
+    {
+      "tx": 6,
+      "ty": 22,
+      "tag": "prop_butcher"
+    },
+    {
+      "tx": 8,
+      "ty": 22,
+      "tag": "prop_butcher"
+    },
+    {
+      "tx": 18,
+      "ty": 26,
+      "tag": "prop_radio_booth"
+    },
+    {
+      "tx": 17,
+      "ty": 26,
+      "tag": "prop_radio_booth"
+    },
+    {
+      "tx": 19,
+      "ty": 26,
+      "tag": "prop_radio_booth"
+    },
+    {
+      "tx": 12,
+      "ty": 34,
+      "tag": "prop_blacksmith"
+    },
+    {
+      "tx": 11,
+      "ty": 34,
+      "tag": "prop_blacksmith"
+    },
+    {
+      "tx": 13,
+      "ty": 34,
+      "tag": "prop_blacksmith"
+    },
+    {
+      "tx": 22,
+      "ty": 36,
+      "tag": "prop_windmill"
+    },
+    {
+      "tx": 21,
+      "ty": 36,
+      "tag": "prop_windmill"
+    },
+    {
+      "tx": 23,
+      "ty": 36,
+      "tag": "prop_windmill"
+    },
+    {
+      "tx": 30,
+      "ty": 40,
+      "tag": "prop_stable"
+    },
+    {
+      "tx": 29,
+      "ty": 40,
+      "tag": "prop_stable"
+    },
+    {
+      "tx": 31,
+      "ty": 40,
+      "tag": "prop_stable"
+    },
+    {
+      "tx": 58,
+      "ty": 20,
+      "tag": "prop_inn"
+    },
+    {
+      "tx": 57,
+      "ty": 20,
+      "tag": "prop_inn"
+    },
+    {
+      "tx": 59,
+      "ty": 20,
+      "tag": "prop_inn"
+    },
+    {
+      "tx": 54,
+      "ty": 24,
+      "tag": "prop_bathhouse"
+    },
+    {
+      "tx": 53,
+      "ty": 24,
+      "tag": "prop_bathhouse"
+    },
+    {
+      "tx": 55,
+      "ty": 24,
+      "tag": "prop_bathhouse"
+    },
+    {
+      "tx": 64,
+      "ty": 24,
+      "tag": "prop_brewery"
+    },
+    {
+      "tx": 63,
+      "ty": 24,
+      "tag": "prop_brewery"
+    },
+    {
+      "tx": 65,
+      "ty": 24,
+      "tag": "prop_brewery"
+    },
+    {
+      "tx": 48,
+      "ty": 16,
+      "tag": "prop_healer_hall"
+    },
+    {
+      "tx": 47,
+      "ty": 16,
+      "tag": "prop_healer_hall"
+    },
+    {
+      "tx": 49,
+      "ty": 16,
+      "tag": "prop_healer_hall"
+    },
+    {
+      "tx": 54,
+      "ty": 11,
+      "tag": "prop_cathedral"
+    },
+    {
+      "tx": 53,
+      "ty": 11,
+      "tag": "prop_cathedral"
+    },
+    {
+      "tx": 55,
+      "ty": 11,
+      "tag": "prop_cathedral"
+    },
+    {
+      "tx": 60,
+      "ty": 8,
+      "tag": "prop_library"
+    },
+    {
+      "tx": 59,
+      "ty": 8,
+      "tag": "prop_library"
+    },
+    {
+      "tx": 61,
+      "ty": 8,
+      "tag": "prop_library"
+    },
+    {
+      "tx": 44,
+      "ty": 38,
+      "tag": "prop_schoolhouse"
+    },
+    {
+      "tx": 43,
+      "ty": 38,
+      "tag": "prop_schoolhouse"
+    },
+    {
+      "tx": 45,
+      "ty": 38,
+      "tag": "prop_schoolhouse"
+    },
+    {
+      "tx": 14,
+      "ty": 10,
+      "tag": "prop_barracks"
+    },
+    {
+      "tx": 13,
+      "ty": 10,
+      "tag": "prop_barracks"
+    },
+    {
+      "tx": 15,
+      "ty": 10,
+      "tag": "prop_barracks"
+    },
+    {
+      "tx": 66,
+      "ty": 45,
+      "tag": "prop_fishmonger"
+    },
+    {
+      "tx": 65,
+      "ty": 45,
+      "tag": "prop_fishmonger"
+    },
+    {
+      "tx": 67,
+      "ty": 45,
+      "tag": "prop_fishmonger"
+    },
+    {
+      "tx": 58,
+      "ty": 44,
+      "tag": "prop_warehouse"
+    },
+    {
+      "tx": 57,
+      "ty": 44,
+      "tag": "prop_warehouse"
+    },
+    {
+      "tx": 59,
+      "ty": 44,
+      "tag": "prop_warehouse"
+    },
+    {
+      "tx": 16,
+      "ty": 44,
+      "tag": "prop_tenement_block"
+    },
+    {
+      "tx": 15,
+      "ty": 44,
+      "tag": "prop_tenement_block"
+    },
+    {
+      "tx": 17,
+      "ty": 44,
+      "tag": "prop_tenement_block"
+    },
+    {
+      "tx": 19,
+      "ty": 10,
+      "tag": "prop_keep_wing"
+    },
+    {
+      "tx": 6,
+      "ty": 10,
+      "tag": "prop_armory"
+    },
+    {
+      "tx": 21,
+      "ty": 13,
+      "tag": "prop_jail"
+    },
+    {
+      "tx": 40,
+      "ty": 20,
+      "tag": "prop_fountain"
+    },
+    {
+      "tx": 46,
+      "ty": 18,
+      "tag": "prop_clock_tower"
+    },
+    {
+      "tx": 68,
+      "ty": 12,
+      "tag": "prop_governor_palace"
+    },
+    {
+      "tx": 60,
+      "ty": 9,
+      "tag": "prop_scriptorium"
+    },
+    {
+      "tx": 64,
+      "ty": 9,
+      "tag": "prop_imperial_archive"
+    },
+    {
+      "tx": 72,
+      "ty": 14,
+      "tag": "prop_palace_kitchen"
+    },
+    {
+      "tx": 66,
+      "ty": 16,
+      "tag": "prop_garden_fountain"
+    },
+    {
+      "tx": 42,
+      "ty": 32,
+      "tag": "prop_open_stage"
+    },
+    {
+      "tx": 36,
+      "ty": 30,
+      "tag": "prop_gazebo"
+    },
+    {
+      "tx": 46,
+      "ty": 30,
+      "tag": "prop_chapel"
+    },
+    {
+      "tx": 8,
+      "ty": 18,
+      "tag": "prop_guildhall"
+    },
+    {
+      "tx": 16,
+      "ty": 20,
+      "tag": "prop_shop_front"
+    },
+    {
+      "tx": 10,
+      "ty": 26,
+      "tag": "prop_bakery"
+    },
+    {
+      "tx": 14,
+      "ty": 26,
+      "tag": "prop_jeweler"
+    },
+    {
+      "tx": 4,
+      "ty": 26,
+      "tag": "prop_apothecary"
+    },
+    {
+      "tx": 18,
+      "ty": 22,
+      "tag": "prop_moneylender"
+    },
+    {
+      "tx": 4,
+      "ty": 21,
+      "tag": "prop_tailor"
+    },
+    {
+      "tx": 12,
+      "ty": 19,
+      "tag": "prop_perfume_stall"
+    },
+    {
+      "tx": 14,
+      "ty": 22,
+      "tag": "prop_spice_stall"
+    },
+    {
+      "tx": 16,
+      "ty": 24,
+      "tag": "prop_weigh_house"
+    },
+    {
+      "tx": 8,
+      "ty": 26,
+      "tag": "prop_public_oven"
+    },
+    {
+      "tx": 20,
+      "ty": 20,
+      "tag": "prop_barber"
+    },
+    {
+      "tx": 8,
+      "ty": 32,
+      "tag": "prop_carpenter"
+    },
+    {
+      "tx": 4,
+      "ty": 30,
+      "tag": "prop_cheese_shop"
+    },
+    {
+      "tx": 14,
+      "ty": 30,
+      "tag": "prop_candle_shop"
+    },
+    {
+      "tx": 16,
+      "ty": 30,
+      "tag": "prop_pottery_kiln"
+    },
+    {
+      "tx": 8,
+      "ty": 34,
+      "tag": "prop_mason_shed"
+    },
+    {
+      "tx": 4,
+      "ty": 32,
+      "tag": "prop_glassblower"
+    },
+    {
+      "tx": 16,
+      "ty": 34,
+      "tag": "prop_wagon_workshop"
+    },
+    {
+      "tx": 24,
+      "ty": 32,
+      "tag": "prop_leatherworker"
+    },
+    {
+      "tx": 28,
+      "ty": 34,
+      "tag": "prop_granary"
+    },
+    {
+      "tx": 18,
+      "ty": 36,
+      "tag": "prop_millstone"
+    },
+    {
+      "tx": 66,
+      "ty": 22,
+      "tag": "prop_tea_house"
+    },
+    {
+      "tx": 52,
+      "ty": 22,
+      "tag": "prop_fire_brigade"
+    },
+    {
+      "tx": 56,
+      "ty": 19,
+      "tag": "prop_tavern_sign"
+    },
+    {
+      "tx": 74,
+      "ty": 28,
+      "tag": "prop_watch_house"
+    },
+    {
+      "tx": 56,
+      "ty": 44,
+      "tag": "prop_customs_house"
+    },
+    {
+      "tx": 70,
+      "ty": 45,
+      "tag": "prop_captain_hut"
+    },
+    {
+      "tx": 68,
+      "ty": 43,
+      "tag": "prop_ship_chandler"
+    },
+    {
+      "tx": 74,
+      "ty": 47,
+      "tag": "prop_dock_tavern"
+    },
+    {
+      "tx": 61,
+      "ty": 44,
+      "tag": "prop_map_shop"
+    },
+    {
+      "tx": 72,
+      "ty": 50,
+      "tag": "prop_ropewalk"
+    },
+    {
+      "tx": 68,
+      "ty": 50,
+      "tag": "prop_lighthouse"
+    },
+    {
+      "tx": 5,
+      "ty": 17,
+      "tag": "prop_market_canopy"
+    },
+    {
+      "tx": 4,
+      "ty": 28,
+      "tag": "prop_market_stall"
+    },
+    {
+      "tx": 12,
+      "ty": 24,
+      "tag": "prop_spice_stall"
+    },
+    {
+      "tx": 14,
+      "ty": 18,
+      "tag": "prop_basket_stall"
+    },
+    {
+      "tx": 13,
+      "ty": 51,
+      "tag": "prop_yard_fountain"
+    },
+    {
+      "tx": 56,
+      "ty": 50,
+      "tag": "prop_fish_stall"
+    },
+    {
+      "tx": 3,
+      "ty": 36,
+      "tag": "prop_anvil"
+    },
+    {
+      "tx": 40,
+      "ty": 22,
+      "tag": "forum"
+    },
+    {
+      "tx": 38,
+      "ty": 21,
+      "tag": "forum"
+    },
+    {
+      "tx": 42,
+      "ty": 21,
+      "tag": "forum"
+    },
+    {
+      "tx": 40,
+      "ty": 16,
+      "tag": "boulevard"
+    },
+    {
+      "tx": 37,
+      "ty": 18,
+      "tag": "boulevard"
+    },
+    {
+      "tx": 40,
+      "ty": 8,
+      "tag": "north_gate"
+    },
+    {
+      "tx": 40,
+      "ty": 48,
+      "tag": "south_gate"
+    }
+  ]
+}

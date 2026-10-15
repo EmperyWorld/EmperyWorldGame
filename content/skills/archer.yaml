@@ -1,0 +1,458 @@
+---
+id: archer_life_flow
+name: Поток жизни
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 1
+description: Восстанавливает HP каждые 5 секунд
+effects:
+  hpRegen: [2, 4, 7]
+  maxHp: [6, 12, 18]
+
+---
+id: bow_mastery
+name: Мастерство лука
+type: passive
+profession: archer
+maxLevel: 3
+description: Увеличивает физ. атаку с луком
+effects:
+  pAtk: [4, 7, 11]
+
+---
+id: eagle_eye
+name: Орлиный глаз
+type: passive
+profession: archer
+maxLevel: 3
+description: Точность и дальность выстрелов
+effects:
+  accuracy: [3, 5, 8]
+  attackRange: [16, 28, 42]
+
+---
+id: power_shot
+name: Мощный выстрел
+type: active
+profession: archer
+maxLevel: 3
+cooldownMs: 8000
+attackRange: 180
+description: Тяжёлая стрела с повышенным уроном
+levels:
+  1: { damageMultiplier: 1.8 }
+  2: { damageMultiplier: 2.1 }
+  3: { damageMultiplier: 2.5 }
+
+---
+id: steady_breath
+name: Спокойное дыхание
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 3
+description: Критический глаз охотника
+effects:
+  critRate: [2, 4, 6]
+
+---
+id: quick_draw
+name: Быстрая тетива
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 5
+cooldownMs: 6000
+attackRange: 170
+description: Быстрый точный выстрел
+levels:
+  1: { damageMultiplier: 1.4, accuracyBonus: 14 }
+  2: { damageMultiplier: 1.6, accuracyBonus: 18 }
+  3: { damageMultiplier: 1.85, accuracyBonus: 24 }
+
+---
+id: far_reach
+name: Дальний рубеж
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 6
+description: Увеличивает дальность атаки с луком
+effects:
+  attackRange: [24, 40, 60]
+
+---
+id: hunter_instinct
+name: Инстинкт охотника
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 8
+description: Живучесть в поле
+effects:
+  maxHp: [10, 18, 28]
+
+---
+id: piercing_shot
+name: Пробивающий выстрел
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 10
+cooldownMs: 11000
+attackRange: 200
+description: Стрела, игнорирующая часть брони
+levels:
+  1: { damageMultiplier: 1.9, armorPenetration: 0.35, accuracyBonus: 6 }
+  2: { damageMultiplier: 2.2, armorPenetration: 0.45, accuracyBonus: 8 }
+  3: { damageMultiplier: 2.55, armorPenetration: 0.55, accuracyBonus: 10 }
+
+---
+id: sniper_focus
+name: Снайперский фокус
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 14
+description: Точность, крит и дальность на дистанции
+effects:
+  accuracy: [4, 7, 11]
+  critRate: [2, 3, 5]
+  attackRange: [20, 36, 52]
+
+---
+id: rain_of_arrows
+name: Дождь стрел
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 20
+cooldownMs: 14000
+attackRange: 210
+tactic: cleave
+description: >-
+  Веер с дальнего рубежа: до 4 целей в радиусе выстрела. Основная — полный урон,
+  остальные — 60%. Одна тетива на залп.
+levels:
+  1: { damageMultiplier: 2.4, accuracyBonus: 10 }
+  2: { damageMultiplier: 2.8, accuracyBonus: 14 }
+  3: { damageMultiplier: 3.3, accuracyBonus: 18 }
+
+---
+id: wind_stance
+name: Стойка ветра
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 22
+description: Стойка, ловящая ветер
+effects:
+  accuracy: [4, 7, 11]
+  attackRange: [20, 34, 50]
+
+---
+id: marking_shot
+name: Меченый выстрел
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 24
+cooldownMs: 7000
+attackRange: 190
+tactic: mark
+description: >-
+  Вешает метку на 6с. Помеченная цель получает +22% урона и +14 точности
+  от ваших следующих попаданий.
+levels:
+  1: { damageMultiplier: 1.75, accuracyBonus: 18 }
+  2: { damageMultiplier: 2.01, accuracyBonus: 20 }
+  3: { damageMultiplier: 2.31, accuracyBonus: 22 }
+
+---
+id: trailblazer
+name: Первопроходец
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 26
+description: Живучесть дальних троп
+effects:
+  maxHp: [14, 24, 36]
+  accuracy: [3, 5, 8]
+
+---
+id: scatter_shot
+name: Дробный залп
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 28
+cooldownMs: 9000
+attackRange: 175
+tactic: cleave
+description: >-
+  Веер стрел: до 4 целей в радиусе. Основная — полный урон навыка, остальные — 60%.
+levels:
+  1: { damageMultiplier: 1.95, critBonus: 15, accuracyBonus: 8 }
+  2: { damageMultiplier: 2.24, critBonus: 20, accuracyBonus: 10 }
+  3: { damageMultiplier: 2.57, critBonus: 25, accuracyBonus: 12 }
+
+---
+id: hawk_blood
+name: Кровь ястреба
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 30
+description: Хищный глаз и рука
+effects:
+  critRate: [4, 7, 11]
+  pAtk: [5, 9, 14]
+
+---
+id: pin_down
+name: Пригвоздить
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 32
+cooldownMs: 8500
+attackRange: 185
+control: pin
+description: >-
+  Стрела, пригвождающая броню: цель сильно замедляется.
+levels:
+  1: { damageMultiplier: 2.0, armorPenetration: 0.35, accuracyBonus: 10 }
+  2: { damageMultiplier: 2.3, armorPenetration: 0.4, accuracyBonus: 12 }
+  3: { damageMultiplier: 2.64, armorPenetration: 0.45, accuracyBonus: 14 }
+
+---
+id: longshot_drill
+name: Дисциплина дальнего боя
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 34
+description: Тренировка на пределе дистанции
+effects:
+  attackRange: [28, 46, 68]
+  accuracy: [4, 7, 10]
+
+---
+id: serpentine_arrow
+name: Змеиная стрела
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 36
+cooldownMs: 10000
+attackRange: 195
+tactic: seek
+description: >-
+  Стрела вьётся к слабому месту: гарантированное попадание.
+levels:
+  1: { damageMultiplier: 2.15, armorPenetration: 0.3, critBonus: 20 }
+  2: { damageMultiplier: 2.47, armorPenetration: 0.35, critBonus: 25 }
+  3: { damageMultiplier: 2.84, armorPenetration: 0.4, critBonus: 30 }
+
+---
+id: ranger_vitality
+name: Живучесть следопыта
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 38
+description: Запас сил для долгих охот
+effects:
+  maxHp: [18, 30, 46]
+  pDef: [4, 7, 11]
+
+---
+id: sky_hunter
+name: Небесный охотник
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 40
+description: Охота под открытым небом
+effects:
+  attackRange: [32, 52, 76]
+  accuracy: [6, 10, 15]
+
+---
+id: ballista_bolt
+name: Болт баллисты
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 42
+cooldownMs: 12000
+attackRange: 210
+tactic: snipe
+description: >-
+  Осадный выстрел: сильнее и точнее с дистанции (≥130). В упор слабее.
+levels:
+  1: { damageMultiplier: 2.5, armorPenetration: 0.45, accuracyBonus: 8 }
+  2: { damageMultiplier: 2.88, armorPenetration: 0.5, accuracyBonus: 10 }
+  3: { damageMultiplier: 3.3, armorPenetration: 0.55, accuracyBonus: 12 }
+
+---
+id: predator_focus
+name: Фокус хищника
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 44
+description: Одна цель — один исход
+effects:
+  critRate: [5, 9, 14]
+  pAtk: [8, 14, 22]
+
+---
+id: storm_arrows
+name: Стрелы бури
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 46
+cooldownMs: 11000
+attackRange: 200
+tactic: cleave
+description: >-
+  Град стрел в вихре: до 4 целей, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.4, critBonus: 18, accuracyBonus: 10 }
+  2: { damageMultiplier: 2.76, critBonus: 23, accuracyBonus: 12 }
+  3: { damageMultiplier: 3.17, critBonus: 28, accuracyBonus: 14 }
+
+---
+id: iron_string
+name: Железная тетива
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 48
+description: Тетива, не знающая дрожи
+effects:
+  pAtk: [10, 16, 24]
+  accuracy: [5, 8, 12]
+
+---
+id: eclipse_shot
+name: Выстрел затмения
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 50
+cooldownMs: 14000
+attackRange: 220
+tactic: snipe
+description: >-
+  Снайперский выстрел: бонус с дистанции ≥130, ещё сильнее с ≥200. В упор слабее.
+levels:
+  1: { damageMultiplier: 2.7, armorPenetration: 0.5, critBonus: 15 }
+  2: { damageMultiplier: 3.1, armorPenetration: 0.55, critBonus: 20 }
+  3: { damageMultiplier: 3.56, armorPenetration: 0.6, critBonus: 25 }
+
+---
+id: horizon_eye
+name: Глаз горизонта
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 52
+description: Видеть за горизонтом
+effects:
+  attackRange: [40, 64, 92]
+  accuracy: [8, 12, 18]
+
+---
+id: annihilator
+name: Аннигилятор
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 54
+cooldownMs: 15000
+attackRange: 215
+tactic: snipe
+description: >-
+  Выстрел на уничтожение с дистанции: бонус ≥130 / ≥200 пкс. В упор слабее.
+levels:
+  1: { damageMultiplier: 2.85, armorPenetration: 0.45, critBonus: 20 }
+  2: { damageMultiplier: 3.28, armorPenetration: 0.5, critBonus: 25 }
+  3: { damageMultiplier: 3.76, armorPenetration: 0.55, critBonus: 30 }
+
+---
+id: warden_of_winds
+name: Страж ветров
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 56
+description: Страж ветреных рубежей
+effects:
+  maxHp: [24, 40, 60]
+  pDef: [6, 10, 16]
+  attackRange: [24, 40, 58]
+
+---
+id: starfall_volley
+name: Залп звездопада
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 58
+cooldownMs: 16000
+attackRange: 225
+tactic: cleave
+description: >-
+  Залп по пачке: до 4 целей в радиусе, splash 60% по неосновным.
+levels:
+  1: { damageMultiplier: 2.95, critBonus: 22, accuracyBonus: 12 }
+  2: { damageMultiplier: 3.39, critBonus: 27, accuracyBonus: 14 }
+  3: { damageMultiplier: 3.89, critBonus: 32, accuracyBonus: 16 }
+
+---
+id: era_marksman
+name: Стрелок эры
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 60
+description: Стрелок, переживший эры
+effects:
+  pAtk: [12, 20, 30]
+  critRate: [6, 10, 15]
+  accuracy: [8, 12, 18]
+
+---
+id: godpiercer
+name: Богопронзатель
+type: active
+profession: archer
+maxLevel: 3
+unlockLevel: 62
+cooldownMs: 18000
+attackRange: 240
+tactic: snipe
+description: >-
+  Пронзающий выстрел с дистанции: бонус ≥130 / ≥200. В упор слабее.
+levels:
+  1: { damageMultiplier: 3.15, armorPenetration: 0.55, critBonus: 18 }
+  2: { damageMultiplier: 3.62, armorPenetration: 0.6, critBonus: 23 }
+  3: { damageMultiplier: 4.16, armorPenetration: 0.65, critBonus: 28 }
+
+---
+id: apex_archer
+name: Вершина лука
+type: passive
+profession: archer
+maxLevel: 3
+unlockLevel: 65
+description: Предел пути лучника
+effects:
+  pAtk: [14, 22, 34]
+  attackRange: [48, 76, 110]
+  critRate: [6, 10, 14]

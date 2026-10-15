@@ -1,0 +1,52 @@
+id: godshard_hound
+name: Пёс осколка бога
+level: 54
+hp: 185
+pAtk: 50
+pDef: 28
+mDef: 25
+accuracy: 34
+evasion: 22
+speed: 120
+xpReward: 82
+drops:
+- kind: adena
+  chance: 1000000
+  min: 130
+  max: 210
+- item: leather_scrap
+  chance: 380000
+  min: 1
+  max: 2
+- item: iron_arrow
+  chance: 240000
+  min: 5
+  max: 14
+- item: daedric_composite_bow
+  chance: 18000
+  min: 1
+  max: 1
+- item: bloodlace
+  chance: 20000
+  min: 1
+  max: 1
+- item: throne_plate
+  chance: 49000
+  min: 1
+  max: 1
+- item: godfall_cloak
+  chance: 49000
+  min: 1
+  max: 1
+- item: godshard_quiver
+  chance: 77000
+  min: 1
+  max: 1
+- item: voidscar_greatsword
+  chance: 77000
+  min: 1
+  max: 1
+- item: shard_arrows
+  chance: 125999
+  min: 1
+  max: 1

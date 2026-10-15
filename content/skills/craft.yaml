@@ -1,0 +1,63 @@
+---
+id: leather_craft
+name: Кожевничество
+type: passive
+profession: common
+domain: craft
+maxLevel: 3
+unlockLevel: 1
+description: Понимаешь крой и швы — лёгкая броня сидит лучше.
+effects:
+  pDef: [3, 6, 10]
+
+---
+id: scrap_thrift
+name: Бережливость лома
+type: passive
+profession: common
+domain: craft
+maxLevel: 3
+unlockLevel: 4
+description: Меньше тратишь зря — чуть крепче кошелёк сил в бою.
+effects:
+  maxHp: [6, 12, 20]
+  maxMp: [4, 8, 14]
+
+---
+id: stitch_guard
+name: Крепкий шов
+type: passive
+profession: common
+domain: craft
+maxLevel: 3
+unlockLevel: 7
+description: Умеешь укрепить слабые места доспеха.
+effects:
+  pDef: [4, 8, 14]
+  blockChance: [1, 2, 3]
+
+---
+id: forge_eye
+name: Глаз у горна
+type: passive
+profession: common
+domain: craft
+maxLevel: 3
+unlockLevel: 10
+description: Видишь брак металла — точнее бьёшь по слабому месту.
+effects:
+  accuracy: [2, 4, 7]
+  pAtk: [2, 4, 7]
+
+---
+id: artisan_focus
+name: Сосредоточение мастера
+type: passive
+profession: common
+domain: craft
+maxLevel: 3
+unlockLevel: 14
+description: Спокойные руки — спокойный ум. Чуть больше MP и крит.
+effects:
+  maxMp: [10, 20, 34]
+  critRate: [1, 2, 3]

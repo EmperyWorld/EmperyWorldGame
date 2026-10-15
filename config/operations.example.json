@@ -1,0 +1,11 @@
+{
+  "backupDir": "/path/on/another-disk/empery-backups",
+  "externalBackupDir": null,
+  "retentionDays": 14,
+  "postgresContainer": "ewg-postgres",
+  "redisContainer": "ewg-redis",
+  "readyUrl": "http://127.0.0.1:3000/ready",
+  "requestTimeoutMs": 5000,
+  "slowDatabaseMs": 200,
+  "maxDiskUsedPercent": 95
+}

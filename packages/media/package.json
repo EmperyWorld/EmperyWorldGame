@@ -1,0 +1,30 @@
+{
+  "name": "@empery/media",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "tsc -p tsconfig.json --watch",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@empery/shared": "workspace:*",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "@types/pngjs": "^6.0.5",
+    "vitest": "^5.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+id: plaza_charm
+name: Талисман площади
+slot: material
+rarity: common
+unsellable: true
+stats: {}
+description: Медный кружок с гербом форума Гавани. Горожане у фонтана дарят его тем, кто не забыл площадь.
+icon: /media/assets/item_plaza_charm.webp

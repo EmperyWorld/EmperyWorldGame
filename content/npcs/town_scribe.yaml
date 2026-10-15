@@ -1,0 +1,66 @@
+id: town_scribe
+name: Писец Ирина
+race: human
+location: empery_haven
+questId: town_scribe
+defaultGreeting: Архив не любит сырость и спешку. Если ищешь свиток — спрашивай тихо; если сплетню — иди на рынок.
+
+
+world:
+  role: character
+  wanderRadius: 28
+  wanderSpeed: 18
+portraits:
+  default: neutral
+
+choices:
+  - id: scribe_copy_writ
+    label: Скопировать путевую грамоту (20 адены)
+    flag: _scribe_copy_writ
+    portrait: work
+  - id: scribe_search
+    label: Заказать поиск в архиве (12 адены)
+    flag: _scribe_search
+    portrait: serious
+  - id: scribe_claim_folio
+    label: Забрать опись причалов
+    flag: _scribe_claim_folio
+    portrait: happy
+  - id: scribe_clarity
+    label: Попросить ясность архива (10 адены)
+    flag: _scribe_clarity
+    portrait: happy
+  - id: scribe_find
+    label: Нужна запись о портах
+    flag: _scribe_find
+    nextNode: found
+    portrait: happy
+  - id: scribe_rules
+    label: Можно ли копировать свитки?
+    flag: _scribe_rules
+    nextNode: rules
+    portrait: serious
+  - id: scribe_leave
+    label: Уйти
+    flag: _scribe_done
+    portrait: neutral
+
+nodes:
+  found:
+    text: >-
+      Опись причалов лежит в архиве, не на этом столе. Закажи поиск — тогда и свиток, и печать будут настоящими.
+      Не мни углы: пергамент дороже спешки.
+    portrait: happy
+    choices:
+      - id: scribe_found_bye
+        label: Благодарю
+        flag: _scribe_done
+        portrait: work
+  rules:
+    text: Копировать — только с печатью скриптория. Без печати — это уже кража, а не учёба.
+    portrait: serious
+    choices:
+      - id: scribe_rules_bye
+        label: Ясно
+        flag: _scribe_done
+        portrait: neutral

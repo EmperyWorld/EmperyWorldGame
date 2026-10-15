@@ -1,0 +1,70 @@
+---
+id: dusk_blade
+name: Клинок сумерек
+slot: weapon
+rarity: rare
+weaponWeight: light
+stats:
+  pAtk: 28
+  accuracy: 6
+  critRate: 3
+  attackSpeed: 4
+icon: /media/assets/item_dusk_blade.webp
+---
+id: shadow_mail
+name: Теневая кольчуга
+slot: body
+rarity: rare
+armorType: heavy
+stats:
+  pDef: 32
+  maxHp: 40
+  evasion: -2
+icon: /media/assets/item_shadow_mail.webp
+---
+id: void_gloves
+name: Перчатки пустоты
+slot: gloves
+rarity: uncommon
+armorType: light
+stats:
+  pDef: 10
+  accuracy: 5
+  attackSpeed: 4
+  critRate: 1
+icon: /media/assets/item_void_gloves.webp
+---
+id: depths_cloak
+name: Плащ глубин
+slot: cloak
+rarity: rare
+armorType: light
+stats:
+  pDef: 12
+  evasion: 8
+  critRate: 2
+  maxMp: 15
+icon: /media/assets/item_depths_cloak.webp
+---
+id: rune_greaves
+name: Рунные поножи
+slot: legs
+rarity: uncommon
+armorType: heavy
+stats:
+  pDef: 16
+  maxHp: 22
+  speed: -1
+icon: /media/assets/item_rune_greaves.webp
+---
+id: crystal_helm
+name: Кристальный шлем
+slot: head
+rarity: rare
+armorType: heavy
+stats:
+  pDef: 18
+  maxHp: 28
+  accuracy: 3
+  maxMp: 10
+icon: /media/assets/item_crystal_helm.webp

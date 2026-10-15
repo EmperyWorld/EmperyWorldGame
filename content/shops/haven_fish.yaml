@@ -1,0 +1,8 @@
+merchantName: Ульф · улов причала
+offers:
+  - id: raw_fish
+    price: 10
+  - id: cooked_fish
+    price: 20
+  - id: dried_fish
+    price: 24

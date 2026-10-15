@@ -1,0 +1,28 @@
+id: signal_drone
+name: Сигнальный дрон
+level: 17
+hp: 64
+pAtk: 20
+pDef: 10
+mDef: 9
+accuracy: 28
+evasion: 30
+speed: 120
+xpReward: 30
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 40
+    max: 84
+  - item: iron_arrow
+    chance: 320000
+    min: 3
+    max: 8
+  - item: leather_scrap
+    chance: 300000
+    min: 1
+    max: 2
+  - item: hunter_bow
+    chance: 28000
+    min: 1
+    max: 1

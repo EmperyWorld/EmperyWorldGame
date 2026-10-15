@@ -1,0 +1,10 @@
+merchantName: Лекарь Сера · снадобья
+offers:
+  - id: field_bandage
+    price: 35
+  - id: antibiotic_tonic
+    price: 80
+  - id: cooling_draught
+    price: 45
+  - id: resurrection_scroll
+    price: 800

@@ -1,0 +1,63 @@
+id: haven_citizen_craft
+name: Подмастерье Гавани
+race: human
+location: empery_haven
+questId: haven_citizen_craft
+defaultGreeting: >-
+  Берегись искр! В квартале ремёсел наковальни не остывают ни на минуту, а от горнов веет жаром настоящей работы.
+world:
+  role: character
+portraits:
+  default: neutral
+  neutral: dialogue_town_blacksmith_neutral
+  happy: dialogue_town_blacksmith_happy
+  serious: dialogue_town_blacksmith_serious
+  work: dialogue_town_blacksmith_work
+  angry: dialogue_town_blacksmith_angry
+choices:
+  - id: craft_scrap
+    label: Купить обрезки (4 адены)
+    flag: _craft_scrap
+    portrait: work
+  - id: craft_bellows
+    label: Качать меха у горна
+    flag: _craft_bellows
+    blocks: [quest_craft_bellows_complete]
+    portrait: work
+  - id: citizen_rumors
+    label: Что куют мастера сегодня?
+    flag: _cit_rumors
+    portrait: neutral
+  - id: citizen_advice
+    label: Как ухаживать за снаряжением?
+    flag: _cit_advice
+    portrait: happy
+  - id: citizen_directions
+    label: Подскажи дорогу в городе
+    flag: _cit_directions
+    portrait: neutral
+  - id: citizen_leave
+    label: Не буду отвлекать от наковальни.
+    flag: _cit_done
+    portrait: neutral
+nodes:
+  rumors:
+    text: >-
+      Гарольд работает над заказом городской стражи — кольчуги двойного плетения и наконечники копий.
+      Рудокопы говорят, что в восточных штольнях нашли жилу лазурита, так что скоро будет зачарованное оружие!
+    portrait: serious
+    choices:
+      - id: citizen_leave
+        label: Отличная новость для бойцов.
+        flag: _cit_done
+        portrait: neutral
+  advice:
+    text: >-
+      Никогда не ходи в пустоши с треснувшим щитом или зазубренным клинком!
+      Здесь, у наковальни Гарольда, стоит отличный горн — всегда можно перековать и закалить железо.
+    portrait: happy
+    choices:
+      - id: citizen_leave
+        label: Спасибо, мастер!
+        flag: _cit_done
+        portrait: happy

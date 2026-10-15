@@ -1,0 +1,8 @@
+id: whisper_dossier
+name: Досье Переулка
+slot: material
+rarity: uncommon
+unsellable: true
+stats: {}
+description: Свёрток из Переулка Шепотов. Имена и печати — не карта, но дороже слуха. Не продавать и не разворачивать у стражи.
+icon: /media/assets/item_whisper_dossier.webp

@@ -1,0 +1,104 @@
+id: abandoned_yard
+name: Заброшенная стройка
+subtitle: Бетон, арматура и трещины реальности
+description: 'Недостроенный жилой квартал — краны застыли, ограждения порваны. Здесь аномалия уже ощутимее: мародёры и псы облюбовали склады. Связь с парком на западе.'
+mapKey: map-abandoned_yard
+backgroundAsset: location_abandoned_yard
+safeZone: false
+anomalyTier: 1
+tierLabel: Зона Стабильности
+recommendedLevel:
+  min: 5
+  max: 15
+survivalClimate:
+  temperatureC: 14
+  humidity: 48
+  shelter: 8
+  water: dirty
+stations:
+  - id: abandoned_yard_spring
+    kind: water
+    x: 1360
+    y: 1880
+    radius: 120
+spawn:
+  x: 1280
+  y: 1920
+npcs: []
+zones:
+  - x: 320
+    y: 1792
+    label: '← К парку'
+    color: '#88bb88'
+    travelTo: suburban_park
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'Перекрёсток →'
+    color: '#8866cc'
+    travelTo: intersection_district
+    radius: 220
+  - x: 2560
+    y: 3200
+    label: 'Нижний двор'
+    color: '#c9a66b'
+landmarks:
+  - kind: warehouse
+    x: 3600
+    y: 1600
+enemies:
+  - type: yard_brute
+    x: 1920
+    y: 1120
+  - type: yard_dog
+    x: 2560
+    y: 1280
+  - type: yard_brute
+    x: 3200
+    y: 1440
+  - type: yard_dog
+    x: 4000
+    y: 1200
+  - type: yard_brute
+    x: 1760
+    y: 2400
+  - type: yard_dog
+    x: 2880
+    y: 2560
+  - type: yard_brute
+    x: 3840
+    y: 2320
+  - type: yard_dog
+    x: 2240
+    y: 2880
+  - type: yard_brute
+    x: 3360
+    y: 2880
+  - type: yard_dog
+    x: 1120
+    y: 2560
+farmSpawn:
+  type: yard_brute
+  maxAlive: 16
+  respawnMs: 2600
+  points:
+    - { x: 960, y: 960 }
+    - { x: 1600, y: 880 }
+    - { x: 2240, y: 1040 }
+    - { x: 2880, y: 960 }
+    - { x: 3520, y: 1040 }
+    - { x: 4160, y: 960 }
+    - { x: 960, y: 1680 }
+    - { x: 1600, y: 1760 }
+    - { x: 3520, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1120, y: 2400 }
+    - { x: 1920, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+    - { x: 1440, y: 1280 }
+    - { x: 3680, y: 1280 }
+    - { x: 2560, y: 2080 }
+    - { x: 2080, y: 1760 }
+    - { x: 3040, y: 1760 }

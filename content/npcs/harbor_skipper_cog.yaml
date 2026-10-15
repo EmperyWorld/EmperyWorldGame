@@ -1,0 +1,53 @@
+id: harbor_skipper_cog
+name: Шкипер кога Хельма
+race: human
+location: empery_haven
+questId: harbor_skipper_cog
+defaultGreeting: Ког стоит у грузового пальца. Пока якорь домашний — я здесь, у борта.
+world:
+  role: character
+  wanderRadius: 0
+  wanderSpeed: 0
+portraits:
+  default: neutral
+  neutral: dialogue_town_dockhand_neutral
+  happy: dialogue_town_dockhand_happy
+  serious: dialogue_town_dockhand_serious
+  work: dialogue_town_dockhand_work
+choices:
+  - id: skipper_where
+    label: Куда идёте?
+    flag: _skipper_where
+    nextNode: where
+    portrait: work
+  - id: skipper_board
+    label: Возьмёте пассажира?
+    flag: _skipper_board
+    nextNode: board
+    portrait: serious
+  - id: skipper_leave
+    label: Не мешаю
+    flag: _skipper_done
+    portrait: neutral
+nodes:
+  where:
+    text: Купеческий рейс в южные фактории. Ткань туда, пряности обратно.
+    portrait: work
+    choices:
+      - id: skipper_board
+        label: Возьмёте пассажира?
+        flag: _skipper_board
+        nextNode: board
+        portrait: serious
+      - id: skipper_leave
+        label: Понял
+        flag: _skipper_done
+        portrait: neutral
+  board:
+    text: Пассажиров не берём. Трюм под товар, а не под зевак.
+    portrait: serious
+    choices:
+      - id: skipper_leave
+        label: Тогда удачи в рейсе
+        flag: _skipper_done
+        portrait: neutral

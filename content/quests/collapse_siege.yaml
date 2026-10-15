@@ -1,0 +1,10 @@
+id: collapse_siege
+radioNpcId: collapse_seer
+completeFlag: quest_siege_complete
+activeFlag: quest_siege_active
+killCounterFlag: quest_siege_kills
+requiredKills: 5
+enemyType: siege_wraith
+rewardItems:
+  - elven_longbow
+  - brigandine

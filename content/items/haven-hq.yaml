@@ -1,0 +1,11 @@
+id: hq_visitor_badge
+name: Гостевой жетон HQ
+slot: material
+rarity: uncommon
+unsellable: true
+weight: 0.05
+stats: {}
+description: >-
+  Гостевой жетон периметра EmperyWorld. Камеры и сканеры ворот узнают штамп —
+  без допуска героя жетон не выдают.
+icon: /media/assets/item_hq_visitor_badge.webp

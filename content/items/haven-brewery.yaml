@@ -1,0 +1,12 @@
+id: holm_stout
+name: Стаут Хольма
+slot: consumable
+rarity: uncommon
+stats: {}
+icon: /media/assets/item_holm_stout.webp
+description: Фирменный тёмный эль пивоварни. Гуще янтарного, согревает крепче.
+survival:
+  hydration: 34
+  nutrition: 10
+  warming: 0.28
+  shelfLifeHours: 144

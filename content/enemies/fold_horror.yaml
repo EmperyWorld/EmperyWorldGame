@@ -1,0 +1,48 @@
+id: fold_horror
+name: Ужас складки
+level: 30
+hp: 118
+pAtk: 32
+pDef: 18
+mDef: 16
+accuracy: 30
+evasion: 24
+speed: 108
+xpReward: 50
+drops:
+- kind: adena
+  chance: 1000000
+  min: 70
+  max: 128
+- item: leather_scrap
+  chance: 400000
+  min: 1
+  max: 2
+- item: iron_arrow
+  chance: 260000
+  min: 4
+  max: 10
+- item: storm_bow
+  chance: 22000
+  min: 1
+  max: 1
+- item: plate_greaves
+  chance: 30000
+  min: 1
+  max: 1
+- item: rift_cleaver
+  chance: 90000
+  min: 1
+  max: 1
+- item: static_buckler
+  chance: 90000
+  min: 1
+  max: 1
+- item: signal_greaves
+  chance: 90000
+  min: 1
+  max: 1
+- item: voidscar_greatsword
+  chance: 55000
+  min: 1
+  max: 1

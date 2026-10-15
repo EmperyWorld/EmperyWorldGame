@@ -1,0 +1,10 @@
+merchantName: Пётр · походные припасы
+offers:
+  - id: charcoal_filter
+    price: 6
+  - id: camp_fuel
+    price: 5
+  - id: field_pot
+    price: 45
+  - id: firestarter
+    price: 30

@@ -1,0 +1,9 @@
+id: mystic
+name: Мистик
+description: Дальняя магия, посох и роба. Слабая физ. защита, плохой уворот и блок. Навыки тратят MP.
+starterSkills:
+  robe_mastery: 1
+  focus_mind: 1
+  mana_flow: 1
+  flame_burst: 1
+  mystic_life_flow: 1

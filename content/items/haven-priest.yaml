@@ -1,0 +1,8 @@
+id: cassius_candle
+name: Свеча Кассия
+slot: material
+rarity: common
+weight: 0.05
+stats: {}
+description: Восковая свеча собора Гавани. Кассий ставит её у алтаря — и страннику даёт ту же, чтоб фитиль не гас в пути.
+icon: /media/assets/item_cassius_candle.webp

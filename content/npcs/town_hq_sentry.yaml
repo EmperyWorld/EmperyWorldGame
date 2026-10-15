@@ -1,0 +1,54 @@
+id: town_hq_sentry
+name: Часовой EmperyWorld
+race: human
+location: empery_haven
+questId: empery_hq_gate
+defaultGreeting: >-
+  Стой. Территория EmperyWorld. Ворота закрыты — без допуска героя сюда не пускают.
+  Снайперы на вышках не шутят.
+
+world:
+  role: character
+  wanderRadius: 0
+  wanderSpeed: 0
+portraits:
+  default: neutral
+
+choices:
+  - id: hq_ask_access
+    label: Как получить допуск?
+    flag: _hq_ask
+    nextNode: hq_ask
+    portrait: serious
+  - id: hq_briefing
+    label: Что за кампус?
+    flag: _hq_briefing
+    nextNode: hq_briefing
+    portrait: serious
+  - id: hq_leave
+    label: Понял. Ухожу.
+    flag: _hq_done
+    portrait: neutral
+
+nodes:
+  hq_ask:
+    text: >-
+      Допуск получают только проверенные защитники. Заверши испытание старейшины Миры
+      в Стартовой роще или заслужи 5-й уровень в боях, и сканеры периметра подтвердят твой статус.
+    choices:
+      - id: hq_leave
+        label: Ясно.
+        flag: _hq_done
+        portrait: neutral
+    portrait: serious
+  hq_briefing:
+    text: >-
+      За воротами — кампус EmperyWorld. Главный корпус по оси, лаборатории слева,
+      серверное крыло справа. На крышах антенны периметра: ловят шум Разлома и кормят вышки.
+      К мачтам без жетона не суйся.
+    choices:
+      - id: hq_leave
+        label: Ясно.
+        flag: _hq_done
+        portrait: serious
+    portrait: serious

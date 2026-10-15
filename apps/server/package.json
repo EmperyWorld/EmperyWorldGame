@@ -1,0 +1,35 @@
+{
+  "name": "@empery/server",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.scripts.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@empery/core": "workspace:*",
+    "@empery/llm": "workspace:*",
+    "@empery/media": "workspace:*",
+    "@empery/save": "workspace:*",
+    "@empery/shared": "workspace:*",
+    "@empery/world-engine": "workspace:*",
+    "@fastify/cors": "^11.3.0",
+    "@fastify/static": "^10.1.3",
+    "@fastify/websocket": "^11.3.0",
+    "fastify": "^5.12.4",
+    "ioredis": "^6.0.0",
+    "pg": "^8.23.0",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.13",
+    "vitest": "^5.0.0"
+  }
+}

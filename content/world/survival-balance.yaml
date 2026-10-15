@@ -1,0 +1,32 @@
+# Server-side Survival-Life balance knobs (adventure pace).
+drain:
+  satietyPerHour: 4.5
+  hydrationPerHour: 7
+  fatiguePerHour: 6
+  restFatiguePerHour: -32
+
+offline:
+  maxCatchUpHours: 12
+  # Offline may drain vitals but never injures / collapses.
+  allowCritical: false
+
+weather:
+  changeIntervalMinutes: 45
+
+spoilage:
+  # Multipliers on shelf-life burn rate by ambient temperature.
+  hotAboveC: 24
+  hotFactor: 1.5
+  coldBelowC: 5
+  coldFactor: 0.65
+  humidityDivisor: 250
+
+risk:
+  # Deterministic illness chance when consuming risky items (0–1).
+  dirtyWater: 0.55
+  rawFood: 0.4
+  spoiledBelowFreshness: 20
+  spoiled: 0.7
+
+tick:
+  intervalMs: 60000

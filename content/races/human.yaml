@@ -1,0 +1,11 @@
+id: human
+name: Человек
+description: Универсальная раса с балансом характеристик.
+bonuses:
+  strength: 1
+  agility: 1
+  vitality: 1
+startLocation: starter_grove
+mediaProfile: character_sheet
+portraitAsset: race_human
+dialogueStyle: plain

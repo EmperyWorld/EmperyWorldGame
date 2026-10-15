@@ -1,0 +1,60 @@
+id: town_hq_founder_pot
+name: 'po&T'
+race: human
+location: empery_hq_lobby
+questId: empery_founders
+dialogueMode: authored
+defaultGreeting: >-
+  Привет, я po&T, один из авторов EmperyWorld. Устраивайся рядом: как раз правлю код на ноутбуке.
+  Здесь идеи становятся механиками: движение, город, персонажи и всё, что связывает их вместе.
+world:
+  role: character
+  wanderRadius: 0
+  wanderSpeed: 0
+portraits:
+  default: neutral
+choices:
+  - id: pot_systems
+    label: Что для тебя главное в устройстве мира?
+    flag: _pot_systems
+    nextNode: systems
+    portrait: neutral
+  - id: pot_team
+    label: Как вы создаёте мир с Lady_Boss?
+    flag: _pot_team
+    nextNode: team
+    portrait: happy
+  - id: pot_campus
+    label: Что находится в кампусе?
+    flag: _pot_campus
+    nextNode: campus
+    portrait: neutral
+  - id: pot_leave
+    label: Не буду отвлекать.
+    flag: _pot_done
+    portrait: happy
+nodes:
+  systems:
+    text: >-
+      Чтобы всё работало согласованно. Стена должна быть стеной, проход — проходом,
+      а персонаж должен идти ногами, а не телепортироваться по расписанию.
+      Хорошая механика незаметна: ты просто веришь происходящему.
+    portrait: neutral
+    choices:
+      - { id: pot_leave, label: Согласен., flag: _pot_done, portrait: happy }
+  team:
+    text: >-
+      Lady_Boss чувствует характер мира и замечает то, мимо чего легко пройти.
+      Я проверяю, как это собрать в устойчивую систему. Решения ищем вместе:
+      красивый замысел должен выдерживать настоящую игру.
+    portrait: happy
+    choices:
+      - { id: pot_leave, label: Удачи вам обоим!, flag: _pot_done, portrait: happy }
+  campus:
+    text: >-
+      Северо-западное крыло занимает лаборатория Вейна, северо-восточное — серверный узел.
+      Lady_Boss встречает гостей в западной зоне ожидания, я — в восточной части приёмной.
+      Ресепшен посередине, выход в Гавань на юге. Центральный проход оставили свободным.
+    portrait: neutral
+    choices:
+      - { id: pot_leave, label: Спасибо за экскурсию., flag: _pot_done, portrait: happy }

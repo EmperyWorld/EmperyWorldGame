@@ -1,0 +1,98 @@
+---
+id: short_bow
+name: Короткий лук
+slot: weapon
+rarity: common
+weaponKind: bow
+weaponWeight: light
+attackRange: 160
+stats:
+  pAtk: 7
+icon: /media/assets/item_short_bow.webp
+
+---
+id: hunter_bow
+name: Охотничий лук
+slot: weapon
+rarity: uncommon
+weaponKind: bow
+weaponWeight: light
+attackRange: 200
+stats:
+  pAtk: 14
+  accuracy: 3
+icon: /media/assets/item_hunter_bow.webp
+
+---
+id: composite_bow
+name: Составной лук
+slot: weapon
+rarity: rare
+weaponKind: bow
+weaponWeight: normal
+attackRange: 240
+stats:
+  pAtk: 22
+  accuracy: 5
+  critRate: 2
+icon: /media/assets/item_composite_bow.webp
+
+---
+id: elven_longbow
+name: Эльфийский длинный лук
+slot: weapon
+rarity: epic
+weaponKind: bow
+weaponWeight: normal
+attackRange: 290
+stats:
+  pAtk: 34
+  accuracy: 8
+  critRate: 4
+icon: /media/assets/item_elven_longbow.webp
+
+---
+id: storm_bow
+name: Лук бури
+slot: weapon
+rarity: legendary
+weaponKind: bow
+weaponWeight: heavy
+attackRange: 340
+stats:
+  pAtk: 48
+  accuracy: 12
+  critRate: 6
+icon: /media/assets/item_storm_bow.webp
+
+---
+id: daedric_composite_bow
+name: Даэдрический составной лук
+slot: weapon
+rarity: daedric
+weaponKind: bow
+weaponWeight: light
+attackRange: 480
+stats:
+  pAtk: 64
+  accuracy: 16
+  critRate: 8
+  attackSpeed: 42
+icon: /media/assets/item_daedric_composite_bow.webp
+
+---
+id: wooden_arrow
+name: Деревянная стрела
+slot: quiver
+rarity: common
+stats: {}
+icon: /media/assets/item_wooden_arrow.webp
+
+---
+id: iron_arrow
+name: Железная стрела
+slot: quiver
+rarity: uncommon
+stats:
+  pAtk: 2
+icon: /media/assets/item_iron_arrow.webp

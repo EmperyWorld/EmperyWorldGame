@@ -1,0 +1,58 @@
+id: town_captain
+name: Капитан стражи Гаррет
+race: human
+location: empery_haven
+questId: town_lore
+defaultGreeting: Гавань под моей охраной. За воротами — роща, леса и пепельные земли. Жми T, если нужен путь.
+
+
+world:
+  role: character
+  wanderRadius: 28
+  wanderSpeed: 24
+portraits:
+  default: neutral
+
+choices:
+  - id: captain_drill
+    label: Строевая подготовка (12 адены)
+    flag: _captain_drill
+    portrait: action
+  - id: captain_grove
+    label: Куда идти новичку?
+    flag: _captain_hint
+    nextNode: hint_grove
+    portrait: serious
+  - id: captain_travel
+    label: Как открыть дальние земли?
+    flag: _captain_travel
+    nextNode: hint_travel
+    portrait: serious
+  - id: captain_depths
+    label: Что за пещеры теней?
+    flag: quest_depths_clear_started
+    nextNode: depths_brief
+    portrait: serious
+    blocks: [quest_depths_boss_complete, quest_depths_clear_active, quest_depths_purge_active, quest_depths_boss_active, quest_depths_clear_started]
+  - id: captain_bye
+    label: Понял, спасибо
+    flag: _captain_done
+    portrait: neutral
+
+nodes:
+  hint_grove:
+    text: Стартовая роща — тренировочный полигон. Поговори с Мирой, прогони гоблинов — квест закроется сам. Потом ко мне за снаряжением.
+    portrait: serious
+    choices: []
+  hint_travel:
+    text: Серебряный лес и Пепельные высокогорья откроются после квеста у Миры. Путешествие — клавиша T. Пещеры теней — тоже.
+    portrait: serious
+    choices: []
+  depths_brief:
+    text: Под восточными скалами — Пещеры теней. Вырежь четырёх ловцов — квест закроется сам. Потом ко мне за следующим приказом.
+    portrait: action
+    choices:
+      - id: depths_go
+        label: Принимаю приказ
+        flag: quest_depths_clear_active
+        portrait: action

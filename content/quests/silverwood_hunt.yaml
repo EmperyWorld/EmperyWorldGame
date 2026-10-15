@@ -1,0 +1,9 @@
+id: silverwood_hunt
+radioNpcId: silvan_hermit
+completeFlag: quest_silverwood_complete
+activeFlag: quest_silverwood_active
+killCounterFlag: quest_silverwood_kills
+requiredKills: 3
+enemyType: shadow_thug
+rewardItems:
+  - leather_tunic

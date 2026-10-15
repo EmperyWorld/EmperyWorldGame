@@ -1,0 +1,11 @@
+id: smoked_brisket
+name: Копчёная грудинка
+slot: consumable
+rarity: uncommon
+stats: {}
+icon: /media/assets/item_smoked_brisket.webp
+description: Дым Брана держит сытость и тепло. Лежит дольше жареного, сытнее вяленого.
+survival:
+  nutrition: 36
+  warming: 0.2
+  shelfLifeHours: 96

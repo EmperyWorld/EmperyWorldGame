@@ -1,0 +1,73 @@
+id: town_priest
+name: Отец Кассий
+race: human
+location: empery_haven
+questId: town_priest
+defaultGreeting: Мир тебе у ступеней собора. Империя стоит не только на клинках — и на молитве, и на хлебе насущном.
+
+world:
+  role: character
+  wanderRadius: 30
+  wanderSpeed: 18
+portraits:
+  default: neutral
+
+choices:
+  - id: priest_bless
+    label: Попросить благословения Света (10 адены)
+    flag: _priest_bless
+    portrait: happy
+  - id: priest_confess
+    label: Исповедь и покаяние (снять карму, 50 адены)
+    flag: _priest_confess
+    portrait: serious
+  - id: priest_candle
+    label: Купить храмовую свечу (8 адены)
+    flag: _priest_candle
+    portrait: happy
+  - id: priest_alms
+    label: Подать милостыню (20 адены)
+    flag: _priest_alms
+    portrait: serious
+  - id: priest_lore
+    label: О чём молятся в Гавани?
+    flag: _priest_lore
+    nextNode: lore
+    portrait: serious
+  - id: priest_night
+    label: Всенощная до колокола?
+    flag: _priest_night_ask
+    nextNode: night
+    portrait: serious
+  - id: priest_leave
+    label: Уйти с миром
+    flag: _priest_done
+    portrait: neutral
+
+nodes:
+  lore:
+    text: О живых — чтобы вернулись с дороги. О мёртвых — чтобы не тревожили стены. И о тех, кто держит ворота.
+    portrait: serious
+    choices:
+      - id: priest_lore_bye
+        label: Понял, отче
+        flag: _priest_done
+        portrait: neutral
+  night:
+    text: >-
+      После третьего удара я остаюсь у ступеней. Свечи горят до зари: за тех, кто не спит, и за тех, кого не ждут.
+      На форуме шепчутся у ночного ряда — я делаю вид, что не слышу. Стража делает вид, что не видит. Так город дышит.
+    portrait: serious
+    choices:
+      - id: priest_bless
+        label: Попросить благословения Света (10 адены)
+        flag: _priest_bless
+        portrait: happy
+      - id: priest_candle
+        label: Купить храмовую свечу (8 адены)
+        flag: _priest_candle
+        portrait: happy
+      - id: priest_leave
+        label: Мир вашей всенощной
+        flag: _priest_done
+        portrait: neutral

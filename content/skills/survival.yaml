@@ -1,0 +1,65 @@
+---
+id: field_hardiness
+name: Полевая закалка
+type: passive
+profession: common
+domain: survival
+maxLevel: 3
+unlockLevel: 1
+description: Тело привыкает к дороге — запас сил и восстановление в поле.
+effects:
+  maxHp: [10, 20, 34]
+  hpRegen: [1, 2, 3]
+
+---
+id: trail_ration
+name: Дорожный паёк
+type: passive
+profession: common
+domain: survival
+maxLevel: 3
+unlockLevel: 3
+description: Умеешь растягивать силы между привалами — чуть больше MP в запасе.
+effects:
+  maxMp: [6, 12, 20]
+  mpRegen: [1, 1, 2]
+
+---
+id: camp_firecraft
+name: Костровое ремесло
+type: passive
+profession: common
+domain: survival
+maxLevel: 3
+unlockLevel: 5
+description: Знаешь, как греться и не жечь лишнего. Устойчивее к нагрузке.
+effects:
+  maxHp: [6, 12, 20]
+  pDef: [2, 4, 7]
+
+---
+id: water_sense
+name: Чутьё на воду
+type: passive
+profession: common
+domain: survival
+maxLevel: 3
+unlockLevel: 8
+description: Лучше чуешь жажду и бережёшь себя у источников.
+effects:
+  maxMp: [8, 16, 28]
+  accuracy: [1, 2, 3]
+
+---
+id: wilderness_endurance
+name: Выносливость глуши
+type: passive
+profession: common
+domain: survival
+maxLevel: 3
+unlockLevel: 12
+description: Холод и голод бьют слабее — крепче держишься на ногах.
+effects:
+  maxHp: [14, 28, 48]
+  hpRegen: [1, 2, 4]
+  pDef: [3, 6, 10]

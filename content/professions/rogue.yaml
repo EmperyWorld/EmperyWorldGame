@@ -1,0 +1,8 @@
+id: rogue
+name: Разбойник
+description: Высокое уклонение и крит. Быстрые удары.
+starterSkills:
+  acrobatic_move: 1
+  boost_evasion: 1
+  backstab: 1
+  rogue_life_flow: 1

@@ -1,0 +1,61 @@
+id: haven_citizen_harbor
+name: Моряк Гавани
+race: human
+location: empery_haven
+questId: haven_citizen_harbor
+defaultGreeting: >-
+  Эй, попутного ветра! Соленый бриз Гавани пахнет смолой, рыбой и дальними горизонтами. За морем ждут неисследованные берега.
+world:
+  role: character
+portraits:
+  default: neutral
+  neutral: dialogue_town_dockhand_neutral
+  happy: dialogue_town_dockhand_happy
+  serious: dialogue_town_dockhand_serious
+  angry: dialogue_town_dockhand_serious
+choices:
+  - id: harbor_knot
+    label: Завязать узел моряка (6 адены)
+    flag: _harbor_knot
+    portrait: happy
+  - id: harbor_haul
+    label: Перетащить снасти (60 выносливости)
+    flag: _harbor_haul
+    portrait: serious
+  - id: citizen_rumors
+    label: Какие весточки с моря?
+    flag: _cit_rumors
+    portrait: neutral
+  - id: citizen_advice
+    label: Как не пропасть в портовом районе?
+    flag: _cit_advice
+    portrait: happy
+  - id: citizen_directions
+    label: Подскажи дорогу в городе
+    flag: _cit_directions
+    portrait: neutral
+  - id: citizen_leave
+    label: Попутного ветра, моряк.
+    flag: _cit_done
+    portrait: neutral
+nodes:
+  rumors:
+    text: >-
+      Шхуна из Архипелага чуть не налетела на скалы в тумане — говорят, морские огоньки сбивают компасы.
+      А рыбак Ульф вытащил сеть, полную крупной серебряной трески!
+    portrait: serious
+    choices:
+      - id: citizen_leave
+        label: Море не прощает беспечности.
+        flag: _cit_done
+        portrait: neutral
+  advice:
+    text: >-
+      Не подходи близко к краю причала в темноте — дно глубокое, а чайки только рады утащить блестящий кошель.
+      Если нужен свежий паёк — бери рыбу у Ульфа и жарь её прямо на портовом костре!
+    portrait: happy
+    choices:
+      - id: citizen_leave
+        label: Запомню, моряк.
+        flag: _cit_done
+        portrait: happy

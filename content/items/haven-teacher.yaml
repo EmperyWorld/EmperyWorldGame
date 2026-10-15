@@ -1,0 +1,10 @@
+id: lavr_notes
+name: Записки Лавра
+slot: material
+rarity: uncommon
+unsellable: true
+stats: {}
+description: >-
+  Конспект учителя Лавра — формулы, ударения и три раздела книги навыков.
+  Не продаётся: это учеба, не товар.
+icon: /media/assets/item_lavr_notes.webp

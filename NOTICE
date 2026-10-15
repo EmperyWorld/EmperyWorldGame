@@ -1,0 +1,13 @@
+EmperyWorldGame · Empery World
+
+Copyright (c) 2026 Кундухов Артём Георгиевич (po&T)
+Copyright (c) 2026 Кундухова Татьяна Александровна (TZBrand)
+SPDX-License-Identifier: MIT
+
+First-party code and project-owned assets default to MIT unless a file or
+component states otherwise. Preserve the copyright and permission notices.
+Dependencies, third-party media, fonts, model weights and other upstream
+material retain their own licenses; the root MIT grant does not relicense them.
+Local models, generated runtime media, credentials and player saves are not
+part of this source publication. See README.md for local media generation.
+Previously distributed versions retain their delivered licenses.

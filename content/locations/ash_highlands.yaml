@@ -1,0 +1,94 @@
+id: ash_highlands
+name: Пепельные высокогорья
+subtitle: Вулканическое нагорье клана орков
+description: Суровая земля орков — пепел, лава и мутанты у восточных скал. Шаман ждёт тех, кто докажет силу в бою.
+mapKey: map-ash_highlands
+backgroundAsset: location_ash_highlands
+anomalyTier: 2
+tierLabel: Зона Прорыва
+recommendedLevel:
+  min: 20
+  max: 45
+survivalClimate:
+  temperatureC: 29
+  humidity: 20
+  shelter: 10
+  water: none
+  heatSources:
+    - x: 1600
+      y: 1920
+      radius: 180
+stations:
+  - id: ash_highlands_totem_1600_1920
+    kind: campfire
+    x: 1600
+    y: 1920
+    radius: 180
+spawn:
+  x: 2560
+  y: 2080
+requires:
+  anyFlag: [quest_grove_complete, quest_betrayal_complete]
+raceHint: orc
+npcs:
+  - id: ash_shaman
+    x: 1600
+    y: 2080
+    label: Шаман [E]
+zones:
+  - x: 3840
+    y: 384
+    label: '→ Восточные скалы'
+    color: '#ffaa66'
+  - x: 2560
+    y: 384
+    label: 'Кальдера'
+    color: '#cc7755'
+  - x: 2560
+    y: 3280
+    label: '↓ К роще'
+    color: '#c9e6a0'
+    travelTo: starter_grove
+    radius: 256
+landmarks:
+  - kind: totem
+    x: 1600
+    y: 1920
+enemies:
+  - type: cinder_imp
+    x: 3280
+    y: 1280
+  - type: bone_walker
+    x: 3600
+    y: 2080
+  - type: orc_grunt
+    x: 2240
+    y: 1760
+  - type: cinder_imp
+    x: 4080
+    y: 1600
+questSpawns:
+  - activeFlag: quest_ash_active
+    killCounterFlag: quest_ash_kills
+    banner: 'Восточные скалы: {kills}/4'
+    startBanner: 'Квест: мутанты у восточных скал (4 врага)'
+    enemies:
+      - type: orc_grunt
+        x: 4200
+        y: 1120
+        quest: true
+      - type: orc_grunt
+        x: 4480
+        y: 1680
+        quest: true
+      - type: orc_grunt
+        x: 3920
+        y: 2080
+        quest: true
+      - type: orc_grunt
+        x: 4320
+        y: 2400
+        quest: true
+questComplete:
+  - anyFlag: [quest_ash_complete]
+    banner: 'Испытание пройдено — [T] путешествие'

@@ -1,0 +1,8 @@
+id: archer
+name: Лучник
+description: Дальний бой, точность и колчан. Луки и стрелы.
+starterSkills:
+  bow_mastery: 1
+  eagle_eye: 1
+  power_shot: 1
+  archer_life_flow: 1

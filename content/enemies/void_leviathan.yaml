@@ -1,0 +1,52 @@
+id: void_leviathan
+name: Левиафан Пустоты
+level: 36
+hp: 220
+pAtk: 42
+pDef: 28
+mDef: 25
+accuracy: 32
+evasion: 14
+speed: 90
+xpReward: 110
+drops:
+- kind: adena
+  chance: 1000000
+  min: 120
+  max: 200
+- item: elven_longbow
+  chance: 80000
+  min: 1
+  max: 1
+- item: storm_bow
+  chance: 50000
+  min: 1
+  max: 1
+- item: void_gloves
+  chance: 70000
+  min: 1
+  max: 1
+- item: depths_cloak
+  chance: 45000
+  min: 1
+  max: 1
+- item: daedric_composite_bow
+  chance: 12000
+  min: 1
+  max: 1
+- item: entropy_fang
+  chance: 77000
+  min: 1
+  max: 1
+- item: null_visor
+  chance: 77000
+  min: 1
+  max: 1
+- item: fold_stiletto
+  chance: 125999
+  min: 1
+  max: 1
+- item: echo_coif
+  chance: 125999
+  min: 1
+  max: 1

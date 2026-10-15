@@ -1,0 +1,9 @@
+id: apt_ration
+name: Паёк жильца
+slot: consumable
+rarity: common
+stats: {}
+description: Суточный паёк из ледника квартиры. Один на жильца до полуночи по UTC.
+survival:
+  nutrition: 12
+icon: /media/assets/item_apt_ration.webp

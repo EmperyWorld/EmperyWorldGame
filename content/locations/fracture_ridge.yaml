@@ -1,0 +1,144 @@
+id: fracture_ridge
+name: Гребень Разлома
+subtitle: Где земля встаёт ребром
+description: 'Гряда обломков и трещин над Сектором Хаоса. Складки реальности режут небо, ужасы охотятся на гребне. Связь с сектором — на западе.'
+mapKey: map-fracture_ridge
+backgroundAsset: location_fracture_ridge
+safeZone: false
+anomalyTier: 3
+tierLabel: Зона Искажения
+recommendedLevel:
+  min: 28
+  max: 45
+survivalClimate:
+  temperatureC: 0
+  humidity: 45
+  shelter: 8
+  water: none
+  heatSources:
+    - x: 2560
+      y: 1792
+      radius: 180
+stations:
+  - id: fracture_ridge_shrine_2560_1792
+    kind: campfire
+    x: 2560
+    y: 1792
+    radius: 180
+spawn:
+  x: 960
+  y: 1920
+requires:
+  anyFlag: [quest_chaos_complete]
+npcs: []
+zones:
+  - x: 320
+    y: 1792
+    label: '← К сектору'
+    color: '#cc4466'
+    travelTo: chaos_sector
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'Шрам →'
+    color: '#cc6688'
+    travelTo: void_scar
+    radius: 220
+  - x: 2560
+    y: 480
+    label: 'Остриё гребня'
+    color: '#aa6688'
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1792
+enemies:
+  - type: fold_horror
+    x: 1760
+    y: 1120
+  - type: rift_maw
+    x: 2400
+    y: 1440
+  - type: fold_horror
+    x: 3200
+    y: 1200
+  - type: rift_maw
+    x: 3840
+    y: 1520
+  - type: fold_horror
+    x: 1600
+    y: 2400
+  - type: rift_maw
+    x: 3040
+    y: 2480
+  - type: fold_horror
+    x: 4000
+    y: 2320
+  - type: rift_maw
+    x: 1280
+    y: 2560
+  - type: fold_horror
+    x: 2560
+    y: 1120
+  - type: rift_maw
+    x: 2560
+    y: 2560
+  - type: fold_horror
+    x: 3520
+    y: 1920
+  - type: rift_maw
+    x: 1920
+    y: 1920
+farmSpawn:
+  type: fold_horror
+  maxAlive: 16
+  respawnMs: 2400
+  points:
+    - { x: 1120, y: 960 }
+    - { x: 1760, y: 880 }
+    - { x: 2400, y: 960 }
+    - { x: 3040, y: 880 }
+    - { x: 3680, y: 960 }
+    - { x: 4320, y: 1040 }
+    - { x: 1120, y: 1680 }
+    - { x: 1760, y: 1760 }
+    - { x: 3360, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1280, y: 2400 }
+    - { x: 2080, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+    - { x: 1440, y: 1280 }
+    - { x: 3680, y: 1280 }
+    - { x: 1920, y: 2080 }
+    - { x: 3200, y: 2080 }
+questSpawns:
+  - activeFlag: quest_fold_active
+    killCounterFlag: quest_fold_kills
+    banner: 'Гребень: ужасы {kills}/5'
+    startBanner: 'Квест: уничтожь 5 ужасов складки на гребне'
+    enemies:
+      - type: fold_horror
+        x: 1920
+        y: 1280
+        quest: true
+      - type: fold_horror
+        x: 2880
+        y: 1280
+        quest: true
+      - type: fold_horror
+        x: 1920
+        y: 2304
+        quest: true
+      - type: fold_horror
+        x: 2880
+        y: 2304
+        quest: true
+      - type: fold_horror
+        x: 2560
+        y: 1792
+        quest: true
+questComplete:
+  - anyFlag: [quest_fold_complete]
+    banner: 'Гребень зачищен — квест завершён'

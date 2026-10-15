@@ -1,0 +1,42 @@
+id: town_steward
+name: Дворецкий Эдмунд
+race: human
+location: empery_haven
+questId: town_housing
+defaultGreeting: Добро пожаловать в Дом жильцов. Продаю ключи от одно-, двух- и трёхкомнатных квартир. У печки тепло, в леднике еда не портится.
+
+
+world:
+  role: character
+  wanderRadius: 40
+  wanderSpeed: 24
+portraits:
+  default: neutral
+
+choices:
+  - id: steward_buy_1
+    label: Купить однокомнатную (25 000 adena)
+    flag: _steward_buy_1
+    portrait: work
+  - id: steward_buy_2
+    label: Купить / расширить до двухкомнатной (75 000)
+    flag: _steward_buy_2
+    portrait: work
+  - id: steward_buy_3
+    label: Купить / расширить до трёхкомнатной (180 000)
+    flag: _steward_buy_3
+    portrait: work
+  - id: steward_enter
+    label: Войти в свою квартиру
+    flag: _steward_enter
+    portrait: happy
+  - id: steward_rest
+    label: Отдохнуть у печи жильцов (8 адены)
+    flag: _steward_rest
+    portrait: happy
+  - id: steward_leave
+    label: Уйти
+    flag: _steward_done
+    portrait: neutral
+
+nodes: {}

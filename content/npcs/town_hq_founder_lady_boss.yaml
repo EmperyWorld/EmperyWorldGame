@@ -1,0 +1,58 @@
+id: town_hq_founder_lady_boss
+name: Lady_Boss
+race: human
+location: empery_hq_lobby
+questId: empery_founders
+dialogueMode: authored
+defaultGreeting: >-
+  Привет! Я Lady_Boss, одна из авторов EmperyWorld. Присаживайся, обсудим всё спокойно. Здесь мы собираем мир из идей,
+  характеров и деталей. Хочу, чтобы даже обычная прогулка по городу оставляла историю.
+world:
+  role: character
+  wanderRadius: 0
+  wanderSpeed: 0
+portraits:
+  default: neutral
+choices:
+  - id: lady_world
+    label: Каким ты видишь EmperyWorld?
+    flag: _lady_world
+    nextNode: vision
+    portrait: happy
+  - id: lady_team
+    label: Как вы работаете с po&T?
+    flag: _lady_team
+    nextNode: team
+    portrait: neutral
+  - id: lady_campus
+    label: Что здесь за приёмная?
+    flag: _lady_campus
+    nextNode: studio
+    portrait: neutral
+  - id: lady_leave
+    label: Рад познакомиться!
+    flag: _lady_done
+    portrait: happy
+nodes:
+  vision:
+    text: >-
+      Живым. У жителей должны быть собственные лица, привычки и дела, а у каждого места —
+      настроение. Красота для меня начинается с внимания: как человек встречает гостя,
+      куда падает вечерний свет и почему хочется задержаться во дворе.
+    portrait: happy
+    choices:
+      - { id: lady_leave, label: Мне нравится такой подход., flag: _lady_done, portrait: happy }
+  team:
+    text: >-
+      Мы оба авторы этого мира. Я придаю идеям характер и образ, а po&T помогает превратить
+      их в работающие системы. Спорим о деталях, проверяем результат в игре и дорабатываем вместе.
+    portrait: neutral
+    choices:
+      - { id: lady_leave, label: Отличная команда., flag: _lady_done, portrait: happy }
+  studio:
+    text: >-
+      Это зона встречи гостей в западной части приёмной. Здесь встречаем гостей и обсуждаем образы, сцены и жизнь города.
+      В восточной части можно встретить po&T; между нами ресепшен, а к югу — выход во двор.
+    portrait: neutral
+    choices:
+      - { id: lady_leave, label: Осмотрюсь., flag: _lady_done, portrait: happy }

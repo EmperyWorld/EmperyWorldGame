@@ -1,0 +1,9 @@
+id: ash_trial
+radioNpcId: ash_shaman
+completeFlag: quest_ash_complete
+activeFlag: quest_ash_active
+killCounterFlag: quest_ash_kills
+requiredKills: 4
+enemyType: orc_grunt
+rewardItems:
+  - iron_chain

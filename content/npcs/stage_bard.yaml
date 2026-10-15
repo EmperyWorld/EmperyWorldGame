@@ -1,0 +1,48 @@
+id: stage_bard
+name: Бард Кай
+race: human
+location: empery_haven
+questId: stage_bard
+defaultGreeting: >-
+  Приветствую под сводами амфитеатра! Пока звенят струны и звучат баллады — сердце Гавани бьётся.
+  Желаешь послушать песнь или воодушевить дух перед походом?
+
+world:
+  role: prop
+portraits:
+  default: neutral
+
+choices:
+  - id: bard_buff
+    label: Попросить воодушевляющую песнь (5 адены)
+    flag: _bard_buff
+    portrait: happy
+  - id: bard_encore
+    label: Попросить бис (8 адены)
+    flag: _bard_encore
+    portrait: sing
+  - id: bard_stories
+    label: Какие сказания звучат в амфитеатре?
+    flag: _bard_stories
+    nextNode: node_stories
+    portrait: neutral
+  - id: bard_song_custom
+    label: Спеть балладу о странниках
+    flag: _bard_song_custom
+    portrait: sing
+  - id: bard_leave
+    label: Послушать со ступеней
+    flag: _bard_done
+    portrait: neutral
+
+nodes:
+  node_stories:
+    text: >-
+      На этой сцене оживают предания о Первом Разломе, о героях Серебряного Леса и кузнецах Звёздного Бастиона.
+      Каждый закат здесь собираются горожане — слушать, спорить и черпать силу в стихах.
+    portrait: neutral
+    choices:
+      - id: bard_leave
+        label: Красивые предания.
+        flag: _bard_done
+        portrait: happy

@@ -1,0 +1,59 @@
+id: town_bathkeeper
+name: Банщица Ника
+race: human
+location: empery_haven
+questId: town_bathkeeper
+defaultGreeting: Вода горячая, пар густой, ссоры оставляй у порога. После дороги баня чистит не хуже исповеди.
+
+world:
+  role: character
+  wanderRadius: 28
+  wanderSpeed: 18
+portraits:
+  default: neutral
+
+choices:
+  - id: bath_session
+    label: Оплатить парную (25 адены)
+    flag: _bath_session
+    portrait: happy
+  - id: bath_tea
+    label: Травяной банный взвар (10 адены)
+    flag: _bath_tea
+    portrait: happy
+  - id: bath_oil
+    label: Банное масло (18 адены)
+    flag: _bath_oil
+    portrait: happy
+  - id: bath_rest
+    label: Расскажи про парную
+    flag: _bath_rest
+    nextNode: steam
+    portrait: happy
+  - id: bath_rules
+    label: Какие правила?
+    flag: _bath_rules
+    nextNode: rules
+    portrait: serious
+  - id: bath_leave
+    label: Уйти
+    flag: _bath_done
+    portrait: neutral
+
+nodes:
+  steam:
+    text: Сначала жар, потом ковш холодной — и голова снова ясная. Доспехи сними, не то заржавеют от пара.
+    portrait: happy
+    choices:
+      - id: bath_steam_bye
+        label: Заманчиво
+        flag: _bath_done
+        portrait: happy
+  rules:
+    text: Не оружием. Не криком. Не тащи грязь с кузни — у нас пол не наковальня.
+    portrait: serious
+    choices:
+      - id: bath_rules_bye
+        label: Договорились
+        flag: _bath_done
+        portrait: neutral

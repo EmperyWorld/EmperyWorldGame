@@ -1,0 +1,61 @@
+id: town_guard
+name: Страж Леон
+race: human
+location: empery_haven
+questId: town_guard
+defaultGreeting: Ворота под надзором. Гости — добро пожаловать, смутьяны — к капитану. Держи клинок в ножнах в стенах города.
+
+
+world:
+  role: character
+  wanderRadius: 64
+  wanderSpeed: 32
+portraits:
+  default: neutral
+
+choices:
+  - id: guard_fine
+    label: Заплатить городской штраф (30 адены)
+    flag: _guard_fine
+    portrait: serious
+  - id: guard_report_accept
+    label: Взять дозорный рапорт
+    flag: _guard_report_accept
+    blocks: [quest_guard_report_active, quest_guard_report_complete]
+    portrait: serious
+  - id: guard_report_claim
+    label: Доложить о дозоре
+    flag: _guard_report_claim
+    portrait: happy
+  - id: guard_rules
+    label: Какие правила в городе?
+    flag: _guard_rules
+    nextNode: rules
+    portrait: serious
+  - id: guard_trouble
+    label: Где сейчас неспокойно?
+    flag: _guard_trouble
+    nextNode: trouble
+    portrait: action
+  - id: guard_leave
+    label: Уйти
+    flag: _guard_done
+    portrait: neutral
+
+nodes:
+  rules:
+    text: Не дерись на площади. Не лезь на стены без пропуска. Ночью у порта — два шага от края, один — в воду.
+    portrait: serious
+    choices:
+      - id: guard_rules_bye
+        label: Принято
+        flag: _guard_done
+        portrait: happy
+  trouble:
+    text: Восточные ворота тихие. Юг у полей — бродяги. Некрополь снаружи стены — не твоя прогулка.
+    portrait: action
+    choices:
+      - id: guard_trouble_bye
+        label: Запомню
+        flag: _guard_done
+        portrait: serious

@@ -1,0 +1,53 @@
+id: harbor_skipper_ferry
+name: Паромщик Оскар
+race: human
+location: empery_haven
+questId: harbor_skipper_ferry
+defaultGreeting: Пакет у своего причала. Когда уйдёт — меня здесь не будет.
+world:
+  role: character
+  wanderRadius: 0
+  wanderSpeed: 0
+portraits:
+  default: neutral
+  neutral: dialogue_town_dockhand_neutral
+  happy: dialogue_town_dockhand_happy
+  serious: dialogue_town_dockhand_serious
+  work: dialogue_town_dockhand_work
+choices:
+  - id: skipper_where
+    label: Куда идёте?
+    flag: _skipper_where
+    nextNode: where
+    portrait: work
+  - id: skipper_board
+    label: Возьмёте пассажира?
+    flag: _skipper_board
+    nextNode: board
+    portrait: serious
+  - id: skipper_leave
+    label: Не мешаю
+    flag: _skipper_done
+    portrait: neutral
+nodes:
+  where:
+    text: Переправа вверх по заливу, к факториям. По расписанию — не по желанию.
+    portrait: work
+    choices:
+      - id: skipper_board
+        label: Возьмёте пассажира?
+        flag: _skipper_board
+        nextNode: board
+        portrait: serious
+      - id: skipper_leave
+        label: Понял
+        flag: _skipper_done
+        portrait: neutral
+  board:
+    text: Пассажиров не берём. Места нет, и бумаги ещё не выписали.
+    portrait: serious
+    choices:
+      - id: skipper_leave
+        label: Тогда удачи в рейсе
+        flag: _skipper_done
+        portrait: neutral

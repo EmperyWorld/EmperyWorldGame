@@ -1,0 +1,39 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**"
+      ]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "typecheck": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "test": {
+      "dependsOn": [
+        "^build"
+      ],
+      "env": [
+        "RUN_PERSISTENCE_TESTS",
+        "EMPERY_POSTGRES_URL",
+        "EMPERY_REDIS_URL",
+        "CI"
+      ]
+    },
+    "lint": {}
+  },
+  "globalDependencies": [
+    "content/**",
+    "config/services*.yaml",
+    "apps/client/public/maps/*.json"
+  ]
+}

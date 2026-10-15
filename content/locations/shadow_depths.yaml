@@ -1,0 +1,121 @@
+id: shadow_depths
+name: Пещеры теней
+subtitle: Данж под восточными скалами
+description: Сырые коридоры под рощей — ловцы, призраки и владыка в сердце тьмы. Для тех, кто уже прошёл испытание Миры.
+mapKey: map-shadow_depths
+backgroundAsset: location_cave
+safeZone: false
+dayNight: dungeon
+anomalyTier: 2
+tierLabel: Зона Прорыва
+recommendedLevel:
+  min: 25
+  max: 50
+survivalClimate:
+  temperatureC: 6
+  humidity: 78
+  shelter: 40
+  water: dirty
+  heatSources:
+    - x: 2560
+      y: 2720
+      radius: 180
+stations:
+  - id: shadow_depths_shrine_2560_2720
+    kind: campfire
+    x: 2560
+    y: 2720
+    radius: 180
+  - id: shadow_depths_spring
+    kind: water
+    x: 2640
+    y: 2840
+    radius: 120
+spawn:
+  x: 2560
+  y: 2880
+requires:
+  anyFlag: [quest_grove_complete, quest_betrayal_complete]
+zones:
+  - x: 2560
+    y: 384
+    label: '↓ Глубины'
+    color: '#8866aa'
+  - x: 800
+    y: 1600
+    label: '← Боковые тоннели'
+    color: '#665588'
+  - x: 2560
+    y: 3280
+    label: '↓ Выход к роще'
+    color: '#c9e6a0'
+    travelTo: starter_grove
+    radius: 256
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 2720
+enemies:
+  - type: cave_stalker
+    x: 1680
+    y: 1920
+  - type: cave_stalker
+    x: 3440
+    y: 2000
+  - type: deep_wraith
+    x: 2560
+    y: 1440
+  - type: deep_wraith
+    x: 1280
+    y: 1200
+questSpawns:
+  - activeFlag: quest_depths_clear_active
+    killCounterFlag: quest_depths_clear_kills
+    banner: 'Пещеры: ловцы {kills}/4'
+    startBanner: 'Квест: уничтожь 4 пещерных ловца'
+    enemies:
+      - type: cave_stalker
+        x: 1120
+        y: 1680
+        quest: true
+      - type: cave_stalker
+        x: 4000
+        y: 1760
+        quest: true
+      - type: cave_stalker
+        x: 1920
+        y: 960
+        quest: true
+      - type: cave_stalker
+        x: 3280
+        y: 1040
+        quest: true
+  - activeFlag: quest_depths_purge_active
+    killCounterFlag: quest_depths_purge_kills
+    banner: 'Пещеры: призраки {kills}/3'
+    startBanner: 'Квест: изгони 3 глубинных призрака'
+    enemies:
+      - type: deep_wraith
+        x: 1440
+        y: 800
+        quest: true
+      - type: deep_wraith
+        x: 3680
+        y: 880
+        quest: true
+      - type: deep_wraith
+        x: 2560
+        y: 720
+        quest: true
+  - activeFlag: quest_depths_boss_active
+    killCounterFlag: quest_depths_boss_kills
+    banner: 'Босс: владыка теней'
+    startBanner: 'Квест: срази Владыку теней в сердце пещеры'
+    enemies:
+      - type: shadow_overlord
+        x: 2560
+        y: 640
+        quest: true
+questComplete:
+  - anyFlag: [quest_depths_boss_complete]
+    banner: 'Пещеры очищены — квест завершён'

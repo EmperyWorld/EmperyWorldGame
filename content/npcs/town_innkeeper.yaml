@@ -1,0 +1,91 @@
+id: town_innkeeper
+name: Хозяйка трактира Марта
+race: human
+location: empery_haven
+questId: town_inn
+defaultGreeting: >-
+  Ночная смена: очаг горит до утра. Днём за стойкой Олег.
+  Присядь, выпей. Воду держу здесь.
+  Мясо — у Брана, рыба — у Ульфа в порту, хлеб — у Фаддея, эль — у Хольма. Котелки — у Петра.
+
+world:
+  role: character
+  wanderRadius: 32
+  wanderSpeed: 22
+portraits:
+  default: neutral
+
+choices:
+  - id: inn_fish_delivery
+    label: «Доставка улова» — Передать рыбу от рыбака Ульфа
+    flag: _inn_fish_delivery
+    portrait: happy
+  - id: inn_provisions
+    label: Купить питьё
+    flag: _inn_provisions
+    portrait: happy
+  - id: marta_stew
+    label: Ночной горшок Марты (14 адены)
+    flag: _marta_stew
+    portrait: happy
+  - id: inn_rest
+    label: Отдохнуть и восстановить HP/MP (25 adena)
+    flag: _inn_rest
+    portrait: happy
+  - id: inn_dice
+    label: Сыграть в «Кости Гавани» (азартный стол)
+    flag: _inn_dice
+    nextNode: dice_table
+    portrait: happy
+  - id: inn_night
+    label: До утра не закрываетесь?
+    flag: _inn_night_ask
+    nextNode: night
+    portrait: happy
+  - id: inn_leave
+    label: Спасибо, я в порядке
+    flag: _inn_done
+    portrait: neutral
+
+nodes:
+  dice_table:
+    text: >-
+      Трактирные кости Гавани! Правила просты: два кубика у тебя, два у меня.
+      Чья сумма больше — тот забирает куш (выигрыш x2).
+      При дубле кубиков у тебя — супер-выигрыш x2.5 и кружка эля за счёт заведения! При ничьей — ставка возвращается.
+    portrait: happy
+    choices:
+      - id: inn_dice_10
+        label: Бросить кости на 10 адены
+        flag: _inn_dice_10
+        portrait: happy
+      - id: inn_dice_25
+        label: Бросить кости на 25 адены
+        flag: _inn_dice_25
+        portrait: happy
+      - id: inn_dice_50
+        label: Бросить кости на 50 адены
+        flag: _inn_dice_50
+        portrait: serious
+      - id: inn_dice_leave
+        label: Отойти от игорного стола
+        flag: _inn_done
+        portrait: neutral
+  night:
+    text: >-
+      Пока очаг тёплый — дверь открыта. Стража пьёт посменно, лекарь Сера тоже на ногах.
+      На форуме после колокола — ночной ряд: фонари, шёпот, товар, который днём не кладут на прилавок.
+      Спи, если надо: я здесь.
+    choices:
+      - id: inn_provisions
+        label: Купить питьё
+        flag: _inn_provisions
+        portrait: happy
+      - id: inn_rest
+        label: Отдохнуть (25 adena)
+        flag: _inn_rest
+        portrait: happy
+      - id: inn_leave
+        label: Понял, спасибо
+        flag: _inn_done
+        portrait: neutral

@@ -1,0 +1,74 @@
+# Уникальный эпический лёгкий комплект «Пепельный призрак»
+id: nightfang
+name: Клык ночи
+slot: weapon
+rarity: epic
+weaponWeight: light
+stats:
+  pAtk: 38
+  accuracy: 8
+  critRate: 6
+  attackSpeed: 6
+icon: /media/assets/item_nightfang.webp
+---
+id: hush_cowl
+name: Капюшон тишины
+slot: head
+rarity: epic
+armorType: light
+stats:
+  pDef: 16
+  evasion: 7
+  accuracy: 5
+  critRate: 2
+icon: /media/assets/item_hush_cowl.webp
+---
+id: emberhide
+name: Пепельная шкура
+slot: body
+rarity: epic
+armorType: light
+stats:
+  pDef: 24
+  evasion: 8
+  maxHp: 36
+  speed: 4
+  critRate: 2
+icon: /media/assets/item_emberhide.webp
+---
+id: ghoststride
+name: Шаг призрака
+slot: legs
+rarity: epic
+armorType: light
+stats:
+  pDef: 14
+  evasion: 9
+  speed: 10
+  critRate: 1
+icon: /media/assets/item_ghoststride.webp
+---
+id: bloodlace
+name: Кровавые кружева
+slot: gloves
+rarity: epic
+armorType: light
+stats:
+  pDef: 12
+  accuracy: 8
+  attackSpeed: 6
+  critRate: 3
+icon: /media/assets/item_bloodlace.webp
+---
+id: mothwing_cloak
+name: Плащ мотыльковых крыльев
+slot: cloak
+rarity: epic
+armorType: light
+stats:
+  pDef: 14
+  evasion: 12
+  critRate: 3
+  speed: 5
+  maxMp: 20
+icon: /media/assets/item_mothwing_cloak.webp

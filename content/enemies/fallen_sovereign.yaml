@@ -1,0 +1,64 @@
+id: fallen_sovereign
+name: Павший Владыка
+level: 62
+hp: 320
+pAtk: 58
+pDef: 38
+mDef: 34
+accuracy: 40
+evasion: 16
+speed: 96
+xpReward: 180
+drops:
+- kind: adena
+  chance: 1000000
+  min: 200
+  max: 320
+- item: storm_bow
+  chance: 100000
+  min: 1
+  max: 1
+- item: daedric_composite_bow
+  chance: 45000
+  min: 1
+  max: 1
+- item: starfall_fang
+  chance: 55000
+  min: 1
+  max: 1
+- item: void_petal
+  chance: 50000
+  min: 1
+  max: 1
+- item: daedric_razor
+  chance: 40000
+  min: 1
+  max: 1
+- item: daedric_shroud
+  chance: 35000
+  min: 1
+  max: 1
+- item: bastion_of_eras
+  chance: 30799
+  min: 1
+  max: 1
+- item: greaves_of_ascent
+  chance: 30799
+  min: 1
+  max: 1
+- item: quiver_of_godfall
+  chance: 30799
+  min: 1
+  max: 1
+- item: aegis_of_null
+  chance: 49000
+  min: 1
+  max: 1
+- item: ascent_strides
+  chance: 49000
+  min: 1
+  max: 1
+- item: leviathan_scale_cloak
+  chance: 77000
+  min: 1
+  max: 1

@@ -1,0 +1,69 @@
+id: haven_apartment
+name: Квартира · Дом жильцов
+subtitle: Твоё жильё в Гавани
+description: Приватные комнаты с русской печью, сундуком, стеллажом и ледником. Чужие сюда не заходят.
+mapKey: map-haven_apartment
+backgroundAsset: location_haven_apartment
+safeZone: true
+privateOwnerOnly: true
+dayNight: indoor
+survivalClimate:
+  temperatureC: 22
+  humidity: 45
+  shelter: 100
+  water: clean
+  heatSources:
+    - x: 640
+      y: 400
+      radius: 420
+stations:
+  - id: apt_russian_stove
+    kind: hearth
+    x: 640
+    y: 400
+    radius: 420
+  - id: apt_kitchen_water
+    kind: water
+    # West of fridge — was stacked on icebox at 900,520
+    x: 780
+    y: 440
+    radius: 420
+  - id: apt_kitchen_pot
+    kind: pot
+    x: 640
+    y: 400
+    radius: 420
+anomalyTier: 1
+tierLabel: Жильё
+recommendedLevel:
+  min: 1
+  max: 99
+spawn:
+  x: 608
+  y: 544
+npcs:
+  - id: apartment_chest
+    x: 360
+    y: 720
+    label: Сундук [E]
+  - id: apartment_rack
+    x: 920
+    y: 720
+    label: Стеллаж [E]
+  - id: apartment_fridge
+    x: 900
+    y: 560
+    label: Холодильник [E]
+  - id: apartment_bed
+    x: 480
+    y: 540
+    label: Кровать · отдых [E]
+zones:
+  - x: 640
+    y: 780
+    label: '↓ На улицу · Гавань'
+    color: '#c9a66b'
+    travelTo: empery_haven
+    arrival: { x: 608, y: 544 }
+    radius: 72
+enemies: []

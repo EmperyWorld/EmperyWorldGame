@@ -1,0 +1,40 @@
+id: empery_hq_lobby
+name: EmperyWorld · Приёмная
+subtitle: Главный корпус · авторы EmperyWorld
+description: Внутренняя приёмная главного корпуса EmperyWorld. Тёплый камень, дерево, мягкое освещение и спокойные зоны ожидания.
+mapKey: map-empery_hq_lobby
+backgroundAsset: location_empery_hq
+safeZone: true
+dayNight: indoor
+recommendedLevel: {min: 1, max: 99}
+requires:
+  anyFlag: [quest_empery_hq_access]
+  denyMessage: Нужен допуск в кампус EmperyWorld.
+survivalClimate:
+  temperatureC: 22
+  humidity: 45
+  shelter: 100
+spawn: {x: 640, y: 672}
+npcs:
+  - id: town_hq_receptionist
+    x: 640
+    y: 352
+    label: Ресепшен [E]
+  - id: town_hq_founder_lady_boss
+    x: 384
+    y: 598
+    label: Lady_Boss · автор [E]
+  - id: town_hq_founder_pot
+    x: 896
+    y: 598
+    label: po&T · автор [E]
+zones:
+  - x: 640
+    y: 800
+    label: '↓ Двор кампуса'
+    color: '#b79d6d'
+    travelTo: empery_hq
+    radius: 88
+    arrival: {x: 640, y: 672}
+landmarks: []
+enemies: []

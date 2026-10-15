@@ -1,0 +1,66 @@
+# Shared world weather. Seasons rotate; states are weighted within the active season.
+changeIntervalMinutes: 45
+states:
+  - id: clear
+    name: Ясно
+    temperatureDelta: 0
+    humidity: 35
+    wetnessPerHour: -8
+  - id: rain
+    name: Дождь
+    temperatureDelta: -4
+    humidity: 88
+    wetnessPerHour: 26
+  - id: storm
+    name: Гроза
+    temperatureDelta: -7
+    humidity: 96
+    wetnessPerHour: 40
+  - id: heatwave
+    name: Зной
+    temperatureDelta: 11
+    humidity: 18
+    wetnessPerHour: -16
+  - id: cold_snap
+    name: Холодный фронт
+    temperatureDelta: -12
+    humidity: 62
+    wetnessPerHour: 4
+
+seasons:
+  - id: spring
+    name: Весна
+    durationDays: 7
+    weights:
+      clear: 4
+      rain: 3
+      storm: 1
+      heatwave: 0
+      cold_snap: 1
+  - id: summer
+    name: Лето
+    durationDays: 7
+    weights:
+      clear: 4
+      rain: 1
+      storm: 1
+      heatwave: 3
+      cold_snap: 0
+  - id: autumn
+    name: Осень
+    durationDays: 7
+    weights:
+      clear: 2
+      rain: 4
+      storm: 2
+      heatwave: 0
+      cold_snap: 2
+  - id: winter
+    name: Зима
+    durationDays: 7
+    weights:
+      clear: 2
+      rain: 1
+      storm: 1
+      heatwave: 0
+      cold_snap: 5

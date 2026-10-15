@@ -1,0 +1,10 @@
+id: collapse_breach
+radioNpcId: collapse_seer
+completeFlag: quest_collapse_complete
+activeFlag: quest_collapse_active
+killCounterFlag: quest_collapse_kills
+requiredKills: 6
+enemyType: collapse_spawn
+rewardItems:
+  - storm_bow
+  - void_gloves

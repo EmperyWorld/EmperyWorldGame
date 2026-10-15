@@ -1,0 +1,60 @@
+id: town_brewer
+name: Пивовар Хольм
+race: human
+location: empery_haven
+questId: town_brewer
+defaultGreeting: Солод, хмель и терпение — три столпа бочки. Эль — у меня. Воду чище бери у Марты, драться у бочек не советую.
+
+
+world:
+  role: character
+  wanderRadius: 40
+  wanderSpeed: 22
+portraits:
+  default: neutral
+
+choices:
+  - id: brew_shop
+    label: Купить эль
+    flag: _brew_shop
+    portrait: happy
+  - id: brew_tasting
+    label: Дегустация эля (8 адены)
+    flag: _brew_tasting
+    portrait: happy
+  - id: brew_toast
+    label: Тост за Гавань (20 адены)
+    flag: _brew_toast
+    portrait: happy
+  - id: brew_taste
+    label: Чем гордишься сегодня?
+    flag: _brew_taste
+    nextNode: taste
+    portrait: happy
+  - id: brew_craft
+    label: Как варишь?
+    flag: _brew_craft
+    nextNode: craft
+    portrait: work
+  - id: brew_leave
+    label: Уйти
+    flag: _brew_done
+    portrait: neutral
+
+nodes:
+  taste:
+    text: Янтарный эль с ноткой дыма. Не для слабаков — но и не яд. За здоровье Гавани!
+    portrait: happy
+    choices:
+      - id: brew_taste_bye
+        label: За Гавань
+        flag: _brew_done
+        portrait: happy
+  craft:
+    text: Солод молчит, пока не заговорит пена. Спешка портит партию быстрее плесени.
+    portrait: work
+    choices:
+      - id: brew_craft_bye
+        label: Учту
+        flag: _brew_done
+        portrait: serious

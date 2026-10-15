@@ -1,0 +1,56 @@
+id: pantheon_sentinel
+name: Страж Пантеона
+level: 56
+hp: 190
+pAtk: 52
+pDef: 30
+mDef: 27
+accuracy: 36
+evasion: 22
+speed: 108
+xpReward: 88
+drops:
+- kind: adena
+  chance: 1000000
+  min: 140
+  max: 220
+- item: leather_scrap
+  chance: 380000
+  min: 1
+  max: 2
+- item: iron_arrow
+  chance: 250000
+  min: 5
+  max: 14
+- item: storm_bow
+  chance: 30000
+  min: 1
+  max: 1
+- item: emberhide
+  chance: 20000
+  min: 1
+  max: 1
+- item: greaves_of_ascent
+  chance: 30799
+  min: 1
+  max: 1
+- item: quiver_of_godfall
+  chance: 30799
+  min: 1
+  max: 1
+- item: era_skybow
+  chance: 30799
+  min: 1
+  max: 1
+- item: throne_plate
+  chance: 49000
+  min: 1
+  max: 1
+- item: godfall_cloak
+  chance: 49000
+  min: 1
+  max: 1
+- item: collapse_longbow
+  chance: 77000
+  min: 1
+  max: 1

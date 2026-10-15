@@ -1,0 +1,8 @@
+id: nika_oil
+name: Масло Ники
+slot: material
+rarity: common
+weight: 0.2
+stats: {}
+description: Банное масло с двора Ники. После пара кожа не трескается, шаг легче.
+icon: /media/assets/item_nika_oil.webp

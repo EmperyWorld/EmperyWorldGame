@@ -1,0 +1,110 @@
+merchantName: Гарольд · доспехи
+offers:
+  - id: leather_cap
+    price: 80
+  - id: padded_coif
+    price: 130
+  - id: iron_helm
+    price: 280
+  - id: sentry_helm
+    price: 390
+  - id: hush_cowl
+    price: 2400
+  - id: daedric_warhelm
+    price: 28000
+  - id: cloth_cowl
+    price: 50
+  - id: linen_cowl
+    price: 120
+  - id: silk_hood
+    price: 380
+  - id: starweave_hood
+    price: 2400
+  - id: leather_tunic
+    price: 120
+  - id: studded_leather
+    price: 350
+  - id: scale_vest
+    price: 320
+  - id: iron_chain
+    price: 420
+  - id: brigandine
+    price: 700
+  - id: steel_cuirass
+    price: 900
+  - id: daedric_hide_vest
+    price: 17500
+  - id: daedric_bulkplate
+    price: 48000
+  - id: novice_robe
+    price: 80
+  - id: linen_robe
+    price: 280
+  - id: silk_robe
+    price: 720
+  - id: starweave_robe
+    price: 3200
+  - id: eclipse_vestments
+    price: 16000
+  - id: leather_gloves
+    price: 55
+  - id: ringmail_gloves
+    price: 170
+  - id: iron_gauntlets
+    price: 240
+  - id: bloodlace
+    price: 2800
+  - id: daedric_bulkgauntlets
+    price: 24000
+  - id: cloth_wraps
+    price: 45
+  - id: linen_gloves
+    price: 100
+  - id: silk_gloves
+    price: 340
+  - id: starweave_gloves
+    price: 2800
+  - id: leather_boots
+    price: 65
+  - id: hardened_boots
+    price: 190
+  - id: iron_greaves
+    price: 260
+  - id: plate_greaves
+    price: 370
+  - id: ghoststride
+    price: 2600
+  - id: daedric_bulkgreaves
+    price: 26000
+  - id: cloth_sandals
+    price: 50
+  - id: linen_slippers
+    price: 110
+  - id: silk_slippers
+    price: 360
+  - id: starweave_slippers
+    price: 2600
+  - id: traveler_cloak
+    price: 95
+  - id: sergeant_cloak
+    price: 260
+  - id: hunter_cloak
+    price: 310
+  - id: daedric_shroud
+    price: 16500
+  - id: weave_cloak
+    price: 180
+  - id: silk_mantle
+    price: 420
+  - id: starweave_cloak
+    price: 3000
+  - id: wooden_buckler
+    price: 90
+  - id: iron_kite_shield
+    price: 320
+  - id: steel_heater_shield
+    price: 780
+  - id: daedric_tower_shield
+    price: 42000
+  - id: holy_crusader_shield
+    price: 95000

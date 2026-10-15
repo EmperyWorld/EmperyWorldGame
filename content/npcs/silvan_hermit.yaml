@@ -1,0 +1,32 @@
+id: silvan_hermit
+name: Лесной отшельник
+race: elf
+location: silverwood
+questId: silverwood_hunt
+defaultGreeting: Эльфийские корни помнят твой путь. Роща благодарна, что ты пришёл домой.
+
+
+world:
+  role: character
+  wanderRadius: 48
+  wanderSpeed: 20
+portraits:
+  default: neutral
+
+choices:
+  - id: accept_silverwood
+    label: Расскажи о тенях в лесу
+    flag: quest_silverwood_started
+    nextNode: silverwood_brief
+    portrait: serious
+    blocks: [quest_silverwood_complete, quest_silverwood_active, quest_silverwood_started]
+
+nodes:
+  silverwood_brief:
+    text: Тени пробрались на северную опушку. Убери троих налётчиков — лес должен дышать спокойно.
+    portrait: serious
+    choices:
+      - id: silverwood_go
+        label: Приму испытание
+        flag: quest_silverwood_active
+        portrait: serious

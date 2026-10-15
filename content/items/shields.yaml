@@ -1,0 +1,61 @@
+id: wooden_buckler
+name: Деревянный баклер
+slot: shield
+rarity: common
+armorType: heavy
+stats:
+  pDef: 6
+  blockChance: 8
+  maxHp: 8
+icon: /media/assets/item_wooden_buckler.webp
+---
+id: iron_kite_shield
+name: Железный каплевидный щит
+slot: shield
+rarity: uncommon
+armorType: heavy
+stats:
+  pDef: 14
+  blockChance: 12
+  maxHp: 18
+  evasion: -1
+icon: /media/assets/item_iron_kite_shield.webp
+---
+id: steel_heater_shield
+name: Стальной щит-хетер
+slot: shield
+rarity: rare
+armorType: heavy
+stats:
+  pDef: 22
+  blockChance: 16
+  maxHp: 30
+  evasion: -3
+icon: /media/assets/item_steel_heater_shield.webp
+---
+id: daedric_tower_shield
+name: Даэдрический башенный щит
+slot: shield
+rarity: daedric
+armorType: heavy
+stats:
+  pDef: 40
+  blockChance: 24
+  maxHp: 56
+  evasion: -6
+  pAtk: 2
+icon: /media/assets/item_daedric_tower_shield.webp
+---
+id: holy_crusader_shield
+name: Святой крестоносный щит
+slot: shield
+rarity: holy
+armorType: heavy
+stats:
+  pDef: 52
+  blockChance: 30
+  maxHp: 72
+  evasion: -4
+  accuracy: 4
+  pAtk: 4
+icon: /media/assets/item_holy_crusader_shield.webp

@@ -1,0 +1,52 @@
+id: gods_oracle
+name: Оракул Никс
+race: elf
+location: gods_rift
+questId: gods_breach
+defaultGreeting: Эра прислала тебя? Хорошо. Здесь боги уже не боги — только осколки воли. Держись троп Разлома, или станешь эхом.
+
+
+world:
+  role: character
+  wanderRadius: 24
+  wanderSpeed: 16
+portraits:
+  default: neutral
+
+choices:
+  - id: gods_accept
+    label: Что нужно сделать?
+    flag: quest_gods_started
+    nextNode: gods_brief
+    portrait: serious
+    blocks: [quest_gods_complete, quest_gods_active, quest_gods_started]
+  - id: gods_bye
+    label: Осмотрюсь сам
+    flag: _oracle_done
+    portrait: neutral
+
+nodes:
+  gods_brief:
+    text: Шесть божественных эхо — и Разлом чуть успокоится. Без этого к Подъёму Пантеона даже не смотри.
+    portrait: action
+    choices:
+      - id: gods_go
+        label: Принимаю
+        flag: quest_gods_active
+        portrait: action
+  ascent_brief:
+    text: Разлом держится. Дальше — Подъём Пантеона. Пять стражей рвут ступени. Зачисти путь к Трону.
+    portrait: action
+    choices:
+      - id: ascent_go
+        label: Иду на подъём
+        flag: quest_ascent_active
+        portrait: action
+  throne_brief:
+    text: Подъём открыт. На Троне Падения Богов ждёт Павший Владыка — последний осколок пантеона. Один удар по пустому трону.
+    portrait: action
+    choices:
+      - id: throne_go
+        label: Иду на трон
+        flag: quest_throne_active
+        portrait: action

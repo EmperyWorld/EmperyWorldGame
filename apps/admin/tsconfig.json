@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*",
+    "../client/src/sprites/haven-ambient-defs.ts",
+    "../client/src/sprites/haven-citizen-district.ts",
+    "../client/src/sprites/haven-city-data.ts",
+    "../client/src/sprites/haven-district-washes.ts",
+    "../client/src/sprites/haven-npc-buildings.ts",
+    "../client/src/sprites/prop-footprint.ts",
+    "../client/src/sprites/prop-layer.ts"
+  ],
+  "references": [{ "path": "../../packages/shared" }]
+}

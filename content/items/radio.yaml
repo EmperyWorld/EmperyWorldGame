@@ -1,0 +1,28 @@
+id: field_radio
+name: Полевая рация
+slot: material
+rarity: rare
+unsellable: true
+stats: {}
+icon: /media/assets/item_field_radio.webp
+---
+id: radio_battery_pack
+name: Батарейки 1 ч
+slot: material
+rarity: uncommon
+stats: {}
+icon: /media/assets/item_radio_battery_pack.webp
+---
+id: radio_battery_12h
+name: Батарейки 12 ч
+slot: material
+rarity: uncommon
+stats: {}
+icon: /media/assets/item_radio_battery_pack.webp
+---
+id: radio_battery_24h
+name: Батарейки 24 ч
+slot: material
+rarity: rare
+stats: {}
+icon: /media/assets/item_radio_battery_pack.webp

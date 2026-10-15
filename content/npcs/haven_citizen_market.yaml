@@ -1,0 +1,62 @@
+id: haven_citizen_market
+name: Торговец Гавани
+race: human
+location: empery_haven
+questId: haven_citizen_market
+defaultGreeting: >-
+  Приветствую в торговых рядах! Свежие припасы, ткани с караванов и пряности с востока — на рынке Гавани всегда кипит жизнь.
+world:
+  role: character
+portraits:
+  default: neutral
+  neutral: dialogue_town_merchant_neutral
+  happy: dialogue_town_merchant_happy
+  serious: dialogue_town_merchant_serious
+  angry: dialogue_town_merchant_serious
+choices:
+  - id: citizen_market_pie
+    label: Купить пирог (8 адены)
+    flag: _cit_market_pie
+    portrait: happy
+  - id: citizen_market_shift
+    label: Помочь у прилавка
+    flag: _cit_market_shift
+    blocks: [quest_market_shift_complete]
+    portrait: serious
+  - id: citizen_rumors
+    label: Какие новости на рынке?
+    flag: _cit_rumors
+    portrait: neutral
+  - id: citizen_advice
+    label: Что посоветуешь купить в дорогу?
+    flag: _cit_advice
+    portrait: happy
+  - id: citizen_directions
+    label: Подскажи дорогу в городе
+    flag: _cit_directions
+    portrait: neutral
+  - id: citizen_leave
+    label: Спасибо, просто осматриваюсь.
+    flag: _cit_done
+    portrait: neutral
+nodes:
+  rumors:
+    text: >-
+      Караваны с востока привезли отличный шёлк, но возницы жалуются на гоблинов в предгорьях.
+      Лорен закупает партии зерна впрок — чует скорую зиму.
+    portrait: serious
+    choices:
+      - id: citizen_leave
+        label: Принято к сведению.
+        flag: _cit_done
+        portrait: neutral
+  advice:
+    text: >-
+      Не экономь на целебных зельях у Лорена и сытных припасах у Фаддея.
+      А если меч затупился — сразу иди в кузню Гарольда, сталь должна петь!
+    portrait: happy
+    choices:
+      - id: citizen_leave
+        label: Дельный совет, спасибо.
+        flag: _cit_done
+        portrait: happy

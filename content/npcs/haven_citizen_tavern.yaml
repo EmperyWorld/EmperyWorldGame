@@ -1,0 +1,57 @@
+id: haven_citizen_tavern
+name: Завсегдатай таверны
+race: human
+location: empery_haven
+questId: haven_citizen_tavern
+defaultGreeting: >-
+  Эй, проходи, присаживайся к теплу! У Марты лучший пенный эль на побережье, а за игорным столом всегда кипят страсти.
+world:
+  role: character
+portraits:
+  default: neutral
+  neutral: dialogue_town_innkeeper_neutral
+  happy: dialogue_town_innkeeper_happy
+  serious: dialogue_town_innkeeper_serious
+  angry: dialogue_town_innkeeper_serious
+choices:
+  - id: tavern_round
+    label: Поставить круг (9 адены)
+    flag: _cit_round
+    portrait: happy
+  - id: citizen_rumors
+    label: Какие сплетни в трактире?
+    flag: _cit_rumors
+    portrait: neutral
+  - id: citizen_advice
+    label: В чём секрет хорошего отдыха?
+    flag: _cit_advice
+    portrait: happy
+  - id: citizen_directions
+    label: Подскажи дорогу в городе
+    flag: _cit_directions
+    portrait: neutral
+  - id: citizen_leave
+    label: Пойду присяду за столик.
+    flag: _cit_done
+    portrait: neutral
+nodes:
+  rumors:
+    text: >-
+      Вчера за столом с костями купец из столицы спустил полсотни адены, а бродячий стрелок выбил дубль шестёрок и забрал кружку лучшего эля!
+      А Ника в бане по соседству заварила новый хвойный взвар — народ после пара как заново рождается.
+    portrait: serious
+    choices:
+      - id: citizen_leave
+        label: В Гавани умеют отдыхать!
+        flag: _cit_done
+        portrait: happy
+  advice:
+    text: >-
+      Если бросаешь кости у Марты — держи голову холодной и ставь с умом!
+      А если вымотался в рейдах — обязательно погрейся в бане у Ники и выспись в мягкой постели. Здоровье дороже золота.
+    portrait: happy
+    choices:
+      - id: citizen_leave
+        label: Золотые слова, друг.
+        flag: _cit_done
+        portrait: happy

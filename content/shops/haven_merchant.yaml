@@ -1,0 +1,48 @@
+merchantName: Лорен · оружие
+offers:
+  - id: oak_spear
+    price: 140
+  - id: bronze_sword
+    price: 200
+  - id: falchion
+    price: 340
+  - id: steel_longsword
+    price: 480
+  - id: battle_axe
+    price: 500
+  - id: war_hammer
+    price: 520
+  - id: knight_blade
+    price: 820
+  - id: void_petal
+    price: 4200
+  - id: starfall_fang
+    price: 9000
+  - id: daedric_razor
+    price: 18000
+  - id: short_bow
+    price: 120
+  - id: hunter_bow
+    price: 380
+  - id: composite_bow
+    price: 720
+  - id: elven_longbow
+    price: 2800
+  - id: storm_bow
+    price: 12000
+  - id: daedric_composite_bow
+    price: 24000
+  - id: wooden_arrow
+    price: 4
+  - id: iron_arrow
+    price: 12
+  - id: apprentice_staff
+    price: 100
+  - id: adept_staff
+    price: 360
+  - id: crystal_staff
+    price: 780
+  - id: void_oracle_staff
+    price: 4200
+  - id: rift_scepter
+    price: 14000

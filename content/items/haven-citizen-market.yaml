@@ -1,0 +1,11 @@
+id: market_pie
+name: Пирог с прилавка
+slot: consumable
+rarity: common
+weight: 0.3
+stats: {}
+description: Тёплый пирог с рыночного лотка Гавани — лук, мясо и румяная корочка. Сытный кусок в дорогу.
+survival:
+  nutrition: 10
+  shelfLifeHours: 36
+icon: /media/assets/item_market_pie.webp

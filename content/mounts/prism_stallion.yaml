@@ -1,0 +1,15 @@
+id: prism_stallion
+name: Призматический жеребец
+visual: prism
+speedMult: 1.7
+chargeDamageMult: 1.7
+chargeDurationMs: 600
+chargeCooldownMs: 4500
+chargeSpeed: 580
+chargeReach: 56
+shopPrice: 35000
+staminaDrainMult: 0.7
+staminaRegenMult: 1.3
+carryComfortKg: 120
+carryMaxKg: 180
+description: Легендарный переливающийся жеребец — сильнейший таран и скорость.

@@ -1,0 +1,52 @@
+# Тяжёлый «жирный» даэдрический комплект — танк, очень дорого
+id: daedric_warhelm
+name: Даэдрический боевой шлем
+slot: head
+rarity: daedric
+armorType: heavy
+stats:
+  pDef: 34
+  maxHp: 52
+  accuracy: 3
+  evasion: -5
+  speed: -3
+icon: /media/assets/item_daedric_warhelm.webp
+---
+id: daedric_bulkplate
+name: Даэдрическая громоздкая броня
+slot: body
+rarity: daedric
+armorType: heavy
+stats:
+  pDef: 62
+  maxHp: 96
+  evasion: -12
+  speed: -10
+  pAtk: 6
+icon: /media/assets/item_daedric_bulkplate.webp
+---
+id: daedric_bulkgreaves
+name: Даэдрические массивные поножи
+slot: legs
+rarity: daedric
+armorType: heavy
+stats:
+  pDef: 30
+  maxHp: 44
+  speed: -7
+  evasion: -4
+icon: /media/assets/item_daedric_bulkgreaves.webp
+---
+id: daedric_bulkgauntlets
+name: Даэдрические тяжёлые рукавицы
+slot: gloves
+rarity: daedric
+armorType: heavy
+stats:
+  pDef: 24
+  maxHp: 28
+  accuracy: 4
+  pAtk: 4
+  attackSpeed: -3
+  evasion: -2
+icon: /media/assets/item_daedric_bulkgauntlets.webp

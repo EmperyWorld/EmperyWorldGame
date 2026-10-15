@@ -1,0 +1,61 @@
+# Каркас мира аномалии: территории (участки), между которыми travel.
+# Контент локаций пока fantasy-placeholder; tier уже висит на location YAML.
+
+tiers:
+  - id: 1
+    name: Зона Стабильности
+    levelMin: 1
+    levelMax: 25
+    pvp: soft
+    notes: >-
+      Современный мир ещё держит контроль. Парки, стройки, пригороды.
+      Обучение, safe hubs, низкий риск.
+    plannedLocations:
+      - suburban_park
+      - abandoned_yard
+      - empery_haven
+      - starter_grove
+      - adena_fields
+      - silverwood
+
+  - id: 2
+    name: Зона Прорыва
+    levelMin: 25
+    levelMax: 50
+    pvp: open_flag
+    notes: >-
+      Разрывы реальности, кварталы с кристаллами/неоном. Hotspots и стычки фракций.
+    plannedLocations:
+      - intersection_district
+      - signal_block
+      - relay_spire
+      - static_core
+      - ash_highlands
+      - shadow_depths
+
+  - id: 3
+    name: Зона Искажения
+    levelMin: 50
+    levelMax: 75
+    pvp: pk
+    notes: >-
+      Дикие земли: летающие руины, пепел, без safe zone. Артефакты эпох.
+    plannedLocations:
+      - chaos_sector
+      - fracture_ridge
+      - void_scar
+
+  - id: 4
+    name: Зона Коллапса
+    levelMin: 75
+    levelMax: 99
+    pvp: siege_raid
+    notes: >-
+      End-game: осады цитадели и рейды на мировых боссов.
+    plannedLocations:
+      - collapse_fringe
+      - citadel_approach
+      - singularity_citadel
+      - gods_rift
+      - pantheon_ascent
+      - godfall_throne

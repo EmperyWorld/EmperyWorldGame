@@ -1,0 +1,152 @@
+id: collapse_fringe
+name: Окраина Коллапса
+subtitle: Где реальность осыпается
+description: 'За Шрамом Пустоты земля крошится в пыль эпох. Летающие руины, чёрный горизонт — начало Зоны Коллапса. Связь со шрамом — на западе.'
+mapKey: map-collapse_fringe
+backgroundAsset: location_collapse_fringe
+safeZone: false
+anomalyTier: 4
+tierLabel: Зона Коллапса
+recommendedLevel:
+  min: 36
+  max: 55
+survivalClimate:
+  temperatureC: -4
+  humidity: 40
+  shelter: 3
+  water: none
+  heatSources:
+    - x: 2560
+      y: 1792
+      radius: 180
+stations:
+  - id: collapse_fringe_shrine_2560_1792
+    kind: campfire
+    x: 2560
+    y: 1792
+    radius: 180
+spawn:
+  x: 960
+  y: 1920
+requires:
+  anyFlag: [quest_scar_complete]
+npcs:
+  - id: collapse_seer
+    x: 1280
+    y: 1680
+    label: Эра [E]
+zones:
+  - x: 320
+    y: 1792
+    label: '← К шраму'
+    color: '#cc6688'
+    travelTo: void_scar
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'Подступы →'
+    color: '#aa6688'
+    travelTo: citadel_approach
+    radius: 220
+  - x: 2560
+    y: 480
+    label: 'Горизонт руин'
+    color: '#aa6688'
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1792
+enemies:
+  - type: collapse_spawn
+    x: 1760
+    y: 1120
+  - type: entropy_hound
+    x: 2400
+    y: 1440
+  - type: collapse_spawn
+    x: 3200
+    y: 1200
+  - type: entropy_hound
+    x: 3840
+    y: 1520
+  - type: collapse_spawn
+    x: 1600
+    y: 2400
+  - type: entropy_hound
+    x: 3040
+    y: 2480
+  - type: collapse_spawn
+    x: 4000
+    y: 2320
+  - type: entropy_hound
+    x: 1280
+    y: 2560
+  - type: collapse_spawn
+    x: 2560
+    y: 1120
+  - type: entropy_hound
+    x: 2560
+    y: 2560
+  - type: collapse_spawn
+    x: 3520
+    y: 1920
+  - type: entropy_hound
+    x: 1920
+    y: 1920
+farmSpawn:
+  type: collapse_spawn
+  maxAlive: 16
+  respawnMs: 2400
+  points:
+    - { x: 1120, y: 960 }
+    - { x: 1760, y: 880 }
+    - { x: 2400, y: 960 }
+    - { x: 3040, y: 880 }
+    - { x: 3680, y: 960 }
+    - { x: 4320, y: 1040 }
+    - { x: 1120, y: 1680 }
+    - { x: 1760, y: 1760 }
+    - { x: 3360, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1280, y: 2400 }
+    - { x: 2080, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+    - { x: 1440, y: 1280 }
+    - { x: 3680, y: 1280 }
+    - { x: 1920, y: 2080 }
+    - { x: 3200, y: 2080 }
+questSpawns:
+  - activeFlag: quest_collapse_active
+    killCounterFlag: quest_collapse_kills
+    banner: 'Коллапс: осколки {kills}/6'
+    startBanner: 'Квест: уничтожь 6 осколков коллапса'
+    enemies:
+      - type: collapse_spawn
+        x: 1920
+        y: 1280
+        quest: true
+      - type: collapse_spawn
+        x: 2880
+        y: 1280
+        quest: true
+      - type: collapse_spawn
+        x: 1920
+        y: 2304
+        quest: true
+      - type: collapse_spawn
+        x: 2880
+        y: 2304
+        quest: true
+      - type: collapse_spawn
+        x: 2400
+        y: 1792
+        quest: true
+      - type: collapse_spawn
+        x: 2720
+        y: 1792
+        quest: true
+questComplete:
+  - anyFlag: [quest_collapse_complete]
+    banner: 'Окраина стабильна — квест завершён'

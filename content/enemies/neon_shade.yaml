@@ -1,0 +1,32 @@
+id: neon_shade
+name: Неоновая тень
+level: 14
+hp: 72
+pAtk: 18
+pDef: 12
+mDef: 11
+accuracy: 24
+evasion: 28
+speed: 108
+xpReward: 28
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 36
+    max: 78
+  - item: leather_scrap
+    chance: 380000
+    min: 1
+    max: 2
+  - item: iron_arrow
+    chance: 220000
+    min: 2
+    max: 6
+  - item: hunter_bow
+    chance: 35000
+    min: 1
+    max: 1
+  - item: composite_bow
+    chance: 12000
+    min: 1
+    max: 1

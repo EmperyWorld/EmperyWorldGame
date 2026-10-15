@@ -1,0 +1,98 @@
+id: bronze_sword
+name: Бронзовый меч
+slot: weapon
+rarity: common
+weaponWeight: normal
+stats:
+  pAtk: 14
+  accuracy: 3
+icon: /media/assets/item_bronze_sword.webp
+---
+id: steel_longsword
+name: Стальной длинный меч
+slot: weapon
+rarity: uncommon
+weaponWeight: normal
+stats:
+  pAtk: 20
+  accuracy: 4
+  critRate: 1
+icon: /media/assets/item_steel_longsword.webp
+---
+id: war_hammer
+name: Боевой молот
+slot: weapon
+rarity: uncommon
+weaponWeight: heavy
+stats:
+  pAtk: 26
+  accuracy: 1
+  attackSpeed: -6
+icon: /media/assets/item_war_hammer.webp
+---
+id: studded_leather
+name: Клёпаная кожа
+slot: body
+rarity: uncommon
+armorType: light
+stats:
+  pDef: 14
+  evasion: 4
+  maxHp: 12
+icon: /media/assets/item_studded_leather.webp
+---
+id: iron_helm
+name: Железный шлем
+slot: head
+rarity: uncommon
+armorType: heavy
+stats:
+  pDef: 12
+  maxHp: 18
+  accuracy: 1
+icon: /media/assets/item_iron_helm.webp
+---
+id: iron_greaves
+name: Железные поножи
+slot: legs
+rarity: uncommon
+armorType: heavy
+stats:
+  pDef: 10
+  maxHp: 12
+  speed: -2
+icon: /media/assets/item_iron_greaves.webp
+---
+id: iron_gauntlets
+name: Железные рукавицы
+slot: gloves
+rarity: uncommon
+armorType: heavy
+stats:
+  pDef: 8
+  accuracy: 4
+  attackSpeed: 2
+icon: /media/assets/item_iron_gauntlets.webp
+---
+id: steel_cuirass
+name: Стальной нагрудник
+slot: body
+rarity: rare
+armorType: heavy
+stats:
+  pDef: 28
+  maxHp: 30
+  evasion: -4
+icon: /media/assets/item_steel_cuirass.webp
+---
+id: hunter_cloak
+name: Плащ охотника
+slot: cloak
+rarity: uncommon
+armorType: light
+stats:
+  pDef: 7
+  evasion: 5
+  accuracy: 3
+  speed: 4
+icon: /media/assets/item_hunter_cloak.webp

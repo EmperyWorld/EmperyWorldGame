@@ -1,0 +1,36 @@
+id: static_colossus
+name: Статический колосс
+level: 24
+hp: 180
+pAtk: 32
+pDef: 26
+mDef: 23
+accuracy: 30
+evasion: 14
+speed: 88
+xpReward: 90
+drops:
+  - kind: adena
+    chance: 1000000
+    min: 100
+    max: 180
+  - item: brigandine
+    chance: 120000
+    min: 1
+    max: 1
+  - item: void_gloves
+    chance: 90000
+    min: 1
+    max: 1
+  - item: composite_bow
+    chance: 70000
+    min: 1
+    max: 1
+  - item: storm_bow
+    chance: 25000
+    min: 1
+    max: 1
+  - item: knight_blade
+    chance: 40000
+    min: 1
+    max: 1

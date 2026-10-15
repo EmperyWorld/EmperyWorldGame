@@ -1,0 +1,110 @@
+id: godfall_throne
+name: Трон Падения Богов
+subtitle: Конец божественной воли
+description: 'Вершина Пантеона — пустой трон, где некогда сидела воля богов. Здесь гудит Павший Владыка — последний осколок пантеона. Связь с Подъёмом — на западе.'
+mapKey: map-godfall_throne
+backgroundAsset: location_godfall_throne
+safeZone: false
+anomalyTier: 4
+tierLabel: Зона Коллапса
+recommendedLevel:
+  min: 56
+  max: 75
+survivalClimate:
+  temperatureC: -10
+  humidity: 20
+  shelter: 15
+  water: none
+  heatSources:
+    - x: 2560
+      y: 1792
+      radius: 180
+stations:
+  - id: godfall_throne_shrine_2560_1792
+    kind: campfire
+    x: 2560
+    y: 1792
+    radius: 180
+spawn:
+  x: 960
+  y: 1920
+requires:
+  anyFlag: [quest_ascent_complete]
+npcs: []
+zones:
+  - x: 320
+    y: 1792
+    label: '← К подъёму'
+    color: '#e8c060'
+    travelTo: pantheon_ascent
+    radius: 220
+  - x: 4800
+    y: 1792
+    label: 'За горизонтом →'
+    color: '#886644'
+  - x: 2560
+    y: 560
+    label: 'Пустой трон'
+    color: '#f0d060'
+landmarks:
+  - kind: shrine
+    x: 2560
+    y: 1792
+enemies:
+  - type: throne_shade
+    x: 1440
+    y: 1120
+  - type: throne_shade
+    x: 2080
+    y: 1440
+  - type: throne_shade
+    x: 3200
+    y: 1200
+  - type: throne_shade
+    x: 3840
+    y: 1520
+  - type: throne_shade
+    x: 1600
+    y: 2400
+  - type: throne_shade
+    x: 3360
+    y: 2480
+  - type: throne_shade
+    x: 4000
+    y: 2200
+  - type: throne_shade
+    x: 1280
+    y: 2560
+farmSpawn:
+  type: throne_shade
+  maxAlive: 12
+  respawnMs: 2600
+  points:
+    - { x: 1120, y: 960 }
+    - { x: 1760, y: 880 }
+    - { x: 2400, y: 1000 }
+    - { x: 3040, y: 880 }
+    - { x: 3680, y: 1000 }
+    - { x: 4320, y: 1120 }
+    - { x: 1120, y: 1680 }
+    - { x: 1760, y: 1760 }
+    - { x: 3360, y: 1760 }
+    - { x: 4160, y: 1680 }
+    - { x: 1280, y: 2400 }
+    - { x: 2080, y: 2480 }
+    - { x: 3200, y: 2480 }
+    - { x: 4000, y: 2400 }
+    - { x: 2560, y: 3040 }
+questSpawns:
+  - activeFlag: quest_throne_active
+    killCounterFlag: quest_throne_kills
+    banner: 'Владыка: {kills}/1'
+    startBanner: 'Квест: срази Павшего Владыку на Троне Падения'
+    enemies:
+      - type: fallen_sovereign
+        x: 2560
+        y: 1792
+        quest: true
+questComplete:
+  - anyFlag: [quest_throne_complete]
+    banner: 'Трон пуст — эпилог у Никс на Разломе'

@@ -1,0 +1,92 @@
+id: shadow_overlord
+name: Владыка теней
+level: 42
+hp: 220
+pAtk: 34
+pDef: 32
+mDef: 29
+accuracy: 40
+evasion: 30
+speed: 100
+xpReward: 120
+drops:
+- kind: adena
+  chance: 1000000
+  min: 120
+  max: 220
+- item: dusk_blade
+  chance: 180000
+  min: 1
+  max: 1
+- item: shadow_mail
+  chance: 120000
+  min: 1
+  max: 1
+- item: depths_cloak
+  chance: 90000
+  min: 1
+  max: 1
+- item: crystal_helm
+  chance: 80000
+  min: 1
+  max: 1
+- item: nightfang
+  chance: 45000
+  min: 1
+  max: 1
+- item: emberhide
+  chance: 40000
+  min: 1
+  max: 1
+- item: mothwing_cloak
+  chance: 35000
+  min: 1
+  max: 1
+- item: void_petal
+  chance: 28000
+  min: 1
+  max: 1
+- item: starfall_fang
+  chance: 12000
+  min: 1
+  max: 1
+- item: daedric_razor
+  chance: 4000
+  min: 1
+  max: 1
+- item: daedric_shroud
+  chance: 3500
+  min: 1
+  max: 1
+- item: daedric_hide_vest
+  chance: 3500
+  min: 1
+  max: 1
+- item: daedric_bulkplate
+  chance: 2200
+  min: 1
+  max: 1
+- item: daedric_warhelm
+  chance: 2200
+  min: 1
+  max: 1
+- item: daedric_tower_shield
+  chance: 1800
+  min: 1
+  max: 1
+- item: collapse_longbow
+  chance: 77000
+  min: 1
+  max: 1
+- item: citadel_cuirass
+  chance: 77000
+  min: 1
+  max: 1
+- item: pulse_recurve
+  chance: 125999
+  min: 1
+  max: 1
+- item: warp_hauberk
+  chance: 125999
+  min: 1
+  max: 1

@@ -1,0 +1,8 @@
+id: warrior
+name: Воин
+description: Тяжёлая броня, высокий P.Atk. Мастер ближнего боя.
+starterSkills:
+  weapon_mastery: 1
+  heavy_armor: 1
+  power_strike: 1
+  warrior_life_flow: 1

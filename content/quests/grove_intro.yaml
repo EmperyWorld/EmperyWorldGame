@@ -1,0 +1,8 @@
+id: grove_intro
+radioNpcId: elder_mira
+completeFlag: quest_grove_complete
+activeFlag: quest_grove_active
+killCounterFlag: quest_grove_kills
+requiredKills: 3
+rewardItems:
+  - leather_cap

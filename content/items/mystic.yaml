@@ -1,0 +1,346 @@
+---
+id: apprentice_staff
+name: Учеников посох
+slot: weapon
+rarity: common
+weaponKind: staff
+weaponWeight: light
+attackRange: 155
+stats:
+  mAtk: 8
+  accuracy: 3
+  maxMp: 10
+icon: /media/assets/item_apprentice_staff.webp
+
+---
+id: novice_robe
+name: Роба новичка
+slot: body
+rarity: common
+armorType: robe
+stats:
+  pDef: 2
+  mDef: 10
+  maxMp: 18
+  evasion: -4
+icon: /media/assets/item_novice_robe.webp
+
+---
+id: cloth_cowl
+name: Тканевый капюшон
+slot: head
+rarity: common
+armorType: robe
+stats:
+  pDef: 1
+  mDef: 4
+  maxMp: 8
+  evasion: -2
+icon: /media/assets/item_cloth_cowl.webp
+
+---
+id: cloth_sandals
+name: Тканевые сандалии
+slot: legs
+rarity: common
+armorType: robe
+stats:
+  pDef: 1
+  mDef: 3
+  maxMp: 6
+  evasion: -1
+  speed: 2
+icon: /media/assets/item_cloth_sandals.webp
+
+---
+id: cloth_wraps
+name: Тканевые обмотки
+slot: gloves
+rarity: common
+armorType: robe
+stats:
+  pDef: 1
+  mDef: 3
+  maxMp: 6
+  accuracy: 2
+icon: /media/assets/item_cloth_wraps.webp
+
+---
+id: adept_staff
+name: Посох адепта
+slot: weapon
+rarity: uncommon
+weaponKind: staff
+weaponWeight: light
+attackRange: 175
+stats:
+  mAtk: 16
+  accuracy: 5
+  maxMp: 16
+icon: /media/assets/item_adept_staff.webp
+
+---
+id: linen_robe
+name: Льняная роба
+slot: body
+rarity: uncommon
+armorType: robe
+stats:
+  pDef: 4
+  mDef: 16
+  maxMp: 28
+  evasion: -5
+icon: /media/assets/item_linen_robe.webp
+
+---
+id: linen_cowl
+name: Льняной капюшон
+slot: head
+rarity: uncommon
+armorType: robe
+stats:
+  pDef: 2
+  mDef: 8
+  maxMp: 12
+  evasion: -2
+icon: /media/assets/item_linen_cowl.webp
+
+---
+id: linen_slippers
+name: Льняные туфли
+slot: legs
+rarity: uncommon
+armorType: robe
+stats:
+  pDef: 2
+  mDef: 6
+  maxMp: 10
+  evasion: -1
+  speed: 3
+icon: /media/assets/item_linen_slippers.webp
+
+---
+id: linen_gloves
+name: Льняные перчатки
+slot: gloves
+rarity: uncommon
+armorType: robe
+stats:
+  pDef: 2
+  mDef: 6
+  maxMp: 10
+  accuracy: 3
+  mAtk: 2
+icon: /media/assets/item_linen_gloves.webp
+
+---
+id: weave_cloak
+name: Плащ плетения
+slot: cloak
+rarity: uncommon
+armorType: robe
+stats:
+  pDef: 3
+  mDef: 10
+  maxMp: 14
+  evasion: -2
+icon: /media/assets/item_weave_cloak.webp
+
+---
+id: crystal_staff
+name: Кристальный посох
+slot: weapon
+rarity: rare
+weaponKind: staff
+weaponWeight: light
+attackRange: 185
+stats:
+  mAtk: 28
+  accuracy: 6
+  maxMp: 24
+  critRate: 2
+icon: /media/assets/item_crystal_staff.webp
+
+---
+id: silk_hood
+name: Шёлковый капюшон
+slot: head
+rarity: rare
+armorType: robe
+stats:
+  pDef: 3
+  mDef: 14
+  maxMp: 18
+  evasion: -3
+  accuracy: 2
+icon: /media/assets/item_silk_hood.webp
+
+---
+id: silk_robe
+name: Шёлковая роба
+slot: body
+rarity: rare
+armorType: robe
+stats:
+  pDef: 6
+  mDef: 26
+  maxMp: 40
+  evasion: -6
+icon: /media/assets/item_silk_robe.webp
+
+---
+id: silk_slippers
+name: Шёлковые туфли
+slot: legs
+rarity: rare
+armorType: robe
+stats:
+  pDef: 3
+  mDef: 12
+  maxMp: 16
+  evasion: -2
+  speed: 4
+icon: /media/assets/item_silk_slippers.webp
+
+---
+id: silk_gloves
+name: Шёлковые перчатки
+slot: gloves
+rarity: rare
+armorType: robe
+stats:
+  pDef: 3
+  mDef: 12
+  maxMp: 16
+  accuracy: 4
+  mAtk: 4
+icon: /media/assets/item_silk_gloves.webp
+
+---
+id: silk_mantle
+name: Шёлковая мантия
+slot: cloak
+rarity: rare
+armorType: robe
+stats:
+  pDef: 4
+  mDef: 16
+  maxMp: 22
+  evasion: -3
+  mAtk: 2
+icon: /media/assets/item_silk_mantle.webp
+
+---
+id: void_oracle_staff
+name: Посох пустотного оракула
+slot: weapon
+rarity: epic
+weaponKind: staff
+weaponWeight: light
+attackRange: 200
+stats:
+  mAtk: 40
+  accuracy: 8
+  maxMp: 36
+  critRate: 4
+icon: /media/assets/item_void_oracle_staff.webp
+
+---
+id: starweave_hood
+name: Капюшон звёздной нити
+slot: head
+rarity: epic
+armorType: robe
+stats:
+  pDef: 5
+  mDef: 18
+  maxMp: 24
+  evasion: -3
+  accuracy: 4
+  mAtk: 3
+icon: /media/assets/item_starweave_hood.webp
+
+---
+id: starweave_robe
+name: Роба звёздной нити
+slot: body
+rarity: epic
+armorType: robe
+stats:
+  pDef: 8
+  mDef: 34
+  maxMp: 52
+  evasion: -7
+  mAtk: 4
+icon: /media/assets/item_starweave_robe.webp
+
+---
+id: starweave_slippers
+name: Туфли звёздной нити
+slot: legs
+rarity: epic
+armorType: robe
+stats:
+  pDef: 5
+  mDef: 16
+  maxMp: 22
+  evasion: -2
+  speed: 6
+icon: /media/assets/item_starweave_slippers.webp
+
+---
+id: starweave_gloves
+name: Перчатки звёздной нити
+slot: gloves
+rarity: epic
+armorType: robe
+stats:
+  pDef: 5
+  mDef: 16
+  maxMp: 22
+  accuracy: 6
+  mAtk: 6
+icon: /media/assets/item_starweave_gloves.webp
+
+---
+id: starweave_cloak
+name: Плащ звёздной нити
+slot: cloak
+rarity: epic
+armorType: robe
+stats:
+  pDef: 6
+  mDef: 20
+  maxMp: 30
+  evasion: -3
+  mAtk: 4
+icon: /media/assets/item_starweave_cloak.webp
+
+---
+id: rift_scepter
+name: Скипетр разлома
+slot: weapon
+rarity: legendary
+weaponKind: staff
+weaponWeight: light
+attackRange: 215
+stats:
+  mAtk: 58
+  accuracy: 10
+  maxMp: 48
+  critRate: 6
+icon: /media/assets/item_rift_scepter.webp
+
+---
+id: eclipse_vestments
+name: Облачение затмения
+slot: body
+rarity: legendary
+armorType: robe
+stats:
+  pDef: 12
+  mDef: 48
+  maxMp: 72
+  evasion: -8
+  mAtk: 8
+icon: /media/assets/item_eclipse_vestments.webp

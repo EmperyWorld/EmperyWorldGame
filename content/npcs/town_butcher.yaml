@@ -1,0 +1,52 @@
+id: town_butcher
+name: Мясник Бран
+race: human
+location: empery_haven
+questId: town_butcher
+defaultGreeting: Нож острый, мясо честное. Рыбу бери у Ульфа в порту, хлеб — у Фаддея. Здесь только то, что когда-то бегало.
+
+
+world:
+  role: character
+  wanderRadius: 36
+  wanderSpeed: 22
+portraits:
+  default: neutral
+
+choices:
+  - id: butcher_shop
+    label: Купить мясо
+    flag: _butcher_shop
+    portrait: work
+  - id: butcher_smoke
+    label: Коптить мясо
+    flag: _butcher_smoke
+    portrait: work
+  - id: butcher_jerky_accept
+    label: Взять заказ на сырое мясо
+    flag: _butcher_jerky_accept
+    blocks: [quest_butcher_jerky_active, quest_butcher_jerky_complete]
+    portrait: serious
+  - id: butcher_jerky_claim
+    label: Отдать два куска сырого мяса
+    flag: _butcher_jerky_claim
+    portrait: work
+  - id: butcher_tip
+    label: Как не отравиться в поле?
+    flag: _butcher_tip
+    nextNode: tip
+    portrait: serious
+  - id: butcher_leave
+    label: Уйти
+    flag: _butcher_done
+    portrait: neutral
+
+nodes:
+  tip:
+    text: 'Сырое не глотай. Огонь, соль, сухость. Вяленое лежит дольше жареного — но сытости меньше. Копчёное — середина: дым держит и сытость, и срок.'
+    portrait: serious
+    choices:
+      - id: butcher_tip_bye
+        label: Запомню
+        flag: _butcher_done
+        portrait: happy

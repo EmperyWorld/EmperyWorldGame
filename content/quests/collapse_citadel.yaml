@@ -1,0 +1,10 @@
+id: collapse_citadel
+radioNpcId: collapse_seer
+completeFlag: quest_citadel_complete
+activeFlag: quest_citadel_active
+killCounterFlag: quest_citadel_kills
+requiredKills: 1
+enemyType: singularity_avatar
+rewardItems:
+  - nightfang
+  - mothwing_cloak

@@ -1,0 +1,11 @@
+id: elf
+name: Эльф
+description: Быстрые и ловкие, со склонностью к магии леса.
+bonuses:
+  agility: 2
+  magic: 1
+  vitality: -1
+startLocation: starter_grove
+mediaProfile: character_sheet
+portraitAsset: race_elf
+dialogueStyle: noble_archaic

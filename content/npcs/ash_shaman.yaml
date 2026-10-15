@@ -1,0 +1,32 @@
+id: ash_shaman
+name: Шаман пепла
+race: orc
+location: ash_highlands
+questId: ash_trial
+defaultGreeting: Орк, ты доказал силу. Пепельные высокогорья принимают воинов, а не слабаков.
+
+
+world:
+  role: character
+  wanderRadius: 40
+  wanderSpeed: 24
+portraits:
+  default: neutral
+
+choices:
+  - id: accept_ash
+    label: Какое испытание ждёт меня?
+    flag: quest_ash_started
+    nextNode: ash_brief
+    portrait: serious
+    blocks: [quest_ash_complete, quest_ash_active, quest_ash_started]
+
+nodes:
+  ash_brief:
+    text: Мутанты ползут из расщелин. Убей четверых у восточных скал — тогда пепел признает тебя.
+    portrait: action
+    choices:
+      - id: ash_go
+        label: Принимаю испытание
+        flag: quest_ash_active
+        portrait: action

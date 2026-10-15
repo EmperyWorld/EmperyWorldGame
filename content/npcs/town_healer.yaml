@@ -1,0 +1,100 @@
+id: town_healer
+name: Лекарь Сера
+race: human
+location: empery_haven
+questId: town_healer
+defaultGreeting: Ночью тоже принимаю — раны не ждут рассвета. Снадобья и свитки у меня. Мясо у Брана, рыбу у Ульфа, хлеб у Фаддея. Клинки — у Лорена.
+
+
+world:
+  role: character
+  wanderRadius: 32
+  wanderSpeed: 20
+portraits:
+  default: neutral
+
+choices:
+  - id: healer_shop
+    label: Купить снадобья
+    flag: _healer_shop
+    portrait: work
+  - id: healer_treat
+    label: Прошу лечения (−45 adena)
+    flag: _healer_treat
+    portrait: work
+  - id: healer_kit
+    label: Купить полевой бинт (20 адены)
+    flag: _healer_kit
+    portrait: work
+  - id: healer_long
+    label: Долгий уход (−60 адены)
+    flag: _healer_long
+    portrait: happy
+  - id: healer_diagnose
+    label: Осмотри раны
+    flag: _healer_diagnose
+    portrait: serious
+  - id: healer_care
+    label: Как лечите в Гавани?
+    flag: _healer_care
+    nextNode: care
+    portrait: work
+  - id: healer_warn
+    label: На что смотреть после боя?
+    flag: _healer_warn
+    nextNode: warn
+    portrait: serious
+  - id: healer_night
+    label: Ночью тоже лечите?
+    flag: _healer_night_ask
+    nextNode: night
+    portrait: work
+  - id: healer_leave
+    label: Уйти
+    flag: _healer_done
+    portrait: neutral
+
+nodes:
+  night:
+    text: Раны не ждут колокола. Приходи хоть в полночь — травы и игла готовы. Стража знает дорогу.
+    choices:
+      - id: healer_shop
+        label: Купить снадобья
+        flag: _healer_shop
+        portrait: work
+      - id: healer_treat
+        label: Прошу лечения (−45 adena)
+        flag: _healer_treat
+        portrait: work
+      - id: healer_kit
+        label: Купить полевой бинт (20 адены)
+        flag: _healer_kit
+        portrait: work
+      - id: healer_long
+        label: Долгий уход (−60 адены)
+        flag: _healer_long
+        portrait: happy
+      - id: healer_diagnose
+        label: Осмотри раны
+        flag: _healer_diagnose
+        portrait: serious
+      - id: healer_leave
+        label: Уйти
+        flag: _healer_done
+        portrait: neutral
+  care:
+    text: Травы, чистая вода, покой. Зелья — подмога, не волшебство. Не глуши боль до потери чувств. Инфекцию и травмы после обморока снимаю за умеренную плату. Повторный обморок с неснятой раной — уже Гибель, дороже по опыту и кошельку. Долгий уход — если нужно выровнять пульс, не только зашить рану.
+    portrait: work
+    choices:
+      - id: healer_care_bye
+        label: Спасибо
+        flag: _healer_done
+        portrait: happy
+  warn:
+    text: "Если жар идёт от раны — сразу ко мне. Если от стыда — к Кассию. Путать нельзя. После обморока не геройствуй с открытой раной — вторая потеря сознания уже Гибель. В поле держи бинт и чистую воду."
+    portrait: serious
+    choices:
+      - id: healer_warn_bye
+        label: Запомню
+        flag: _healer_done
+        portrait: happy

@@ -1,0 +1,17 @@
+id: support
+name: Саппорт
+description: Хилер и бафер. Ветка зависит от расы — люди лечат и усиливают физгруппу, эльфы питают магов маной, орки дают только мощные бафы.
+starterSkills:
+  support_robe_mastery: 1
+  support_mana_flow: 1
+  support_life_flow: 1
+starterSkillsByRace:
+  human:
+    support_heal: 1
+    support_might: 1
+  elf:
+    support_recharge: 1
+    support_clarity: 1
+  orc:
+    support_orc_might: 1
+    support_orc_shield: 1
